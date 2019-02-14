@@ -1013,3 +1013,4 @@ function tourizto_theme() {
 }
 
 tourizto_theme();
+

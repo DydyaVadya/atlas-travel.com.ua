@@ -21,21 +21,45 @@ $search_visible                  = get_theme_mod( 'header_search', tourizto_them
 			tourizto_contact_block( 'header' );
 			tourizto_header_btn();
 		?></div>
+
 	<?php endif; ?>
 
 	<div class="header-container__flex-wrap">
-		<div class="header-container__flex">
-			<div class="site-branding">
-				<?php tourizto_header_logo() ?>
-				<?php tourizto_site_description(); ?>
-			</div>
 
-			<div class="header-components header-components__search-cart"><?php
+		<div class="header-container__flex">
+
+			<div class="site-branding">
+
+				<?php tourizto_header_logo() ?>
+
+				<?php tourizto_site_description(); ?>
+                222
+			</div>
+333
+			<div class="header-components header-components__search-cart">
+
+                 <!--                кнопка отправить заявку-->
+                <div class="head_button_wrap">
+                    <a href="#contact_form_pop" class="fancybox-inline head_button">Отправить заявку</a>
+                </div>
+
+                <div style="display:none" class="fancybox-hidden">
+                    <div id="contact_form_pop">
+                        <?php echo do_shortcode('[contact-form-7 id="5923" title="lead-form-header"]'); ?>
+                    </div>
+                </div>
+                <!--                кнопка отправить заявку-->
+
+                <?php
 				tourizto_header_search_toggle();
 				tourizto_vertical_menu_toggle( 'main-menu' );
-			?></div>
+			?>
+
+            </div>
 		</div>
 
-		<?php tourizto_header_search( '<div class="header-search">%s<span class="search-form__close"></span></div>' ); ?>
-	</div>
+		<?php tourizto_header_search( '<div class="header-search">%s<span class="search-form__close"></span>777</div>' ); ?>
+
+    </div>
+
 </div>
