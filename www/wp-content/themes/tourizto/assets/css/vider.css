@@ -48,6 +48,8 @@
        color: rgb(248, 244, 0)!important;
        line-height: 1.714;
        position: relative;
+       text-decoration: none;
+       border-bottom: 1px dashed #f8f400;
 
 
    }
@@ -56,5 +58,23 @@
         position: absolute;
         left: -40px;
         top: -21px;
+    }
+    .heder_menu_vider {
+
+    }
+    #menu-header_new {
+        display: flex;
+        font-size: 16px;
+        font-family: "Lato", Sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.5;
+    }
+    .header_menu_vider_1 {
+        margin-right: 30px;
+
+    }
+    .header_menu_vider_2 {
+        margin-left: 30px;
     }
 }

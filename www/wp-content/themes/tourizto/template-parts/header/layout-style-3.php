@@ -33,10 +33,13 @@ $search_visible                  = get_theme_mod( 'header_search', tourizto_them
 				<?php tourizto_header_logo() ?>
 
 				<?php tourizto_site_description(); ?>
-                222
-			</div>
 
-        111
+            <!--меню в шапке-->
+			</div>
+            <div class="heder_menu_vider">
+            <?php wp_nav_menu('menu=Header_new'); ?>
+            </div>
+            <!--меню в шапке-->
 
             <div class="header-components header-components__search-cart">
                 <!--вывод виджета телефон шапка-->
