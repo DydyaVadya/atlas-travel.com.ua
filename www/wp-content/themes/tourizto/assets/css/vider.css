@@ -34,9 +34,27 @@
     .invert a {
         color: rgb(255, 255, 255);
     }
-    /*.head_button_wrap {*/
-        /*display: flex;*/
-        /*margin: 0 auto;*/
-        /*width: 100%;*/
-    /*}*/
+
+   .top_phone {
+       font-size: 20px;
+       font-family: "Lato", Sans-serif;
+       color: rgb(255, 255, 255);
+       line-height: 1.2;
+       margin-right: 50px!important;
+   }
+   .call_header {
+       font-size: 14px;
+       font-family: "Lato", Sans-serif;
+       color: rgb(248, 244, 0)!important;
+       line-height: 1.714;
+       position: relative;
+
+
+   }
+    .call_header::before {
+        content: url("https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/images/mobile_header.png");
+        position: absolute;
+        left: -40px;
+        top: -21px;
+    }
 }

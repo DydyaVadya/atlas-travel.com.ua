@@ -1014,3 +1014,14 @@ function tourizto_theme() {
 
 tourizto_theme();
 
+/**регистрация виджета телефона в шапке vider**/
+register_sidebar( array(
+    'name' => __( 'Телефон в шапке', '' ),
+    'id' => 'top-area',
+    'description' => __( 'Шапка', '' ),
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+) );
+

@@ -35,8 +35,15 @@ $search_visible                  = get_theme_mod( 'header_search', tourizto_them
 				<?php tourizto_site_description(); ?>
                 222
 			</div>
-333
-			<div class="header-components header-components__search-cart">
+
+        111
+
+            <div class="header-components header-components__search-cart">
+                <!--вывод виджета телефон шапка-->
+                <div class="top_phone">
+                    <?php dynamic_sidebar( 'top-area' ); ?>
+                </div>
+                <!--вывод виджета телефон шапка-->
 
                  <!--                кнопка отправить заявку-->
                 <div class="head_button_wrap">
