@@ -2,4 +2,25 @@
     .site-header .isStuck.header-container.stuckMenu.invert {
         background-image: url("https://image.freepik.com/free-photo/no-translate-detected_1401-1061.jpg");
     }
+    .invert .menu-toggle:not(:hover) .menu-toggle-inner {
+        background-color: #f8f400;
+        width: 28px;
+        height: 2px;
+    }
+    .invert .menu-toggle:hover .menu-toggle-inner {
+        background-color: #f8f400;
+        width: 28px;
+        height: 2px;
+    }
+
+    .menu-toggle .menu-toggle-inner::before {
+        left: 8px;
+        width: 20px;
+        height: 2px;
+    }
+    .menu-toggle .menu-toggle-inner::after {
+        left: 8px;
+        width: 20px;
+        height: 2px;
+    }
 }
