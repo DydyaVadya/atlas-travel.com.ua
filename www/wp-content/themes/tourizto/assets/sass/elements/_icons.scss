@@ -1,0 +1,97 @@
+/* Set icons font family */
+
+// magnificPopup
+a[data-popup="magnificPopup"]:after,
+.mfp-iframe-holder .mfp-close:before, .mfp-image-holder .mfp-close:before,
+
+// wpml
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle:after,
+.wpml-ls-legacy-dropdown-click a.wpml-ls-item-toggle:after,
+
+// posts-list
+.posts-list--grid .posts-list__item:not(.format-standard ) .entry-header:before,
+.posts-list--vertical-justify .posts-list__item:not(.format-standard ) .entry-header:before{
+	@include nc-icon-outline;
+}
+
+// menu arrow
+.main-navigation .menu .menu-item-has-children :after,
+.sub-menu-toggle:before,
+nav.main-navigation > .tm-mega-menu.mega-menu-mobile-on .mega-menu-mobile-arrow i,
+
+// search-form
+.search-form__toggle,
+.search-form__close,
+.site-header .search-form__submit:before,
+
+// to-top
+#toTop:before,
+
+// wp-video
+.mejs-overlay-button:before,
+
+// post format link
+.post-format-link:before,
+
+// blockquote
+blockquote:before,
+
+// tm-testi
+.tm-testi__item-body:before,
+.tm-testi--speech-bubble .tm-testi__item-body p:before,
+.tm-testi--default-4 .tm-testi__item-body p::before,
+
+// Post navigations
+.comment-navigation div > a:before,
+.posts-navigation div > a:before,
+.post-navigation div > a:before,
+
+.comment-navigation div > a:after,
+.posts-navigation div > a:after,
+.post-navigation div > a:after,
+
+// Comments
+.comment-reply-link::before,
+
+// Widgets
+.smart-slider__instance .sp-full-screen-button:before,
+.smart-slider__instance .sp-arrow:before,
+.smart-slider__instance .sp-thumbnail-arrow:before,
+.widget_nav_menu ul li a:before,
+.cs-instagram__cover::before,
+.cherry-trend-views__count:before,
+
+// Lists
+.hentry ul:not([class]) > li::before,
+.comment-content ul:not([class]) > li::before,
+
+// Pricing lists
+.pricing-table__features .pricing-feature__inner:before,
+
+// tm-photo-gallery
+.tm-pg_front_gallery .tm_pg_gallery-item_default_icon:before,
+.tm-pg_front_gallery .tm-pg_front_gallery-masonry .tm_pg_gallery-item_link_show-more span:after,
+.tm-pg_front_gallery .tm-pg_front_gallery-grid .tm_pg_gallery-item_link_show-more span:after,
+.tm-pg_front_gallery .tm-pg_front_gallery-justify .tm_pg_gallery-item_link_show-more span:after,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers.next i:before,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers.prev i:before,
+.lg-outer .lg-actions .lg-icon.lg-prev:after,
+.lg-outer .lg-actions .lg-icon.lg-next:before,
+.lg-outer .lg-toolbar .lg-icon:after,
+.lg-outer .lg-thumb-outer .lg-icon:after,
+
+// Swiper
+.swiper-button-next:before,
+.swiper-button-prev:before {
+	@include nucleo-mini-icon;
+}
+
+/* Prev buttons icon */
+.swiper-button-prev:before {
+	content: unicode($prev-icon);
+}
+
+/* Next buttons icon */
+.swiper-button-next:before {
+	content: unicode($next-icon);
+}

@@ -1,0 +1,14 @@
+.btn-downloader,
+a[href*="?media_dl="] {
+	@include btn;
+
+	&:before {
+		@include nucleo-mini-icon;
+
+		content: '\ed42';
+		display: inline-block;
+		vertical-align: baseline;
+		margin-right: 7px;
+		z-index: 1;
+	}
+}

@@ -1,0 +1,143 @@
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='range'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='color'],
+select,
+textarea {
+	padding: $input__indents_y1 $input__indents_x $input__indents_y2;
+	border: 1px solid;
+	line-height: 1.5;
+	transition: .3s;
+	border-radius: $border__radius;
+
+	i + &.comment-form__field,
+	.wpcf7 i + .wpcf7-form-control-wrap > & {
+		padding-left: $input__indents_x + 30px;
+	}
+
+	&:focus {
+		outline: 0;
+		background-color: $color__white;
+	}
+}
+
+input[type='date'] {
+	padding: $input__indents_y1 $input__indents_x $input__indents_y1 + 1;
+	height: 45px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='color'],
+textarea {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='color'] {
+	min-height: 40px;
+	margin-top: 10px;
+}
+
+input[type='file'] {
+	line-height: 1.5;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'] {
+	hyphens: none;
+}
+
+select {
+	border: 1px solid;
+	max-width: 100%;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	min-height: 200px;
+	vertical-align: top;
+
+	@include resizable(vertical);
+
+	&.big-size {
+		height: 241px;
+	}
+}
+
+/* Input Placeholders */
+::-webkit-input-placeholder { transition: .1s; color: inherit; }
+::-moz-placeholder          { transition: .1s; color: inherit; }
+:-moz-placeholder           { transition: .1s; color: inherit; }
+:-ms-input-placeholder      { transition: .1s; color: inherit; }
+
+::-moz-placeholder { opacity: 1 }
+:-moz-placeholder { opacity: 1 }
+
+.input-with-icon {
+	position: relative;
+
+	> i {
+		position: absolute;
+		top: 8px;
+		right: 0;
+		width: 43px;
+		text-align: center;
+		z-index: 10;
+
+		& + br {
+			display: none;
+		}
+		& + input,
+		& ~ .wpcf7-form-control-wrap input {
+			padding-right: 32px;
+		}
+	}
+}
+
+.input-button-with-icon {
+	position: relative;
+
+	> i {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 30px;
+		width: 15px;
+		text-align: center;
+		z-index: 10;
+	}
+}

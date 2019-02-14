@@ -1,0 +1,62 @@
+.comment {
+	&-respond {
+		border-top: 1px solid;
+		padding-top: 35px;
+
+		.comment-list & {
+			margin-top: 35px;
+			margin-bottom: 35px;
+			border-top: 1px dashed;
+		}
+		.comments-area > & {
+			margin-top: -36px;
+		}
+	}
+	&-reply-title {
+		margin-bottom: 23px;
+
+		#cancel-comment-reply-link {
+			float: right;
+			margin-left: 10px;
+			font-size: 12px;
+		}
+	}
+	&-form {
+		@include media-breakpoint-up(lg) {
+			display: grid;
+			grid-column-gap: 20px;
+			grid-template-columns: repeat(3, 1fr);
+
+			> * {
+				grid-column: span 3;
+			}
+		}
+
+		&-comment,
+		&-author,
+		&-email,
+		&-url {
+			position: relative;
+		}
+		&-comment {
+			margin: 0;
+		}
+		&-author,
+		&-email,
+		&-url {
+			margin: 0 0 20px 0;
+			grid-column: span 1;
+		}
+		.form-submit {
+			margin: 20px 0 0 0;
+		}
+		&__field {
+			width: 100%;
+			vertical-align: top;
+		}
+		.logged-in-as,
+		.comment-notes {
+			margin: 0 0 20px;
+		}
+	}
+}

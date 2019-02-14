@@ -1,0 +1,54 @@
+$star-color: #cccbcb;
+$accent-star-color: #fcb903;
+
+.cherry-trend-stars {
+	vertical-align: baseline;
+}
+.cherry-trend-star {
+	width: 18px;
+	height: 18px;
+	font-size: 18px;
+	color: $star-color;
+	vertical-align: middle;
+
+	&--active {
+		&,
+		& ~ .cherry-trend-star {
+			color: $accent-star-color;
+		}
+	}
+}
+
+.cherry-trend-views{
+	vertical-align: middle;
+
+	&__count {
+		&::before {
+			font-size: 14px;
+			content: '\ea3c';
+			position: relative;
+			display: inline-block;
+			vertical-align: baseline;
+			top: 1px;
+		}
+	}
+	* + & {
+		margin-left: 5px;
+	}
+}
+
+
+.cherry-trend-post__meta {
+	&.cherry-trend-post__meta-second {
+		margin-left: -4px;
+		margin-right: -4px;
+
+		> * {
+			padding-left: 4px;
+			padding-right: 4px;
+		}
+		.post__comments {
+			margin: 0;
+		}
+	}
+}

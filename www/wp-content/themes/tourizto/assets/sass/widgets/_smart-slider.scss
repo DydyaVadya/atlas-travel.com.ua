@@ -1,0 +1,347 @@
+/*rtl:begin:ignore*/
+.smart-slider {
+	&__instance {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+
+		&[data-thumbnails-position="top"] {
+			.slider-pro {
+				padding-top: 0 !important;
+			}
+		}
+		&[data-thumbnails="true"] {
+			&[data-thumbnails-position="bottom"] {
+				padding-bottom: 32px;
+			}
+		}
+		// sp-full-screen-button
+		.sp-full-screen-button {
+			right: 15px;
+			left: auto;
+			top: 15px;
+			color: $color__white;
+			transition: .3s;
+			transform: none;
+			font-size: 12px;
+			line-height: 1;
+
+			&:before {
+				content: '\ea83';
+			}
+		}
+		.sp-full-screen .sp-full-screen-button {
+			&:before {
+				content: '\ea82';
+			}
+		}
+
+		&[data-thumbnails="true"][data-thumbnails-position="right"] .sp-full-screen-button {
+			@include media-breakpoint-up(sm) {
+				right: 180px;
+			}
+		}
+
+		// sp-thumbnail
+		.sp-thumbnails-container {
+			padding: 10px;
+			width: 100% !important;
+		}
+		.sp-thumbnail {
+			img {
+				display: block;
+				transition: .3s opacity;
+			}
+		}
+		.sp-selected-thumbnail {
+			img {
+				opacity: .2;
+			}
+		}
+
+		.sp-bottom-thumbnails,
+		.sp-top-thumbnails {
+			.sp-thumbnail-container {
+				margin-right: 5px;
+				margin-left: 5px;
+			}
+			.smart-slider__thumbnails  {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.sp-thumbnail-arrows {
+				margin-top: -22px;
+			}
+		}
+
+		.sp-bottom-thumbnails {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			margin: 0;
+		}
+		.sp-top-thumbnails {
+			position: absolute;
+			top: 5%;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.sp-right-thumbnails,
+		.sp-left-thumbnails {
+			.sp-previous-thumbnail-arrow {
+				top: 5px;
+			}
+			.sp-next-thumbnail-arrow {
+				bottom: 5px;
+			}
+		}
+		.sp-top-thumbnails,
+		.sp-bottom-thumbnails {
+			.sp-previous-thumbnail-arrow {
+				left: 5px;
+			}
+			.sp-next-thumbnail-arrow {
+				right: 5px;
+			}
+		}
+
+		// sp-arrow (navigation)
+		.sp-arrow,
+		.sp-thumbnail-arrow {
+			width: 44px;
+			height: 44px;
+			text-align: center;
+			z-index: 1;
+			border-radius: 50%;
+			overflow: hidden;
+			transition: .3s all;
+
+			&:before {
+				font-size: 12px;
+				position: relative;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				line-height: 44px;
+				transform: none;
+			}
+			&:after {
+				display: none;
+			}
+			&:hover {
+				&:before {
+					background-color: inherit;
+					color: inherit;
+				}
+			}
+		}
+		.sp-horizontal {
+			.sp-arrows {
+				margin-top: -22x;
+			}
+			.sp-previous-arrow {
+				left: 20px;
+
+				&:before {
+					content: '\e903';
+				}
+			}
+			.sp-next-arrow {
+				right: 20px;
+
+				&:before {
+					content: '\e904';
+				}
+			}
+		}
+		.sp-vertical {
+			.sp-arrows {
+				margin-left: 0;
+				left: calc(100% - 70px);
+			}
+			.sp-previous-arrow {
+				top: auto;
+				bottom: 95px;
+
+				&:before {
+					content: '\e902';
+				}
+			}
+			.sp-next-arrow {
+				bottom: 30px;
+
+				&:before {
+					content: '\e905';
+				}
+			}
+		}
+
+		.sp-previous-thumbnail-arrow {
+			&:before {
+				content: '\e903';
+			}
+		}
+		.sp-next-thumbnail-arrow {
+			&:before {
+				content: '\e904';
+			}
+		}
+
+		// sp-buttons (pagination)
+		.sp-buttons {
+			position: absolute;
+			padding: 0;
+		}
+		&[data-thumbnails="true"][data-thumbnails-position="bottom"] .sp-buttons {
+			bottom: auto;
+			top: calc(100% + 9px)
+		}
+		&[data-thumbnails="true"][data-thumbnails-position="right"] .sp-buttons,
+		&[data-thumbnails="true"][data-thumbnails-position="left"] .sp-buttons {
+			@include media-breakpoint-down(sm) {
+				bottom: 0;
+			}
+		}
+		&[data-thumbnails="true"][data-thumbnails-position="right"] .sp-buttons {
+			@include media-breakpoint-up(sm) {
+				left: 0;
+				max-width: calc(100% - 162px);
+			}
+		}
+		&[data-thumbnails="true"][data-thumbnails-position="left"] .sp-buttons {
+			@include media-breakpoint-up(sm) {
+				left: auto;
+				right: 0;
+				max-width: calc(100% - 162px);
+			}
+		}
+		.sp-button {
+			width: 12px;
+			height: 12px;
+			margin: 0 7px;
+			border: none;
+			transition: .3s;
+			vertical-align: bottom;
+
+			&.sp-selected-button {}
+		}
+
+		// Slider content elements
+		.sp-content-container {
+			width: 100%;
+			left: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			padding: 15px $grid-gutter-width/2;
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			box-sizing: border-box;
+
+			@include media-breakpoint-up(sm) {
+				text-align: left;
+			}
+
+			.sp-layer {
+				position: static;
+				text-align: center;
+
+				& + .sp-layer {
+					margin-top: 20px;
+				}
+				& + .sp-more {
+					margin-top: 20px;
+				}
+			}
+			.sp-content {
+				display: none;
+				@include media-breakpoint-up(sm) {
+					display: block;
+				}
+			}
+			.sp-more {}
+		}
+
+		&[data-pagination="true"] {
+			.sp-content-container {
+				padding: calc(5% + 88px) $grid-gutter-width/2;
+			}
+		}
+		&[data-thumbnails-position="bottom"],
+		&[data-thumbnails-position="top"] {
+			.sp-content-container {
+				padding: 5% $grid-gutter-width/2;
+			}
+		}
+		&[data-thumbnails-position="right"],
+		&[data-thumbnails-position="left"] {
+			.sp-content-container {
+				@include media-breakpoint-up(sm) {
+					padding-left: 100px;
+					padding-right: 100px;
+				}
+			}
+		}
+
+		.sp-title a,
+		.sp-more a {
+			transition: .3s !important;
+		}
+
+		h2.sp-title {
+		}
+		p.sp-content {
+		}
+		.sp-slide {
+			&.text-wrapped {
+				h2.sp-title {}
+			}
+		}
+		.sp-image-container:after {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			content: '';
+			background-color: rgba($color__dark, .5);
+		}
+
+		.btn {
+		}
+	}
+
+}
+
+@include sidebars-area(false) {
+	.smart-slider__instance {
+		.sp-content-container {
+			text-align: center;
+
+			.sp-layer {
+				& + .sp-more {
+					margin-top: 20px;
+				}
+			}
+		}
+		h2.sp-title {
+			font-size: 25px;
+		}
+		p.sp-content {
+			font-size: 14px;
+		}
+		.btn{
+			padding: $button__indents;
+			@include font-size(.875);
+		}
+	}
+}
+
+/*rtl:end:ignore*/

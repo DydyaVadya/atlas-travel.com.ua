@@ -1,0 +1,1784 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tourizto\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-25 15:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: inc/hooks.php:467
+msgid " &hellip;"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:270
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/content-404.php:22
+msgid "404"
+msgstr ""
+
+#: inc/template-tags.php:447
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:63
+msgid "A new window or tab"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:32
+#: inc/widgets/about-author/class-about-author-widget.php:36
+msgid "About Author"
+msgstr ""
+
+#: template-parts/content-author-bio.php:15
+msgid "About the author"
+msgstr ""
+
+#: inc/widgets/about/class-about-widget.php:31
+msgid "About Tourizto"
+msgstr ""
+
+#: inc/widgets/contact-information/class-contact-information-widget.php:40
+msgid "Add Contact Information"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-team-members.php:131
+msgid "Address:"
+msgstr ""
+
+#: config/sidebars.php:86
+msgid "After Content Area"
+msgstr ""
+
+#: config/sidebars.php:98
+msgid "After Content Fullwidth Area"
+msgstr ""
+
+#: config/sidebars.php:74
+msgid "After Loop Area"
+msgstr ""
+
+#: tm_pg_frontend/grid/items/masonry/album-item.php:30
+#: tm_pg_frontend/grid/items/grid/album-item.php:30
+#: tm_pg_frontend/grid/items/justify/album-item.php:35
+#, php-format
+msgctxt "album images"
+msgid "1 photo"
+msgid_plural "%1$s photos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins-hooks/cherry-projects.php:121
+msgid "All"
+msgstr ""
+
+#: inc/template-tags.php:448
+msgid "Archives"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:151
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:167
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:148
+msgid "Author"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:53
+msgid "Author avatar size (set 0 to hide avatar, applied only for Gravatar)"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:170
+msgid "Auto"
+msgstr ""
+
+#: inc/template-menu.php:57
+msgid "Back"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:176
+msgid "Background Color"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:119
+msgid "Background Image"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:136
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:153
+msgid "Background Position"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:165
+msgid "Background Size"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:31
+msgid "Banner"
+msgstr ""
+
+#: config/sidebars.php:50
+msgid "Before Content Area"
+msgstr ""
+
+#: config/sidebars.php:62
+msgid "Before Loop Area"
+msgstr ""
+
+#: tm-wizard-manifest.php:52
+msgid "Booked Appointments"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:266
+msgid "Bottom"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:146
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:145
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:147
+msgid "Bottom Right"
+msgstr ""
+
+#: functions.php:545 functions.php:567 functions.php:589
+msgid "Boxed"
+msgstr ""
+
+#: functions.php:497
+msgid "Breadcrumbs"
+msgstr ""
+
+#: functions.php:498
+msgid "Breadcrumbs settings"
+msgstr ""
+
+#: functions.php:735
+msgid "Breadcrumbs visibillity"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:108
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:119
+msgid "Buttons"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-projects.php:76
+#: inc/plugins-hooks/cherry-trending-posts.php:60
+#: inc/widgets/image-grid/class-image-grid-widget.php:263
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:369
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:354
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:407
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:229
+msgid "by "
+msgstr ""
+
+#: inc/plugins-hooks/cherry-services-list.php:58
+msgid "Call to action button style preset"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:50
+msgid "Carousel"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:57
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:73
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:64
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:53
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:153
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:69
+#: inc/widgets/carousel/class-carousel-widget.php:63
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:58
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:150
+msgid "Category"
+msgstr ""
+
+#: functions.php:447
+msgid "Category thumbnail"
+msgstr ""
+
+#: tm-wizard-manifest.php:12
+msgid "Cherry Data Importer"
+msgstr ""
+
+#: inc/register-plugins.php:29
+msgid "Cherry Plugin Wizard"
+msgstr ""
+
+#: tm-wizard-manifest.php:22
+msgid "Cherry PopUps"
+msgstr ""
+
+#: tm-wizard-manifest.php:18
+msgid "Cherry Projects"
+msgstr ""
+
+#: tm-wizard-manifest.php:98
+msgid "Cherry Search"
+msgstr ""
+
+#: tm-wizard-manifest.php:36
+msgid "Cherry Services List"
+msgstr ""
+
+#: tm-wizard-manifest.php:40
+msgid "Cherry Sidebars"
+msgstr ""
+
+#: tm-wizard-manifest.php:44
+msgid "Cherry Socialize"
+msgstr ""
+
+#: tm-wizard-manifest.php:26
+msgid "Cherry Team Members"
+msgstr ""
+
+#: tm-wizard-manifest.php:30
+msgid "Cherry Testimonials"
+msgstr ""
+
+#: tm-wizard-manifest.php:48
+msgid "Cherry Trending Posts"
+msgstr ""
+
+#: inc/widgets/contact-information/class-contact-information-widget.php:48
+msgid "Choose icon"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:120
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:127
+msgid "Choose Layout Type"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:57
+msgid "Choose layout type"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:65
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:81
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:72
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:61
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:77
+#: inc/widgets/carousel/class-carousel-widget.php:71
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:70
+msgid "Choose taxonomy type"
+msgstr ""
+
+#: inc/template-menu.php:58
+msgid "Close"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:125
+msgid "Columns number"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:135
+msgid "Columns number ( layout type grid )"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:91
+msgid "Comment Count"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:152
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:168
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:149
+msgid "Comment count"
+msgstr ""
+
+#: comments.php:41 comments.php:64
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tm-wizard-manifest.php:82
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/widgets/contact-information/class-contact-information-widget.php:30
+msgid "Contact Information"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:169
+msgid "Contain"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:232
+msgid "Content"
+msgstr ""
+
+#: functions.php:557
+msgid "Content layout"
+msgstr ""
+
+#: functions.php:558
+msgid ""
+"Content layout global settings redefining. If you select inherit option, "
+"global setting will be applied for this layout"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:156
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:139
+#: inc/widgets/carousel/class-carousel-widget.php:146
+msgid "Content words trimmed count"
+msgstr ""
+
+#: inc/widgets/about/class-about-widget.php:68
+msgid "Content:"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:168
+msgid "Cover"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:61
+msgid "Custom avatar image (override default user avatar)"
+msgstr ""
+
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:42
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:50
+msgid "Custom Posts"
+msgstr ""
+
+#: inc/template-tags.php:464
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:150
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:166
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:147
+msgid "Date"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:103
+msgid "Description words length ( Set 0 to hide description. )"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-projects.php:280
+msgid "Details"
+msgstr ""
+
+#: functions.php:638 functions.php:656 functions.php:669 functions.php:681
+#: functions.php:693 functions.php:705 functions.php:717 functions.php:746
+#: functions.php:766 functions.php:778
+msgid "Disable"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:29
+msgid "Display a banner in your sidebar."
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:48
+msgid "Display a list of your posts on your site."
+msgstr ""
+
+#: inc/widgets/contact-information/class-contact-information-widget.php:28
+msgid "Display an contact-information."
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:30
+msgid "Display an information about selected user."
+msgstr ""
+
+#: inc/widgets/about/class-about-widget.php:29
+msgid "Display an information about your site."
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:157
+msgid "Display author"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:169
+msgid "Display categories"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:163
+msgid "Display comments"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:122
+#: inc/widgets/carousel/class-carousel-widget.php:112
+msgid "Display content"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:145
+msgid "Display current navigation title"
+msgstr ""
+
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:43
+msgid "Display custom posts your site."
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:151
+msgid "Display date"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:234
+msgid "Display fullScreen button?"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:128
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:181
+#: inc/widgets/carousel/class-carousel-widget.php:118
+msgid "Display more button"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-projects.php:32
+msgid "Display only at single projects pages"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-services-list.php:30
+msgid "Display only at single services pages"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:38
+msgid "Display playlist slider on your site."
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:156
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:154
+msgid "Display post meta data"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:58
+msgid "Display smart slider on your site."
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:50
+msgid "Display subscribe form and follow links."
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:175
+msgid "Display tags"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:170
+msgid "Display thumbnail post meta data"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:277
+msgid "Display thumbnails arrows?"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:252
+msgid "Display thumbnails?"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:116
+#: inc/widgets/carousel/class-carousel-widget.php:106
+msgid "Display title"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:181
+msgid "Duration of transition between slides (ms)"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-team-members.php:29
+#: inc/plugins-hooks/cherry-team-members.php:30
+msgid "E-mail"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-team-members.php:147
+msgid "E-mail:"
+msgstr ""
+
+#: inc/template-comment.php:176
+msgid "Edit"
+msgstr ""
+
+#. %s: Name of current post
+#: template-parts/page/content-page.php:41
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: tm-wizard-manifest.php:64
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: functions.php:635 functions.php:653 functions.php:668 functions.php:680
+#: functions.php:692 functions.php:704 functions.php:716 functions.php:743
+#: functions.php:765 functions.php:777
+msgid "Enable"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:112
+msgid "Enable Custom Background"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:93
+msgid "Enable Follow Box"
+msgstr ""
+
+#: inc/widgets/about/class-about-widget.php:52
+msgid "Enable Social Buttons"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:60
+msgid "Enable Subscribe Box"
+msgstr ""
+
+#: inc/widgets/about/class-about-widget.php:61
+msgid "Enable Tagline:"
+msgstr ""
+
+#: functions.php:492
+msgid "Enable/Disable header elements"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:74
+msgid "Enter your email"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:98
+msgid "Excerpt length (words)"
+msgstr ""
+
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:134
+msgid "Excerpt words length ( Set 0 to hide excerpt. )"
+msgstr ""
+
+#: inc/template-meta.php:42
+msgid "Facebook"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:35
+msgid "Featured Posts Block"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:98
+msgid "Follow"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:103
+msgid "Follow text message"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:99
+msgid "Follow Title"
+msgstr ""
+
+#: config/menus.php:18
+msgid "Footer"
+msgstr ""
+
+#: config/sidebars.php:109
+msgid "Footer Area"
+msgstr ""
+
+#: functions.php:772
+msgid "Footer Contact Block"
+msgstr ""
+
+#: functions.php:753
+msgid "Footer Layout"
+msgstr ""
+
+#: functions.php:579
+msgid "Footer layout"
+msgstr ""
+
+#: functions.php:580
+msgid ""
+"Footer layout global settings redefining. If you select inherit option, "
+"global setting will be applied for this layout"
+msgstr ""
+
+#: functions.php:503
+msgid "Footer Settings"
+msgstr ""
+
+#: functions.php:504
+msgid "Footer settings"
+msgstr ""
+
+#: functions.php:760
+msgid "Footer Widgets Area"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:143
+msgid "Full"
+msgstr ""
+
+#: functions.php:549 functions.php:571 functions.php:593
+msgid "Fullwidth"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content-404.php:31
+msgid "Go to home!"
+msgstr ""
+
+#: inc/template-meta.php:52
+msgid "Google+"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:119
+msgid "Grid"
+msgstr ""
+
+#: functions.php:687
+msgid "Header Contact Block"
+msgstr ""
+
+#: functions.php:699
+msgid "Header CTA button"
+msgstr ""
+
+#: functions.php:491
+msgid "Header Elements"
+msgstr ""
+
+#: config/sidebars.php:38
+msgid "Header Fullwidth Area"
+msgstr ""
+
+#: functions.php:601
+msgid "Header Layout"
+msgstr ""
+
+#: functions.php:535
+msgid "Header layout"
+msgstr ""
+
+#: functions.php:536
+msgid ""
+"Header layout global settings redefining. If you select inherit option, "
+"global setting will be applied for this layout"
+msgstr ""
+
+#: functions.php:627
+msgid "Header Overlay"
+msgstr ""
+
+#: functions.php:711
+msgid "Header Search"
+msgstr ""
+
+#: functions.php:485
+msgid "Header Style"
+msgstr ""
+
+#: functions.php:486
+msgid "Header style settings"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:107
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:118
+msgid "Hide"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:246
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:173
+msgid "Horizontal"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:248
+msgid "Horizontal With Icon"
+msgstr ""
+
+#: inc/template-tags.php:461
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.facebook.com/rock.themes.79"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.templatemonster.com/vendors/rockthemes/"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:218
+msgid "Icon"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:41
+msgid "Image Grid"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-projects.php:250
+#: inc/plugins-hooks/cherry-trending-posts.php:78
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:399
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:415
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:251
+msgid "in "
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:231
+msgid "in  "
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:240
+msgid "Indicates if the slides will be shuffled"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:215
+msgid "Indicates whether the arrows will fade in only on hover"
+msgstr ""
+
+#: functions.php:515 functions.php:541 functions.php:563 functions.php:585
+#: functions.php:613 functions.php:632 functions.php:650 functions.php:667
+#: functions.php:679 functions.php:691 functions.php:703 functions.php:715
+#: functions.php:727 functions.php:740 functions.php:764 functions.php:776
+msgid "Inherit"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:189
+msgid "Internal error. Please, try again later"
+msgstr ""
+
+#: functions.php:645
+msgid "Invert Color Scheme"
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:133
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:157
+msgid "Items padding ( size in pixels )"
+msgstr ""
+
+#: tm-wizard-manifest.php:58
+msgid "Jet Elements addon For Elementor"
+msgstr ""
+
+#: searchform.php:12 searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: config/menus.php:17
+msgid "Landing Main"
+msgstr ""
+
+#. Name of the template
+msgid "Landing Page"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:60
+msgid "Layout"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:143
+msgid "Layout 1"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:146
+msgid "Layout 2"
+msgstr ""
+
+#: functions.php:480
+msgid "Layout Options"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:45
+msgid "Layout type 1"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:49
+msgid "Layout type 2"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:53
+msgid "Layout type 3"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:128
+msgid "Learn more"
+msgstr ""
+
+#: inc/hooks.php:325
+msgid "Leave a reply"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:268
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:66
+msgid "Link (leave empty to hide)"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:71
+msgid "Link label"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:58
+msgid "Link:"
+msgstr ""
+
+#: inc/template-meta.php:57
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/widgets/about/class-about-widget.php:44
+msgid "Logo:"
+msgstr ""
+
+#: config/menus.php:16
+msgid "Main"
+msgstr ""
+
+#: functions.php:723
+msgid "Main menu style"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:143
+msgid "Middle Center"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:142
+msgid "Middle Left"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:144
+msgid "Middle Right"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/template-tags.php:454
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/template-tags.php:459
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/template-tags.php:460
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/template-tags.php:463
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:152
+msgid "More Button"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:139
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:192
+#: inc/widgets/carousel/class-carousel-widget.php:129
+msgid "More button text"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:167
+msgid "Multi Row Slides Layout"
+msgstr ""
+
+#: functions.php:608
+msgid "Navigation section position"
+msgstr ""
+
+#: comments.php:45 comments.php:68
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:31
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:32
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:37
+msgid "News Smart Box"
+msgstr ""
+
+#: template-parts/content-pagination.php:11
+msgid "NEXT"
+msgstr ""
+
+#: template-parts/content-post-navigation.php:14
+msgid "Next Post"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:159
+msgid "No repeat"
+msgstr ""
+
+#: functions.php:527
+msgid "No sidebar"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:153
+msgid "Number of slides per view"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:160
+msgid "Number slides per group"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:131
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:206
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:255
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:184
+#: inc/widgets/carousel/class-carousel-widget.php:121
+msgid "Off"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:109
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:118
+msgid "Offset post"
+msgstr ""
+
+#: comments.php:44 comments.php:67
+msgid "Older Comments"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:130
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:205
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:254
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:183
+#: inc/widgets/carousel/class-carousel-widget.php:120
+msgid "On"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:67
+msgid "Opens in:"
+msgstr ""
+
+#: functions.php:619
+msgid "Over Content"
+msgstr ""
+
+#: template-parts/page/content-page.php:30
+#: template-parts/post/content-single.php:47
+#: template-parts/post/content-single-link.php:41
+#: template-parts/post/content-single-quote.php:39
+msgid "Page"
+msgstr ""
+
+#. %s is the page number.
+#: inc/template-tags.php:452
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: template-parts/content-404.php:29
+msgid "Page Not Found."
+msgstr ""
+
+#: functions.php:467
+msgid "Page settings"
+msgstr ""
+
+#. Name of the template
+msgid "Page without footer"
+msgstr ""
+
+#. Name of the template
+msgid "Page without header, footer"
+msgstr ""
+
+#: template-parts/page/content-page.php:26
+#: template-parts/post/content-single.php:43
+#: template-parts/post/content-single-link.php:37
+#: template-parts/post/content-single-quote.php:35
+msgid "Pages:"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-team-members.php:115
+msgid "Phone:"
+msgstr ""
+
+#: inc/template-meta.php:62
+msgid "Pinterest"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Enter keyword"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:37
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:45
+msgid "Playlist Slider"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:260
+msgid "Please set up MailChimp API key and List ID"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:187
+msgid "Please, provide valid mail"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:188
+msgid "Please, set up MailChimp API key and List ID"
+msgstr ""
+
+#: inc/hooks.php:327
+msgid "Post Comment"
+msgstr ""
+
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:66
+msgid "Post Format"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:70
+msgid "Post Meta"
+msgstr ""
+
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:159
+msgid "Post read more button label"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:93
+msgid "Post sorted"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:90
+msgid "Post Title"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:110
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:123
+#: inc/widgets/carousel/class-carousel-widget.php:100
+msgid "Posts count"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:90
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:110
+msgid "Posts count ( Set 0 to show all. )"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:339
+msgid "Posts for slider not found"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:66
+msgid "Posts IDs (Optional)"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:350
+#: inc/widgets/carousel/class-carousel-widget.php:297
+msgid "Posts not found"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:101
+msgid "Posts number"
+msgstr ""
+
+#: template-parts/content-pagination.php:10
+msgid "PREV"
+msgstr ""
+
+#: template-parts/content-post-navigation.php:13
+msgid "Prev Post"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-team-members.php:156
+msgid "PROFILE"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-projects.php:238
+msgid "PROJECT OVERVIEW"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:89
+msgid "Publish Date"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:70
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:158
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-search.php:34
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:138
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:191
+msgid "Read more"
+msgstr ""
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:156
+msgid "Repeat"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:157
+msgid "Repeat X"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:158
+msgid "Repeat Y"
+msgstr ""
+
+#: template-parts/comment.php:27
+msgid "Reply"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:267
+msgid "Right"
+msgstr ""
+
+#. Author of the theme
+msgid "RockThemes"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: inc/template-tags.php:450
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:186
+msgid "Security validation failed"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:90
+msgid "Select a user"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:93
+msgid "Select categories"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:73
+msgid "Select categories to show"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:89
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:91
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:80
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:81
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:69
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:71
+#: inc/widgets/carousel/class-carousel-widget.php:79
+#: inc/widgets/carousel/class-carousel-widget.php:81
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:78
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:80
+msgid "Select category"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:85
+msgid "Select category to show"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:60
+msgid "Select image"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:51
+#: inc/widgets/banner/class-banner-widget.php:52
+msgid "Select image size"
+msgstr ""
+
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:100
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:102
+msgid "Select post format"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:91
+msgid "Select secondary categories"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:113
+msgid "Select secondary tags"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:121
+msgid "Select Slider Controls"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:102
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:103
+msgid "Select tag"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:100
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:102
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:115
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:80
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:82
+#: inc/widgets/carousel/class-carousel-widget.php:90
+#: inc/widgets/carousel/class-carousel-widget.php:92
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:89
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:91
+msgid "Select tags"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:82
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:94
+msgid "Select tags to show"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:110
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:111
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:122
+msgid "Select Thumbnail Controls"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:45
+msgid "Select user to show"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-services-list.php:175
+msgid "SERVICE OVERVIEW"
+msgstr ""
+
+#: tm_pg_frontend/grid/items/masonry/set-item.php:38
+#: tm_pg_frontend/grid/items/grid/set-item.php:38
+#: tm_pg_frontend/grid/items/justify/set-item.php:45
+#, php-format
+msgctxt "set albums"
+msgid "1 album"
+msgid_plural "%1$s albums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-menu.php:88
+msgid "Set footer menu"
+msgstr ""
+
+#: tm_pg_frontend/grid/items/masonry/set-item.php:32
+#: tm_pg_frontend/grid/items/grid/set-item.php:32
+#: tm_pg_frontend/grid/items/justify/set-item.php:39
+#, php-format
+msgctxt "set images"
+msgid "1 photo"
+msgid_plural "%1$s photos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-menu.php:21
+msgid "Set main menu"
+msgstr ""
+
+#: inc/template-menu.php:195
+msgid "Set social menu"
+msgstr ""
+
+#: functions.php:446 functions.php:460
+msgid "Set thumbnail"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:270
+msgid "Sets the position of the thumbnail scroller"
+msgstr ""
+
+#: inc/template-meta.php:114
+msgid "Share on "
+msgstr ""
+
+#: tm-wizard-manifest.php:90
+msgid "Shortcode Widget"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:84
+msgid "Show author"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:82
+msgid "Show categories"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:85
+msgid "Show date"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:81
+msgid "Show excerpt"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:111
+msgid "Show post count"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:83
+msgid "Show tags"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:80
+msgid "Show title"
+msgstr ""
+
+#: config/sidebars.php:16
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:509
+msgid "Sidebar layout"
+msgstr ""
+
+#: functions.php:519
+msgid "Sidebar on left side"
+msgstr ""
+
+#: functions.php:523
+msgid "Sidebar on right side"
+msgstr ""
+
+#: functions.php:510
+msgid ""
+"Sidebar position global settings redefining. If you select inherit option, "
+"global setting will be applied for this layout"
+msgstr ""
+
+#: tm-wizard-manifest.php:86
+msgid "Simple File Downloader"
+msgstr ""
+
+#: config/sidebars.php:27
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-projects.php:31
+msgid "Single Projects Area"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-services-list.php:29
+msgid "Single Services Area"
+msgstr ""
+
+#: header-without-header-footer.php:25 header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:183
+msgid "Slide distance(px)"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:191
+msgid "Slide duration(ms)"
+msgstr ""
+
+#: inc/plugins-hooks/tm-mega-menu.php:44
+msgid "Slide from bottom"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:166
+msgid "Slider height"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:100
+msgid "Slider height ( px, rem )"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:187
+msgid "Slider navigation"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:176
+msgid "Slider orientation"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:193
+msgid "Slider pagination"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:161
+msgid "Slider width"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:95
+msgid "Slider width ( px, %, rem )"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:60
+msgid "Smart Slider"
+msgstr ""
+
+#: config/menus.php:19
+msgid "Social"
+msgstr ""
+
+#: template-parts/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:44
+msgid "Source:"
+msgstr ""
+
+#: functions.php:616
+msgid "Static"
+msgstr ""
+
+#: functions.php:728
+msgid "Style 1"
+msgstr ""
+
+#: functions.php:729
+msgid "Style 2"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:65
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:79
+msgid "Subscribe"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:52
+msgid "Subscribe and Follow"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:75
+msgid "Subscribe input placeholder"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:80
+msgid "Subscribe submit label"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:85
+msgid "Subscribe success"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:70
+msgid "Subscribe text message"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:66
+msgid "Subscribe Title"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:233
+#: inc/plugins-hooks/jet-elements.php:234
+msgid "Tab Content"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:226
+#: inc/plugins-hooks/jet-elements.php:227
+msgid "Tab Title"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:61
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:77
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:68
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:57
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:154
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:73
+#: inc/widgets/carousel/class-carousel-widget.php:67
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:62
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:151
+msgid "Tag"
+msgstr ""
+
+#: functions.php:461
+msgid "Tag thumbnail"
+msgstr ""
+
+#: inc/template-related-posts.php:129
+#: template-parts/post/post-meta/content-meta-tags.php:20
+msgid "Tag: "
+msgstr ""
+
+#: inc/plugins-hooks/cherry-projects.php:253
+#: inc/plugins-hooks/cherry-trending-posts.php:99
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:406
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:424
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:243
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:309
+msgid "Tags: "
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:53
+msgid "Taxonomy Tiles"
+msgstr ""
+
+#: inc/widgets/about/class-about-widget.php:66
+msgid "Text or HTML"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:64
+msgid "The same frame as it was clicked"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:42
+msgid "This widget displays images from post."
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:54
+msgid "This widget displays images from taxonomy."
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:36
+msgid "This widget displays latest posts"
+msgstr ""
+
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:138
+msgid "Thumbnail title words length ( Set 0 to hide title. )"
+msgstr ""
+
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:123
+msgid "Tiles"
+msgstr ""
+
+#: inc/widgets/about-author/class-about-author-widget.php:37
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:66
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:38
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:46
+#: inc/widgets/carousel/class-carousel-widget.php:56
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:51
+msgid "Title"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:224
+msgid "Title & Content"
+msgstr ""
+
+#: inc/widgets/news-smart-box/class-news-smart-box-widget.php:131
+#: inc/widgets/carousel/class-carousel-widget.php:138
+msgid "Title chars trimmed count"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:92
+msgid "Title length (chars)"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:117
+#: inc/widgets/playlist-slider/class-playlist-slider-widget.php:130
+#: inc/widgets/custom-posts/class-custom-posts-widget.php:126
+msgid "Title words length ( Set 0 to hide title. )"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:148
+msgid "Title words trimmed count"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:36
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:55
+#: inc/widgets/contact-information/class-contact-information-widget.php:36
+#: inc/widgets/about/class-about-widget.php:36
+msgid "Title:"
+msgstr ""
+
+#: tm-wizard-manifest.php:68
+msgid "TM Mega Menu"
+msgstr ""
+
+#: tm-wizard-manifest.php:74
+msgid "TM Photo Gallery"
+msgstr ""
+
+#: tm-wizard-manifest.php:78
+msgid "TM Timeline"
+msgstr ""
+
+#: config/menus.php:15
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:265
+msgid "Top"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:140
+msgid "Top Center"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:139
+msgid "Top Left"
+msgstr ""
+
+#: functions.php:663
+msgid "Top panel"
+msgstr ""
+
+#: functions.php:675
+msgid "Top Panel Contact Block"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:141
+msgid "Top Right"
+msgstr ""
+
+#. Name of the theme
+#: cherry-import-manifest.php:14 tm-wizard-manifest.php:138
+#: tm-wizard-manifest.php:144
+msgid "Tourizto"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Tourizto - WordPress theme for real life projects. Built with love and care "
+"by RockThemes."
+msgstr ""
+
+#: inc/template-meta.php:47
+msgid "Twitter"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:366
+msgid "Type #1"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:386
+msgid "Type #2"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:406
+msgid "Type #3"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:421
+msgid "Type #4"
+msgstr ""
+
+#: inc/widgets/featured-posts-block/class-featured-posts-block-widget.php:440
+msgid "Type #5"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:56
+msgid "Type a banner`s link"
+msgstr ""
+
+#: inc/widgets/banner/class-banner-widget.php:42
+#: inc/widgets/about/class-about-widget.php:42
+msgid "Upload"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:131
+msgid "Use \"Invert scheme\" for text color"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:228
+msgid "Use autoplay?"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:197
+msgid "Use fade effect?"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:246
+msgid "Use infinite scrolling?"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:203
+msgid "Use navigation?"
+msgstr ""
+
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:222
+msgid "Use pagination?"
+msgstr ""
+
+#: inc/widgets/contact-information/class-contact-information-widget.php:56
+#: inc/widgets/contact-information/class-contact-information-widget.php:57
+msgid "Value"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:247
+#: inc/widgets/smart-slider/class-smart-slider-widget.php:174
+msgid "Vertical"
+msgstr ""
+
+#: inc/plugins-hooks/jet-elements.php:249
+msgid "Vertical With Icon"
+msgstr ""
+
+#: inc/plugins-hooks/cherry-projects.php:91
+msgid "View Details"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:347
+msgid "View file not found"
+msgstr ""
+
+#: template-parts/content-404.php:30
+msgid "We cannot seem to find the page that you are looking for..."
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/template-tags.php:456
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/template-tags.php:465
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/widgets/image-grid/class-image-grid-widget.php:50
+#: inc/widgets/taxonomy-tiles/class-taxonomy-tiles-widget.php:62
+msgid "Widget title"
+msgstr ""
+
+#: inc/widgets/carousel/class-carousel-widget.php:174
+msgid "Width of the space between slides(px)"
+msgstr ""
+
+#: tm-wizard-manifest.php:94
+msgid "WordPress Social Login"
+msgstr ""
+
+#: inc/template-tags.php:462
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:446
+msgid "You Are Here:"
+msgstr ""
+
+#: inc/widgets/subscribe-follow/class-subscribe-follow-widget.php:84
+msgid "You successfully subscribed"
+msgstr ""
+
+#: inc/hooks.php:319
+msgid "Your comment *"
+msgstr ""
+
+#: inc/hooks.php:315
+msgid "Your e-mail"
+msgstr ""
+
+#: inc/hooks.php:313
+msgid "Your name"
+msgstr ""
+
+#: inc/hooks.php:317
+msgid "Your website"
+msgstr ""

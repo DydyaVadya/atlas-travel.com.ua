@@ -1,0 +1,32 @@
+.subscribe-block__input { color: $regular_text_color; }
+
+.subscribe-block__input-wrap i {
+	color: @lighten($regular_text_color, 25%);
+}
+
+.widget-subscribe .widget-title {
+	font-weight: $h1_font_weight;
+	font-size: $h4_font_size{px};
+}
+.invert .subscribe-block .subscribe-block__submit {
+	background-color: $invert_text_color;
+	color: $regular_accent_color_1;
+}
+
+.invert .subscribe-block .subscribe-block__submit:hover {
+	background-color: $regular_accent_color_2;
+	color: $invert_text_color;
+}
+
+.invert .subscribe-block .subscribe-block__error {
+	color: $invert_text_color;
+}
+
+.widget-subscribe .social-list a {
+	background-color: $grey_color_3;
+}
+
+.widget-subscribe .social-list a:hover {
+	background-color: $regular_accent_color_5;
+	color: $invert_text_color;
+}

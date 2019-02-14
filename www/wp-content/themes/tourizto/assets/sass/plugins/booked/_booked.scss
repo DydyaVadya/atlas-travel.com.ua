@@ -1,0 +1,841 @@
+body .booked-calendar-shortcode-wrap .booked-calendar-wrap.small {
+	table.booked-calendar tbody tr.week {
+		td {
+			.date {
+				text-align: center;
+				padding: 0;
+			}
+
+			&.active {
+				.date {
+					background: transparent;
+					&:hover {
+						background: transparent;
+					}
+
+					.number {
+						@include scale(1);
+					}
+				}
+			}
+		}
+	}
+}
+
+.booked-calendar-shortcode-wrap {
+	text-align: center;
+
+	.booked-calendarSwitcher.calendar {
+		border-radius: $border__radius;
+		margin: 15px 0;
+
+		@media screen and (max-width: 600px) {
+			display: inline-block;
+			width: auto;
+			padding: 8px 10px 9px 12px;
+		}
+
+		p {
+			position: relative;
+			i.fa {
+				position: absolute;
+				left: -3px;
+				top: 50%;
+
+				@include translate(0, -50%);
+				@include nc-icon-outline;
+				@include font-size(2.125);
+
+				/*rtl:raw:
+				margin-right: 0;
+				margin-left: 10px;
+				*/
+
+				&::before {
+					content: '\e789';
+				}
+
+				@media screen and (max-width: 600px) {
+					display: block;
+				}
+			}
+
+			&:after {
+				top: 50%;
+				transform: translateY(-50%);
+				color: $color__dark;
+				right: 5px;
+
+				/*rtl:raw:
+				right: auto;
+				*/
+			}
+
+			select {
+				margin-left: 40px;
+				@media screen and (max-width: 600px) {
+					width: auto;
+				}
+			}
+		}
+	}
+
+	.booked-calendar {
+		border: none;
+		background: transparent;
+
+		thead {
+			background-color: transparent !important;
+
+			tr {
+				th {
+					padding: 0;
+
+					body & {
+						border: none;
+						background: none !important;
+					}
+
+					.monthName {
+
+						height: auto;
+					}
+
+					.backToMonth {
+						display: inline-block;
+						@include font-size(0.75);
+					}
+
+					.page-right,
+					.page-left {
+						top: 0;
+						width: 44px;
+						height: 44px;
+						border-radius: 50%;
+						display: none;
+
+						@include media-breakpoint-up(sm) {
+							display: block;
+						}
+
+						i::before {
+							@include nucleo-mini-icon;
+							@include transition(.3s ease all);
+
+							font-size: 12px;
+							line-height: 44px;
+						}
+					}
+
+					.page-left {
+						/*rtl:ignore*/
+						left: 0;
+
+						&:hover {
+							/*rtl:ignore*/
+							left: 0;
+						}
+						i::before {
+							content: '\e903';
+						}
+					}
+
+					.page-right {
+						/*rtl:ignore*/
+						right: 0;
+
+						&:hover {
+							/*rtl:ignore*/
+							right: 0;
+						}
+						i::before {
+							content: '\e904';
+						}
+					}
+				}
+				&.days {
+					background: transparent !important;
+
+					th {
+						background: transparent !important;
+						border-color: transparent !important;
+						padding: 27px 0 23px;
+					}
+				}
+			}
+		}
+
+		tbody tr {
+			td {
+				height: 77px !important;
+				border: none;
+				padding: 5px 5px 0 5px;
+
+				body & {
+					background: transparent;
+				}
+				&:first-child {
+					padding-left: 0;
+				}
+
+				&:last-child {
+					padding-right: 0;
+				}
+
+				&:hover .date span.number {
+					background: transparent !important;
+				}
+
+				&.booked {
+					pointer-events: none;
+				}
+
+				&.today {
+					.number {
+						border: none;
+					}
+				}
+
+				> span {
+					line-height: 57px !important;
+				}
+
+				@include media-breakpoint-up(sm) {
+					padding: 0 10px 20px 10px;
+				}
+
+				.date {
+					text-align: center;
+					padding: 0;
+					border-radius: $border__radius;
+					border: 1px solid transparent;
+
+					@include media-breakpoint-up(sm) {
+						text-align: left;
+					}
+
+					@include media-breakpoint-up(sm) {
+						padding: 0 20px;
+					}
+
+					@media screen and (max-width: 720px) {
+						height: auto;
+					}
+
+					&.tooltipster {
+						&:hover {
+							border-color: transparent;
+						}
+					}
+					.number {
+						width: auto;
+						height: auto;
+						line-height: 1;
+
+						@media screen and (max-width: 720px) {
+							transform: scale(1) !important;
+						}
+					}
+				}
+
+				&.active {
+					overflow: visible;
+					background-clip: content-box !important;
+					padding: 5px 5px 0;
+
+					@include media-breakpoint-up(sm) {
+						padding: 0 10px 20px;
+					}
+					&:first-child {
+						padding-left: 0;
+					}
+
+					&:last-child {
+						padding-right: 0;
+					}
+
+					.date {
+						position: relative;
+						box-shadow: $box__shadow;
+
+						&.tooltipster {
+							border-color: transparent;
+						}
+						&:after {
+							content: '';
+							width: calc(100% + 2px);
+							height: 21px;
+							top: 100%;
+							left: -1px;
+							position: absolute;
+						}
+						.number {
+							background: transparent;
+							@include scale(1);
+						}
+					}
+				}
+			}
+
+			&.entryBlock {
+				border: none;
+				background: transparent;
+				border-collapse: separate;
+				box-shadow: $box__shadow;
+
+				& + tr {
+					td {
+						@include media-breakpoint-up(md) {
+							padding-top: 20px;
+							height: 97px !important;
+						}
+					}
+				}
+				td {
+					text-align: left;
+					border-radius: $border__radius;
+					height: auto !important;
+					padding: 0;
+					border: none;
+					overflow: visible;
+					background: transparent;
+					@media screen and (max-width: 720px) {
+						body & {
+							padding: 0;
+						}
+					}
+					> div {
+						padding: 24px 30px 20px;
+						box-shadow: none;
+					}
+				}
+
+				h2 {
+					margin-bottom: 4px;
+					text-align: left;
+				}
+
+				.timeslot {
+					border: none;
+					flex-wrap: wrap;
+					display: block;
+
+					@include media-breakpoint-up(md) {
+						display: flex;
+						align-items: center;
+						flex-wrap: nowrap;
+					}
+
+					& + .timeslot {
+						border-top: 1px solid;
+					}
+
+					&:last-child {
+						margin: 0;
+					}
+
+					&-range {
+						width: auto;
+						order: 1;
+						min-width: 30%;
+						line-height: 32px;
+					}
+
+					&-time {
+						display: flex;
+						padding-top: 0;
+						width: 100%;
+						height: auto;
+						margin: 0;
+						padding: 10px 10px 10px 0;
+						position: relative;
+						flex-direction: column;
+						justify-content: center;
+
+						@include media-breakpoint-up(md) {
+							flex-direction: row;
+							justify-content: flex-start;
+							align-items: center;
+						}
+						.timeslot-title {
+							width: 100%;
+							margin-bottom: 0;
+						}
+
+						&::before {
+							content: '';
+							height: 32px;
+							width: 1px;
+							order: 2;
+							display: none;
+							margin: 0 30px;
+
+							@include media-breakpoint-up(md) {
+								display: block;
+							}
+
+							.position-one-right-sidebar &,
+							.position-one-left-sidebar & {
+								display: none;
+							}
+						}
+
+						@include media-breakpoint-up(sm) {
+							width: 50% !important;
+						}
+
+						@include media-breakpoint-up(md) {
+							width: 60% !important;
+						}
+
+						@include media-breakpoint-up(lg) {
+							width: 70% !important;
+						}
+
+						.timeslot-range {
+							position: relative;
+							padding-left: 45px;
+						}
+						i.fa {
+							@include nc-icon-outline;
+							position: absolute;
+							top: 50%;
+							left: 0;
+							transform: translateY(-50%);
+							vertical-align: middle;
+
+							&::before {
+								content: '\ed91';
+								font-size: 32px;
+							}
+						}
+					}
+
+					.spots-available {
+						order: 3;
+						text-transform: none;
+						position: relative;
+						padding-bottom: 0;
+						width: auto;
+						font-size: 1rem;
+						padding-left: 52px;
+						padding-top: 0;
+						line-height: 1.2;
+
+						@include media-breakpoint-up(md) {
+							padding-left: 10px;
+							padding-top: 0;
+						}
+					}
+
+					&-count {
+						padding-left: 30px;
+						border-color: $color__background-hr;
+					}
+
+					&-people {
+						width: 100%;
+						height: auto !important;
+						padding-top: 10px !important;
+						padding-bottom: 10px !important;
+						padding-right: 0 !important;
+						text-align: center;
+
+						@include media-breakpoint-up(sm) {
+							width: 50% !important;
+							text-align: left;
+						}
+
+						@include media-breakpoint-up(md) {
+							width: 40% !important;
+						}
+
+						@include media-breakpoint-up(lg) {
+							width: 30% !important;
+						}
+
+						.button {
+							@include btn;
+							width: 100%;
+							float: none;
+
+							@include media-breakpoint-up(sm) {
+								float: right;
+								width: auto;
+							}
+							&:hover {
+								border: none;
+								margin-right: 0;
+							}
+							&[disabled] {
+								pointer-events: none;
+							}
+
+							/*rtl:raw:
+							float: left;
+							margin-left: 0;
+							*/
+						}
+					}
+
+					&:hover {
+						background: transparent;
+					}
+				}
+			}
+		}
+	}
+}
+
+body .booked-modal .bm-window {
+	width: 650px;
+	padding-top: 65px !important;
+
+	@media screen and (max-width: 720px) {
+		width: auto;
+	}
+
+	a.close {
+		top: 20px;
+		right: 20px;
+		left: auto;
+
+		@include media-breakpoint-up(md) {
+			top: -40px;
+			right: -40px;
+		}
+		i.fa {
+			@include nucleo-mini-icon;
+			@include transition(.3s ease all);
+
+			font-size: 14px;
+
+			&::before {
+				content: '\ea18';
+			}
+		}
+	}
+
+	.booked-scrollable {
+		padding: 25px 30px 30px;
+	}
+	p {
+		font-size: 1rem;
+		margin-bottom: 7px;
+
+		&.booked-title-bar {
+			padding: 15px 30px 0 15px;
+
+			small {
+				text-transform: uppercase;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 20px;
+
+				@include media-breakpoint-up(sm) {
+					padding-left: 14px;
+				}
+			}
+		}
+	}
+
+	.booked-form {
+		padding-top: 0;
+
+		p.booked-calendar-name {
+			margin-bottom: 0;
+		}
+
+		.condition-block {
+			padding-bottom: 30px;
+		}
+
+		p.name {
+			margin: 0 0 5px;
+			b {
+				@include font-size(1.125);
+				font-weight: 300;
+				i {
+					@include nc-icon-outline;
+					@include font-size(1.5);
+					margin-right: 8px;
+
+					&.fa-calendar-o::before {
+						content: '\e789';
+					}
+
+					&.fa-clock-o::before {
+						content: '\e8e8';
+					}
+				}
+				& + b {
+					margin-left: 21px;
+					@media screen and (max-width: 720px) {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+
+		#customerChoices {
+			border: none;
+			border-bottom: 1px solid;
+			margin: 0;
+			padding: 0 0 18px 0;
+			text-align: left;
+
+			& ~ .customer_choice,
+			& ~ .customer_choice.default {
+				margin-top: 21px;
+			}
+
+			.field {
+				display: block;
+				margin: 0;
+
+				.checkbox-radio-block {
+					padding: 0 0 6px 10px;
+				}
+			}
+
+			label {
+			}
+
+			input[type=radio] {
+				top: 5px;
+			}
+		}
+	}
+
+	.booked-appointments {
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 20px;
+		margin-bottom: 16px;
+		box-shadow: none;
+		border-bottom: 1px solid;
+
+		.calendar-name,
+		.appointment-info {
+			font-weight: inherit;
+		}
+
+		.calendar-name {
+			margin-bottom: 5px;
+		}
+
+		.appointment-info {
+			line-height: 1.5rem;
+
+			i {
+				@include nc-icon-outline;
+
+				font-size: 32px;
+				vertical-align: middle;
+
+				&:before {
+					content: '\ece7';
+				}
+			}
+		}
+	}
+
+	hr {
+		border-color: $color__background-hr;
+		padding: 7px 0 0 0;
+		margin: 36px 0 0 0;
+	}
+
+	#ajaxlogin .field,
+	#newAppointmentForm .field {
+		.status {
+			padding-top: 0;
+			color: red;
+			i {
+				color: red;
+			}
+		}
+	}
+
+	.field {
+		margin: 0;
+
+		label.field-label {
+			display: inline-block;
+			text-transform: uppercase;
+			position: relative;
+
+			i {
+				@include font-size(0.7);
+				position: absolute;
+				right: -12px;
+				top: 14px;
+			}
+		}
+
+		p {
+			margin-top: 8px;
+			margin-bottom: 23px;
+		}
+
+		input[type^='text'],
+		input[type^='email'],
+		input[type^='password'] {
+			@include text_input;
+			margin-bottom: 20px;
+
+			&:focus {
+				background: transparent !important;
+			}
+		}
+
+		input[type^='password'] {
+			margin-bottom: 25px;
+		}
+
+		input[type^='submit']#submit-request-appointment {
+			margin-right: 21px;
+		}
+
+		input[type^='submit'],
+		button {
+			@include btn_submit;
+			margin-top: 5px;
+		}
+
+		button {
+			&.cancel {
+			}
+		}
+	}
+}
+
+.booked-profile-appt-list {
+	i {
+		@include nc-icon-outline;
+		@include font-size(1.5);
+		margin-right: 8px;
+		position: relative;
+		top: 4px;
+		&.fa-calendar::before {
+			content: '\e789';
+		}
+		&.fa-clock-o::before {
+			content: '\e8e8';
+		}
+	}
+
+	.appt-block > strong {
+		font-weight: 300;
+	}
+}
+
+body .booked-calendar-wrap table.booked-calendar td .date .number {
+	background: transparent !important;
+}
+
+body .widget.booked_calendar .booked-calendar-wrap table.booked-calendar tbody tr {
+	&.entryBlock {
+		td {
+			padding: 1%;
+		}
+		.booked-appt-list {
+			.timeslot {
+				display: block;
+				.button {
+					margin: 15px 0;
+					width: 100%;
+				}
+			}
+		}
+	}
+	&.week td {
+		height: 60px !important;
+
+		&.active {
+			span.date.tooltipster {
+				background: transparent !important;
+			}
+		}
+
+		.date {
+			line-height: 60px !important;
+
+			.number {
+				line-height: 60px !important;
+			}
+		}
+	}
+}
+
+body #booked-profile-page {
+
+	input[type^="text"],
+	input[type^="password"] {
+		@include text_input;
+	}
+
+	.form-submit, .login-submit, .wp-user-form {
+		input[type^="submit"] {
+			@include btn;
+			&:hover {
+				padding: 24px 37.5px 23px;
+			}
+		}
+	}
+
+	.booked-tabs,
+	.booked-tabs.login,
+	.booked-profile-header {
+		border: none;
+		border-radius: $border__radius;
+
+		li i {
+			/*rtl:raw:
+			padding-right: 0;
+			padding-left: 7px;
+			*/
+		}
+	}
+
+	.booked-tab-content {
+		border-color: $color__background-hr;
+
+	}
+
+	#profile-appointments {
+		.booked-form-notice {
+			margin: 15px 0;
+			background: $color__background-hr;
+			border: none;
+			padding: 1px 16px;
+			text-shadow: none;
+		}
+
+		.booked-no-margin {
+			@include font-size(1.125);
+		}
+	}
+
+	#profile-edit {
+		#booked-page-form {
+			border-color: $color__background-hr;
+			.booked-upload-wrap {
+				border: none;
+				height: 60px;
+				input {
+					border: none;
+					height: 60px;
+				}
+				span {
+					line-height: 23px;
+				}
+			}
+		}
+	}
+}
+
+body .booked-form input[type="submit"],
+body .booked-form button {
+	/*rtl:raw: float: right; */
+}

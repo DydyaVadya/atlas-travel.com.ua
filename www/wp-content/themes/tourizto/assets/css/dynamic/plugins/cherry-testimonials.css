@@ -1,0 +1,211 @@
+.tm-testi__title-sup,
+.tm-testi__item-name,
+.tm-testi--default-4 .tm-testi__item-body {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	letter-spacing: $h6_letter_spacing{em};
+}
+.tm-testi__title-sup,
+.tm-testi__item-name {
+	color: $regular_h6_color;
+}
+.tm-testi--default-invert .tm-testi__title-sup,
+.tm-testi--default-invert .tm-testi__item-name {
+	color: $invert_h6_color;
+}
+.tm-testi__item-body,
+.tm-testi__item-meta-content,
+.tm-testi--default-2 .tm-testi__title-sup,
+.tm-testi--default-2 .tm-testi__item-name,
+.tm-testi--default-4 .tm-testi__title-sup,
+.tm-testi--default-4 .tm-testi__item-name {
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+	font-size: $body_font_size{px};
+	line-height: $body_line_height;
+	font-family: @font_family( $body_font_family );
+	color: $regular_text_color;
+}
+
+.tm-testi__item-body {
+	background-color: $grey_color_3;
+}
+.tm-testi__item-body:after {
+	border-color: $grey_color_3 transparent transparent transparent;
+}
+
+.tm-testi--default-white .tm-testi__item-body {
+	background-color: $invert_accent_color_1;
+}
+.tm-testi--default-white .tm-testi__item-body:after {
+	border-color: $invert_accent_color_1 transparent transparent transparent;
+}
+
+.tm-testi__item-meta-content,
+.tm-testi--default-4 .tm-testi__item-body p:before {
+	color: $regular_link_color;
+}
+
+.tm-testi--default-4 .tm-testi__item-body p:before {
+	color: @lighten($regular_accent_color_2,25);
+}
+
+.tm-testi__item-body:before,
+.tm-testi--speech-bubble .tm-testi__item-body p:before {
+	color: $regular_accent_color_1;
+}
+
+.tm-testi--default .tm-testi__item-body:before {
+	color: #f4f4f4;
+}
+.tm-testi--default .tm-testi__item-body {
+	background-color: transparent;
+}
+.tm-testi .tm-testi--default .tm-testi__item {
+	border-bottom-color: $grey_color_2;
+}
+.tm-testi__item-avatar,
+.elementor .tm-testi__item-avatar {
+	border-color: $grey_color_2;
+}
+
+.tm-testi--speech-bubble .tm-testi__item-body {
+	border-color: $grey_color_3;
+}
+
+.tm-testi--speech-bubble .tm-testi__item-body:after{
+	border-top-color: $grey_color_3;
+}
+
+.tm-testi .swiper-container-3d .swiper-slide-shadow-left,
+.tm-testi .swiper-container-3d .swiper-slide-shadow-right {
+	background-color: $grey_color_3;
+}
+
+.tm-testi__wrap.invert .tm-testi__title-sup,
+.tm-testi__wrap.invert .tm-testi__title-main,
+.tm-testi__wrap.invert .tm-testi__title-sub,
+.tm-testi__wrap.invert .tm-testi__item-body,
+.tm-testi__wrap.invert .tm-testi__item-body::before,
+.tm-testi__wrap.invert .tm-testi__title-sup,
+.tm-testi__wrap.invert .tm-testi__item-name,
+.tm-testi__wrap.invert .tm-testi__item-meta-content,
+.tm-testi__wrap.invert .tm-testi__item-meta-content cite,
+.tm-testi__wrap.invert .tm-testi__item footer .tm-testi__item-meta-content > :not(:last-child)::after {
+	color: $invert_link_hover_color;
+}
+.tm-testi__wrap.tm-testi--default-4.invert .tm-testi__title-sup,
+.tm-testi__wrap.tm-testi--default-4.invert .tm-testi__item-name,
+.tm-testi__wrap.tm-testi--default-4.invert .tm-testi__item-meta-content,
+.tm-testi__wrap.tm-testi--default-4.invert .tm-testi__item-meta-content cite,
+.tm-testi__wrap.tm-testi--default-4.invert .tm-testi__item footer .tm-testi__item-meta-content > :not(:last-child)::after {
+	color: @lighten($invert_link_color,25);
+}
+
+.tm-testi--default-2 .tm-testi__item-body {
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+	font-size: $h4_font_size{px};
+	line-height: $h4_line_height;
+	font-family: @font_family( $h4_font_family );
+	letter-spacing: $h4_letter_spacing{em};
+}
+
+.elementor .tm-testi--default-5 .tm-testi-slider__prev.swiper-button-prev::before,
+.elementor .tm-testi--default-5 .tm-testi-slider__next.swiper-button-next::before,
+.elementor .tm-testi--default-white .tm-testi-slider__prev.swiper-button-prev:hover::before,
+.elementor .tm-testi--default-white .tm-testi-slider__next.swiper-button-next:hover::before,
+.elementor .tm-testi--default-invert .tm-testi-slider__prev.swiper-button-prev:hover::before,
+.elementor .tm-testi--default-invert .tm-testi-slider__next.swiper-button-next:hover::before {
+	color: $regular_link_hover_color;
+	background-color: $grey_color_3;
+}
+
+.elementor .tm-testi--default-5 .tm-testi-slider__prev.swiper-button-prev:hover::before,
+.elementor .tm-testi--default-5 .tm-testi-slider__next.swiper-button-next:hover::before,
+.elementor .tm-testi--default-white .tm-testi-slider__prev.swiper-button-prev::before,
+.elementor .tm-testi--default-white .tm-testi-slider__next.swiper-button-next::before,
+.elementor .tm-testi--default-invert .tm-testi-slider__prev.swiper-button-prev::before,
+.elementor .tm-testi--default-invert .tm-testi-slider__next.swiper-button-next::before {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.elementor .tm-testi--default-2 .tm-testi-slider__prev.swiper-button-prev::before,
+.elementor .tm-testi--default-2 .tm-testi-slider__next.swiper-button-next::before {
+	color: $regular_link_hover_color;
+	background-color: $invert_accent_color_1;
+}
+.elementor .tm-testi--default-2 .tm-testi-slider__prev.swiper-button-prev:hover::before,
+.elementor .tm-testi--default-2 .tm-testi-slider__next.swiper-button-next:hover::before {
+	color: $invert_link_color;
+	background-color: $invert_accent_color_1;
+}
+
+.elementor .tm-testi--default-invert .swiper-pagination-bullet {
+	background-color: $invert_accent_color_1;
+}
+.elementor .tm-testi--default-invert .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.elementor .tm-testi--default-invert .swiper-pagination-bullet:hover {
+	background-color: $regular_accent_color_1;
+}
+
+.tm-testi--default footer .tm-testi__item-name:before {
+	color: $regular_accent_color_1;
+}
+/*for default-5*/
+.tm-testi--default-5 .tm-testi__item-body:before {
+	color: $regular_link_color;
+}
+.invert .tm-testi--default-5 .tm-testi__item-name {
+	font-weight: $h1_font_weight;
+}
+.invert .tm-testi--default-5 .tm-testi__item-company,
+.invert .tm-testi--default-5 .tm-testi__item-body p {
+	color: $invert_accent_color_1;
+}
+/*for default*/
+.invert .tm-testi--default .tm-testi__item-name {
+	font-weight: $h1_font_weight;
+	color: $regular_accent_color_5;
+}
+.invert .tm-testi--default .tm-testi__item-company,
+.invert .tm-testi--default .tm-testi__item-body p {
+	color: $invert_accent_color_1;
+}
+.invert .elementor .tm-testi--default .swiper-button-prev,
+.invert .elementor .tm-testi--default .swiper-button-next {
+	background-color: $regular_accent_color_5;
+	color:  $invert_accent_color_1;
+}
+
+.invert .elementor .tm-testi--default .swiper-button-prev:hover,
+.invert .elementor .tm-testi--default .swiper-button-next:hover {
+	background-color: @alpha($regular_h1_color, 94);;
+	color:  $invert_accent_color_1;
+}
+
+.elementor .tm-testi--default .swiper-button-prev,
+.elementor .tm-testi--default .swiper-button-next {
+	background-color: $regular_accent_color_7;
+	color:  $invert_accent_color_1;
+}
+.elementor .tm-testi--default .swiper-button-prev:hover,
+.elementor .tm-testi--default .swiper-button-next:hover {
+	background-color: @alpha($regular_h1_color, 34);;
+	color:  $invert_accent_color_1;
+}
+/*for default.custom*/
+.elementor .custom.tm-testi--default .swiper-button-prev,
+.elementor .custom.tm-testi--default .swiper-button-next {
+	background-color: $regular_accent_color_5;
+	color:  $invert_accent_color_1;
+}
+.elementor .custom.tm-testi--default .swiper-button-prev:hover,
+.elementor .custom.tm-testi--default .swiper-button-next:hover {
+	background-color: $regular_accent_color_1;
+	color:  $invert_accent_color_1;
+}

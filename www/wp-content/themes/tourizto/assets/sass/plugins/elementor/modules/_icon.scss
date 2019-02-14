@@ -1,0 +1,52 @@
+.elementor-icon {
+	font-size: 32px;
+
+	.elementor-shape-circle & {
+
+	}
+	.elementor-view-stacked & {
+		padding: .7186em;
+	}
+	.elementor-view-framed & {
+		border-color: currentColor;
+		border-width: 2px;
+		padding: .6563em;
+	}
+	i {
+		display: block;
+	}
+}
+
+.elementor-widget-icon {
+	&.elementor-view-framed {
+		.elementor-icon {
+			margin-bottom: 30px;
+			position: relative;
+
+			&:before {
+				content: '';
+				width: 9px;
+				height: 9px;
+				border: 1px solid;
+				border-color: inherit;
+				border-radius: 50%;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				bottom: -30px;
+			}
+			&:after {
+				content: '';
+				width: 1px;
+				height: 22px;
+				border-right-style: solid;
+				border-right-width: 1px;
+				border-color: inherit;
+				position: absolute;
+				bottom: -22px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+}

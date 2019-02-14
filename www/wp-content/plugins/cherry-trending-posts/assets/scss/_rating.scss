@@ -1,0 +1,60 @@
+/* Rating stars */
+.cherry-trend-stars {
+	display: inline-block;
+	vertical-align: top;
+
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+
+.cherry-trend-star {
+	font-size: 21px;
+	line-height: 20px;
+	display: inline-block;
+	overflow: hidden;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: top;
+	&::before {
+		font-family: FontAwesome;
+		display: block;
+		content: '\f006';
+	}
+	&--active {
+		&::before {
+			content: '\f005';
+		}
+		~ .cherry-trend-star {
+			&::before {
+				content: '\f005';
+			}
+			&:hover {
+				opacity: .75;
+			}
+		}
+	}
+	&--is-half {
+		&::before {
+			content: '\f123';
+		}
+	}
+	&:hover {
+		&::before {
+			content: '\f005';
+			opacity: .75;
+		}
+		~ .cherry-trend-star {
+			&::before {
+				content: '\f005';
+			}
+		}
+	}
+}
+
+.cherry-trend-stars--rate-disabled .cherry-trend-star,
+.cherry-trend-stars--processing .cherry-trend-star {
+	cursor: default;
+	pointer-events: none;
+}

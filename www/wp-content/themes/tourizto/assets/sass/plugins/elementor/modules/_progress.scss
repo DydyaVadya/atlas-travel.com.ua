@@ -1,0 +1,22 @@
+.elementor-progress-wrapper {
+	height: 15px;
+	line-height: 15px;
+	.elementor-progress-bar {
+		border-radius: $border__radius;
+	}
+}
+.elementor-progress-percentage {
+	padding-right: 5px;
+	font-size: 12px;
+	line-height: 15px;
+	height: 15px;
+}
+.elementor-widget-progress {
+	.elementor-title {
+		margin-bottom: 8px;
+		display: block;
+	}
+	.elementor-progress-text {
+		height: 15px;
+	}
+}

@@ -1,0 +1,240 @@
+/* #Form buttons */
+form button,
+form input[type='button'],
+form input[type='reset'],
+form input[type='submit'] {
+	font-weight: $h1_font_weight;
+	font-size: @font_size($body_font_size, multiple, ceil, 0.857)px;
+	font-family: @font_family( $h1_font_family );
+}
+
+.subscribe-block .subscribe-block__submit {
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+	line-height: $body_line_height;
+	font-family: @font_family( $body_font_family );
+	letter-spacing: $body_letter_spacing{em};
+}
+
+/* #Fields */
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+input[type='search'],
+input[type='number'],
+input[type='tel'],
+input[type='range'],
+input[type='date'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='color'],
+select,
+textarea,
+.wpcf7 .wpcf7-form-control-wrap[class*="file-"] {
+	border-color: $grey_color_2;
+	color: $regular_text_color;
+	box-shadow: none;
+}
+
+select {
+	background-color: $invert_text_color;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+input[type='number']:focus,
+input[type='tel']:focus,
+input[type='range']:focus,
+input[type='date']:focus,
+input[type='month']:focus,
+input[type='week']:focus,
+input[type='time']:focus,
+input[type='datetime']:focus,
+input[type='datetime-local']:focus,
+input[type='color']:focus,
+select:focus,
+textarea:focus {
+	border-color: $grey_color_2;
+	box-shadow: inset 0 0 0 1px $invert_text_color;
+}
+
+/* #Fields  invert*/
+.invert input[type='text'],
+.invert input[type='email'],
+.invert input[type='url'],
+.invert input[type='password'],
+.invert input[type='search'],
+.invert input[type='number'],
+.invert input[type='tel'],
+.invert input[type='range'],
+.invert input[type='date'],
+.invert input[type='month'],
+.invert input[type='week'],
+.invert input[type='time'],
+.invert input[type='datetime'],
+.invert input[type='datetime-local'],
+.invert input[type='color'],
+.invert select,
+.invert textarea,
+.invert .wpcf7 .wpcf7-form-control-wrap[class*="file-"] {
+	background-color: @alpha($invert_h1_color, 10);
+	color: $invert_text_color;
+}
+
+.invert select option {
+	color: @alpha($regular_h1_color, 90);
+}
+
+
+
+.invert input[type='text']:focus,
+.invert input[type='email']:focus,
+.invert input[type='url']:focus,
+.invert input[type='password']:focus,
+.invert input[type='search']:focus,
+.invert input[type='number']:focus,
+.invert input[type='tel']:focus,
+.invert input[type='range']:focus,
+.invert input[type='date']:focus,
+.invert input[type='month']:focus,
+.invert input[type='week']:focus,
+.invert input[type='time']:focus,
+.invert input[type='datetime']:focus,
+.invert input[type='datetime-local']:focus,
+.invert input[type='color']:focus,
+.invert select:focus,
+.invert textarea:focus {
+
+}
+
+.invert input[type='search']:focus {
+	box-shadow: none;
+}
+
+
+/* #Search Form */
+.search-form__field {
+	color: $regular_text_color;
+}
+
+.invert.header-container .search-form__field {
+	color: $invert_text_color;
+}
+
+.search-form__toggle,
+.site-header .search-form__input-wrap::before {
+	color: $regular_link_color;
+}
+
+
+.site-header .search-form .search-form__submit,
+.site-header .invert .search-form .search-form__submit:hover {
+	color: $regular_accent_color_1;
+}
+@media (min-width: 600px) {
+	.site-header .search-form .search-form__submit:hover,
+	.site-header.style-5 .search-form .search-form__submit:hover {
+		color: $regular_link_hover_color;
+	}
+}
+.site-header .search-form .search-form__submit,
+.search-form__close {
+	color: $regular_accent_color_3;
+}
+.invert .search-form__toggle:not(:hover),
+.invert .search-form__close:not(:hover),
+.site-header .invert .search-form__input-wrap::before,
+.site-header .invert .search-form .search-form__submit:not(:hover) {
+	color: $invert_accent_color_1;
+}
+.search-form__toggle:hover,
+.search-form__close:hover {
+	color: $regular_accent_color_1;
+}
+
+.search-form__close:hover {
+	color: $regular_accent_color_1;
+}
+
+.invert .search-form__toggle:hover,
+.invert .search-form__close:hover {
+	color: $regular_accent_color_1;
+}
+@media (min-width: 600px) {
+	.invert .search-form__toggle:hover,
+	.invert .search-form__close:hover {
+		color: $regular_accent_color_1;
+	}
+}
+.widget_search .search-form__submit,
+.widget_search .search-form__submit.btn {
+	color: $regular_link_hover_color;
+}
+.widget_search .search-form__submit:hover,
+.widget_search .search-form__submit.btn:hover {
+	color: $regular_link_color;
+}
+.invert .search-form__field {
+	color: $invert_link_hover_color;
+}
+
+/* #Comment, Contact, Password Forms */
+[class^="comment-form-"] i {
+	color: $grey_color_2;
+}
+
+.wpcf7-submit,
+.post-password-form label + input {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.wpcf7-form .label-main-form-1 {
+	font-weight: $h6_font_weight;
+	color: $regular_link_color;
+font-size: $h6_font_size{px};
+}
+
+.invert .wpcf7-form .label-main-form-1 {
+	color: $invert_text_color;
+}
+
+.wpcf7-submit.btn-accent-2 {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+
+.wpcf7-submit:hover,
+.post-password-form label + input:hover {
+	background-color: $regular_accent_color_2;
+}
+
+.wpcf7-submit.btn-accent-2:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.wpcf7-submit:active,
+.post-password-form label + input:active {
+	background-color: @darken($regular_accent_color_2, 10);
+}
+
+.wpcf7-submit.btn-accent-2:active {
+	background-color: @darken($regular_accent_color_1, 10);
+}
+
+.input-with-icon > i {
+	color: $regular_accent_color_1;
+}
+
+.invert ::-webkit-input-placeholder { color: $invert_text_color; }
+.invert ::-moz-placeholder          { color: $invert_text_color; }
+.invert :-moz-placeholder           { color: $invert_text_color; }
+.invert :-ms-input-placeholder      { color: $invert_text_color; }

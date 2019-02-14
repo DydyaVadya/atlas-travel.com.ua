@@ -1,0 +1,37 @@
+/* widget cherry ui */
+.widget-rendered{
+	.cherry-ui-repeater-container{
+		padding: 5px;
+		.cherry-ui-repeater-item{
+			margin: 0 0 5px;
+			.cheryr-ui-repeater-content-box{
+				margin: 0 -10px;
+			}
+		}
+		.cherry-ui-repeater-add{
+			margin: 10px 0;
+		}
+	}
+}
+
+/* customizer cherry ui */
+.customize-control {
+	// iconpicker style
+	> .cherry-ui-container {
+		margin-bottom: 0;
+		.iconpicker-container {
+			.input-group-addon,
+			.iconpicker-input {
+				background: #fff;
+			}
+			.iconpicker-popover {
+				.popover-title {
+					background: #fefefe;
+				}
+				.arrow {
+					border-bottom-color: #fefefe;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+.hentry {
+	table:not([class]) {
+		margin: 0 0 2.43em;
+		max-width: 100%;
+
+		th,
+		td {
+			padding: 5px;
+			vertical-align: top;
+
+			@include media-breakpoint-up(lg) {
+				padding: 11px 30px;
+			}
+
+			& + td,
+			& + th {
+				border-left: 1px solid;
+			}
+		}
+		thead th {
+			vertical-align: bottom;
+		}
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		& + table {
+			margin: 32px 0;
+		}
+	}
+}

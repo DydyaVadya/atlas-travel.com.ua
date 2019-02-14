@@ -1,0 +1,231 @@
+.elementor-widget-tabs {
+	.elementor-tabs-wrapper {
+		font-size: 0;
+		text-align: center;
+	}
+	.elementor-tab-desktop-title {
+		padding: 15px 30px 17px;
+		text-transform: uppercase;
+		border-radius: $border__radius $border__radius 0 0;
+
+		&.elementor-active {
+			background-color: transparent;
+
+			&:before,
+			&:after {
+				border-color: inherit;
+				z-index: 10;
+			}
+		}
+	}
+	.elementor-tab-title__icon {
+		margin-bottom: 8px;
+		transition: .3s all;
+	}
+	&.elementor-tabs-view-horizontal {
+
+		// Default styles
+		.elementor-tab-desktop-title {
+			display: inline-block;
+			vertical-align: bottom;
+			margin: 0 2.5px;
+
+			&:first-child {
+				margin-left: 5px;
+			}
+		}
+		.elementor-tab-mobile-title.elementor-active {
+			border-bottom-style: solid;
+		}
+		.elementor-tabs-content-wrapper {
+			.elementor-tab-content {
+				padding: 15px 0 0;
+
+				@include media-breakpoint-up(lg) {
+					padding: 32px 0 0;
+				}
+			}
+		}
+
+		// Tabs without border
+		.elementor-tabs-borderless {
+			.elementor-tabs-wrapper {
+				@include grid-indent(10px);
+				padding-bottom: 26px;
+				text-align: left;
+			}
+			.elementor-tab-desktop-title {
+				margin: 0;
+
+				&:first-child {
+					margin-left: 0;
+				}
+			}
+			.elementor-tabs-content-wrapper {
+				border-top: 1px solid;
+			}
+		}
+
+	}
+	&.elementor-tabs-view-vertical {
+
+		// Default styles
+		.elementor-tabs-wrapper {
+			width: 17%;
+			text-align: left;
+		}
+		.elementor-tab-desktop-title {
+			padding: 15px 30px 16px;
+			margin: 5px 0;
+		}
+		.elementor-tabs-content-wrapper {
+			border: none;
+
+			.elementor-tab-content {
+				padding: 0 0 0 40px;
+				border: none;
+			}
+		}
+
+		// Tabs without border
+		.elementor-tabs-borderless {
+			.elementor-tab-desktop-title {
+				margin: 0 0 15px;
+			}
+			.elementor-tabs-content-wrapper {
+				border-left: 1px solid;
+			}
+		}
+	}
+
+	&.elementor-tabs-view-icon_horizontal,
+	&.elementor-tabs-view-icon_vertical {
+
+		.elementor-tabs-wrapper {
+			overflow: visible;
+
+			.elementor-tab-title {
+				border-radius: $border__radius;
+				text-transform: none;
+				padding: 29px 30px 33px;
+				min-width: 180px;
+				background-color: transparent;
+				transition: .3s all;
+				position: relative;
+
+				&:before {
+					content: '';
+					width: 0;
+					height: 0;
+					border-style: solid;
+					position: absolute;
+					transition: .3s all;
+				}
+			}
+
+			.elementor-tab-title__icon {
+				font-size: 32px;
+				line-height: 1;
+			}
+		}
+	}
+
+	&.elementor-tabs-view-icon_horizontal {
+
+		.elementor-tabs-wrapper {
+			@include grid-indent(15px, 'margin');
+			transition: .5s all;
+
+			margin-bottom: 12px;
+
+			.elementor-tab-title {
+				display: inline-block;
+				vertical-align: bottom;
+				transition: .3s all;
+
+				&:before {
+					border-width: 0 10px 0 10px;
+					top: 100%;
+					left: 50%;
+					margin-left: -10px;
+				}
+				&:hover,
+				&.elementor-active {
+					&:before {
+						border-width: 10px 10px 0 10px;
+					}
+				}
+				&__text {
+					transition: .2s all;
+				}
+			}
+
+		}
+	}
+
+	&.elementor-tabs-view-icon_vertical {
+		.elementor-tabs {
+			@include media-breakpoint-up(md) {
+				display: flex;
+			}
+		}
+		.elementor-tabs-wrapper {
+			@include media-breakpoint-up(md) {
+				flex-basis: 17%;
+			}
+
+			.elementor-tab-title {
+				@include media-breakpoint-up(md) {
+					min-width: 200px;
+					padding-top: 10px;
+					padding-bottom: 10px;
+				}
+				& + .elementor-tab-title {
+					margin-top: 5px;
+				}
+				&:before {
+					border-width: 10px 0 10px 0;
+					top: 50%;
+					left: 100%;
+					margin-top: -10px;
+					transition: .3s all;
+				}
+				&:hover,
+				&.elementor-active {
+					&:before {
+						border-width: 10px 0 10px 10px;
+					}
+				}
+			}
+		}
+		.elementor-tab-content {
+			padding: 0 0 0 40px;
+		}
+	}
+
+	.elementor-tabs-borderless {
+		.elementor-tab-desktop-title {
+			padding: 0;
+			background-color: transparent;
+		}
+	}
+
+	.elementor-tabs-content-wrapper {
+		.elementor-tab-content {
+			border: none;
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 13px;
+	}
+	p {
+		margin-bottom: 15px;
+	}
+	.elementor-tab-title {
+		transition: all .1s;
+		.elementor-tab-title__text {
+			transition: all .2s;
+		}
+	}
+}

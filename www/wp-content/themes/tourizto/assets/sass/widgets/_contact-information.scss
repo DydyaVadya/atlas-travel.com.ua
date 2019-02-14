@@ -1,0 +1,25 @@
+.contact-information-widget {
+	&__inner {
+		strong {
+			font-weight: 900;
+		}
+		li {
+			margin-left: 0;
+			line-height: 1.5;
+			@include font-size(.975);
+			padding-bottom: 18px;
+			.icon {
+				@include font-size(1.325);
+				line-height: 1;
+				margin-right: 10px;
+			}
+			&.contact-information__item--icon {
+				display: flex;
+				align-items: center;
+			}
+			a {
+				font-size: 14px;
+			}
+		}
+	}
+}

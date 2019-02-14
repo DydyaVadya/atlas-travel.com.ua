@@ -1,0 +1,422 @@
+# Translation of Plugins - Cherry Search - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Cherry Search - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-28 13:52:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Cherry Search - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "Zemez"
+msgstr "Zemez"
+
+#. #-#-#-#-#  cherry-search-code.pot (Cherry Search 1.1.4.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  cherry-search-code.pot (Cherry Search 1.1.4.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://zemez.io/wordpress/"
+msgstr "https://zemez.io/wordpress/"
+
+#: cherry-framework/modules/cherry-ui-elements/inc/class-cherry-lock-element.php:63
+msgid "Unlocked in PRO"
+msgstr "Débloqué en PRO"
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:80
+msgid "Please wait, processing the previous request"
+msgstr "Veuillez patienter, traitement de la demande précédente"
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:79
+msgid "Access is allowed"
+msgstr "Accès autorisé"
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:76
+msgid "Unable to process the request without nonce or server error"
+msgstr "Impossible de traiter la demande sans nonce ou erreur serveur"
+
+#: includes/admin/class-cherry-search-register-shortcodes.php:73
+msgid "Search Form"
+msgstr "Formulaire de recherche"
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:298
+msgid "Shortcode not a have options."
+msgstr "Le code court n’a pas d’option."
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:283
+msgid "Input shortcode content."
+msgstr "Contenu d’entrée de code court"
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:282
+msgid "Shortcode content."
+msgstr "Contenu de code court :"
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:203
+msgid "Shortcode not found."
+msgstr "Code court non trouvé."
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:145
+msgid "Shortcode List"
+msgstr "Liste de code court"
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-popup.php:125
+msgid "insert shortcode"
+msgstr "Insertion de code court"
+
+#: cherry-framework/modules/cherry5-insert-shortcode/inc/class-cherry5-insertion-button.php:64
+msgid "Cherry Shortcodes"
+msgstr "Codes courts Cherry"
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:105
+msgid "Update complete, thank you for updating to the latest version!"
+msgstr "Mise à jour terminée. Merci de votre mise à jour dans la dernière version !"
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:104
+msgid "We need to update your database to the latest version."
+msgstr "Nous devons mettre à jour votre base de données dans la dernière version."
+
+#: cherry-framework/modules/cherry-customizer/cherry-customizer.php:334
+msgid "Untitled Control"
+msgstr "Contrôle sans titre"
+
+#: cherry-framework/modules/cherry-customizer/cherry-customizer.php:300
+msgid "Untitled Section"
+msgstr "Section sans titre"
+
+#: cherry-framework/modules/cherry-customizer/cherry-customizer.php:264
+msgid "Untitled Panel"
+msgstr "Panneau sans titre"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:345
+msgid "Week %s"
+msgstr "Semaine %s"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:344
+msgid "Minute %s"
+msgstr "Minute %s"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:343
+msgid "Page %s"
+msgstr "Page %s"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:342
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Résultats de recherche pour &#8220;%s&#8221;"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:341
+msgid "Archives"
+msgstr "Archives"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:340
+msgid "404 Not Found"
+msgstr "404 Non trouvé"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:338
+msgid "Browse:"
+msgstr "Parcourir :"
+
+#: cherry-framework/modules/cherry-breadcrumbs/cherry-breadcrumbs.php:365
+msgid "Home"
+msgstr "Accueil"
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:366
+msgid "Data Update"
+msgstr "Mise à jour des données"
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:329
+msgid "Start Update"
+msgstr "Démarrer la mise à jour"
+
+#: cherry-framework/modules/cherry-db-updater/cherry-db-updater.php:103
+msgid "Module DB Updater init error in %s - version and slug is required arguments"
+msgstr "Erreur d’init de module de mise à jour DB dans %s. - la version et l’identifiant sont des arguments nécessaires"
+
+#. Description of the plugin/theme
+msgid "A plugin for WordPress."
+msgstr "Une extension pour WordPress."
+
+#: includes/public/class-cherry-search-macros-callback.php:91
+msgid "Search for:"
+msgstr "Rechercher :"
+
+#: includes/admin/class-cherry-search-settings.php:452
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/admin/class-cherry-search-settings.php:444
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: includes/admin/class-cherry-search-settings.php:435
+msgid "Sorry, but we cannot handle your search query now. Please, try again later!"
+msgstr "Désolé, mais nous ne pouvons pas gérer votre recherche maintenant. Veuillez réessayer plus tard !"
+
+#: includes/admin/class-cherry-search-settings.php:434
+msgid "Technical error."
+msgstr "Erreur technique."
+
+#: includes/admin/class-cherry-search-settings.php:428
+msgid "Sorry, but nothing matched your search terms."
+msgstr "Désolé, mais rien ne correspond à vos termes de recherche."
+
+#: includes/admin/class-cherry-search-settings.php:427
+msgid "Negative search results."
+msgstr "Résultats de recherche négative."
+
+#: includes/admin/class-cherry-search-settings.php:420
+msgid "View more."
+msgstr "Voir plus"
+
+#: includes/admin/class-cherry-search-settings.php:419
+msgid "\"View more\" button text."
+msgstr "Texte du bouton \"Voir plus\"."
+
+#: includes/admin/class-cherry-search-settings.php:409
+msgid "Dropdown list height."
+msgstr "Hauteur de liste déroulante."
+
+#: includes/admin/class-cherry-search-settings.php:398
+msgid "Enable scrolling for dropdown lists."
+msgstr "Activer le défilement de liste déroulante."
+
+#: includes/admin/class-cherry-search-settings.php:388
+msgid "Show post thumbnails."
+msgstr "Afficher les miniatures."
+
+#: includes/admin/class-cherry-search-settings.php:382
+msgid "Posted by:"
+msgstr "Publié par :"
+
+#: includes/admin/class-cherry-search-settings.php:381
+msgid "Prefix before author`s name."
+msgstr "Préfixe avant le nom de l’auteur."
+
+#: includes/admin/class-cherry-search-settings.php:361
+msgid "Post word count."
+msgstr "Nombre de mots."
+
+#: includes/admin/class-cherry-search-settings.php:370
+msgid "Show post authors."
+msgstr "Afficher les auteurs."
+
+#: includes/admin/class-cherry-search-settings.php:351
+msgid "Show post titles."
+msgstr "Afficher les titres."
+
+#: includes/admin/class-cherry-search-settings.php:342
+msgid "Desc"
+msgstr "Desc"
+
+#: includes/admin/class-cherry-search-settings.php:339
+msgid "Asc"
+msgstr "Asc"
+
+#: includes/admin/class-cherry-search-settings.php:335
+msgid "Filter results by: "
+msgstr "Filtrer les résultats par :"
+
+#: includes/admin/class-cherry-search-settings.php:328
+msgid "Number of Comments (descending)"
+msgstr "Nombre de commentaires (descendant)"
+
+#: includes/admin/class-cherry-search-settings.php:325
+msgid "Last modified"
+msgstr "Dernière modification"
+
+#: includes/admin/class-cherry-search-settings.php:322
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/admin/class-cherry-search-settings.php:319
+msgid "Title"
+msgstr "Titre"
+
+#: includes/admin/class-cherry-search-settings.php:316
+msgid "Date"
+msgstr "Date"
+
+#: includes/admin/class-cherry-search-settings.php:312
+msgid "Sort search results by:"
+msgstr "Trier les résultats de recherche par:"
+
+#: includes/admin/class-cherry-search-settings.php:303
+msgid "This option will allow you to limit the number of displayed search results. If the overall number of results will exceeed the previously set limit, the \"load more\" button will come up.."
+msgstr "Cette option vous permet de limiter le nombre de résultats de recherche affichés. Si le nombre des résultats dépasse cette limite, le bouton \"Voir plus\" sera affiché."
+
+#: includes/admin/class-cherry-search-settings.php:302
+msgid "Number of results displayed in one search query."
+msgstr "Nombre de résultats affichés dans une recherche."
+
+#: includes/admin/class-cherry-search-settings.php:297
+msgid "Not selected post formats."
+msgstr "Formats d’articles non sélectionnés."
+
+#: includes/admin/class-cherry-search-settings.php:292
+msgid "This option allows to post types in which search will not be made."
+msgstr "Cette option vous permet de choisir les formats d’articles qui seront exclus de la recherche."
+
+#: includes/admin/class-cherry-search-settings.php:291
+msgid "Exclude post types from search results."
+msgstr "Exclure les types d’articles de la recherche."
+
+#: includes/admin/class-cherry-search-settings.php:286
+msgid "Not selected tags."
+msgstr "Étiquettes non sélectionnées."
+
+#: includes/admin/class-cherry-search-settings.php:281
+msgid "This option allows to set tags in which search will not be made."
+msgstr "Cette option vous permet de définir les étiquettes qui ne seront pas dans la recherche."
+
+#: includes/admin/class-cherry-search-settings.php:280
+msgid "Exclude tags from search results."
+msgstr "Exclure des étiquettes des résultats de recherche."
+
+#: includes/admin/class-cherry-search-settings.php:275
+msgid "Not selected categories."
+msgstr "Catégories non sélectionnées."
+
+#: includes/admin/class-cherry-search-settings.php:270
+msgid "This option allows to set categories in which search will not be made."
+msgstr "Cette option vous permet de définir les catégories qui ne seront pas dans la recherche. "
+
+#: includes/admin/class-cherry-search-settings.php:269
+msgid "Exclude categories from search results."
+msgstr "Exclure des catégories des résultats de recherche. "
+
+#: includes/admin/class-cherry-search-settings.php:264
+msgid "Selected search source."
+msgstr "Source de recherche sélectionnée."
+
+#: includes/admin/class-cherry-search-settings.php:259
+msgid "You can select particular search areas. If nothing is selected in the option, search will be made over the entire site."
+msgstr "Vous pouvez sélectionner des zones particulières de recherche. Si rien n’est sélectionné la recherche sera faite sur le site entier."
+
+#: includes/admin/class-cherry-search-settings.php:258
+msgid "Search in."
+msgstr "Rechercher dans :"
+
+#: includes/admin/class-cherry-search-settings.php:251
+msgid "Search"
+msgstr "Rechercher"
+
+#: includes/admin/class-cherry-search-settings.php:250
+msgid "This option sets placeholder text in input field."
+msgstr "Cette option définit le texte dans le champ de recherche."
+
+#: includes/admin/class-cherry-search-settings.php:249
+msgid "Caption / Placeholder text."
+msgstr "Légende/Texte indicatif"
+
+#: includes/admin/class-cherry-search-settings.php:242
+msgid "Search Button Text."
+msgstr "Texte du bouton de recherche."
+
+#: includes/admin/class-cherry-search-settings.php:234
+#: includes/admin/class-cherry-search-settings.php:243
+msgid "This option sets search button text."
+msgstr "Cette option définit le texte du bouton de recherche."
+
+#: includes/admin/class-cherry-search-settings.php:233
+msgid "Search Button Icon."
+msgstr "Icône du bouton de recherche."
+
+#: includes/admin/class-cherry-search-settings.php:227
+#: includes/admin/class-cherry-search-settings.php:355
+#: includes/admin/class-cherry-search-settings.php:374
+#: includes/admin/class-cherry-search-settings.php:392
+#: includes/admin/class-cherry-search-settings.php:402
+msgid "No"
+msgstr "Non"
+
+#: includes/admin/class-cherry-search-settings.php:226
+#: includes/admin/class-cherry-search-settings.php:354
+#: includes/admin/class-cherry-search-settings.php:373
+#: includes/admin/class-cherry-search-settings.php:391
+#: includes/admin/class-cherry-search-settings.php:401
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/class-cherry-search-settings.php:223
+msgid "This option allows to replace all the standard search forms on your website."
+msgstr "Cette option vous permet de remplacer tous les formulaires standards de recherche sur votre site."
+
+#: includes/admin/class-cherry-search-settings.php:222
+msgid "Replace the standard search form."
+msgstr "Remplacer le formulaire standard de recherche."
+
+#: includes/admin/class-cherry-search-settings.php:211
+msgid "Add PHP code to the necessaryfiles of your theme:"
+msgstr "Ajout de code PHP pour les fichiers de votre thème :"
+
+#: includes/admin/class-cherry-search-settings.php:210
+msgid "Add Cherry Search using this shortcode"
+msgstr "Ajout de Cherry Search en utilisant ce code court."
+
+#: includes/admin/class-cherry-search-settings.php:209
+msgid "Enable a \"Replace the standard search\" option"
+msgstr "Activer une option pour \"Remplacer la recherche standard\"."
+
+#: includes/admin/class-cherry-search-settings.php:208
+msgid "In case you need to add Cherry Search on your website, you can do it in several ways:"
+msgstr "Si vous avez besoin d’ajouter Cherry Search sur votre site, vous pouvez le faire de plusieurs façons :"
+
+#: includes/admin/class-cherry-search-settings.php:193
+msgid "Notifications"
+msgstr "Notifications"
+
+#: includes/admin/class-cherry-search-settings.php:187
+msgid "Visual settings"
+msgstr "Réglages visuels"
+
+#: includes/admin/class-cherry-search-settings.php:181
+msgid "Search results settings"
+msgstr "Réglages des résultats de recherche"
+
+#: includes/admin/class-cherry-search-settings.php:175
+msgid "Main settings"
+msgstr "Réglages principaux"
+
+#: includes/admin/class-cherry-search-settings.php:159
+msgid "Cherry Search Settings"
+msgstr "Réglages de Cherry Search"
+
+#: includes/admin/class-cherry-search-ajax-handlers.php:76
+msgid "Options reset successfully"
+msgstr "Les options ont bien été réinitialisées"
+
+#: includes/admin/class-cherry-search-ajax-handlers.php:60
+msgid "Options save successfully."
+msgstr "Les options ont bien été enregistrées."
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:78
+#: includes/admin/class-cherry-search-ajax-handlers.php:59
+#: includes/admin/class-cherry-search-ajax-handlers.php:75
+msgid "Stop CHEATING!!!"
+msgstr "Stop la triche !!!"
+
+#: cherry-framework/modules/cherry-handler/cherry-handler.php:77
+#: includes/admin/class-cherry-search-ajax-handlers.php:58
+#: includes/admin/class-cherry-search-ajax-handlers.php:74
+msgid "No right for this action"
+msgstr "Aucun droit pour cette action"
+
+#: includes/admin/class-cherry-search-ajax-handlers.php:57
+#: includes/admin/class-cherry-search-ajax-handlers.php:73
+msgid "Unable to process the request without nonche or server error"
+msgstr "Traitement impossible de la demande sans nonce ou erreur serveur"
+
+#: includes/admin/class-cherry-search-admin.php:98
+#: includes/admin/class-cherry-search-admin.php:99
+msgid "Settings"
+msgstr "Réglages"
+
+#. #-#-#-#-#  cherry-search-code.pot (Cherry Search 1.1.4.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/admin/class-cherry-search-admin.php:87
+#: includes/admin/class-cherry-search-admin.php:88
+#: includes/admin/class-cherry-search-register-shortcodes.php:68
+msgid "Cherry Search"
+msgstr "Cherry Search"

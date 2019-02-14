@@ -1,0 +1,58 @@
+.cherry-popup {
+	.cherry-popup-container__inner {
+		.cherry-popup-title {
+			padding-top: 0;
+			margin-top: 0;
+			h4 {
+				font-size: 20px;
+			}
+		}
+	}
+	.wp-social-login-widget {
+		.wp-social-login-provider-list {
+			flex-direction: column;
+			a {
+				width: 100%;
+				margin-bottom: 5px;
+				border-radius: 0;
+				text-align: center;
+			}
+		}
+	}
+	.cherry-popup-register__input-group {
+		.cherry-popup-signup__login-user {
+			flex-direction: column;
+			text-align: center;
+		}
+		.cherry-popup-signup__login-user {
+			flex-flow: row wrap;
+			text-align: center;
+			margin: 0;
+		}
+	}
+	.cherry-popup-login__signup-message {
+		flex-direction: column;
+		flex-flow: row wrap;
+		text-align: center;
+	}
+	.cherry-popup-login__use-mail {
+		margin: 0;
+	}
+	.cherry-popup-login__wrap {
+		.cherry-popup-login__login-in {
+			border-radius: 0;
+		}
+	}
+	.cherry-popup-register__sign-up {
+		border-radius: 0;
+	}
+	.cherry-popup-login__message,
+	.cherry-popup-register__message {
+		padding: 0;
+		margin: 0;
+		padding-top: 5px;
+		span {
+			font-size: 12px;
+		}
+	}
+}

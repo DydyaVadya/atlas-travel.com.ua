@@ -1,0 +1,36 @@
+/*rtl:begin:ignore*/
+.alignleft {
+	@include media-breakpoint-up(sm) {
+		float: left;
+		margin-right: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	@include media-breakpoint-up(md) {
+		margin-right: 50px;
+	}
+}
+
+.alignright {
+	@include media-breakpoint-up(sm) {
+		float: right;
+		margin-left: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	@include media-breakpoint-up(md) {
+		margin-left: 50px;
+	}
+}
+/*rtl:end:ignore*/
+.aligncenter {
+	clear: both;
+	@include center-block;
+}
+
+.alignnone {
+	@include media-breakpoint-up(md) {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}

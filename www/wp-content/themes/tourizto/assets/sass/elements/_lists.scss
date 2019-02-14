@@ -1,0 +1,90 @@
+ul, ol, dl {
+	margin: 0 0 25px 0;
+	padding-left: 0;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+	p + & {
+		margin-top: 25px;
+	}
+}
+
+ul:not([class]),
+ol {
+	.hentry &,
+	.comment-content &,
+	.wc-tab & {
+		list-style: none;
+		li {
+			& + li,
+			> ul li,
+			> ol li {
+				margin-top: 5px;
+			}
+		}
+
+		> li {
+			&:before {
+				margin-right: 10px;
+			}
+		}
+	}
+}
+
+ul:not([class]) {
+	.hentry &,
+	.comment-content &,
+	.wc-tab & {
+		> li {
+			&:before {
+				content: '\ea21';
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+ol {
+	.hentry &,
+	.comment-content & {
+		counter-reset: li;
+		> li {
+			&:before {
+				content: counter(li, decimal-leading-zero) '.';
+				counter-increment: li;
+			}
+		}
+	}
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+
+dt {
+	float: left;
+	clear: left;
+	margin-right: 4px;
+}
+
+dd {
+	font-weight: 900;
+	margin-left: 0;
+}
+
+dt, dd {
+	&:not(:first-of-type) {
+		margin-top: 11px;
+	}
+}
+
+/* Inline list */
+.inline-list {
+	@include reset-list;
+	li {
+		display: inline-block;
+	}
+}

@@ -1,0 +1,293 @@
+.widget {
+	ul {
+		margin-bottom: 0;
+		padding: 0;
+		margin-left: 0;
+		list-style: none;
+
+		li {
+			& + li,
+			> ul li,
+			> ol li {
+				margin-top: 5px;
+			}
+			> ul {
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Calendar
+--------------------------------------------------------------*/
+.widget_calendar {
+	table {
+		margin-bottom: 0;
+		table-layout: fixed;
+		width: 100%;
+		position: relative;
+	}
+
+	thead {
+		text-align: center;
+		border-top: none;
+	}
+	caption {
+		text-align: center;
+		padding: 9px 0;
+		border-radius: $border__radius;
+		margin-bottom: 5px;
+	}
+	th {
+		padding: 12px 0;
+		font-weight: inherit;
+		position: relative;
+
+		&:after {
+			content: '';
+			width: 38px;
+			height: 38px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			display: block;
+			border-radius: 50%;
+			border: 1px solid $color__background-hr;
+			z-index: -1;
+		}
+	}
+	tbody td {
+		position: relative;
+		text-align: center;
+		line-height: 44px;
+		height: 44px;
+
+		&:not(.pad):after {
+			content: '';
+			width: 38px;
+			height: 38px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			display: block;
+			border-radius: 50%;
+			border: 1px solid $color__background-hr;
+		}
+		a {
+			display: inline-block;
+			width: 38px;
+			max-width: 100%;
+			height: 38px;
+			line-height: 38px;
+			position: relative;
+			z-index: 10;
+			border-radius: 50%;
+		}
+	}
+	tfoot td {
+		position: absolute;
+		top: 7px;
+
+		a {
+			font-size: 0;
+
+			&:before {
+				@include nucleo-mini-icon;
+
+				content: '\e903';
+				font-size: 12px;
+				transition: .3s;
+			}
+		}
+		&#prev {
+			left: 20px;
+
+			a:before {
+				content: '\e903';
+			}
+		}
+		&#next {
+			right: 20px;
+
+			a:before {
+				content: '\e904';
+			}
+		}
+
+	}
+	td#today {}
+	#next {
+		text-align: right;
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Tag Cloud
+--------------------------------------------------------------*/
+.tagcloud {
+	margin: 0 -5px -10px;
+	font-size: 0;
+
+	a {
+		display: inline-block;
+		margin: 0 5px 10px;
+		padding: 10px 20px;
+		border-radius: $border__radius;
+		vertical-align: top;
+		text-decoration: none;
+		border: 1px solid;
+
+		&:hover {}
+		&:focus {}
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Recent Posts
+--------------------------------------------------------------*/
+.widget_recent_entries {
+	ul li {
+		display: flex;
+		flex-direction: column-reverse;
+
+
+		a {}
+		.post-date {
+			display: block;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Nav Menu
+--------------------------------------------------------------*/
+.widget_nav_menu {
+	ul li {
+		a {
+			&:before {
+				content: '\ea21';
+				font-size: 12px;
+				margin-right: 10px;
+				transition: .3s all;
+			}
+		}
+	}
+}
+
+
+/*--------------------------------------------------------------
+## Widget Recent Comments
+--------------------------------------------------------------*/
+.widget_recent_comments {
+	ul li {
+		@extend .clear;
+		& + li {
+			margin-top: 14px;
+		}
+		.comment-author-link {
+			margin-right: 1px;
+
+			& ~ a {
+				font-style: normal;
+
+				&:before {
+					content: '';
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget RSS
+--------------------------------------------------------------*/
+.rss-widget-icon {
+	vertical-align: middle;
+}
+
+.widget_rss {
+	ul {
+		li {
+			& + li {
+				margin-top: 20px;
+			}
+
+			display: flex;
+			flex-direction: column;
+		}
+		a.rsswidget {
+			font-weight: 900;
+		}
+
+		.rss-date {
+			order: -1;
+		}
+	}
+	.rssSummary {
+		margin-top: 5px;
+	}
+}
+
+/*--------------------------------------------------------------
+## Widget Archives - Categories
+--------------------------------------------------------------*/
+.widget_archive,
+.widget_categories {
+	position: relative;
+
+	select {
+		width: 100%;
+		appearance: none;
+		position: relative;
+		height: 45px;
+
+		&:hover {
+			cursor: pointer;
+		}
+		select::-ms-expand {
+			opacity: 0;
+		}
+	}
+	label {
+		position: relative;
+		width: 100%;
+		height: 45px;
+
+		&:before {
+			@include nucleo-mini-icon;
+
+			content: '\e93b';
+			position: absolute;
+			right: 18px;
+			top: 50%;
+			transform: translateY(-50%);
+			display: inline-block;
+			z-index: 1;
+			pointer-events: none;
+		}
+	}
+	.screen-reader-text {
+		clip: auto;
+	}
+	ul li {
+		display: block;
+	}
+	a{
+		transition: .2s;
+	}
+}
+
+/*--------------------------------------------------------------
+## Textwidget
+--------------------------------------------------------------*/
+.textwidget {
+	p {
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+}

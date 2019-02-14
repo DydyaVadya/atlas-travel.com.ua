@@ -1,0 +1,25 @@
+.tm-testi-slider {
+	padding-bottom: 35px;
+}
+
+.tm-testi-slider__item {
+	margin-top: 0;
+}
+
+.tm-testi-slider__item blockquote {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+.swiper-pagination.img-pagination {
+	position: static;
+	padding-top: 30px;
+	.img-pagination-item {
+		background-color: none;
+		background-size: cover;
+		cursor: pointer;
+		&.swiper-pagination-bullet-active {
+			background-color: none;
+		}
+	}
+}

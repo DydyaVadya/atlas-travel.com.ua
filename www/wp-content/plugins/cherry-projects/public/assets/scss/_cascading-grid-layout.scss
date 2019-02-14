@@ -1,0 +1,14 @@
+.projects-container{
+	&.cascading-grid-layout{
+		.projects-list{
+			display: flex;
+			flex-flow: row wrap;
+			align-items: stretch;
+			align-content: stretch;
+		}
+		.projects-item{
+			flex: 0 1 auto;
+			height: auto;
+		}
+	}
+}

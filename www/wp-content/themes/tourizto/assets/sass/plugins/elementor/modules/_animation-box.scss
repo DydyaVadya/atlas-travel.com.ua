@@ -1,0 +1,19 @@
+.jet-animated-box {
+	height: 270px;
+	.jet-animated-box-icon-inner {
+		margin: 52px 0px 9px 0px;
+	}
+	.jet-animated-box__icon i {
+		font-size: 34px;
+	}
+	.jet-animated-box__title {
+		line-height: 1.6em;
+		&--back {
+			margin-top: 20px;
+		}
+	}
+	.jet-animated-box__description--back {
+		text-align: center;
+		padding: 0 26px;
+	}
+}

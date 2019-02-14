@@ -1,0 +1,241 @@
+.site-header.style-5 {
+	.row {
+		align-items: center;
+		.contact-block {
+			display: flex;
+			justify-content: flex-end;
+			.contact-block__inner {
+				.contact-block__item {
+					@include media-breakpoint-up(md) {
+						&:not(:first-child){
+							border-left-width: 1px;
+							border-left-style: solid;
+							padding-left: 35px;
+							height: 37px;
+							display: flex;
+							align-items: center;
+							margin-top: 6px;
+						}
+						&:not(:last-child){
+							.contact-block__value-wrap {
+								padding-right: 18px;
+								padding-left: 4px;
+							}
+						}
+					}
+					@include media-breakpoint-down(md) {
+						padding-right: 23px;
+					}
+				}
+			}
+			@media (max-width: 1200px) {
+				justify-content: flex-start;
+			}
+		}
+	}
+
+	.header-container {
+		padding-top: 13px;
+		padding-bottom: 18px;
+	}
+
+	.header-nav-wrapper {
+		@include media-breakpoint-up(sm) {
+			padding: 20px;
+			align-items: center;
+		}
+		@include media-breakpoint-up(lg) {
+			padding-right: 20px;
+
+			.main-menu-style-1 {
+				//display: flex;
+				//justify-content: center;
+				padding-left: 10px;
+				padding-top: 4px;
+			}
+		}
+	}
+
+	.header-nav-wrapper {
+		position: relative;
+		top: 48px;
+		margin-top: -37px;
+		padding-top: 14px;
+		padding-bottom: 15px;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			@include border-top-radius();
+			@media (max-width: 599px) {
+				content: none;
+			}
+		}
+		.mega-menu-direction-horizontal {
+			align-items: baseline;
+		}
+	}
+
+	.header-layout-fullwidth & {
+		.header-nav-panel--fullwidth .header-nav-wrapper {
+			padding-left: 0;
+			padding-right: 0;
+
+			.main-menu-style-1 {
+				padding-left: 0;
+			}
+
+			&:before {
+				width: 100vw;
+				left: 50%;
+				transform: translateX(-50%);
+				border-radius: 0;
+			}
+		}
+	}
+
+	.header-layout-boxed & {
+		.header-nav-panel-fullwidth .header-nav-wrapper {
+			padding-left: 0;
+			padding-right: 0;
+
+			.main-menu-style-1 {
+				padding-left: 0;
+			}
+
+			&:before {
+				width: calc(100% + #{$grid-gutter-width});
+				left: $grid-gutter-width/-2;
+				right: $grid-gutter-width/-2;
+				border-radius: 0;
+			}
+		}
+	}
+
+	.header-nav-panel--over {
+		.header-nav-wrapper {
+			@include media-breakpoint-up(sm) {
+				position: relative;
+
+				&:before {
+					@include border-bottom-radius();
+				}
+			}
+		}
+
+		&.header-menu--style-1 {
+			.header-nav-wrapper {
+				@include media-breakpoint-up(sm) {
+					margin-top: -25.5px;
+					top: 25.5px;
+				}
+			}
+		}
+
+		&.header-menu--style-2 {
+			.header-nav-wrapper {
+				@include media-breakpoint-up(sm) {
+					margin-top: -30px;
+					top: 30px;
+				}
+			}
+		}
+	}
+
+	.site-branding {
+		@include media-breakpoint-up(sm) {
+			margin-top: 17px;
+			margin-bottom: 19px;
+		}
+	}
+
+	.main-navigation {
+		&:only-child {
+			@include media-breakpoint-up(md) {
+				.menu {
+					justify-content: center;
+				}
+			}
+		}
+		.menu {
+			@include media-breakpoint-up(sm) {
+				margin-top: 0;
+			}
+		}
+
+		&:not(.vertical-menu) .menu .sub-menu {
+			margin-top: 10px;
+
+			.sub-menu {
+				margin-top: 0;
+			}
+		}
+
+		.menu > li > .sub-menu::before {
+			height: 10px;
+			top: -10px;
+		}
+		@include media-breakpoint-up(md) {
+			&:not(.vertical-menu) .menu > li:not(:first-child){
+				display: flex;
+				align-items: center;
+				border-left-width: 1px;
+				border-left-style: solid;
+				height: 16px;
+				padding-left: 24px;
+				margin-top: 8px;
+			}
+			&:not(.vertical-menu) .menu > li[hidden] {
+				display: none;
+			}
+		}
+		//@include media-breakpoint-up(md) {
+		//	&:not(.vertical-menu) .menu > li[hidden] {
+		//		display: none;
+		//	}
+		//}
+	}
+
+	.header-components__contact-button {
+		> * {
+			@include media-breakpoint-up(md) {
+				padding-top: 13px;
+				padding-bottom: 14px;
+			}
+		}
+	}
+
+	.header-search {
+		@include media-breakpoint-up(sm) {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.header-components {
+		position: relative;
+		z-index: 10;
+	}
+
+	&.search-active {
+		.header-search {
+			@include media-breakpoint-up(sm) {
+				z-index: 100;
+			}
+		}
+		.site-branding {
+			@include media-breakpoint-up(sm) {
+				opacity: 1;
+				visibility: visible;
+				transform: none;
+			}
+		}
+	}
+}

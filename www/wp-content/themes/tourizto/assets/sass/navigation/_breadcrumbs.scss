@@ -1,0 +1,51 @@
+.breadcrumbs {
+	position: relative;
+	padding: 20px 0;
+
+	&:before {
+		@include texture-pseudo;
+		z-index: 1;
+	}
+	.row {
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+		z-index: 10;
+	}
+	&__title,
+	&__items {
+		padding-left: $grid-gutter-width/2;
+		padding-right: $grid-gutter-width/2;
+	}
+
+	&__title {
+		text-transform: uppercase;
+	}
+
+	&__browse {
+		display: inline-block;
+		margin-right: .5em;
+	}
+	&__wrap {
+		margin: 5px 0;
+		display: inline-block;
+	}
+	&__item {
+		display: inline-block;
+		text-transform: uppercase;
+
+		&-sep {
+			margin: 0 1.5px;
+		}
+		&-link {
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		&-target {
+			text-decoration: underline;
+		}
+	}
+}

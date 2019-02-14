@@ -1,0 +1,51 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">tourizto_sidebar_position</custom-field>
+		<custom-field action="copy">tourizto_header_container_type</custom-field>
+		<custom-field action="copy">tourizto_content_container_type</custom-field>
+		<custom-field action="copy">tourizto_footer_container_type</custom-field>
+		<custom-field action="copy">tourizto_header_layout_type</custom-field>
+		<custom-field action="copy">tourizto_header_nav_panel_position</custom-field>
+		<custom-field action="copy">tourizto_header_transparent_layout</custom-field>
+		<custom-field action="copy">tourizto_header_invert_color_scheme</custom-field>
+		<custom-field action="copy">tourizto_top_panel_visibility</custom-field>
+		<custom-field action="copy">tourizto_header_top_panel_contact_block_visibility</custom-field>
+		<custom-field action="copy">tourizto_header_contact_block_visibility</custom-field>
+		<custom-field action="copy">tourizto_header_btn_visibility</custom-field>
+		<custom-field action="copy">tourizto_header_search</custom-field>
+		<custom-field action="copy">tourizto_header_menu_style</custom-field>
+		<custom-field action="copy">tourizto_breadcrumbs_visibillity</custom-field>
+		<custom-field action="copy">tourizto_footer_layout_type</custom-field>
+		<custom-field action="copy">tourizto_footer_widget_area_visibility</custom-field>
+		<custom-field action="copy">tourizto_footer_contact_block_visibility</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="theme_mods_tourizto">
+			<key name="header_btn_text"/>
+			<key name="top_panel_text"/>
+			<key name="header_top_panel_contact_label_1"/>
+			<key name="header_top_panel_contact_text_1"/>
+			<key name="header_top_panel_contact_label_2"/>
+			<key name="header_top_panel_contact_text_2"/>
+			<key name="header_top_panel_contact_label_3"/>
+			<key name="header_top_panel_contact_text_3"/>
+			<key name="header_contact_label_1"/>
+			<key name="header_contact_text_1"/>
+			<key name="header_contact_label_2"/>
+			<key name="header_contact_text_2"/>
+			<key name="header_contact_label_3"/>
+			<key name="header_contact_text_3"/>
+			<key name="more_button_text"/>
+			<key name="footer_copyright"/>
+			<key name="footer_contact_label_1"/>
+			<key name="footer_contact_text_1"/>
+			<key name="footer_contact_label_2"/>
+			<key name="footer_contact_text_2"/>
+			<key name="footer_contact_label_3"/>
+			<key name="footer_contact_text_3"/>
+			<key name="blog_sticky_label"/>
+			<key name="blog_read_more_text"/>
+			<key name="related_posts_block_title"/>
+		</key>
+	</admin-texts>
+</wpml-config>

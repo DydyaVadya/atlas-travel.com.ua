@@ -1,0 +1,66 @@
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	border: none;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+iframe {
+	display: block;
+	width: 100%;
+}
+
+/*rtl:begin:ignore*/
+.img-pull-left {
+	float: left;
+	width: 50%;
+	margin: 0 4% 1% 0;
+}
+
+.img-pull-right {
+	float: right;
+	width: 50%;
+	margin: 0 0 1% 4%;
+}
+
+/*rtl:end:ignore*/
+
+/* Fullscreen image */
+img.alignnone.size-full.size-big {
+	.position-fullwidth & {
+		position: relative;
+		width: 100vw;
+		max-width: 100vw;
+		left: 50%;
+		transform: translateX(-50%);
+		object-fit: cover;
+		max-height: 75vh;
+	}
+	.position-fullwidth.ie & {
+		font-family: 'object-fit: cover';
+	}
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+@import 'captions';
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+@import 'galleries';
+
+/*--------------------------------------------------------------
+## Embeds
+--------------------------------------------------------------*/
+@import 'embeds';

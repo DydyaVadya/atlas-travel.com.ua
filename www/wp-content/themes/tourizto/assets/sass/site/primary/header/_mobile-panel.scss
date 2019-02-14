@@ -1,0 +1,29 @@
+.mobile-panel {
+	visibility: visible;
+	position: fixed;
+	z-index: 998;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px 20px;
+	height: 60px;
+	background-color: $color__dark;
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.admin-bar & {
+		top: 46px;
+		@media (max-width: 600px) {
+			position: absolute;
+		}
+	}
+	@include media-breakpoint-up(sm) {
+		display: none;
+		visibility: hidden;
+		left: -999em;
+		height: 0;
+	}
+}

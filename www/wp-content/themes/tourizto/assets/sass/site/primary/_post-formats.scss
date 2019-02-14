@@ -1,0 +1,176 @@
+.post {
+	// Gallery
+	&-gallery {
+
+		&:not(:first-child) {
+			margin-top: 33px;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 32px;
+		}
+
+		.posts-list & {
+			margin: 0;
+		}
+
+		&__image {
+			display: block;
+			margin: auto;
+			width: 100%;
+		}
+		&__slide {
+			&.swiper-slide:hover {
+				background-color: transparent;
+			}
+		}
+		&__caption {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			padding: 20px 115px 20px 15px;
+			color: $color__white;
+			background: rgba(0,0,0,.5);
+
+			.posts-list--default-modern & {
+				bottom: auto;
+				top: 0;
+				padding: 20px 15px 20px 100px;
+			}
+		}
+		&__link {
+			display: block;
+		}
+	}
+	// Link
+	&-format-link {
+		position: relative;
+		display: block;
+		padding-left: 25px;
+		text-align: left;
+		text-decoration: underline;
+
+		&:before {
+			content: '\ea92';
+			position: absolute;
+			left: 0;
+			top: 5px;
+			font-size: 14px;
+			line-height: 1;
+		}
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	// Quote
+	&-format-quote {
+		margin: 0;
+		display: block;
+
+		&:before {
+			color: inherit;
+		}
+	}
+
+	// Wrapper for non-image featured content
+	&-featured-content {
+		position: relative;
+
+		&:empty {
+			display: none;
+		}
+
+		.entry-header:not(:empty) + & {
+			margin-top: 33px;
+		}
+
+		& + .entry-content {
+			margin-top: 12px;
+		}
+
+		.single-post & {
+			margin-bottom: 31px;
+		}
+
+		.format-video & {
+			iframe {
+				display: block;
+			}
+		}
+
+		.format-audio &,
+		.format-quote &,
+		.format-link & {
+			padding: 30px;
+			border-radius: $border__radius;
+		}
+
+		.format-audio & {}
+
+		.format-link & {
+			@include media-breakpoint-up(md) {
+				padding: 24px 30px 28px;
+			}
+		}
+
+		.format-quote & {
+			padding: 0;
+		}
+	}
+}
+
+/* Aside */
+.format {
+	&-aside {
+		.entry-title {
+			display: none;
+		}
+	}
+}
+
+/* Image pop-up */
+a[data-popup="magnificPopup"] {
+	display: block;
+	position: relative;
+	cursor: zoom-in;
+	&:before {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		opacity: 0;
+		transition: all 0.4s ease-out;
+		content: '';
+		background-color: rgba(0,0,0, 0.5);
+	}
+	&:after {
+		color: $color__white;
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		content: '\ed31';
+		@include font-size(2);
+		width: 2rem;
+		height: 2rem;
+		line-height: 1;
+		text-align: center;
+		margin: -1.25rem 0 0 -1.25rem;
+		transform: scale(0) translate3d(0,0,0);
+		transition: all 0.4s ease-out;
+	}
+	&:hover {
+		&:before {
+			opacity: 1;
+		}
+		&:after {
+			transform: scale(1) translate3d(0,0,0);
+		}
+	}
+	&:focus {
+		outline: 0;
+	}
+}

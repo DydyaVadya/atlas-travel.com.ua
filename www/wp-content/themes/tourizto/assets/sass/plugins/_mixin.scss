@@ -1,0 +1,26 @@
+@mixin text_input {
+	padding: $input__indents_y1 $input__indents_x $input__indents_y2;
+	border: 1px solid;
+	border-radius: $border__radius;
+	line-height: 1.5;
+	font-size: 1rem;
+
+	&:focus {
+		outline: 0;
+		border-color: $color__background-hr;
+		background-color: transparent;
+	}
+}
+
+@mixin btn_submit {
+	display: inline-block;
+	max-width: 100%;
+	padding: 19px 20px;
+	border: none;
+	@include transition(.3s ease all);
+	text-transform: uppercase;
+	border-radius: $border__radius;
+	line-height: 1;
+	font-style: normal;
+	width: auto;
+}

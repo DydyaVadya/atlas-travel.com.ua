@@ -1,0 +1,238 @@
+/* #Menus */
+.footer-menu {
+	font-family: @font_family( $h1_font_family );
+}
+@media (min-width: 600px) {
+	.main-navigation .menu > li > a {
+		font-style: $main_menu_font_style;
+		font-weight: $main_menu_font_weight;
+		font-size: $main_menu_font_size{px};
+		line-height: $main_menu_line_height;
+		font-family: @font_family( $main_menu_font_family );
+		letter-spacing: $main_menu_letter_spacing{em};
+	}
+}
+
+/* #Main Menu */
+.main-navigation .menu > li > a {
+	color: $regular_link_color;
+}
+.main-navigation .menu > li > a:hover,
+.main-navigation .menu > li.menu-hover > a,
+.main-navigation .menu > li.tm-mega-menu-hover > a,
+.main-navigation .menu > li.current_page_item > a,
+.main-navigation .menu > li.current_page_ancestor > a,
+.main-navigation .menu > li.current-menu-item > a,
+.main-navigation .menu > li.current-menu-ancestor > a {
+	color: $regular_link_hover_color;
+}
+.main-navigation .menu .menu-item-has-children > a:after {
+	color: $regular_text_color;
+}
+
+.invert .main-navigation .menu > li > a,
+.invert .main-navigation .menu > .menu-item-has-children > a:after {
+	color: $invert_text_color;
+}
+@media (min-width: 600px) {
+	.invert .main-navigation .menu > li > a:hover,
+	.invert .main-navigation .menu > li.menu-hover > a,
+	.invert .main-navigation .menu > li.tm-mega-menu-hover > a,
+	.invert .main-navigation .menu > li.current_page_item > a,
+	.invert .main-navigation .menu > li.current_page_ancestor > a,
+	.invert .main-navigation .menu > li.current-menu-item > a,
+	.invert .main-navigation .menu > li.current-menu-ancestor > a {
+		color: $invert_text_color;
+	}
+
+	.site-header.style-5 .invert .main-navigation.main-menu-style-1 .menu > li > a:hover,
+	.site-header.style-5 .invert .main-navigation.main-menu-style-1 .menu > li.menu-hover > a,
+	.site-header.style-5 .invert .main-navigation.main-menu-style-1 .menu > li.tm-mega-menu-hover > a,
+	.site-header.style-5 .invert .main-navigation.main-menu-style-1 .menu > li.current_page_item > a,
+	.site-header.style-5 .invert .main-navigation.main-menu-style-1 .menu > li.current_page_ancestor > a,
+	.site-header.style-5 .invert .main-navigation.main-menu-style-1 .menu > li.current-menu-item > a,
+	.site-header.style-5 .invert .main-navigation.main-menu-style-1 .menu > li.current-menu-ancestor > a {
+		/*color: $regular_link_hover_color;*/
+	}
+
+	.main-navigation.main-menu-style-2 .menu > li > a:hover,
+	.main-navigation.main-menu-style-2 .menu > li.menu-hover > a,
+	.main-navigation.main-menu-style-2 .menu > li.tm-mega-menu-hover > a,
+	.main-navigation.main-menu-style-2 .menu > li.current_page_item > a,
+	.main-navigation.main-menu-style-2 .menu > li.current_page_ancestor > a,
+	.main-navigation.main-menu-style-2 .menu > li.current-menu-item > a {
+		color: $invert_link_hover_color;
+		background-color: $regular_accent_color_2;
+	}
+}
+
+
+.main-navigation .sub-menu {
+	background-color: $header_bg_color;
+}
+.main-navigation .sub-menu a {
+	color: $regular_text_color;
+}
+.main-navigation .sub-menu a:hover,
+.main-navigation .sub-menu li.menu-hover > a,
+.main-navigation .sub-menu li.tm-mega-menu-hover > a,
+.main-navigation .sub-menu li.current_page_item > a,
+.main-navigation .sub-menu li.current_page_ancestor > a,
+.main-navigation .sub-menu li.current-menu-item > a,
+.main-navigation .sub-menu li.current-menu-ancestor > a {
+	color: $regular_link_hover_color;
+}
+
+@media (min-width: 600px) {
+	.invert .main-navigation .sub-menu {
+		background-color: $grey_color_3;
+	}
+}
+
+/* #Vertical-Mobile menu */
+#site-navigation.main-navigation.vertical-menu ul.menu li a,
+#site-navigation.main-navigation.mobile-menu ul.menu li a,
+#site-navigation.main-navigation.vertical-menu .navigation-button i {
+	color: $invert_accent_color_1;
+}
+#site-navigation.main-navigation.mobile-menu ul.menu li a:hover,
+#site-navigation.main-navigation.mobile-menu ul.menu li.tm-mega-menu-hover > a,
+#site-navigation.main-navigation.mobile-menu ul.menu li.current_page_item > a,
+#site-navigation.main-navigation.mobile-menu ul.menu li.current-menu-item > a,
+
+#site-navigation.main-navigation.vertical-menu ul.menu li a:hover,
+#site-navigation.main-navigation.vertical-menu ul.menu li.tm-mega-menu-hover > a,
+#site-navigation.main-navigation.vertical-menu ul.menu li.current_page_item > a,
+#site-navigation.main-navigation.vertical-menu ul.menu li.current-menu-item > a,
+
+#site-navigation.main-navigation.vertical-menu ul.menu .menu-item-has-children a:after,
+#site-navigation.main-navigation.mobile-menu ul.menu li a .sub-menu-toggle,
+#site-navigation.main-navigation.vertical-menu .navigation-button .navigation-button__text,
+#site-navigation.main-navigation.vertical-menu .navigation-button:hover i {
+	color: $regular_text_color;
+}
+
+/* ##Menu toggle */
+.menu-toggle .menu-toggle-inner {
+	background-color: $regular_accent_color_3;
+}
+.invert .menu-toggle:not(:hover) .menu-toggle-inner {
+	background-color: $invert_accent_color_1;
+}
+.menu-toggle:hover .menu-toggle-inner {
+	background-color: $regular_accent_color_1;
+}
+
+/* ##Menu-item desc */
+.menu-item__desc {
+	color: $regular_text_color;
+}
+
+/* #Footer Menu */
+.footer-menu a {
+	color: $regular_link_hover_color;
+}
+.footer-menu a:hover,
+.footer-menu li.current-menu-item a,
+.footer-menu li.current_page_item a {
+	color: $regular_link_color;
+}
+.invert .footer-menu a {
+	color: $invert_text_color;
+}
+.invert.first-row-regular .footer-menu a {
+	color: $regular_link_hover_color;
+}
+.invert .footer-menu a:hover,
+.invert .footer-menu li.current-menu-item a,
+.invert .footer-menu li.current_page_item a {
+	color: $regular_accent_color_1;
+}
+.invert.first-row-regular .footer-menu a:hover,
+.invert.first-row-regular .footer-menu li.current-menu-item a,
+.invert.first-row-regular .footer-menu li.current_page_item a {
+	color: $regular_accent_color_1;
+}
+
+.footer-menu__items .menu-item {
+	font-weight: $h1_font_weight;
+	font-size: $h6_font_size{px};
+	color: $regular_text_color;
+}
+.footer-menu__items .menu-item a {
+	 color: $regular_text_color;
+ }
+.footer-menu__items .menu-item a:hover {
+	 color: $regular_accent_color_1;
+ }
+/* #Top Menu */
+.invert .top-panel__menu .menu-item a {
+	color: $invert_link_color;
+}
+
+.invert .top-panel__menu .menu-item a:hover,
+.invert .top-panel__menu .menu-item.current-menu-item a,
+.invert .top-panel__menu .menu-item.current_page_item a {
+	color: $invert_link_hover_color;
+}
+
+/*# TM Mega menu */
+nav.main-navigation > .tm-mega-menu.mega-menu-mobile-on .mega-menu-mobile-arrow i,
+nav.main-navigation .mega-menu-arrow {
+	color: $regular_text_color;
+}
+
+@media (min-width: 600px) {
+	nav.main-navigation.main-menu-style-2 .menu > li.current-menu-item > a > .mega-menu-arrow,
+	nav.main-navigation.main-menu-style-2 .menu > li:hover > a > .mega-menu-arrow,
+	nav.main-navigation.main-menu-style-2 .menu > li.menu-hover > a > .mega-menu-arrow {
+		color: $invert_link_hover_color;
+	}
+}
+
+.invert nav.main-navigation .menu > li > a > .mega-menu-arrow {
+	color: $invert_link_hover_color;
+}
+
+nav.main-navigation > .tm-mega-menu .tm-mega-menu-sub.mega-sub .tm-mega-menu-sub-item.sub-column-title > a {
+	line-height: $body_line_height;
+}
+
+@media (min-width: 600px) {
+	nav.main-navigation > .tm-mega-menu .tm-mega-menu-sub.mega-sub .tm-mega-menu-sub-item.sub-column-title > a {
+		font-style: $h5_font_style;
+		font-weight: $h5_font_weight;
+		font-size: $h4_font_size{px};
+		line-height: $h5_line_height;
+		font-family: @font_family( $h5_font_family );
+		letter-spacing: $h5_letter_spacing{em};
+		color: $regular_h5_color;
+	}
+
+	.invert nav.main-navigation > .tm-mega-menu .tm-mega-menu-sub.mega-sub .tm-mega-menu-sub-item.sub-column-title > a {
+		color: $regular_h5_color;
+	}
+}
+nav.main-navigation > .tm-mega-menu > li.menu-item > a:before {
+	background: $regular_accent_color_1;
+}
+nav.main-navigation > .tm-mega-menu > li.current-menu-item > a:before {
+	background: $regular_accent_color_1;
+}
+nav.main-navigation > .tm-mega-menu > li.current_page_item.tm-mega-menu-has-children > a:before {
+	background: $regular_accent_color_1;
+}
+nav.main-navigation > .tm-mega-menu > li.current-menu-ancestor.tm-mega-menu-has-children > a:before {
+	background: $regular_accent_color_1;
+}
+nav.main-navigation > .tm-mega-menu .tm-mega-menu-sub.mega-sub > .tm-mega-menu-sub-item + .tm-mega-menu-sub-item::before {
+	background-color: $grey_color_2;
+}
+
+.invert nav.main-navigation > .tm-mega-menu .tm-mega-menu-sub.mega-sub > .tm-mega-menu-sub-item + .tm-mega-menu-sub-item::before {
+	background-color: @alpha($invert_accent_color_1, 15);
+}
+
+.site-header.style-5 .main-navigation:not(.vertical-menu) .menu > li:not(:first-child) {
+	border-color: $grey_color_2;
+}

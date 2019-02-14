@@ -1,0 +1,140 @@
+/* #Magnific Popup*/
+.mfp-iframe-holder .mfp-close ,
+.mfp-image-holder .mfp-close {
+	color: @lighten($regular_text_color, 25%);
+}
+
+.mfp-iframe-holder .mfp-close:hover,
+.mfp-image-holder .mfp-close:hover{
+	color: $grey_color_1;
+}
+
+.mfp-iframe-holder .mfp-arrow:before,
+.mfp-iframe-holder .mfp-arrow:after,
+.mfp-image-holder .mfp-arrow:before,
+.mfp-image-holder .mfp-arrow:after{
+	background-color: @lighten($regular_text_color, 25%);
+}
+
+.mfp-iframe-holder .mfp-arrow:hover:before,
+.mfp-iframe-holder .mfp-arrow:hover:after,
+.mfp-image-holder .mfp-arrow:hover:before,
+.mfp-image-holder .mfp-arrow:hover:after{
+	background-color: $grey_color_1;
+}
+
+/* #Swiper navigation*/
+.swiper-pagination-bullet {
+	background-color: $grey_color_1;
+}
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet:hover{
+	background-color: $regular_accent_color_3;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+.swiper-button-next:not(.swiper-button-disabled):hover,
+.swiper-button-prev:not(.swiper-button-disabled):hover {
+	color: $regular_link_hover_color;
+	background-color: $invert_accent_color_1;
+}
+
+/*Contact block*/
+.contact-block__icon {
+	color: $regular_accent_color_1;
+}
+.invert .contact-block__icon {
+	color: $invert_accent_color_1;
+}
+.invert .contact-block__text,
+.invert .contact-block__text a {
+	color: @lighten($invert_text_color, 10);
+}
+.invert .contact-block__text a:hover {
+	color: $invert_link_hover_color;
+}
+.contact-block.contact-block--header {
+	font-family: @font_family( $h1_font_family );
+}
+.contact-block.contact-block--header,
+.contact-block.contact-block--header a[href^="tel:"] {
+	color: $regular_link_hover_color;
+}
+.contact-block.contact-block--header a[href^="tel:"]:hover {
+	color: $regular_link_color;
+}
+.invert .contact-block.contact-block--header .contact-block__icon {
+	color: $invert_link_color;
+}
+.invert .contact-block.contact-block--header,
+.invert .contact-block.contact-block--header a[href^="tel:"],
+.invert .contact-block.contact-block--header .contact-block__text,
+.invert .contact-block.contact-block--header .contact-block__text a {
+	color: $invert_link_hover_color;
+}
+.invert .contact-block.contact-block--header .contact-block__text a:hover,
+.invert .contact-block.contact-block--header a[href^="tel:"]:hover {
+	color: $invert_link_color;
+}
+
+.contact-block__item .contact-block__value-wrap span:first-child,
+.contact-block__item .contact-block__value-wrap .contact-block__text span:first-child a {
+	 font-weight: $h1_font_weight;
+	 color: $regular_h1_color;
+ }
+
+.contact-block__item .contact-block__value-wrap span:first-child a:hover {
+	color: $regular_accent_color_2;
+}
+
+.contact-block__item .contact-block__value-wrap span:last-child,
+.contact-block__item .contact-block__value-wrap span:last-child a {
+	color: $regular_text_color;
+	font-weight: $body_font_weight;
+}
+
+.contact-block__item .contact-block__value-wrap span:last-child a:hover {
+	color: $regular_accent_color_2;
+}
+
+/*for top panel*/
+
+.top-panel .contact-block__item .contact-block__value-wrap span:first-child {
+	color: $regular_text_color;
+	font-weight: $body_font_weight;
+}
+
+/*Tables*/
+.hentry table:not([class]) tbody tr:nth-child(odd) {
+	background-color: $grey_color_3;
+}
+.hentry table:not([class]) tbody tr th {
+	color: $regular_accent_color_3;
+}
+.hentry table:not([class]) th + td,
+.hentry table:not([class]) td + td,
+.hentry table:not([class]) th + th,
+.hentry table:not([class]) td + th {
+	border-color: $grey_color_2;
+}
+
+/*Title decoration*/
+.title-decoration::before {
+	background: linear-gradient(-45deg, transparent 8px, $grey_color_1 0), linear-gradient(45deg, transparent 8px, $grey_color_1 0);
+}
+.title-decoration::after {
+	background: linear-gradient(-45deg, transparent 8px, @custom_background( color ) 0), linear-gradient(45deg, transparent 8px, @custom_background( color ) 0);
+}
+.title-decoration__big::before {
+	background: linear-gradient(-45deg, transparent 15px, $grey_color_1 0), linear-gradient(45deg, transparent 15px, $grey_color_1 0);
+}
+.title-decoration__big::after {
+	background: linear-gradient(-45deg, transparent 15px, @custom_background( color ) 0), linear-gradient(45deg, transparent 15px, @custom_background( color ) 0);
+}
+.footer-area .title-decoration::after {
+	background: linear-gradient(-45deg, transparent 8px, $footer_widgets_bg 0), linear-gradient(45deg, transparent 8px, $footer_widgets_bg 0);
+}

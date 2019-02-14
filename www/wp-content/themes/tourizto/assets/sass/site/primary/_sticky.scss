@@ -1,0 +1,50 @@
+.sticky {
+	display: block;
+
+	.entry-title a,
+	&__label {
+		vertical-align: middle;
+	}
+	&__label {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		display: inline-block;
+		text-align: center;
+		font-size: 16px;
+		line-height: 37px;
+		height: 37px;
+		border-radius: 37px;
+		transition: .3s ease-out;
+		z-index: 10;
+
+		i {
+			font-size: 14px;
+			line-height: 37px;
+		}
+		&.type-icon {
+			width: 37px;
+		}
+		&.type-label,
+		&.type-both {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		&.type-both {
+			i {
+				float: left;
+				margin-right: 5px;
+			}
+		}
+	}
+}
+
+
+.stuckMenu.isStuck {
+	.contact-block {
+		display: none;
+	}
+	.header-btn-wrap {
+		display: none;
+	}
+}

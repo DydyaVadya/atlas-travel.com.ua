@@ -1,0 +1,123 @@
+.cs-instagram {
+	&__items {
+		display: flex;
+		flex-flow: row wrap;
+		margin-left: -3.5px;
+		margin-right: -3.5px;
+	}
+	&__item {
+		position: relative;
+		min-height: 1px;
+		padding: 3.5px;
+		flex: 0 0 33.33%;
+		max-width: 33.33%;
+
+		.sidebar &,
+		.footer-area:not(.footer-area--fullwidth) & {
+			flex: 0 0 50%;
+			max-width: 50%;
+
+			@include media-breakpoint-up(sm) {
+				flex: 0 0 25%;
+				max-width: 25%;
+			}
+		}
+
+		.full-width-header-area &,
+		.after-content-full-width-area & {
+			@include media-breakpoint-up(sm) {
+				flex: 0 0 16.666%;
+				max-width: 16.666%;
+			}
+			@include media-breakpoint-up(lg) {
+				flex: 0 0 12.5%;
+				max-width: 12.5%;
+			}
+		}
+		@include contents-area() {
+			@include media-breakpoint-up(sm) {
+				flex: 0 0 25%;
+				max-width: 25%;
+			}
+			@include media-breakpoint-up(md) {
+				flex: 0 0 16.666%;
+				max-width: 16.666%;
+			}
+		}
+		@include loop-area() {
+			@include media-breakpoint-up(sm) {
+				flex: 0 0 25%;
+				max-width: 25%;
+			}
+		}
+
+	}
+	&__link {
+		position: relative;
+		overflow: hidden;
+		display: block;
+
+		&:hover {
+			.cs-instagram__cover {
+				opacity: 1;
+
+				&:before {
+					transform: scale(1);
+				}
+			}
+		}
+	}
+	&__img {
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+	&__cover {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		color: $color__white;
+		opacity: 0;
+		text-align: center;
+		transition: all .3s ease-out;
+
+		&:before {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			content: '\ea3c';
+			font-size: 14px;
+			text-align: center;
+			transform: scale(0);
+			transition: all .4s ease-out;
+			line-height: 1;
+		}
+	}
+	&__date,
+	&__caption {
+		text-align: center;
+		display: block;
+		@include font-size(12/16);
+		line-height: 1.5;
+		* + & {
+			margin-top: 5px;
+		}
+	}
+	&__date {
+		* + & {
+			margin-top: 8px;
+		}
+	}
+}
+
+.cs-instagram--widget {
+	.full-width-header-area &,
+	.after-content-full-width-area & {
+		padding: 0 5px;
+	}
+}

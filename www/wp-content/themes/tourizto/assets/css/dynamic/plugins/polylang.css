@@ -1,0 +1,13 @@
+/* #Polylang widget*/
+.widget_polylang a {
+	color: $regular_link_hover_color;
+}
+.widget_polylang a:hover {
+	color: $regular_link_color;
+}
+.invert .widget_polylang a {
+	color: $invert_link_color;
+}
+.invert .widget_polylang a:hover {
+	color: $invert_link_hover_color;
+}

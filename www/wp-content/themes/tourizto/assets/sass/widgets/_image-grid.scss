@@ -1,0 +1,58 @@
+.widget-image-grid {
+	.row {
+		margin: 0;
+	}
+	&__holder {
+		padding: 0;
+	}
+	&__inner {
+		position: relative;
+		display: block;
+		overflow: hidden;
+	}
+	&__img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	&__content {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		display: flex;
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		text-align: center;
+		opacity: 1;
+
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		flex-flow: column nowrap;
+		@include transition( all 0.5s ease );
+		background-color: rgba($color__dark, .5);
+	}
+	&__title {
+		margin: 5px 0;
+		@include font-size(1);
+
+		@include media-breakpoint-up(lg) {
+			@include font-size(22/16);
+			max-width: 75%;
+		}
+
+		@include sidebars-area() {
+			@include font-size(1);
+		}
+	}
+
+	&__author{
+		font-weight: 900;
+	}
+
+	.entry-meta {
+		margin-top: 15px;
+	}
+}

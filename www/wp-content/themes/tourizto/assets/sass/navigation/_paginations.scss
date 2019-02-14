@@ -1,0 +1,125 @@
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+	overflow: hidden;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	.nav-previous,
+	.nav-next {
+		width: 100%;
+
+		@include media-breakpoint-up(sm) {
+			width: 50%;
+		}
+		> a {
+			display: inline-block;
+			@include btn;
+
+			&:before,
+			&:after {
+				display: inline-block;
+				vertical-align: baseline;
+				font-size: 10px;
+			}
+			&:hover {
+				.nav-text {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	.nav-previous {
+		float: left;
+		padding-right: 15px;
+
+		a {
+			&:before {
+				content: '\e927';
+				margin-right: 5px;
+			}
+		}
+	}
+	.nav-next {
+		float: right;
+		text-align: right;
+		padding-left: 15px;
+		margin-top: 25px;
+
+		@include media-breakpoint-up(sm) {
+			margin-top: 0;
+		}
+		a {
+			&:after {
+				content: '\e928';
+				margin-left: 5px;
+			}
+		}
+	}
+}
+
+/*Post pagination - Page links*/
+.pagination {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	text-align: center;
+
+	.posts-list--default + & {
+		text-align: left;
+	}
+	.posts-list--grid + &,
+	.posts-list--masonry + &,
+	.posts-list--vertical-justify + & {
+		margin-top: 0;
+	}
+}
+
+.site-content .page-links {
+	clear: both;
+	margin: 0 0 1em;
+	&__title {
+		margin-right: 5px;
+	}
+}
+
+#content .nav-links .page-numbers,
+.site-content .page-links a,
+.site-content .page-links > .page-links__item,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers {
+	line-height: 43px;
+	display: inline-block;
+	min-width: 45px;
+	height: 45px;
+	padding: 0 2px;
+	text-align: center;
+	text-decoration: none;
+	transition: .3s;
+	margin-bottom: 5px;
+	border: 1px solid;
+	border-radius: $border__radius;
+
+	&:not(:last-child) {
+		margin-right: 5px;
+	}
+}
+
+#content .nav-links .page-numbers,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers {
+	&.next,
+	&.prev {
+		border: none;
+		margin: 0 5px;
+
+		i {
+			vertical-align: baseline;
+		}
+	}
+	&.prev {
+		&:first-child {
+			margin: 0 13px 0 0;
+		}
+	}
+}

@@ -1,0 +1,87 @@
+p {
+	margin: 0 0 25px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.dropcaps,
+.single .post > .entry-content > p:first-of-type:first-letter {
+	@include font-size(1.875);
+	font-weight: 900;
+	float: left;
+	margin: 8px 13px 5px 0;
+	line-height: 1;
+	padding: 17px 23px;
+	position: relative;
+}
+
+@-moz-document url-prefix() {
+	.dropcaps,
+	.single .post > .entry-content > p:first-of-type:first-letter {
+		padding: 21px 23px;
+	}
+}
+
+dfn, em, i {
+	font-style: italic;
+}
+
+cite {
+	font-style: normal;
+}
+
+address {
+	margin: 0 0 1.4em;
+}
+
+pre {
+	font-family: $font__pre;
+	line-height: $font__line-height-pre;
+	overflow: auto;
+	max-width: 100%;
+	margin: 0 0 1.5em;
+	padding: 1.5em;
+	background: $color__background-pre;
+	border: 1px solid $color__border-pre;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+
+	@include font-size(1);
+}
+
+code, kbd, tt, var {
+	font-family: $font__code;
+	@include font-size(1);
+}
+
+code {
+	padding: 2px;
+}
+
+abbr, acronym {
+	cursor: help;
+	border-bottom: 1px dotted $color__border-abbr;
+}
+
+mark, ins {
+	font-style: italic;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+big {
+	font-size: 125%;
+}
+
+.text-align-left {
+	text-align: left;
+}
+.text-align-center {
+	text-align: center;
+}
+.text-align-right {
+	text-align: right;
+}

@@ -1,0 +1,26 @@
+a {
+	transition: .3s linear;
+
+	&,
+	&:hover,
+	&:active {
+		text-decoration: none;
+	}
+	h1 &, h2 &, h3 &, h4 &, h5 &, h6 & {
+		color: inherit;
+	}
+
+	.entry-content p & {
+		text-decoration: underline;
+		&:hover,
+		&:active {
+			text-decoration: none;
+		}
+	}
+}
+
+.edit-link {
+	display: block;
+	background: $color__background-hr;
+	padding: 0 15px;
+}

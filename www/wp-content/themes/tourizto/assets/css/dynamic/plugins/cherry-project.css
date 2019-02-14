@@ -1,0 +1,314 @@
+.cherry-projects-wrapper,
+.cherry-projects-single-post,
+.cherry-projects-single-details-list ul li,
+.cherry-projects-terms-wrapper {
+	color: $regular_text_color;
+}
+
+.cherry-projects-wrapper ul.projects-filters-list li,
+.cherry-projects-wrapper ul.order-filters li {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: @font_size($h6_font_size, multiple, ceil, 0.75)px;
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	letter-spacing: $h6_letter_spacing{em};
+	text-align: $h6_text_align;
+	color: $regular_h6_color;
+}
+
+.cherry-projects-wrapper .cherry-spinner-double-bounce .cherry-double-bounce1,
+.cherry-projects-wrapper .cherry-spinner-double-bounce .cherry-double-bounce2,
+.cherry-projects-terms-wrapper .cherry-spinner-double-bounce .cherry-double-bounce1,
+.cherry-projects-terms-wrapper .cherry-spinner-double-bounce .cherry-double-bounce2,
+.cherry-projects-wrapper ul.order-filters > li ul {
+	background-color: $regular_accent_color_1;
+}
+
+.cherry-projects-wrapper .projects-filters ul.projects-filters-list li span{
+	font-weight: $h3_font_weight;
+	font-size: $h4_font_size{px};
+	color: $regular_link_color;
+}
+
+.invert .cherry-projects-wrapper .projects-filters ul.projects-filters-list li span {
+	color: $invert_link_hover_color;
+}
+
+.cherry-projects-wrapper .projects-filters ul.projects-filters-list li.active span,
+.cherry-projects-wrapper .projects-filters ul.projects-filters-list li span:hover,
+.cherry-projects-wrapper ul.order-filters > li span.current{
+	color: $regular_link_hover_color;
+}
+
+.invert .cherry-projects-wrapper .projects-filters ul.projects-filters-list li.active span,
+.invert .cherry-projects-wrapper .projects-filters ul.projects-filters-list li span:hover,
+.invert .cherry-projects-wrapper ul.order-filters > li span.current{
+	color: $invert_link_color;
+}
+
+.cherry-projects-wrapper .projects-item-instance .hover-content,
+.cherry-projects-terms-wrapper .projects-terms-container .hover-content{
+	background-color: @alpha($regular_accent_color_1, 90%);
+}
+
+.cherry-projects-wrapper .projects-item-instance .simple-icon,
+.cherry-projects-terms-wrapper .projects-terms-container .simple-icon{
+	color: $invert_link_hover_color;
+}
+
+.cherry-projects-wrapper .projects-item-instance .simple-icon:hover,
+.cherry-projects-terms-wrapper .projects-terms-container .simple-icon:hover {
+	color: $invert_link_color;
+}
+.cherry-projects-wrapper .list-layout .projects-item-instance .simple-icon:hover  {
+	color: @lighten($regular_accent_color_2,35);
+}
+
+/*.cherry-projects-wrapper .list-layout .inner-wrapper {*/
+	/*background-color: $invert_h1_color;*/
+/*}*/
+
+.cherry-projects-wrapper ul.order-filters > li ul li:hover span{
+	color: $regular_link_hover_color;
+}
+
+.cherry-projects-wrapper .projects-pagination,
+.projects-pagination .page-navigation span{
+	color: $grey_color_2;
+}
+
+.cherry-projects-wrapper .projects-pagination .page-link span {
+	color: $regular_text_color;
+	border-color: $grey_color_2;
+}
+
+.invert .cherry-projects-wrapper .projects-pagination .page-link span {
+	color: $invert_link_hover_color;
+	border-color: $invert_link_hover_color;
+}
+
+.projects-pagination ul.page-link li:hover span,
+.projects-pagination ul.page-link li.active span,
+.invert .projects-pagination ul.page-link li:hover span,
+.invert .projects-pagination ul.page-link li.active span {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+.cherry-projects-wrapper .projects-pagination .page-navigation span {
+	color: $regular_link_color;
+
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: @font_size($h6_font_size, multiple, ceil, 0.75)px;
+	font-family: @font_family( $h6_font_family );
+	letter-spacing: $h6_letter_spacing{em};
+}
+.cherry-projects-wrapper .projects-pagination .page-navigation span:hover {
+	color: $regular_accent_color_2;
+}
+
+.cherry-projects-wrapper .projects-ajax-button-wrapper .projects-ajax-button span{
+	color: $invert_accent_color_1;
+	background-color: $regular_link_hover_color;
+
+	font-weight: $h1_font_weight;
+	font-size: @font_size($body_font_size, multiple, ceil, 0.857)px;
+	font-family: @font_family( $h1_font_family );
+}
+
+.cherry-projects-wrapper .projects-ajax-button-wrapper .projects-ajax-button span:hover{
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+
+.cherry-projects-single__title .post-terms{
+	font-family: @font_family( $meta_font_family );
+}
+
+.cherry-projects-single-post .featured-image a .cover,
+.cherry-projects-single-post .additional-image a .cover,
+.cherry-projects-wrapper .projects-item-instance .featured-image a .cover {
+	background-color: @alpha($regular_accent_color_3, 85%);
+}
+
+.cherry-projects-single-post .featured-image a:before,
+.cherry-projects-single-post .additional-image a:before,
+.cherry-projects-wrapper .projects-item-instance .featured-image a:before {
+	color: @lighten(invert_link_color,30 );
+}
+
+.cherry-projects-single .cherry-projects-single-details-list ul li:nth-child(odd) {
+	background-color: $grey_color_3;
+}
+
+.cherry-projects-single .cherry-projects-single-details-list ul li span::after {
+	background-color: $grey_color_2;
+}
+
+.cherry-projects-single .cherry-projects-single-details-list ul li span,
+.cherry-projects-single .post-terms a{
+	color: $regular_link_hover_color;
+}
+
+.cherry-projects-single .post-terms a:hover{
+	color: $regular_link_color;
+}
+
+.cherry-projects-single-skills-list .cherry-skill-item .skill-bar span {
+	background-color: $regular_accent_color_1;
+}
+
+.cherry-projects-single-skills-list .cherry-skill-item .skill-bar span em {
+	color: $invert_text_color;
+}
+
+.cherry-projects-slider__instance .sp-arrow,
+.cherry-projects-slider__instance .slider-pro .sp-full-screen-button {
+	background-color: $invert_accent_color_1;
+	color: $regular_link_hover_color;
+}
+.cherry-projects-slider__instance .sp-next-arrow:hover,
+.cherry-projects-slider__instance .sp-previous-arrow:hover,
+.cherry-projects-slider__instance .slider-pro .sp-full-screen-button:hover {
+	background-color: $regular_accent_color_1;
+	color: $invert_link_hover_color;
+}
+
+.cherry-projects-slider__instance .sp-image-container:before {
+	background: linear-gradient(to top, @alpha($grey_color_1, 0%), @alpha($grey_color_1, 50%));
+}
+
+.cherry-projects-terms-wrapper .projects-terms-container.grid-layout .project-terms-content,
+.cherry-projects-terms-wrapper .projects-terms-container.masonry-layout .project-terms-content,
+.cherry-projects-terms-wrapper .projects-terms-container.cascading-grid-layout .project-terms-content{
+	background-color: $regular_accent_color_1;
+}
+
+.cherry-projects-terms-wrapper .projects-terms-container.grid-layout .projects-terms-item:hover .project-terms-content,
+.cherry-projects-terms-wrapper .projects-terms-container.masonry-layout .projects-terms-item:hover .project-terms-content,
+.cherry-projects-terms-wrapper .projects-terms-container.cascading-grid-layout .projects-terms-item:hover .project-terms-content{
+	background-color: $regular_accent_color_2;
+}
+
+/*Skin templates*/
+.terms-grid-skin1 .featured-image .cover{
+	background-color: @alpha($regular_accent_color_2, 60);
+}
+.terms-grid-skin1:hover .cover,
+.cherry-projects-wrapper .projects-item-instance .grid-default-skin1 a .cover {
+	background-color: @alpha($regular_accent_color_2, 95);
+}
+.cherry-projects-terms-wrapper .projects-terms-container .terms-grid-skin1 .term-permalink span{
+	font-family:@font_family( $h6_font_family );
+}
+.cherry-projects-wrapper .projects-item-instance .grid-default-skin1 .simple-icon:hover,
+.cherry-projects-terms-wrapper .projects-terms-container .terms-grid-skin1 .simple-icon:hover{
+	color: $regular_accent_color_1;
+}
+
+/*Project Container*/
+.projects-container .projects-item .overflow-content a,
+.projects-container .projects-item .overflow-content .project-entry-content {
+	color: $invert_accent_color_1;
+}
+
+.projects-container .projects-item .overflow-content a:hover{
+	color: $regular_accent_color_1;
+}
+
+.projects-container .projects-item .project-content a.btn:hover{
+	color: $invert_link_hover_color;
+}
+
+.projects-container .projects-item .project-content.style-3 a.post-author {
+	color: $regular_link_color;
+}
+.projects-container .projects-item .project-content.style-3 a.post-date,
+.projects-container .projects-item .project-content.style-3 .post-terms a:hover {
+	color: $regular_text_color;
+}
+.projects-container .projects-item .project-content.style-3 .post-terms a,
+.projects-container .projects-item .project-content.style-3 a.post-date:hover,
+.projects-container .projects-item .project-content.style-3 a.post-author:hover {
+	color: $regular_link_hover_color;
+}
+.projects-container .projects-item .project-content.style-3 .project-entry-title {
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+	font-size: $h4_font_size{px};
+	line-height: $h4_line_height;
+	font-family: @font_family( $h4_font_family );
+	letter-spacing: $h4_letter_spacing{em};
+	text-align: $h4_text_align;
+}
+.projects-container .projects-item .project-content.style-3 .project-entry-title a {
+	color: $regular_h4_color;
+}
+.projects-container .projects-item .project-content.style-3 .project-entry-title a:hover {
+	color: $regular_link_color;
+}
+
+.projects-container .projects-item h5 {
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+	font-size: $h4_font_size{px};
+	line-height: $h4_line_height;
+	font-family: @font_family( $h4_font_family );
+	letter-spacing: $h4_letter_spacing{em};
+	text-align: $h4_text_align;
+}
+
+.cherry-projects-single .cherry-projects-single-skills-list .cherry-skill-item .skill-bar:before{
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+	font-size: $h4_font_size{px};
+	line-height: $h4_line_height;
+	font-family: @font_family( $h4_font_family );
+	letter-spacing: $h4_letter_spacing{em};
+	text-align: $h4_text_align;
+	color: $regular_h4_color;
+}
+
+.cherry-projects-single .cherry-projects-single-skills-list .cherry-skill-item .skill-label{
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	letter-spacing: $h6_letter_spacing{em};
+	text-align: $h6_text_align;
+	color: $regular_h6_color;
+}
+
+.cherry-projects-single .post__date-link {
+	background-color: $grey_color_3;
+}
+.cherry-projects-single .post__date-link:hover {
+	background-color: $regular_accent_color_1;
+}
+.cherry-projects-single .post__date-link:hover .post__date-day,
+.cherry-projects-single .post__date-link:hover .post__date-month {
+	color: $invert_link_hover_color;
+}
+
+.project-terms-content.invert a {
+	color: $invert_link_hover_color;
+}
+
+.cherry-projects-wrapper .grid-default-tmpl .project-more-button {
+	background-color: $regular_accent_color_1;
+}
+
+.cherry-projects-wrapper .grid-default-tmpl .project-more-button:hover {
+	background-color: $regular_text_color;
+	color: $invert_accent_color_1;
+}
+.cherry-projects-wrapper .grid-default-tmpl .projects-item .overflow-content .project-entry-title a {
+	color: $invert_accent_color_1;
+}
+.cherry-projects-wrapper .grid-default-tmpl .projects-item .overflow-content .project-entry-title a:hover {
+	color: $regular_accent_color_1;
+}

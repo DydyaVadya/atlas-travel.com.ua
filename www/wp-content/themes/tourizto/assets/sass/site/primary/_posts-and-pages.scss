@@ -1,0 +1,721 @@
+.page-content,
+.entry-content,
+.entry-summary {
+}
+
+/*--------------------------------------------------------------
+### Hentry (WordPress native CSS-class for post/page article)
+--------------------------------------------------------------*/
+.hentry {
+	position: relative;
+
+	.posts-list--default & {
+		&:not(:first-child) {
+			margin-top: 40px;
+			padding-top: 40px;
+			border-top-width: 1px;
+			border-top-style: solid;
+		}
+	}
+
+	.posts-list__right-col {
+		position: relative;
+	}
+
+	.single-post & {
+		margin-bottom: 34px;
+
+		.post__left-col {
+			@include grid-indent(15px);
+
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 40px;
+		}
+		@include media-breakpoint-up(sm) {
+			display: flex;
+
+			&.format-gallery {
+				.posts-list__right-col {
+					max-width: calc(100% - 78px + 22px);
+					flex-basis: calc(100% - 78px + 22px);
+				}
+			}
+			.post__left-col {
+				display: flex;
+				max-width: 78px;
+				margin-right: 30px;
+				margin-bottom: 0;
+				flex: 0 0 78px;
+				flex-direction: column;
+				align-items: center;
+				justify-content: start;
+			}
+			.post__right-col {
+				flex-grow: 1;
+				flex-basis: auto;
+				width: 100%;
+				max-width: 87%;
+				//margin-right: 22px;
+				//margin-bottom: 0;
+				.post-gallery {
+					&.swiper-container-horizontal {
+						figure {
+							margin-left: -1px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.posts-list--grid &,
+	.posts-list--masonry &,
+	.posts-list--vertical-justify & {
+		margin-bottom: 40px;
+
+		@include media-breakpoint-up(md) {
+			margin-bottom: 70px;
+		}
+	}
+
+	.posts-list--default-small-image & {
+		@extend .clear;
+	}
+
+	.posts-list & {
+		.posts-list__left-col {
+			@include grid-indent(15px);
+
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 20px;
+			margin-top: -20px;
+		}
+	}
+	.posts-list--default-fullwidth-image & {
+		@include media-breakpoint-up(sm) {
+			display: flex;
+
+			&.format-gallery {
+				.posts-list__right-col {
+					max-width: calc(100% - 78px + 22px);
+					flex-basis: calc(100% - 78px + 22px);
+				}
+			}
+			.posts-list__left-col {
+				@include grid-indent(0);
+
+				display: block;
+				max-width: 78px;
+				flex-basis: 78px;
+				margin-right: 22px;
+				margin-bottom: 0;
+			}
+			.posts-list__right-col {
+				flex-grow: 1;
+				flex-basis: auto;
+				min-width: 0;
+				.swiper-wrapper {
+					figure {
+						margin-right: 1px;
+					}
+				}
+			}
+		}
+	}
+
+	&.page {}
+}
+.posts-list--search {
+	.posts-list__item {
+		& + .posts-list__item {
+			margin-top: 40px;
+			padding-top: 40px;
+			border-top-width: 1px;
+			border-top-style: solid;
+		}
+
+		> .entry-footer {
+			margin-top: 30px;
+		}
+
+		@include media-breakpoint-up(sm) {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			> .entry-footer {
+				flex-shrink: 0;
+				margin-top: 0;
+				margin-left: 40px;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Posts-list
+--------------------------------------------------------------*/
+.posts-list {
+	&__item-content {
+
+		.post-thumbnail:not(:empty) + &,
+		.post-featured-content:not(:empty) + & {
+			margin-top: 20px;
+			margin-bottom: -40px;
+
+			.posts-list--default-modern & {
+				@include media-breakpoint-up(sm) {
+					margin-top: -30px;
+				}
+				@include media-breakpoint-up(lg) {
+					margin-top: -70px;
+				}
+			}
+		}
+		.posts-list--default-modern & {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			background-color: $color__white;
+			position: relative;
+			z-index: 1;
+			padding-top: 40px;
+			padding-bottom: 40px;
+
+			@include media-breakpoint-up(sm) {
+				padding-left: 5%;
+				padding-right: 5%;
+				max-width: 90%;
+				margin-top: -30px;
+			}
+			@include media-breakpoint-up(lg) {
+				max-width: 82.65%;
+				padding-left: 10%;
+				padding-right: 10%;
+				margin-top: -70px;
+			}
+		}
+		.posts-list--default-modern .post__date + .post-thumbnail:empty + &,
+		.posts-list--default-modern .format-audio &,
+		.posts-list--default-modern .format-quote &,
+		.posts-list--default-modern .format-link & {
+			padding-top: 0;
+		}
+
+		.posts-list--default-modern .post-thumbnail:empty + &,
+		.posts-list--default-modern .post-featured-content:empty + &,
+		.posts-list--default-modern .format-standard.no-thumb &,
+		.posts-list--default-modern .format-audio &,
+		.posts-list--default-modern .format-quote &,
+		.posts-list--default-modern .format-link &,
+		.posts-list--grid .post-thumbnail:empty + &,
+		.posts-list--masonry .post-thumbnail:empty + & {
+			margin-top: 0;
+		}
+	}
+
+	&--grid {
+		@if (0px == $card-grid-gutter) {
+
+			&.posts-list--grid-2-cols {
+				@include media-breakpoint-up(sm) {
+					.posts-list__item:not(:nth-child(-n + 2)) .posts-list__item-content {
+						border-top-color: transparent;
+					}
+
+					.posts-list__item:not(:nth-child(2n + 1)) .posts-list__item-content {
+						border-left-color: transparent;
+					}
+				}
+			}
+
+			&.posts-list--grid-3-cols {
+				@include media-breakpoint-between(sm, md) {
+					.posts-list__item:not(:nth-child(-n + 2)) .posts-list__item-content {
+						border-top-color: transparent;
+					}
+
+					.posts-list__item:not(:nth-child(2n + 1)) .posts-list__item-content {
+						border-left-color: transparent;
+					}
+				}
+			}
+
+			&.posts-list--grid-3-cols {
+				@include media-breakpoint-up(lg) {
+					.posts-list__item:not(:nth-child(-n + 3)) .posts-list__item-content {
+						border-top-color: transparent;
+					}
+
+					.posts-list__item:not(:nth-child(3n + 1)) .posts-list__item-content {
+						border-left-color: transparent;
+					}
+				}
+			}
+		}
+	}
+
+	&--grid,
+	&--vertical-justify {
+
+		.posts-list__item-content {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			z-index: 3;
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Entry (header, content, meta, footer)
+--------------------------------------------------------------*/
+.entry {
+	&-title {
+		margin: 0;
+
+		.entry-header * + & {
+			margin-top: 1px;
+
+			.posts-list--grid &,
+			.posts-list--masonry &,
+			.posts-list--vertical-justify & {
+				margin-top: 4px;
+			}
+		}
+		.single-post & {
+			margin-bottom: 10px;
+		}
+		.posts-list--grid &,
+		.posts-list--masonry &,
+			.posts-list--vertical-justify & {
+			line-height: 1;
+		}
+		a {
+			.posts-list--grid &,
+			.posts-list--masonry &,
+			.posts-list--vertical-justify & {
+				font-size: 0.6875em;
+				line-height: 1.455;
+			}
+		}
+	}
+
+	&-meta-container {
+		display: flex;
+		align-items: baseline;
+		@include grid-indent(10px);
+
+		.single-post .post & {
+			flex-wrap: wrap;
+		}
+
+		.posts-list--default-modern & {
+			display: block;
+		}
+	}
+
+	&-meta {
+		&:empty {
+			display: none;
+		}
+
+		> *:not(:last-child) {
+			margin-right: 4px;
+		}
+
+		.posted-by:not(:last-child) {
+			margin-right: 4px;
+		}
+
+		.share-btns__list:not(:last-child),
+		.post__comments:not(:last-child) {
+			margin-right: 15px;
+		}
+
+		&--right {
+			flex-shrink: 0;
+		}
+	}
+
+	&-summary,
+	&-content {
+		.posts-list & {
+			> *:first-child {
+				margin-top: 11px;
+			}
+		}
+
+		.posts-list--masonry &,
+		.posts-list--grid &,
+		.posts-list--vertical-justify & {
+			> *:first-child {
+				margin-top: 13px;
+			}
+		}
+
+		.posts-list--search & {
+			> *:first-child {
+				margin-top: 10px;
+			}
+		}
+
+		.posts-list--default-small-image & {
+			overflow: hidden;
+
+			&:after {
+				clear: none;
+			}
+		}
+	}
+	&-header {}
+
+	&-footer {
+		.posts-list & {
+			margin-top: 2px;
+		}
+
+		.posts-list--default-small-image & {
+			display: flex;
+			flex-direction: column;
+			clear: both;
+		}
+
+		.related-post &{
+			margin-top: auto;
+		}
+
+		.entry-meta-container,
+		.cherry-trend-rating {
+			&:not(:empty) {
+				margin-top: 21px;
+			}
+		}
+
+		.single-post .post & {
+			> *:first-child {
+				margin-top: 25px;
+			}
+		}
+
+		.post__comments {
+			flex-shrink: 0;
+		}
+
+		&-bottom {
+			@include grid-indent(15px);
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			margin-top: 21px;
+			justify-content: space-between;
+
+			.posts-list--masonry &,
+			.posts-list--grid &,
+			.posts-list--vertical-justify & {
+				margin-top: 14px;
+			}
+			> * {
+				margin-top: 10px;
+				margin-bottom: 10px;
+
+				.posts-list--default & {
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+				.posts-list--default-modern & {
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Post attributes (thumbnail, meta)
+--------------------------------------------------------------*/
+.post {
+
+	&-thumbnail {
+		position: relative;
+
+		.single-post .entry-header + & {
+			margin-top: 15px;
+		}
+		.single-post & + .entry-content {
+			margin-top: 31px;
+		}
+		&__link {
+			&.post-thumbnail--small {
+				display: block;
+
+				@include media-breakpoint-up(md) {
+					float: left;
+					margin-right: 30px;
+					margin-bottom: 15px;
+					width: auto;
+					max-width: 360px;
+				}
+			}
+		}
+		&__img {
+			display: inline-block;
+			vertical-align: top;
+
+			.single-post .hentry & {
+				width: 100%;
+			}
+		}
+		&--small {
+			img {
+				width: 100%;
+
+				@include media-breakpoint-up(md) {
+					width: auto;
+				}
+			}
+		}
+		&--fullwidth {
+			.posts-list & {
+				display: block;
+			}
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	&__terms {
+		a:not(:last-child) {
+			margin-right: 12px;
+		}
+	}
+
+	&__terms,
+	&__date,
+	&__comments,
+	&__tags,
+	&ed-by {
+		display: inline-block;
+
+		i {
+			font-size: 14px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 4px;
+			position: relative;
+			top: -2px;
+		}
+	}
+	&ed-by {
+		margin-right: 4px;
+	}
+	&__date {
+		&-circle {
+			.posts-list--default-modern & {
+				text-align: center;
+				display: block;
+			}
+			.posts-list--default-small-image & {
+				margin-bottom: 20px;
+
+			}
+			.posts-list--default-modern .has-thumb:not(.format-quote):not(.format-link):not(.format-audio) &,
+			.posts-list--default-modern .format-gallery &,
+			.posts-list--default-modern .format-image &,
+			.posts-list--default-modern .format-video &,
+			.posts-list--grid .has-thumb:not(.format-quote):not(.format-link):not(.format-audio) &,
+			.posts-list--grid .format-gallery &,
+			.posts-list--grid .format-image &,
+			.posts-list--grid .format-video &,
+			.posts-list--masonry .has-thumb:not(.format-quote):not(.format-link):not(.format-audio) &,
+			.posts-list--masonry .format-gallery &,
+			.posts-list--masonry .format-image &,
+			.posts-list--masonry .format-video &,
+			.posts-list--vertical-justify .has-thumb:not(.format-quote):not(.format-link):not(.format-audio) &,
+			.posts-list--vertical-justify .format-gallery &,
+			.posts-list--vertical-justify .format-image &,
+			.posts-list--vertical-justify .format-video &,
+			.posts-list--default-small-image .has-thumb:not(.format-quote):not(.format-link):not(.format-audio) &,
+			.posts-list--default-small-image .format-gallery &,
+			.posts-list--default-small-image .format-image & {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				z-index: 10;
+			}
+			.post__date-link {
+				width: 78px;
+				height: 78px;
+				border-radius: 100%;
+				text-align: center;
+				display: block;
+				margin-bottom: 0;
+
+				.posts-list--default-modern &,
+				.posts-list--grid &,
+				.posts-list--masonry &,
+				.posts-list--vertical-justify & {
+					margin-bottom: 22px;
+				}
+				.posts-list--default-modern & {
+					margin-left: auto;
+					margin-right: auto;
+				}
+				time {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-direction: column;
+					width: 78px;
+					height: 78px;
+
+					span {
+						display: block;
+						text-transform: uppercase;
+						margin-left: 0;
+
+						&.post__date-month {
+						}
+					}
+				}
+			}
+		}
+	}
+	&ed-by {
+		&__avatar {
+			img {
+				@include border-radius(50%);
+				width: 80px;
+
+				@include media-breakpoint-up(sm) {
+					width: auto;
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Single post
+--------------------------------------------------------------*/
+.single-post {
+	&__full-width-section {
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+		padding-top: 60px;
+
+		@include media-breakpoint-up(sm) {
+			padding-top: 130px;
+		}
+		&.has-thumb {
+			background-color: $color__dark;
+			padding: 60px 0;
+
+			@include media-breakpoint-up(sm) {
+				padding: 120px 0;
+			}
+			@include media-breakpoint-up(lg) {
+				padding: 235px 0;
+			}
+		}
+
+		.post-thumbnail {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+
+			> img {
+				object-fit: cover;
+				object-position: center;
+				opacity: .5;
+				width: 100%;
+				height: 100%;
+
+				.ie & {
+					// Fallback to ie ( polyfill: object-fit-images - ofi.js )
+					font-family: 'object-fit: cover; object-position: center';
+				}
+			}
+		}
+		.container {
+			position: relative;
+			z-index: 2;
+		}
+		.entry-meta {
+			margin-top: 25px;
+		}
+	}
+
+	.site-main {
+		> * {
+			&:not(.post) {
+				border-top-width: 1px;
+				border-top-style: solid;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Related posts
+--------------------------------------------------------------*/
+.related-posts {
+	padding-top: 35px;
+	padding-bottom: 12px;
+
+	[class*="col-"] {
+		display: flex;
+	}
+
+	&__title {
+		margin-bottom: 23px;
+	}
+	.related-post {
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.post-thumbnail {
+		margin-bottom: 22px;
+	}
+	.related-post__content {
+		flex-grow: 1;
+		display: flex;
+		flex-direction: column;
+		transition: all .3s ease-out;
+	}
+	.entry-title {
+		margin-top: 7px;
+		margin-bottom: 0;
+	}
+	.entry-footer {
+		margin-top: auto;
+	}
+	.post-thumbnail__img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*--------------------------------------------------------------
+### Archive page
+--------------------------------------------------------------*/
+.archive .taxonomy-description {
+	margin-bottom: 25px;
+}
+
+/*--------------------------------------------------------------
+### Sticky Post
+--------------------------------------------------------------*/
+@import "sticky";

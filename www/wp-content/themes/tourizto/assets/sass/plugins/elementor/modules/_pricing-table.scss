@@ -1,0 +1,137 @@
+.elementor-jet-pricing-table {
+	.pricing-table {
+		padding: 0;
+	}
+	.pricing-table__heading {
+		padding: 25px 25px 23px;
+		position: relative;
+		border: 1px solid;
+	}
+	.pricing-table__icon {
+		position: absolute;
+		text-align: center;
+		top: -10px;
+		left: -10px;
+
+		i {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+
+			&:before {
+				font-size: 25px;
+				line-height: 60px;
+			}
+		}
+		& + .pricing-table__title {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	.pricing-table__title {
+		margin-top: 0;
+		margin-bottom: 25px;
+	}
+	.pricing-table__subtitle {
+		text-transform: none;
+		margin-top: 19px;
+	}
+
+	.pricing-table__price {
+		display: inline-block;
+		vertical-align: middle;
+		background-image: url("assets/images/pricing-table-bg.png");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		padding: 30px;
+
+		@include media-breakpoint-up(lg) {
+			min-height: 128px;
+			min-width: 191px;
+		}
+		.pricing-table__price-prefix {
+			display: inline-block;
+			vertical-align: super;
+			position: relative;
+			top: -11px;
+			font-size: 18px;
+
+			@include media-breakpoint-up(lg) {
+				font-size: 27px;
+			}
+		}
+		.pricing-table__price-prefix,
+		.pricing-table__price-val {
+			line-height: 1;
+		}
+		.pricing-table__price-suffix {
+			display: block;
+			font-size: .86em;
+		}
+	}
+
+	.pricing-table {
+		> div {
+			&:not(.pricing-table__heading) {
+				&:nth-last-child(2),
+				&:last-child {
+					padding-top: 23px;
+					padding-left: 30px;
+					padding-right: 30px;
+				}
+				&:last-child {
+					border-radius: 0 0 $border__radius $border__radius;
+					padding-bottom: 30px;
+				}
+			}
+		}
+		&.featured-table {
+			.pricing-table__price {
+				background-image: url("assets/images/pricing-table-bg-invert.png");
+			}
+			> div {
+				&:not(.pricing-table__heading) {
+					&:nth-last-child(2),
+					&:last-child {
+						border-left-width: 1px;
+						border-left-style: solid;
+
+						border-right-width: 1px;
+						border-right-style: solid;
+					}
+					&:last-child {
+						border-bottom-width: 1px;
+						border-bottom-style: solid;
+					}
+				}
+			}
+		}
+	}
+
+	.pricing-table__action {
+		> * + * {
+			margin-top: 5px;
+		}
+	}
+
+	.elementor-button {
+		@include media-breakpoint-up(lg) {
+			display: block;
+			width: 100%;
+		}
+	}
+}
+
+.pricing-table__features {
+	.pricing-feature {
+		display: block;
+
+		.pricing-feature__inner {
+		}
+		&.item-included {}
+
+		& + .pricing-feature {
+			margin-top: 5px;
+		}
+	}
+}

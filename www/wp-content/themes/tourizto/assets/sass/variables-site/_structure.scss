@@ -1,0 +1,67 @@
+// Options
+$enable-rounded: true !default;
+$border__radius: 0px;
+
+// Box-shadow
+$box__shadow:        0 3px 38px rgba(0,0,0,.1);
+$box__shadow_mobile: 0 2px 6px rgba(0,0,0,.1);
+
+$box__shadow_banner: 2px 2px 12px rgba(136,136,136,0.26);
+$box__shadow_banner_mobile: 2px 2px 6px rgba(136,136,136,0.26);
+
+// Input
+$input__indents_y1: 9.5px;
+$input__indents_y2: 12.5px;
+$input__indents_x: 25px;
+$input__indents_y: $input__indents_y1;
+
+$input__indents_line_with_button_y1: 8px;
+$input__indents_line_with_button_y2: 8px;
+
+// Buttons
+$button__indents_y:        10px;
+$button__indents_x:        35px;
+$button__indents_y_w_btn:  11px;
+$button__indents_y_large:  10px;
+$button__indents_x_large:  47px;
+$button__indents_y_xlarge: 17px;
+$button__indents_x_xlarge: 40px;
+$button__indents_y_small:  11px;
+$button__indents_x_small:  25px;
+$button__indents_y_xsmall: 9px;
+$button__indents_x_xsmall: 20px;
+
+$button__indents:          $button__indents_y $button__indents_x;
+$button__indents_large:    $button__indents_y_large $button__indents_x_large;
+$button__indents_xlarge:   $button__indents_y_xlarge $button__indents_x_xlarge;
+$button__indents_small:    $button__indents_y_small $button__indents_x_small;
+$button__indents_xsmall:   $button__indents_y_xsmall $button__indents_x_xsmall;
+
+// Embed ratio
+$embed__ratio: 56.25%;  //  thumbnail height / thumbnail width
+
+// Prev-next icons
+$prev-icon: 'e903';
+$next-icon: 'e904';
+
+// Post-format icons
+$post-format-icons: (
+	aside:   'ee99',
+	gallery: 'ee11',
+	image:   'e987',
+	link:    'ed6e',
+	quote:   'ecbb',
+	video:   'e848',
+	audio:   'e85a',
+	status:  'eda0'
+) !default;
+
+// Site content indent
+$site-content-top-indent:    80px;
+$site-content-bottom-indent: 80px;
+
+// Transitions
+$bounce: .25s cubic-bezier(0.590, 0.150, 0.280, 1.650);
+
+// Mobile-vertical menu bg
+$mobile_menu_bg: rgba(17, 17, 17, .98);

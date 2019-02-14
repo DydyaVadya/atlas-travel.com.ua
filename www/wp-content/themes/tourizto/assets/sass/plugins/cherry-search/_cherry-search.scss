@@ -1,0 +1,142 @@
+.cherry-search-wrapper {
+	.header-search & {
+		flex-flow: row nowrap;
+		align-items: center;
+		position: absolute;
+		z-index: -1;
+		top: -999em;
+		left: 0;
+		right: 35px;
+		margin: 0;
+		opacity: 0;
+		transform: translateY(-100%);
+		transition: opacity .3s ease-out, transform .3s ease-out;
+
+		.cherry-search form.cherry-search__form {
+			align-items: center;
+			button.search-submit {
+				padding: 1px 0 0;
+				background-color: transparent;
+				.mobile-panel & {
+					padding-right: 20px;
+				}
+			}
+		}
+
+		.cherry-search__label {
+			position: relative;
+			&:before {
+				@include nucleo-mini-icon;
+
+				content: '\ea66';
+				position: absolute;
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				z-index: -1;
+			}
+		}
+	}
+
+	.style-5 &,
+	.style-7 & {
+		left: 20px;
+		right: 60px;
+	}
+
+	.site-header.search-active & {
+		top: 50%;
+		opacity: 1;
+		visibility: visible;
+		z-index: 3;
+		transform: translateY(-50%);
+	}
+
+	.site-header .mobile-panel & {
+		left: 55px;
+		right: 35px;
+	}
+
+	.cherry-search form.cherry-search__form {
+		flex-wrap: nowrap;
+		button.cherry-search__submit {
+			padding: 10.5px 24px;
+			flex: 0 0 auto;
+		}
+	}
+	
+	.cherry-search {
+		&__results-list {
+			border: none;
+			@include box-shadow;
+			margin-top: 15px;
+		}
+		&__results-item {
+			border-top: none;
+			&:after {
+				content: '';
+				display: block;
+				width: calc(100% - 40px);
+				height: 1px;
+				margin: 0 auto;
+				background-color: $color__background-hr;
+				.header-search & {
+					width: calc(100% - 60px);
+				}
+			}
+			&:hover {
+				background-color: $color__white;
+				.cherry-search__item-thumbnail {
+					img {
+						.header-search & {
+							transform: scale(1.1);
+						}
+					}
+				}
+			}
+			a {
+				padding: 10px 20px;
+				&:hover {
+					background-color: $color__white;
+				}
+				.header-search & {
+					padding: 20px 30px;
+				}
+			}
+		}
+		&__item-title {
+			transition: 400ms all ease;
+		}
+		&__item-thumbnail {
+			flex: 0 1 25%;
+			min-width: 25%;
+			.header-search & {
+				overflow: hidden;
+				flex: 0 1 12%;
+				min-width: 12%;
+				margin-right: 15px;
+				.mobile-panel & {
+					flex: 0 1 25%;
+					min-width: 25%;
+					margin-right: 10px;
+				}
+			}
+			img {
+				transition: 400ms all ease;
+			}
+		}
+		&__item-author {
+			em {
+				font-style: normal;
+			}
+		}
+		&__more-button {
+			@include btn;
+			margin: 20px;
+			.header-search & {
+				margin: 30px;
+			}
+		}
+	}
+}
+

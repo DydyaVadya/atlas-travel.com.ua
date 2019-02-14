@@ -1,0 +1,141 @@
+.subscribe-follow {
+	&__custom-bg {
+		padding: 15px;
+	}
+	&__wrap {
+
+		.full-width-header-area &,
+		.after-content-full-width-area &,
+		.before-content-area &,
+		.after-content-area & {
+			text-align: center;
+
+			.subscribe-block__messages {
+				text-align: left;
+			}
+
+			.follow-block,
+			.subscribe-block {
+				max-width: 650px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+
+.follow-block {
+	&__message {
+		margin-bottom: 2em;
+	}
+	.subscribe-block + & {
+		margin-top: 36px;
+	}
+}
+.subscribe-block {
+	&__form {
+		.full-width-header-area &,
+		.after-content-full-width-area & {
+			max-width: 470px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	&__input-group {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+		margin: 0 0 -5px;
+	}
+	&__input-wrap {
+		position: relative;
+		margin: 5px 0;
+		flex: 3 1 150px;
+		min-width: 150px;
+		padding-right: 15px;;
+
+		.sidebar-1-4 .sidebar & {
+			@include media-breakpoint-up(md) {
+				flex: 5 1 150px;
+				min-width: 150px;
+			}
+		}
+	}
+	&__input[type='email'] {
+		width: 100%;
+		min-width: 50px;
+		max-width: 100%;
+		padding-top: $input__indents_line_with_button_y1;
+		padding-bottom: $input__indents_line_with_button_y2;
+		padding-left: 23px;
+		font-size: 12px;
+		border-radius: 30px;
+
+		&.error {
+			border-color: $color__not-valid;
+		}
+	}
+	&__submit {
+		margin: 5px 0;
+		padding-left: 21px;
+		padding-right: 21px;
+		flex: 1 0 auto;
+		font-size: 12px;
+		border-radius: 30px;
+		@include media-breakpoint-only(xs) {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.sidebar & {
+			@include media-breakpoint-only(md) {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+		.footer-area:not(.footer-area--fullwidth) & {
+			@include media-breakpoint-up(sm) {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+		.sidebar-1-4 .sidebar & {
+			@include media-breakpoint-up(md) {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+	}
+
+	&__message {
+		margin-bottom: 2em;
+	}
+
+	&__error,
+	&__success {
+		margin-top: 5px;
+		@include font-size(14/16);
+		line-height: 1.7;
+	}
+	&__error{
+		color: $color__not-valid;
+	}
+	&__success {
+		color: $color__valid;
+	}
+}
+
+
+.widget-subscribe {
+	.social-list {
+		a {
+			padding: 5px 8px 4px 8px;
+		}
+		.social-list__items {
+			.menu-item {
+				padding: 0 5px;
+			}
+		}
+	}
+}
+

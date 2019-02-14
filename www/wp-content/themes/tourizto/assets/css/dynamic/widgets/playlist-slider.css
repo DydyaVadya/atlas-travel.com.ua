@@ -1,0 +1,55 @@
+.widget-playlist-slider .sp-next-thumbnail-arrow:before,
+.widget-playlist-slider .sp-next-thumbnail-arrow:after,
+.widget-playlist-slider .sp-previous-thumbnail-arrow:before,
+.widget-playlist-slider .sp-previous-thumbnail-arrow:after,
+.widget-playlist-slider .sp-arrow.sp-previous-arrow:before,
+.widget-playlist-slider .sp-arrow.sp-previous-arrow:after,
+.widget-playlist-slider .sp-arrow.sp-next-arrow:before,
+.widget-playlist-slider .sp-arrow.sp-next-arrow:after{
+	background-color: $regular_accent_color_1;
+}
+.widget-playlist-slider .sp-right-thumbnails .sp-thumbnail-container:hover,
+.widget-playlist-slider .sp-thumbnail-container.sp-selected-thumbnail .sp-thumbnail::after {
+	background-color: $regular_accent_color_3;
+}
+.widget-playlist-slider .sp-right-thumbnails .sp-thumbnail-container.sp-selected-thumbnail {
+	background-color: $regular_accent_color_1;
+}
+.widget-playlist-slider .sp-right-thumbnails .sp-thumbnail-container.sp-selected-thumbnail .sp-thumbnail-text {
+	border-color: $regular_accent_color_2;
+}
+
+.widget-playlist-slider .sp-thumbnail-title {
+	color: $regular_link_hover_color;
+}
+
+.widget-playlist-slider .sp-thumbnail::after {
+	background-color: $grey_color_1;
+}
+
+.widget-playlist-slider .sp-thumbnail-container:hover .sp-thumbnail .entry-meta,
+.widget-playlist-slider .sp-thumbnail-container:hover .sp-thumbnail .entry-meta i,
+.widget-playlist-slider .sp-thumbnail-container:hover .sp-thumbnail .posted-by,
+.widget-playlist-slider .sp-thumbnail-container:hover .sp-thumbnail .sp-thumbnail-title,
+.widget-playlist-slider .sp-thumbnail-container.sp-selected-thumbnail .sp-thumbnail .entry-meta,
+.widget-playlist-slider .sp-thumbnail-container.sp-selected-thumbnail .sp-thumbnail .entry-meta i,
+.widget-playlist-slider .sp-thumbnail-container.sp-selected-thumbnail .sp-thumbnail .posted-by,
+.widget-playlist-slider .sp-thumbnail-container.sp-selected-thumbnail .sp-thumbnail .sp-thumbnail-title {
+	color: $invert_link_hover_color;
+}
+.widget-playlist-slider .sp-has-pointer .sp-selected-thumbnail:before,
+.widget-playlist-slider .sp-has-pointer .sp-selected-thumbnail:after{
+	border-bottom-color: $regular_accent_color_1;
+}
+.widget-playlist-slider .sp-right-thumbnails .sp-thumbnail-text {
+	border-color: $grey_color_3;
+}
+
+.widget-playlist-slider .invert,
+.widget-playlist-slider .invert a,
+.widget-playlist-slider .invert .post__comments i {
+	color: $invert_link_hover_color;
+}
+.widget-playlist-slider .invert a:hover {
+	color: $invert_link_color;
+}

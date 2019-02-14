@@ -1,0 +1,96 @@
+/* #Header */
+.header-container {
+	background-color: $header_bg_color;
+	background-repeat: $header_bg_repeat;
+	background-attachment: $header_bg_attachment;
+	background-size: $header_bg_size;
+	@background_url( $header_bg_image );
+	@background_position($header_bg_position);
+}
+
+.site-header .header-container.transparent:not(.isStuck) {
+	border-bottom-color: @alpha($grey_color_1, 50);
+}
+
+.site-header.style-5 .header-nav-wrapper:before {
+	background-color: $grey_color_2;
+}
+.site-header.style-5 .header-container.invert .header-nav-wrapper:before {
+	background-color: $regular_accent_color_3;
+	opacity: .5;
+}
+
+.site-header.style-1 .header-container_wrap > :not(:first-child),
+.site-header.style-2 .header-nav-wrapper,
+.site-header.style-3 .header-container__flex-wrap,
+.site-header.style-4 .header-components__contact-button,
+.site-header.style-6 .header-components__contact-button,
+.site-header.style-7 .header-components__contact-button {
+	border-color: $grey_color_2;
+}
+
+.site-header.style-1.transparent .header-container_wrap > :not(:first-child),
+.site-header.style-2.transparent .header-nav-wrapper,
+.site-header.style-3.transparent .header-container__flex-wrap,
+.site-header.style-4.transparent .header-components__contact-button,
+.site-header.style-6.transparent .header-components__contact-button,
+.site-header.style-7.transparent .header-components__contact-button {
+	border-color: @alpha($invert_accent_color_1, 20);
+}
+
+.site-header.style-5 .row .contact-block .contact-block__inner .contact-block__item:not(:first-child) {
+	border-color: $grey_color_2;
+}
+
+/* ##Logo */
+.site-logo--text {
+	font-style: $header_logo_font_style;
+	font-weight: $header_logo_font_weight;
+	font-size: $header_logo_font_size{px};
+	font-family: @font_family( $header_logo_font_family );
+}
+.site-logo__link,
+.site-logo__link:hover {
+	color: $regular_accent_color_3;
+}
+.invert .site-description {
+	color: $invert_link_hover_color;
+	font-size: @font_size($body_font_size, multiple, ceil, 0.957)px;
+	font-weight: $breadcrumbs_font_weight;
+	letter-spacing: $h6_letter_spacing{em};
+
+}
+
+.site-logo--image {
+	border-right-color: @alpha($grey_color_1, 50);
+}
+
+/* ##Top Panel */
+.top-panel {
+	background-color: $top_panel_bg;
+}
+
+/* ##Invert Header Style*/
+.invert.top-panel,
+.invert.header-container {
+	color: $regular_text_color;
+}
+
+.header-container.invert {
+	background-color: #959595;;
+}
+
+.header-container {
+	border-bottom-color: $grey_color_2;
+}
+
+/* Social */
+.header-components .social-list--header:before {
+	background-color: @alpha($grey_color_1, 50);
+}
+
+@media (max-width: 773px) {
+	.site-header .header-container.transparent.invert:not(.isStuck) {
+		background: $regular_text_color;
+	}
+}

@@ -1,0 +1,23 @@
+.elementor-widget-icon-list {
+	.elementor-icon-list-item {
+		& + .elementor-icon-list-item {
+			margin-top: 5px;
+		}
+	}
+	.elementor-icon-list-icon {
+		i {
+			font-size: 12px;
+
+			&.fa.fa-check {
+				&:before {
+					@include nucleo-mini-icon;
+
+					content: '\ea21';
+				}
+			}
+		}
+	}
+	.elementor-icon-list-text {
+		padding-left: 10px;
+	}
+}

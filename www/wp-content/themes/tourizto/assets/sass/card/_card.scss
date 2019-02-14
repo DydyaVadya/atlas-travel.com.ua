@@ -1,0 +1,95 @@
+@import "variables";
+
+/*--------------------------------------------------------------
+## Card
+--------------------------------------------------------------*/
+.card {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+### Grid layout
+--------------------------------------------------------------*/
+@include media-breakpoint-up(sm) {
+	.card-deck {
+		display: flex;
+		margin-right: -$card-grid-gutter / 2;
+		margin-left: -$card-grid-gutter / 2;
+		flex-flow: row wrap;
+		.card {
+			padding-right: $card-grid-gutter / 2;
+			padding-left: $card-grid-gutter / 2;
+
+			max-width: calc(100% / 2);
+			width: calc(100% / 2);
+			flex: 0 0 calc(100% / 2);
+		}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.posts-list {
+		&--grid-3-cols {
+			.card {
+				max-width: calc(100% / 3);
+				width: calc(100% / 3);
+				flex: 0 0 calc(100% / 3);
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+### Masonry layout
+--------------------------------------------------------------*/
+@include media-breakpoint-up(sm) {
+	.card-columns {
+		column-gap: $card-deck-margin;
+		column-count: 2;
+		.card {
+			display: inline-block;
+			width: 100%; // Don't let them exceed the column width
+		}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.posts-list--masonry-3-cols {
+		column-count: 3;
+	}
+}
+
+/*--------------------------------------------------------------
+### Vertical Justify layout
+--------------------------------------------------------------*/
+@include media-breakpoint-up(sm) {
+	.posts-list--vertical-justify {
+		display: flex;
+		margin-right: -$card-deck-margin / 2;
+		margin-left: -$card-deck-margin / 2;
+		flex-flow: row wrap;
+		.card {
+			flex: 0 0 calc(100% / 2);
+			width: calc(100% / 2);
+			max-width: calc(100% / 2);
+			padding-right: $card-deck-margin / 2;
+			padding-left: $card-deck-margin / 2;
+		}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.posts-list--vertical-justify {
+		.card {
+			flex: 0 0 calc(100% / 3);
+			width: calc(100% / 3);
+			max-width: calc(100% / 3);
+			&:nth-child(7n + 2),
+			&:nth-child(7n + 3) {
+				flex: 0 0 calc(100% / 1.5);
+				width: calc(100% / 1.5);
+				max-width: calc(100% / 1.5);
+			}
+		}
+	}
+}

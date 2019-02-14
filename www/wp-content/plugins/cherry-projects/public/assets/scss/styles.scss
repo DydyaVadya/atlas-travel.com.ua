@@ -1,0 +1,266 @@
+@import "tm_mixins";
+@import "variables";
+@import "filters";
+@import "pagination";
+@import "grid-layout";
+@import "masonry-layout";
+@import "justified-layout";
+@import "cascading-grid-layout";
+@import "list-layout";
+@import "animation-layout";
+@import "single-post";
+@import "projects-terms";
+
+.cherry-projects-wrapper{
+	color: $dark_color_1;
+	position: relative;
+		.projects-container{
+			position: relative;
+			z-index: 8;
+		}
+		.projects-list{
+			position: relative;
+			min-height: 100px;
+		}
+}
+
+.projects-item-instance{
+	.inner-wrapper{
+		position: relative;
+	}
+	.featured-image{
+		width: 100%;
+		line-height: 0;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	.project-media, .project-terms-media{
+		position: relative;
+	}
+	.project-meta{
+		margin: 15px 0;
+	}
+	.project-content, .project-terms-media{
+		position: relative;
+	}
+
+	.simple-icon{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-color: $blue_color;
+		color: $grey_color_3;
+		margin: 5px;
+		border-radius: 30px;
+			span{
+				margin: 5px;
+			}
+			&:hover{
+				background-color: $blue_color_h;
+			}
+	}
+	.simple-button{
+		display: inline-block;
+		padding: 10px;
+		background-color: $blue_color;
+		color: $grey_color_3;
+	}
+	.hover-content{
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		position: absolute;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		padding: 15px;
+		background-color: rgba( 35, 40, 45, 0.6 );
+		@include transition(all 0.4s ease-out);
+		&.row-format{
+			flex-flow: row nowrap;
+		}
+		> *{
+			flex: 0 1 auto;
+			align-self: center;
+		}
+	}
+	&.simple-fade-hover{
+		.hover-content{
+			opacity: 0;
+			@include transition(all 0.4s ease-out);
+			>*{
+				opacity: 0;
+				@include multiTranslate(translateY(100%));
+			}
+			&:hover{
+				opacity: 1;
+				>*{
+					opacity: 1;
+					@include multiTranslate(translateY(0%));
+					@include transition(all 0.3s ease-out);
+					@for $i from 1 through 20 {
+						&:nth-child(#{$i}) {
+							transition-delay: (0.1s * $i);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.simple-scale-hover{
+		.hover-content{
+			opacity: 0;
+			@include transition(all 0.4s ease-out);
+			>*{
+				@include scale(0);
+				@include transition(all 0.4s ease-out);
+			}
+			&:hover{
+				opacity: 1;
+				>*{
+					transform: scale(1);
+					@include transition(all 0.3s ease-out);
+					@for $i from 1 through 20 {
+						&:nth-child(#{$i}) {
+							transition-delay: (0.1s * $i);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.projects-end-line-spinner{
+	width: 100%;
+	.cherry-spinner{
+		width: 70px;
+		height: 70px;
+		left: 50%;
+		margin-left: -35px;
+		display: none;
+		position: relative;
+	}
+}
+
+.projects-ajax-button-wrapper{
+	text-align: center;
+		.projects-ajax-button{
+			display: inline-block;
+				span{
+					color: #fff;
+					padding: 10px 20px;
+					background: $blue_color;
+					display: block;
+					cursor: pointer;
+				}
+				&:hover{
+					span{
+						background: $dark_color_2;
+					}
+				}
+				&.disabled{
+					@include opacity(0.3);
+						span{
+							background: $dark_color_2;
+						}
+				}
+		}
+}
+
+.cherry-projects-ajax-loader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 999;
+	pointer-events: none;
+	background-color: rgba(0, 0, 0, 0.3);
+		.cherry-spinner{
+			width: 90px;
+			height: 90px;
+			left: 50%;
+			top: 50%;
+			margin-left: -45px;
+			margin-top: -45px;
+			display: block;
+			position: relative;
+		}
+}
+
+.cherry-spinner-double-bounce.cherry-spinner {
+	position: relative;
+}
+.cherry-spinner-double-bounce .cherry-double-bounce1, .cherry-spinner-double-bounce .cherry-double-bounce2 {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: $blue_color;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: cherry-doubleBounce 2s infinite ease-in-out;
+}
+.cherry-spinner-double-bounce .cherry-double-bounce2 {
+	animation-delay: -1s;
+}
+@-webkit-keyframes cherry-doubleBounce {
+	0%, 100% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
+@keyframes cherry-doubleBounce {
+	0%, 100% {
+		transform: scale(0);
+	}
+	50% {
+		transform: scale(1);
+	}
+}
+
+
+/*
+====== Popap zoom effect ======
+*/
+.mfp-zoom-in {
+	.mfp-with-anim {
+		opacity: 0;
+		transition: all 0.2s ease-in-out;
+		transform: scale(0.8);
+	}
+	&.mfp-bg {
+		opacity: 0;
+		transition: all 0.3s ease-out;
+	}
+	&.mfp-ready {
+		.mfp-with-anim {
+			opacity: 1;
+			transform: scale(1);
+		}
+		&.mfp-bg {
+			opacity: 0.8;
+		}
+	}
+	&.mfp-removing {
+		.mfp-with-anim {
+			transform: scale(0.8);
+			opacity: 0;
+		}
+		&.mfp-bg {
+			opacity: 0;
+		}
+	}
+}

@@ -1,0 +1,90 @@
+/* #Paginations */
+.pagination {
+	border-color: $grey_color_2;
+}
+
+.site-content .page-links a,
+#content .nav-links .page-numbers,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers {
+	color: $regular_text_color;
+	border-color: $grey_color_2;
+}
+
+.site-content .page-links a:hover,
+.site-content .page-links > .page-links__item,
+#content .nav-links a.page-numbers:not(.next):not(.prev):hover,
+#content .nav-links .page-numbers.current,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers:not(.current):not(.next):not(.prev):hover,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers.current {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+}
+
+#content .nav-links .page-numbers.next,
+#content .nav-links .page-numbers.prev,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers.next,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers.prev {
+	color: $regular_link_color;
+
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: @font_size($h6_font_size, multiple, ceil, 0.75)px;
+	font-family: @font_family( $h6_font_family );
+	letter-spacing: $h6_letter_spacing{em};
+}
+
+#content .nav-links .page-numbers.next:hover,
+#content .nav-links .page-numbers.prev:hover,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers.next:hover,
+.tm-pg_front_gallery-navigation .tm_pg_nav-links a.tm_pg_page-numbers.prev:hover {
+	color: $regular_accent_color_2;
+}
+
+.comment-navigation a,
+.posts-navigation a,
+.post-navigation a {
+	font-weight: $h1_font_weight;
+	font-size: @font_size($body_font_size, multiple, ceil, 0.857)px;
+	font-family: @font_family( $h1_font_family );
+
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.comment-navigation a:hover,
+.posts-navigation a:hover,
+.post-navigation a:hover,
+
+.comment-navigation .nav-text,
+.posts-navigation .nav-text,
+.post-navigation .nav-text {
+	background-color: $regular_accent_color_2;
+}
+
+/* #Breadcrumbs */
+.breadcrumbs {
+	background-color: $breadcrumbs_bg_color;
+}
+.breadcrumbs:before {
+	background-repeat: $breadcrumbs_bg_repeat;
+	background-attachment: $breadcrumbs_bg_attachment;
+	background-size: $breadcrumbs_bg_size;
+	opacity: $breadcrumbs_bg_image_opacity;
+}
+
+.breadcrumbs__item,
+.breadcrumbs__browse {
+	font-style: $breadcrumbs_font_style;
+	font-weight: $breadcrumbs_font_weight;
+	font-size: $breadcrumbs_font_size{px};
+	line-height: $breadcrumbs_line_height;
+	font-family: @font_family( $breadcrumbs_font_family );
+	letter-spacing: $breadcrumbs_letter_spacing{em};
+}
+
+.breadcrumbs__browse,
+.breadcrumbs__item,
+.breadcrumbs__item a {
+	color: @contrast($breadcrumbs_bg_color, $invert_link_hover_color, $invert_text_color);
+}

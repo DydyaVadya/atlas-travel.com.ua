@@ -1,0 +1,57 @@
+.wpml-ls {
+	&-legacy-dropdown,
+	&-legacy-dropdown-click {
+		width: 300px;
+
+		a {
+			padding: 10px 20px;
+			line-height: 1.5;
+
+			&.wpml-ls-item-toggle {
+				padding: 17.5px 40px 17.5px 20px;
+				@include border-radius();
+				&:after {
+					content: '\eaad';
+					@include font-size(1);
+					border: none;
+					top: 50%;
+					margin-top: -8px;
+					right: 15px;
+					color: inherit;
+				}
+			}
+		}
+
+		.wpml-ls-sub-menu {
+			border-top: 0;
+
+			.wpml-ls-item:first-child a {
+				border-top-width: 1px;
+			}
+		}
+	}
+
+	&-item {}
+
+	&-legacy-list-horizontal {
+		.wpml-ls-item {
+			margin-right: 1px;
+		}
+		a {
+			padding: 10px;
+		}
+	}
+
+	&-legacy-list-vertical  {
+		a {
+			line-height: 1.5;
+			padding: 10px 20px;
+		}
+	}
+}
+
+.lang-item {
+	img {
+		vertical-align: middle;
+	}
+}

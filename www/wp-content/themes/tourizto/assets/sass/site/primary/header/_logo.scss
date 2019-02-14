@@ -1,0 +1,39 @@
+.site-branding {
+	text-align: center;
+
+	@include media-breakpoint-up(sm) {
+		text-align: left;
+		margin-bottom: 20px;
+		display: flex;
+		align-items: flex-end;
+	}
+}
+.site-logo {
+	margin: 0;
+	line-height: 1;
+
+	&__link {
+		text-decoration: none;
+		line-height: 1;
+	}
+	& + .site-description {
+		margin-top: 10px;
+
+		@include media-breakpoint-up(sm) {
+			margin-left: 23px;
+		}
+	}
+	&--image {
+		font-size: 1px;
+	}
+}
+.site-description {
+	font-size: .857rem;
+	line-height: 1;
+	text-align: center;
+
+	@include media-breakpoint-up(sm) {
+		text-align: left;
+		margin-bottom: 4px;
+	}
+}

@@ -1,0 +1,26 @@
+/* #News-smart-box */
+.news-smart-box__navigation-wrapper {
+	border-color: $grey_color_2;
+}
+
+.news-smart-box__instance .mini-type::before {
+	background-color: $grey_color_2;
+}
+
+.news-smart-box__navigation-terms-list-item {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: @font_size($h6_font_size, multiple, ceil, 0.75)px;
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	color: $regular_link_hover_color;
+}
+.news-smart-box__navigation-terms-list-item:hover,
+.news-smart-box__navigation-terms-list-item.is-active {
+	color: $regular_link_color;
+}
+
+.news-smart-box__instance .double-bounce-1,
+.news-smart-box__instance .double-bounce-2 {
+	background-color: $regular_accent_color_1;
+}

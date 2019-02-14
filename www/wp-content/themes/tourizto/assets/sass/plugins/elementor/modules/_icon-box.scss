@@ -1,0 +1,59 @@
+.elementor-widget-icon-box {
+	.elementor-icon-box-description {
+		a {
+			color: inherit;
+			text-decoration: underline;
+
+			&:hover {
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+		line-height: 1.5em;
+	}
+	.elementor-icon-box-title {
+		width: 100%;
+		margin: 0;
+		text-transform: uppercase;
+		line-height: 2em;
+	}
+	&.elementor-position-top {
+		.elementor-icon-box-title {
+			margin-bottom: 9px;
+		}
+	}
+	&.elementor-position-left {
+		@include media-breakpoint-down(xs) {
+			.elementor-icon-box-icon {
+				padding-right: 18px;
+			}
+		}
+	}
+
+	.elementor-icon-box-wrapper {
+		@include elementor-mini-30-columns {
+			@include media-breakpoint-up(md) {
+				display: block;
+
+				.elementor-icon-box-icon {
+					margin-bottom: 13px;
+				}
+			}
+		}
+	}
+	.elementor-icon {
+		font-size: 25px;
+		padding: 13px;
+	}
+	&.elementor-position-left {
+		.elementor-icon-box-wrapper {
+			display: flex;
+			align-items: center;
+			padding: 22px 18px;
+			padding-left: 30px;
+		}
+	}
+	.elementor-widget-container {
+		@include border-radius(4px);
+	}
+}

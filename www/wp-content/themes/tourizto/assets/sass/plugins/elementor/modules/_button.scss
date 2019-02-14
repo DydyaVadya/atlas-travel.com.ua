@@ -1,0 +1,77 @@
+.elementor-button {
+	@include btn;
+
+	&:hover,
+	&:focus,
+	&:visited {
+		opacity: 1;
+	}
+
+	/* Icon */
+
+	.elementor-button-icon {
+		font-size: 1.167em;
+		line-height: 1.5;
+		transition: .3s all;
+		margin-right: 5px;
+		order: 1;
+
+		&.elementor-align-icon-right {
+			margin-right: 0;
+			margin-left: 5px;
+			order: 3;
+		}
+	}
+
+	/* Sizes */
+	&.elementor-size-xs,
+	&.elementor-size-sm,
+	&.elementor-size-md,
+	&.elementor-size-lg,
+	&.elementor-size-xl {
+		border-radius: $border__radius;
+	}
+
+	// Extra small
+	&.elementor-size-xs {
+		font-size: 80%;
+		padding: $button__indents_xsmall;
+	}
+	// Small
+	&.elementor-size-sm {
+		font-size: 90%;
+		padding: $button__indents_small;
+		@include border-radius(40px);
+	}
+	// Medium
+	&.elementor-size-md {
+		padding: $button__indents;
+		font-size: 12px;
+		@include border-radius(40px);
+	}
+	// Large
+	&.elementor-size-lg {
+		font-size: 12px;
+		@include border-radius(40px);
+		padding: $button__indents_large;
+	}
+	// Extra large
+	&.elementor-size-xl {
+		font-size: 120%;
+		padding: $button__indents_xlarge;
+	}
+
+	.elementor-button-content-wrapper {
+		display: flex;
+		align-items: center;
+
+		> * {
+			float: none;
+		}
+	}
+	.elementor-button-text {
+		order: 2;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+}

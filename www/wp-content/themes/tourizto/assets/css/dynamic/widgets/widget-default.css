@@ -1,0 +1,156 @@
+.sidebar .widget + .widget {
+	border-color: $grey_color_2;
+}
+
+/* #Widget Calendar */
+.widget_calendar thead,
+.widget_calendar tbody{
+	color: $regular_text_color;
+}
+
+.widget_calendar caption {
+	color: $invert_link_hover_color;
+	background-color: $regular_accent_color_1;
+	font-family: @font_family( $h6_font_family );
+	font-size: $h6_font_size{px};
+}
+
+.widget_calendar th {
+	color: $regular_link_hover_color;
+}
+
+.widget_calendar th:after {
+	background-color: $grey_color_3;
+}
+
+.widget_calendar tbody td:not(.pad) {
+	color: $regular_text_color;
+}
+
+.widget_calendar tbody td a {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.widget_calendar tbody td a:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_link_hover_color;
+}
+
+.widget_calendar tbody td#today {
+	color: $regular_accent_color_1;
+}
+
+.widget_calendar tfoot a:before {
+	color: @alpha($invert_link_hover_color, 30);
+}
+
+.widget_calendar tfoot a:hover:before {
+	color: $invert_link_hover_color;
+}
+
+/* #Widget Tag Cloud */
+.tagcloud a {
+	border-color: $grey_color_2;
+	color: $regular_text_color;
+}
+
+.tagcloud a:hover {
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+	color: $invert_link_hover_color;
+}
+
+/* #Widget Recent Posts - Comments*/
+.widget_recent_entries a,
+.widget_recent_comments a,
+.widget_recent_comments .comment-author-link {
+	color: $regular_accent_color_1;
+}
+
+.widget_recent_comments li > a {
+	color: $regular_text_color;
+}
+
+.widget_recent_entries a:hover,
+.widget_recent_comments a:hover,
+.widget_recent_comments li > a:hover {
+	color: $regular_accent_color_2;
+}
+
+/* #Widget Archive - Categories */
+.widget_archive label:before,
+.widget_categories label:before{
+	color: $regular_link_hover_color;
+}
+
+.widget_categories a,
+.widget_archive a {
+	color: $regular_text_color;
+}
+.widget_categories a:hover,
+.widget_archive a:hover {
+	color: $regular_accent_color_1;
+}
+
+.invert .widget_categories a,
+.invert .widget_archive a {
+	color: $invert_text_color;
+}
+.invert .widget_categories a,
+.invert .widget_archive a {
+	color: $invert_link_color;
+}
+
+/* #Widgets misc */
+.widget_archive ul,
+.widget_categories ul,
+.widget_recent_entries ul,
+.widget_recent_comments ul,
+a.rsswidget,
+.tagcloud a {
+}
+
+/* #Widget date style */
+.widget_recent_entries .post-date,
+.rss-date {
+	font-style: $meta_font_style;
+	font-weight: $meta_font_weight;
+	font-size: $meta_font_size{px};
+	line-height: $meta_line_height;
+	font-family: @font_family( $meta_font_family );
+	letter-spacing: $meta_letter_spacing{em};
+	color: $regular_text_color;
+}
+
+.widget_nav_menu ul li a {
+	color: $regular_text_color;
+}
+
+.widget_nav_menu ul li a:hover {
+	color: $regular_link_color;
+}
+
+.widget_nav_menu ul li a::before {
+	color: $regular_accent_color_1;
+}
+
+.widget_nav_menu ul li a:hover::before {
+	color: $regular_accent_color_3;
+}
+
+.invert .widget_nav_menu ul li a {
+	color: $invert_text_color;
+}
+
+.invert .widget_nav_menu ul li a:hover {
+	color: $invert_link_color;
+}
+
+.invert .widget_nav_menu ul li a::before {
+	color: $regular_accent_color_1;
+}
+
+.invert .widget_nav_menu ul li a:hover::before {
+	color: $invert_accent_color_1;
+}

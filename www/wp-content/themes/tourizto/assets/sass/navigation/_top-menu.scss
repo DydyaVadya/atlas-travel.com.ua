@@ -1,0 +1,19 @@
+.top-panel__menu {
+	&-list {
+		text-align: center;
+		margin: 0 -4px;
+
+		.menu-item {
+			margin: 5px 4px;
+			font-size: .857rem;
+			line-height: 1.4;
+
+			a { text-decoration: none; }
+
+			&.current-menu-item,
+			&.current_page_item {
+				a {	}
+			}
+		}
+	}
+}

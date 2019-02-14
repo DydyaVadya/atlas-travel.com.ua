@@ -1,0 +1,4 @@
+2019-01-28T09:09:29+00:00 CRITICAL Argument 3 passed to Elementor\Core\Files\CSS\Post::add_controls_stack_style_rules() must be of the type array, null given, called in /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/elementor/core/files/css/base.php on line 705 and defined в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/elementor/core/files/css/post.php на строке 212
+
+2019-01-28T09:33:05+00:00 CRITICAL Argument 3 passed to Elementor\Core\Files\CSS\Post::add_controls_stack_style_rules() must be of the type array, null given, called in /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/elementor/core/files/css/base.php on line 705 and defined в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/elementor/core/files/css/post.php на строке 212
+

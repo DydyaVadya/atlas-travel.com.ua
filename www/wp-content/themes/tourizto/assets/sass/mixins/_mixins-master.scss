@@ -1,0 +1,359 @@
+// Function unicode
+@function unicode($str){
+	@return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+}
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 14) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+// Box shadow
+@mixin box-shadow {
+	box-shadow: $box__shadow_mobile;
+
+	@include media-breakpoint-up(md) {
+		box-shadow: $box__shadow;
+	}
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Clearfix
+@mixin clearfix {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after {
+	clear: both;
+}
+
+@mixin reset-container {
+	max-width: inherit;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@mixin reset-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+@mixin font-awesome-icon {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin nucleo-mini-icon {
+	display: inline-block;
+	font-family: 'nc-icon-mini';
+	line-height: 1;
+	speak: none;
+	text-transform: none;
+	/* Better Font Rendering */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin btn {
+	line-height: 2;
+	display: inline-block;
+	max-width: 100%;
+	padding: $button__indents;
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+	vertical-align: top;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border-radius: $border__radius;
+	border-width: 0;
+	border-style: solid;
+	letter-spacing: 0.04em;
+	transition: .3s ease-out;
+	text-transform: uppercase;
+
+	&,
+	&:hover {
+		text-decoration: none;
+	}
+	&:focus {
+		outline: 0;
+	}
+	&:active {
+		box-shadow: none;
+	}
+}
+
+@mixin btn-mods {
+	&.btn-fullwidth {
+		width: 100%;
+	}
+
+	&.btn-large {
+		@include font-size(1.125);
+		font-weight: 800;
+		padding: $button__indents_large;
+
+		&.btn-icon {
+			padding-left: $button__indents_x_large - 10px;
+			padding-right: $button__indents_x_large - 10px;
+		}
+	}
+
+	&.btn-icon {
+		padding-left: $button__indents_x - 10px;
+		padding-right: $button__indents_x - 10px;
+	}
+
+	&.btn-icon--left {
+		.btn__icon { margin-right: 7px; }
+	}
+
+	&.btn-icon--right {
+		direction: rtl;
+		.btn__icon { margin-left: 7px; }
+	}
+
+	&[class*="btn"][class*="btn-"]:active {
+		box-shadow: none;
+	}
+
+	.btn__icon { @include font-size(1.5) }
+
+	.btn__icon,
+	.btn__text { vertical-align: middle }
+}
+
+@mixin builder-btn-large-mods {
+	@include font-size(1.1);
+	padding: $button__indents_large;
+}
+
+@mixin nc-icon-outline {
+	display: inline-block;
+	font-family: 'nc-icon-outline';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	speak: none;
+	text-transform: none;
+	/* Better Font Rendering */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Optional hyphenation
+@mixin hyphens($mode: auto) {
+	word-wrap: break-word;
+	-webkit-hyphens: $mode;
+	-moz-hyphens: $mode;
+	-ms-hyphens: $mode; // IE10+
+	-o-hyphens: $mode;
+	hyphens: $mode;
+}
+
+@mixin word-wrap {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+// .hentry, .widget
+@mixin card {
+	@include border-radius;
+}
+
+// Resize anything
+@mixin resizable($direction) {
+	resize: $direction; // Options: horizontal, vertical, both
+	overflow: auto; // Per CSS3 UI, `resize` only applies when `overflow` isn't `visible`
+}
+
+// tiles class
+@mixin tiles( $class_name, $property, $ratio: 1, $breakpoints: $grid-breakpoints, $gutter: $grid-gutter-width, $columns: $grid-columns ) {
+	.#{$class_name}{
+		@each $breakpoint, $size in $breakpoints{
+			@if $breakpoint!='xs' and $breakpoint!='sm' {
+				@include media-breakpoint-up( $breakpoint ) {
+					@if $property=='width' {
+						width: percentage($ratio/$columns);
+					} @else {
+						$padding:($size - map-get($container-max-widths, $breakpoint))/2;
+						#{$property}: #{($size - $padding)/$columns*$ratio};
+					}
+				}
+			} @else {
+				@include media-breakpoint-up( $breakpoint ) {
+					@if $property=='width' {
+						#{$property}: 100%;
+					} @else {
+						#{$property}: 300px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Triangle
+@mixin triangle($dir, $w, $h, $clr) {
+	width: 0;
+	height: 0;
+	border-style: solid;
+
+	@if $dir == top {
+		border-width: 0 $w/2 $h $w/2;
+		border-color: transparent transparent $clr transparent;
+	} @else if $dir == bottom {
+		border-width: $h $w/2 0 $w/2;
+		border-color: $clr transparent transparent transparent;
+	} @else if $dir == left {
+		border-width: $h/2 $w $h/2 0;
+		border-color: transparent $clr transparent transparent;
+	} @else if $dir == right {
+		border-width: $h/2 0 $h/2 $w;
+		border-color: transparent transparent transparent $clr;
+	} @else if $dir == top_left {
+		border-width: $w $w 0 0;
+		border-color: $clr transparent transparent transparent;
+	} @else if $dir == top_right {
+		border-width: 0 $w $w 0;
+		border-color: transparent $clr transparent transparent;
+	} @else if $dir == bottom_right {
+		border-width: 0 0 $w $w;
+		border-color: transparent transparent $clr transparent;
+	} @else if $dir == bottom_left {
+		border-width: $w 0 0 $w;
+		border-color: transparent transparent transparent $clr;
+	}
+}
+
+
+// Opacity
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	// IE8 filter
+	$opacity-ie: ($opacity * 100);
+	filter: #{alpha(opacity=$opacity-ie)};
+}
+
+
+// Widgets area selectors
+@mixin contents-area( $parent-symbol:true ) {
+	@if $parent-symbol {
+		.before-content-area &,
+		.after-content-area &,
+		.footer-area--fullwidth & {
+			@content;
+		}
+	} @else {
+		.before-content-area,
+		.after-content-area,
+		.footer-area--fullwidth {
+			@content;
+		}
+	}
+}
+
+@mixin loop-area( $parent-symbol:true ) {
+	@if $parent-symbol {
+		.before-loop-area &,
+		.after-loop-area & {
+			@content;
+		}
+	} @else {
+		.before-loop-area,
+		.after-loop-area {
+			@content;
+		}
+	}
+}
+
+@mixin sidebars-area( $parent-symbol:true ) {
+	@if $parent-symbol {
+		.sidebar &,
+		.footer-area:not(.footer-area--fullwidth) & {
+			@content;
+		}
+	} @else {
+		.sidebar,
+		.footer-area:not(.footer-area--fullwidth) {
+			@content;
+		}
+	}
+}
+
+@mixin elementor-mini-33-columns {
+	.elementor-col-10 &,
+	.elementor-col-11 &,
+	.elementor-col-12 &,
+	.elementor-col-14 &,
+	.elementor-col-16 &,
+	.elementor-col-20 &,
+	.elementor-col-25 &,
+	.elementor-col-30 &,
+	.elementor-col-33 & {
+		@content;
+	}
+}
+@mixin elementor-mini-30-columns {
+	.elementor-col-10 &,
+	.elementor-col-11 &,
+	.elementor-col-12 &,
+	.elementor-col-14 &,
+	.elementor-col-16 &,
+	.elementor-col-20 &,
+	.elementor-col-25 &,
+	.elementor-col-30 & {
+		@content;
+	}
+}
+
+// Custom grid indent
+@mixin grid-indent( $indent: $grid-gutter-width/2, $child-indent-type: 'padding', $child-selector: '> *' ) {
+	margin-left: - $indent;
+	margin-right: - $indent;
+
+	@if $child-indent-type=='padding' or $child-indent-type=='margin' {
+		#{$child-selector} {
+			#{$child-indent-type}-left: $indent;
+			#{$child-indent-type}-right: $indent;
+		}
+	} @else {
+		#{$child-selector} {
+			padding-left: $indent;
+			padding-right: $indent;
+		}
+	}
+}
+
+// Textures pseudo
+@mixin texture-pseudo() {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('assets/images/texture.png');
+	background-repeat: repeat;
+	background-position: 50% 50%;
+	opacity: 1;
+}
+
+@import "transform";
+@import "border-radius";
+@import "flex";

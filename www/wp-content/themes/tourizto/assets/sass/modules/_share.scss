@@ -1,0 +1,63 @@
+ .share-btns {
+	&__list {
+		position: relative;
+		line-height: 1;
+
+		.posts-list--default-fullwidth-image .post__date + &,
+		.single-post .post__date + &,
+		.cherry-projects-single & {
+			@include media-breakpoint-up(sm) {
+				margin-top: 30px;
+			}
+		}
+	}
+	&__items {
+		.posts-list &,
+		.single-post &,
+		.cherry-projects-single & {
+			@include grid-indent(15px);
+		}
+		.posts-list--default-fullwidth-image &,
+		.single-post &,
+		.cherry-projects-single & {
+			@include media-breakpoint-up(sm) {
+				display: flex;
+				flex-direction: column;
+				@include grid-indent(0);
+			}
+		}
+	}
+	&__item {
+		text-align: center;
+
+		.posts-list &,
+		.single-post &,
+		.cherry-projects-single & {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.posts-list--default-fullwidth-image &,
+		.single-post &,
+		.cherry-projects-single & {
+			@include media-breakpoint-up(sm) {
+				display: block;
+			}
+			& + .share-btns__item {
+				@include media-breakpoint-up(sm) {
+					margin-top: 23px;
+				}
+			}
+		}
+	}
+	&__link {
+		text-align: center;
+		text-decoration: none;
+		color: $color__grey;
+		@include font-size(1);
+	}
+	&__before {
+		i { @include font-size(1.125); }
+
+		.single & { display: none; }
+	}
+}

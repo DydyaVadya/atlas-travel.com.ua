@@ -1,0 +1,15 @@
+/* Views */
+.cherry-trend-views {
+	display: inline-block;
+	vertical-align: top;
+	&__count {
+		&::before {
+			font-family: FontAwesome;
+			font-size: 16px;
+			display: inline-block;
+			margin-right: 5px;
+			content: '\f06e';
+			vertical-align: middle;
+		}
+	}
+}

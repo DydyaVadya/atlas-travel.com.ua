@@ -1,0 +1,188 @@
+.cherry-services .service-icon {
+	color: @darken($grey_color_3, 7.5);
+}
+
+.services-container .cherry-services-filter {
+	font-family: @font_family( $h1_font_family );
+}
+.services-container .cherry-services-filter_link {
+	color: $regular_text_color;
+}
+.services-container .cherry-services-filter_link:hover,
+.services-container .cherry-services-filter_item.active .cherry-services-filter_link {
+	color: $regular_link_color;
+}
+
+.cherry-services .title_wrap a {
+	color: $regular_link_color;
+}
+
+.cherry-services .title_wrap a:hover{
+	color: $regular_link_hover_color;
+}
+
+.cherry-services .cherry-spinner-double-bounce .cherry-double-bounce1,
+.cherry-services .cherry-spinner-double-bounce .cherry-double-bounce2 {
+	background-color: $regular_accent_color_1;
+}
+
+.template-default .services-item .title_wrap a,
+.template-default-description .services-item .title_wrap a {
+	color: $regular_h4_color;
+}
+
+.template-media-icon .services-item-inner,
+.template-default .services-item-inner,
+.template-default-description .services-item-inner,
+.template-sidebar-media-icon .services-item-inner {
+	border-color: $grey_color_2;
+}
+
+.template-sidebar-media-icon .services-item-inner:hover {
+	background-color: $regular_accent_color_3;
+}
+
+.template-media-icon .services-item .service-icon i,
+.template-sidebar-media-icon .services-item .service-icon i,
+.template-media-icon .services-item .title_wrap a:hover,
+.template-default .services-item .title_wrap a:hover,
+.template-default-description .services-item .title_wrap a:hover {
+	color: $regular_link_color;
+}
+
+.template-default-icon .services-item-inner .service-icon {
+	color: $regular_accent_color_1;
+}
+
+
+.template-default-icon .services-item-inner .services-item-floated-content h4 {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	letter-spacing: $h6_letter_spacing{em};
+}
+
+.template-default-icon .services-item-inner .title_wrap h3 a {
+	color: $regular_link_color;
+}
+
+.template-default-icon .services-item-inner:hover .title_wrap h3 a {
+	color: $regular_link_hover_color;
+}
+
+.template-default-icon .services-item-inner:hover .service-icon {
+	color: $regular_link_color;
+}
+
+.template-default-icon .services-item-inner .title_wrap h3 a:hover {
+	color: $regular_accent_color_2;
+}
+
+
+.template-media-icon .services-item .title_wrap a,
+.template-sidebar-media-icon .services-item .title_wrap a {
+	color: $regular_h5_color;
+}
+
+.template-sidebar-media-icon .services-item-inner:hover .title_wrap a,
+.template-sidebar-media-icon .services-item-inner:hover .service-icon i {
+	color: $invert_h5_color;
+}
+
+.template-media-icon-bg .title_wrap a,
+.template-media-icon-bg .services-item-inner .content_wrap,
+.template-media-icon-bg .services-item-inner .service-icon {
+	color: $invert_link_hover_color;
+}
+
+.template-media-icon-bg .services-item-inner:hover .title_wrap a,
+.template-media-icon-bg .services-item-inner:hover .content_wrap {
+	color: $regular_link_hover_color;
+}
+
+.template-media-icon-bg .services-item-inner:hover .service-icon {
+	color: $invert_link_color;
+}
+
+.template-media-icon-bg .services-item-inner:hover .title_wrap a:hover{
+	color: $regular_accent_color_1;
+}
+
+.template-media-icon-bg .services-item-overflow::after {
+	background-color: $regular_accent_color_1;
+}
+
+.template-media-icon-bg .services-item-inner:hover .services-item-overflow::after {
+	background-color: $invert_accent_color_1;
+}
+
+.template-media-icon-bg-2 .services-item-inner {
+	border-color: $grey_color_2;
+}
+
+.template-media-icon-bg-2 .services-item-inner:hover {
+	border-color: $regular_accent_color_1;
+}
+
+.template-media-icon-bg-2 .services-item-inner:hover .services-item-inner,
+.template-media-icon-bg-2 .services-item-inner:hover .title_wrap a,
+.template-media-icon-bg-2 .services-item-inner:hover .content_wrap p,
+.template-media-icon-bg-2 .services-item-inner:hover .btn-link {
+	color: $invert_accent_color_1;
+}
+
+.template-media-icon-bg-2 .services-item .service-icon {
+	color: $regular_accent_color_1;
+}
+
+.template-media-icon-bg-2 .services-item .services-item-inner:hover .service-icon {
+	color: $invert_accent_color_1;
+}
+
+.template-media-icon-bg-2 .services-item-inner:before{
+	background-color: $regular_accent_color_1;
+}
+
+.template-media-icon-bg-2 .title_wrap a {
+	color: $regular_h5_color;
+}
+
+.template-media-icon-bg-2 .title_wrap a:hover,
+.template-media-icon-bg-2 .btn-link:hover {
+	color: $regular_link_hover_color;
+}
+
+.services-macros .tm-testi__title-main {
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+	font-size: $h4_font_size{px};
+	line-height: $h4_line_height;
+	font-family: @font_family( $h4_font_family );
+	color: $regular_h4_color;
+}
+
+.template-default .services-item ul li,
+.template-default-description .services-item ul li {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	letter-spacing: $h6_letter_spacing{em};
+	color: $regular_h6_color;
+}
+
+.template-media-icon .services-item .service-icon i {
+	color: $regular_accent_color_6;
+}
+.template-media-icon .services-item .title_wrap a:hover {
+	color: $regular_accent_color_6;
+}
+.template-default-icon .services-item-inner .service-icon {
+	color: $regular_accent_color_7;
+}
+.template-default-icon .title_wrap a:hover {
+	color: $regular_accent_color_7;
+}

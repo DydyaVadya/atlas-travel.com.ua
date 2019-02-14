@@ -1,0 +1,77 @@
+.site-header.style-7 {
+	.site-branding {
+		text-align: center;
+
+		@include media-breakpoint-up(sm) {
+			display: block;
+			margin-bottom: 0;
+		}
+	}
+
+	.site-description {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.row {
+		@include media-breakpoint-up(sm) {
+			padding-top: 15px;
+			position: relative;
+		}
+		> * {
+			padding-bottom: 15px;
+		}
+	}
+
+	.main-navigation {
+		margin: 0;
+	}
+
+	.header-components {
+		@include media-breakpoint-up(sm) {
+			justify-content: flex-end;
+		}
+	}
+
+	.header-search {
+		@include media-breakpoint-up(sm) {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			z-index: -1;
+		}
+	}
+
+	&.search-active {
+		.header-search {
+			z-index: 10;
+		}
+	}
+
+	.header-components__contact-button {
+		border-bottom: 1px solid;
+		position: relative;
+		z-index: 10;
+
+		&:before,
+		&:after {
+			content: '';
+			width: 100vw;
+			height: 100%;
+			position: absolute;
+			bottom: -1px;
+			border-bottom: 1px solid;
+			border-color: inherit;
+			z-index: -1;
+		}
+		&:before {
+			right: 100%;
+		}
+		&:after {
+			left: 100%;
+		}
+	}
+}

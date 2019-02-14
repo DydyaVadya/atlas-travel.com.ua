@@ -1,0 +1,87 @@
+@import "../mixins/menu-toggle-type";
+
+// Toggle buttons options
+$menu-toggle-type                            : squeeze !default; // skin, squeeze
+
+$menu-toggle-padding-x                       : 0px !default;
+$menu-toggle-padding-y                       : 14px !default;
+$menu-toggle-layer-width                     : 18px !default;
+$menu-toggle-layer-height                    : 2px !default;
+$menu-toggle-layer-spacing                   : 4px !default;
+$menu-toggle-layer-color                     : #333 !default;
+$menu-toggle-layer-border-radius             : 0px !default;
+$menu-toggle-hover-opacity                   : 1 !default;
+$menu-toggle-hover-transition-duration       : 0.15s !default;
+$menu-toggle-hover-transition-timing-function: linear !default;
+
+.menu-toggle {
+	padding: $menu-toggle-padding-y $menu-toggle-padding-x;
+	cursor: pointer;
+	transition-property: opacity;
+	transition-duration: $menu-toggle-hover-transition-duration;
+	transition-timing-function: $menu-toggle-hover-transition-timing-function;
+
+	// Normalize (<button>)
+	font: inherit;
+	color: inherit;
+	text-transform: none;
+	background: none;
+	border: 0;
+	margin: 0;
+	overflow: visible;
+
+	&:hover {
+		opacity: $menu-toggle-hover-opacity;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	@include menu-toggle-type();
+}
+
+.menu-toggle-box {
+	width: $menu-toggle-layer-width;
+	height: $menu-toggle-layer-height * 3 + $menu-toggle-layer-spacing * 2;
+	display: block;
+	position: relative;
+}
+
+.menu-toggle-inner {
+	display: block;
+	top: 50%;
+	margin-top: $menu-toggle-layer-height / -2;
+	background-color: $menu-toggle-layer-color;
+
+	&,
+	&::before,
+	&::after {
+		width: $menu-toggle-layer-width;
+		height: $menu-toggle-layer-height;
+		border-radius: $menu-toggle-layer-border-radius;
+		position: absolute;
+		transition-property: transform;
+		transition-duration: 0.15s;
+		transition-timing-function: ease;
+	}
+
+	&::before,
+	&::after {
+		background-color: inherit;
+	}
+
+	&::before,
+	&::after {
+		content: "";
+		display: block;
+	}
+
+	&::before {
+		top: ($menu-toggle-layer-spacing + $menu-toggle-layer-height) * -1;
+	}
+
+	&::after {
+		bottom: ($menu-toggle-layer-spacing + $menu-toggle-layer-height) * -1;
+	}
+}

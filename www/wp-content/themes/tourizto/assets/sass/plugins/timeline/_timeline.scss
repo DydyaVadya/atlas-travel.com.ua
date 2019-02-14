@@ -1,0 +1,359 @@
+.tm_timeline {
+	padding: 0;
+	margin: 30px 0;
+
+	.contol_wrap {
+		display: flex;
+		flex-wrap: nowrap;
+		margin-top: 89px;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		i {
+			@include font-size(1.5);
+		}
+	}
+
+	.tm_timeline__control {
+		&.tm_timeline__control-slide-left {
+			/*rtl:ignore*/
+			margin-right: 40px;
+		}
+		padding: 10px;
+		margin: 0;
+		@include translate(0, 0);
+		opacity: 1 !important;
+		position: relative;
+		display: inline-block;
+		right: auto;
+		left: auto;
+		background: transparent;
+		border: none;
+		i{
+			line-height: inherit;
+		}
+
+		&:before{
+			position: absolute;
+			content: '';
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			z-index: -1;
+			transition: $bounce;
+		}
+		&:hover {
+			position: relative;
+			background: transparent;
+			border: none;
+			left: auto;
+			right: auto;
+			padding: 10px;
+			&:before{
+				left: -15px;
+				right: -15px;
+				top: -15px;
+				bottom: -15px;
+			}
+		}
+
+		&:focus {
+			position: relative;
+			background: transparent;
+			border: none;
+			left: auto;
+			right: auto;
+			padding: 10px;
+		}
+	}
+
+	.tm_timeline__tense {
+		margin-top: 0;
+		background: $color__background-hr;
+	}
+
+	.tm_timeline__event {
+		/*rtl:raw:
+		text-align: right;
+		*/
+		.tm_timeline__event__dot {
+			height: 21px;
+			width: 21px;
+			box-shadow: none;
+			border: 4px solid;
+			background-color: $color__white;
+		}
+
+		.tm_timeline__event__date {
+			@include font-size(0.75);
+		}
+
+		.tm_timeline__event__title {
+			margin-top: 8px;
+			margin-bottom: 8px;
+		}
+	}
+
+	//horizontal layout
+	&.tm_timeline-layout-horizontal {
+		text-align: center;
+		margin: 30px auto;
+
+		.tm_timeline__tense {
+			height: 4px;
+			top: auto;
+			bottom: 90px;
+		}
+
+		.tm_timeline__body{
+			overflow: visible;
+		}
+
+		.tm_timeline__container {
+			flex-wrap: wrap;
+			margin: 0 auto;
+		}
+
+		.tm_timeline__pages {
+			padding-bottom: 0;
+		}
+
+		.tm_timeline__page__content {
+			display: block;
+			@include media-breakpoint-up(sm) {
+				display: flex;
+			}
+		}
+
+		.tm_timeline__event__dot {
+			left: 50%;
+			top: auto;
+			bottom: -65px;
+			transform: translateX(-50%);
+		}
+
+		.tm_timeline__event {
+			text-align: center;
+			flex-basis: 100%;
+			margin: 30px 10px 25px;
+			@include media-breakpoint-up(sm) {
+				margin: 0 0 25px;
+			}
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+
+		.tm_timeline__event__description,
+		.tm_timeline__event__title,
+		.tm_timeline__event__date {
+			@include translate(0, 0);
+		}
+		.tm_timeline__event__title{
+			margin-bottom: 20px;
+		}
+	}
+
+
+	//vertical layout
+	&.tm_timeline-layout-vertical {
+
+		.tm_timeline__event__description,
+		.tm_timeline__event__title,
+		.tm_timeline__event__date {
+			/*rtl:raw:
+			transform: translate(0, 0);
+			*/
+		}
+
+		.tm_timeline__event__title {
+
+			@include media-breakpoint-up(lg) {
+				margin-bottom: 20px;
+			}
+		}
+
+		&.tm_timeline-layout-vertical-chessOrder {
+			.tm_timeline__container {
+				margin: 0;
+			}
+
+			.tm_timeline__event {
+				max-width: 100%;
+				margin-bottom: 7px;
+				.position-one-right-sidebar &,
+				.position-one-left-sidebar & {
+					max-width: 100%;
+					@include media-breakpoint-up(sm) {
+						max-width: 45%;
+					}
+				}
+
+				@include media-breakpoint-up(sm) {
+					max-width: 50%;
+				}
+				@include media-breakpoint-up(lg) {
+					max-width: 90%;
+				}
+
+			}
+
+			.tm_timeline__tense {
+				margin-left: 0;
+				@include media-breakpoint-up(sm) {
+					margin-left: auto;
+				}
+			}
+
+			.tm_timeline__event-odd {
+				@include translate(0, 0);
+				@include media-breakpoint-up(sm) {
+					@include translate(50%, 0);
+				}
+
+				.tm_timeline__event__description {
+					padding: 0 10px 0 0;
+					@include media-breakpoint-up(sm) {
+						padding: 0;
+					}
+				}
+			}
+
+			.tm_timeline__event.tm_timeline__event-even {
+				@include translate(0, 0);
+				text-align: left;
+				margin-left: 32px;
+				padding-right: 0;
+				@include media-breakpoint-up(sm) {
+					@include translate(-50%, 0);
+					text-align: right;
+					margin-left: auto;
+					padding-right: 32px;
+
+				}
+				@include media-breakpoint-up(lg) {
+					padding-right: 62px;
+				}
+
+				.tm_timeline__event__dot {
+					left: -50px;
+					@include media-breakpoint-up(sm) {
+						left: auto;
+						/*rtl:raw:
+						left: 0;
+						*/
+					}
+
+				}
+
+				.tm_timeline__event__description {
+					padding: 0 10px 0 0;
+					@include media-breakpoint-up(sm) {
+						padding: 0;
+					}
+				}
+			}
+			.tm_timeline__event__dot {
+				left: 0;
+			}
+		}
+
+		.tm_timeline__container {
+			min-width: 100%;
+			max-width: 100%;
+
+			@include media-breakpoint-down(md) {
+				margin: 0 0 0 auto;
+			}
+
+			@include media-breakpoint-up(md) {
+				min-width: 600px;
+				max-width: 50%;
+			}
+		}
+		.tm_timeline__tense {
+			width: 4px;
+		}
+
+		.tm_timeline__event__dot {
+			@include translate(-50%, 0);
+			position: absolute;
+			left: -2px;
+		}
+
+		.tm_timeline__body-tense {
+			border-left: 4px solid;
+			/*rtl:raw:
+			border-left: none;
+			*/
+		}
+
+		.tm_timeline__event__description {
+			padding: 0 0 0 10px;
+			@include media-breakpoint-up(sm) {
+				padding: 0;
+			}
+		}
+
+		.tm_timeline__event {
+			padding-left: 40px;
+			margin-bottom: 90px;
+			max-width: 100%;
+			@include media-breakpoint-up(lg) {
+				padding-left: 70px;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			&.tm_timeline__event-odd {
+				padding-left: 32px;
+				@include media-breakpoint-up(lg) {
+					padding-left: 60px;
+				}
+				.tm_timeline__event__dot {
+					@include translate(-50%, 0);
+				}
+			}
+
+			&.tm_timeline__event-even {
+				padding-right: 62px;
+				.tm_timeline__event__dot {
+					@include translate(52%, 0);
+				}
+			}
+		}
+	}
+}
+
+.single-timeline_post {
+	#primary {
+		left: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+		@include media-breakpoint-up(md) {
+			left: 16.66667%;
+			flex: 0 0 66.66667%;
+			max-width: 66.66667%;
+		}
+	}
+}
+
+p {
+	.single-timeline_post .timeline_post > .entry-content > &:first-of-type:first-letter {
+		@include font-size(40/16);
+		float: left;
+		margin: 12px 20px 5px 0;
+		@include border-radius();
+		line-height: 1;
+		padding: 20px 30px;
+		position: relative;
+	}
+}
+
+@-moz-document url-prefix() {
+	.single-timeline_post .timeline_post > .entry-content > p:first-of-type:first-letter {
+		padding: 26px 30px;
+	}
+}

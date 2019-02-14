@@ -1,0 +1,3869 @@
+# Translation of Plugins - Elementor Page Builder - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Elementor Page Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-28 13:48:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Elementor Page Builder - Stable (latest release)\n"
+
+#. translators: %s: Document title
+#: core/documents-manager.php:300
+msgid "Elementor %s"
+msgstr "Elementor %s"
+
+#. translators: %s: Template type label.
+#: includes/template-library/sources/local.php:1236
+msgid "Add New %s"
+msgstr "Nieuwe %s toevoegen"
+
+#. translators: %d: Number of rows
+#: includes/settings/tools.php:104
+msgid "%d row affected."
+msgid_plural "%d rows affected."
+msgstr[0] "%d regel aangepast."
+msgstr[1] "%d regels aangepast."
+
+#: modules/page-templates/module.php:140
+msgctxt "Page Template"
+msgid "Elementor Full Width"
+msgstr "Elementor volledige breedte"
+
+#: core/base/module.php:122 core/base/module.php:135 includes/plugin.php:377
+#: includes/plugin.php:390
+msgid "Something went wrong."
+msgstr "Er is iets fout gegaan."
+
+#: includes/elements/column.php:309 includes/elements/column.php:349
+#: includes/elements/section.php:595 includes/elements/section.php:635
+#: includes/widgets/image-box.php:259 includes/widgets/image.php:280
+msgid "Opacity"
+msgstr "Doorzichtigheid"
+
+#: modules/page-templates/module.php:139
+msgctxt "Page Template"
+msgid "Elementor Canvas"
+msgstr "Elementor canvas"
+
+#: includes/managers/elements.php:343
+msgid "WooCommerce Elements"
+msgstr "WooCommerce-elementen"
+
+#: includes/widgets/image.php:253
+msgid "Max Width"
+msgstr "Maximale breedte"
+
+#: includes/template-library/sources/local.php:238
+msgid "New Template"
+msgstr "Nieuwe template"
+
+#: includes/widgets/image-carousel.php:368
+#: includes/widgets/image-carousel.php:430
+msgid "Position"
+msgstr "Positie"
+
+#: includes/template-library/sources/local.php:250
+msgid "Templates Help You <span>Work Efficiently</span>"
+msgstr "Templates helpen je <span>efficiënt te werken</span>"
+
+#. translators: %s: Element type.
+#: includes/editor.php:630
+msgid "Delete %s"
+msgstr "%s verwijderen"
+
+#. translators: 1: Elementor, 2: Link to plugin review
+#: includes/admin.php:421
+msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
+msgstr "Genoten van %1$s? Geef ons een %2$s waardering. Wij waarderen jouw support!"
+
+#: includes/settings/settings.php:122
+msgid "Knowledge Base"
+msgstr "Kennisbank"
+
+#: modules/history/views/revisions-panel-template.php:49
+msgid "Current"
+msgstr "Huidige"
+
+#: modules/page-templates/module.php:293
+msgid "No header, no footer, just Elementor"
+msgstr "Geen header, geen footer, alleen Elementor"
+
+#: modules/page-templates/module.php:269
+msgid "Page Layout"
+msgstr "Pagina layout"
+
+#: modules/page-templates/module.php:280
+msgid "Default Page Template from your theme"
+msgstr "Standaard pagina template voor jouw thema"
+
+#: modules/page-templates/module.php:306
+msgid "This template includes the header, full-width content and footer"
+msgstr "Deze template bevat de header, inhoud over volledige breedte en footer"
+
+#: includes/managers/elements.php:339
+msgid "Theme Elements"
+msgstr "Thema-elementen"
+
+#: includes/managers/elements.php:335
+msgid "Pro Elements"
+msgstr "Pro-elementen"
+
+#: includes/widgets/video.php:688
+msgid "Play Video"
+msgstr "Video afspelen"
+
+#: includes/widgets/icon-list.php:87
+msgid "Inline"
+msgstr "Inline"
+
+#: includes/template-library/sources/local.php:1149
+msgid "All"
+msgstr "Alle"
+
+#: includes/template-library/sources/local.php:321
+#: includes/template-library/sources/local.php:333
+#: includes/template-library/sources/local.php:401
+#: includes/template-library/sources/local.php:402
+msgctxt "Template Library"
+msgid "My Templates"
+msgstr "Mijn templates"
+
+#: includes/template-library/sources/local.php:298
+msgid "Create Template"
+msgstr "Template aanmaken"
+
+#: includes/template-library/sources/local.php:295
+msgid "Enter template name (optional)"
+msgstr "Naam template invoeren (optioneel)"
+
+#: includes/template-library/sources/local.php:292
+msgid "Name your template"
+msgstr "Geef je template een naam"
+
+#: includes/template-library/sources/local.php:267
+msgid "Select the type of template you want to work on"
+msgstr "Selecteer het type template waar je aan wilt werken"
+
+#: includes/template-library/sources/local.php:265
+msgid "Choose Template Type"
+msgstr "Type template kiezen"
+
+#: includes/template-library/sources/local.php:251
+msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
+msgstr "Gebruik templates om de verschillende stukken van je site aan te maken en hergebruik ze met één klik indien nodig."
+
+#: includes/editor.php:580
+msgid "Category"
+msgstr "Categorie"
+
+#: includes/editor-templates/templates.php:190
+msgid "More actions"
+msgstr "Meer acties"
+
+#: includes/editor-templates/templates.php:114
+msgid "Search Templates:"
+msgstr "Templates zoeken:"
+
+#: includes/editor-templates/templates.php:44 modules/library/module.php:73
+msgid "Pages"
+msgstr "Pagina's"
+
+#: includes/editor-templates/templates.php:43 modules/library/module.php:71
+msgid "Blocks"
+msgstr "Blokken"
+
+#: includes/editor-templates/panel.php:244
+msgid "Dynamic"
+msgstr "Dynamisch"
+
+#: includes/editor-templates/global.php:48
+msgid "This tag has no settings."
+msgstr "Deze tag heeft geen instellingen."
+
+#: core/dynamic-tags/tag.php:103
+msgid "Fallback"
+msgstr "Op terugvallen"
+
+#: core/document-types/post.php:184
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: core/document-types/post.php:117
+msgid "Body Style"
+msgstr "Stijl body"
+
+#: core/base/document.php:94
+msgid "Document"
+msgstr "Document"
+
+#: core/ajax-manager.php:113
+msgid "Use `elementor/ajax/register_actions` hook to register ajax action."
+msgstr "Gebruik de `elementor/ajax/register_actions`-hook om de ajax-actie te registreren."
+
+#: core/ajax-manager.php:167
+msgid "Action not found."
+msgstr "Actie niet gevonden."
+
+#: core/ajax-manager.php:143 includes/template-library/manager.php:528
+msgid "Post not found."
+msgstr "Bericht niet gevonden."
+
+#: core/ajax-manager.php:131
+msgid "Token Expired."
+msgstr "Token verlopen."
+
+#: core/role-manager/role-manager.php:124
+msgid "Role Excluded"
+msgstr "Rol uitgesloten"
+
+#: core/role-manager/role-manager.php:131
+msgid "No access to editor"
+msgstr "Geen toegang tot editor"
+
+#: includes/settings/settings.php:91 includes/settings/settings.php:92
+msgid "Custom Fonts"
+msgstr "Aangepaste lettertypen"
+
+#: includes/settings/settings.php:168
+msgid "Add Your Custom Fonts"
+msgstr "Jouw aangepaste lettertypen toevoegen"
+
+#. translators: %s: Template type label.
+#: includes/template-library/sources/local.php:1229
+msgid "Create Your First %s"
+msgstr "Jouw eerste %s aanmaken"
+
+#: includes/widgets/counter.php:152
+msgid "Separator"
+msgstr "Scheiding"
+
+#: core/role-manager/role-manager.php:166
+msgid "Want to give access only to content?"
+msgstr "Wil je alleen toegang geven tot de inhoud?"
+
+#: includes/controls/groups/border.php:68
+msgctxt "Border Control"
+msgid "Groove"
+msgstr "Groove"
+
+#: core/ajax-manager.php:136
+msgid "Actions and Post ID are required."
+msgstr "Acties en bericht ID zijn verplicht."
+
+#. translators: %s: Document title
+#: core/base/document.php:661 core/settings/page/model.php:125
+#: includes/editor-templates/panel.php:61
+msgid "%s Settings"
+msgstr "%s instellingen"
+
+#: core/role-manager/role-manager.php:88
+msgid "Manage What Your Users Can Edit In Elementor"
+msgstr "Beheer wat je gebruikers kunnen bewerken in Elementor"
+
+#: includes/settings/settings.php:169
+msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
+msgstr "Aangepaste lettertypes maakt het mogelijk om je zelf-gehoste lettertypes toe te voegen en te gebruiken bij je Elementor-projecten om een unieke merk-taal te creëren."
+
+#: core/role-manager/role-manager.php:30
+msgid "Role Manager"
+msgstr "Rolbeheerder"
+
+#: includes/template-library/sources/local.php:1232
+msgid "Add templates and reuse them across your website. Easily export and import them to any other project, for an optimized workflow."
+msgstr "Voeg templates toe en gebruik deze opnieuw door je gehele website. Importeer en exporteer ze eenvoudig naar elk ander project, voor een optimale workflow."
+
+#: includes/widgets/image-carousel.php:131
+msgid "Set how many slides are scrolled per swipe."
+msgstr "Stel in hoeveel slides per veeg worden gescrold."
+
+#: includes/admin.php:583
+msgid "Create New Post"
+msgstr "Nieuw bericht aanmaken"
+
+#: includes/controls/groups/background.php:304
+msgid "Note: Attachment Fixed works only on desktop."
+msgstr "Let op: vaste vastzetting werkt alleen op desktop."
+
+#: includes/fonts.php:80
+msgid "Google Early Access"
+msgstr "Google vroegtijdige toegang"
+
+#: includes/editor.php:651
+msgid "Connection Lost"
+msgstr "Verbinding verbroken"
+
+#: includes/editor.php:650
+msgid "Server Error"
+msgstr "Serverfout"
+
+#: includes/editor.php:652
+msgid "Unknown Error"
+msgstr "Onbekende fout"
+
+#: includes/editor.php:647
+msgid "Saving has been disabled until you’re reconnected."
+msgstr "Opslaan is uitgeschakeld totdat je weer bent verbonden."
+
+#: modules/history/revisions-manager.php:365
+msgid "Edit Draft"
+msgstr "Concept bewerken"
+
+#: modules/history/revisions-manager.php:369
+msgid "Current Version"
+msgstr "Huidige versie"
+
+#: modules/history/revisions-manager.php:370
+msgid "Restore"
+msgstr "Herstellen"
+
+#: modules/history/revisions-manager.php:371
+msgid "Restore Auto Saved Data"
+msgstr "Automatisch opgeslagen gegevens herstellen"
+
+#: includes/widgets/alert.php:287 includes/widgets/alert.php:319
+msgid "Dismiss alert"
+msgstr "Melding negeren"
+
+#. translators: 1: Editing date, 2: Author display name
+#: core/base/document.php:874
+msgid "Last edited on %1$s by %2$s"
+msgstr "Laatst bewerkt op %1$s door %2$s"
+
+#. translators: 1: Saving date, 2: Author display name
+#: core/base/document.php:871
+msgid "Draft saved on %1$s by %2$s"
+msgstr "Concept opgeslagen op %1$s door %2$s"
+
+#: includes/editor.php:646
+msgid "Dismiss"
+msgstr "Negeren"
+
+#: includes/editor.php:645
+msgid "View All Revisions"
+msgstr "Alle revisies bekijken"
+
+#: includes/editor.php:643
+msgid "Keep Editing"
+msgstr "Blijf bewerken"
+
+#: includes/editor.php:636
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: includes/editor.php:605
+msgid "Proceed Anyway"
+msgstr "Toch doorgaan"
+
+#: includes/editor-templates/templates.php:251
+msgid "or"
+msgstr "of"
+
+#: includes/editor.php:598
+msgid "No Results Found"
+msgstr "Geen resultaten gevonden"
+
+#: includes/editor.php:603
+msgid "Your browser isn't compatible"
+msgstr "Je browser is niet compatibel"
+
+#: includes/editor.php:604
+msgid "Your browser isn't compatible with all of Elementor's editing features. We recommend you switch to another browser like Chrome or Firefox."
+msgstr "Je browser is niet compatibel met alle bewerkingsfuncties van Elementor. We raden je aan om naar een andere browser, zoals Chrome of Firefox, over te stappen."
+
+#: includes/editor-templates/templates.php:240
+#: includes/editor-templates/templates.php:256
+#: includes/editor-templates/templates.php:269 includes/widgets/button.php:138
+#: includes/widgets/button.php:139
+msgid "Click here"
+msgstr "Klik hier"
+
+#: includes/editor-templates/templates.php:168
+msgid "Favorite"
+msgstr "Favoriet"
+
+#: includes/editor-templates/templates.php:134
+msgid "Creation Date"
+msgstr "Aanmaakdatum"
+
+#: includes/editor-templates/templates.php:130
+msgid "Created By"
+msgstr "Aangemaakt door"
+
+#: includes/editor-templates/templates.php:115
+msgid "Search"
+msgstr "Zoeken"
+
+#: includes/editor-templates/templates.php:106
+msgid "My Favorites"
+msgstr "Mijn favorieten"
+
+#: includes/editor-templates/templates.php:87
+msgid "Popular"
+msgstr "Populair"
+
+#: includes/editor-templates/templates.php:83
+msgid "New"
+msgstr "Nieuw"
+
+#: includes/editor-templates/repeater.php:22
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: includes/editor-templates/repeater.php:18
+msgid "Duplicate"
+msgstr "Dupliceren"
+
+#: includes/editor-templates/panel.php:125
+msgid "Save Draft"
+msgstr "Concept opslaan"
+
+#: includes/editor-templates/panel.php:104 includes/editor.php:637
+msgid "Publish"
+msgstr "Publiceren"
+
+#: includes/admin.php:698
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/admin.php:647
+msgid "(opens in a new window)"
+msgstr "(opent in een nieuw venster)"
+
+#: includes/admin.php:628
+msgid "News & Updates"
+msgstr "Nieuws & updates"
+
+#: includes/admin.php:611
+msgid "Recently Edited"
+msgstr "Recent bewerkt"
+
+#: core/document-types/post.php:172
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: includes/admin.php:384
+msgid "Update Elementor Now"
+msgstr "Elementor nu bijwerken"
+
+#: includes/editor.php:640
+msgid "Update"
+msgstr "Bijwerken"
+
+#: includes/editor.php:641
+msgid "Submit"
+msgstr "Versturen"
+
+#: includes/editor.php:596
+msgid "No Favorite Templates"
+msgstr "Geen favoriete templates"
+
+#: includes/editor-templates/panel.php:129
+msgid "Save as Template"
+msgstr "Als template opslaan"
+
+#: includes/editor-templates/panel.php:139
+#: includes/editor-templates/panel.php:140 includes/editor.php:573
+msgid "Hide Panel"
+msgstr "Paneel verbergen"
+
+#: includes/editor-templates/templates.php:29
+#: includes/editor-templates/templates.php:30
+msgid "Import Template"
+msgstr "Template importeren"
+
+#: includes/editor-templates/panel.php:29
+msgid "Exit To Dashboard"
+msgstr "Terug naar dashboard"
+
+#: includes/admin.php:542
+msgid "Elementor Overview"
+msgstr "Overzicht Elementor"
+
+#: includes/widgets/heading.php:100
+msgid "Add Your Heading Text Here"
+msgstr "Voeg je koptekst hier toe"
+
+#: includes/editor.php:583
+msgid "Import Document Settings"
+msgstr "Documentinstellingen importeren"
+
+#: includes/editor.php:642
+msgid "This is just a draft. Play around and when you're done - click update."
+msgstr "Dit is maar een concept. Doe wat je wilt en als je klaar bent - klik op bijwerken."
+
+#: includes/editor.php:597
+msgid "Please make sure your search is spelled correctly or try a different words."
+msgstr "Zorg ervoor dat je zoekopdracht juist is gespeld of probeer andere woorden."
+
+#: includes/editor-templates/templates.php:249
+msgid "Import Template to Your Library"
+msgstr "Template naar je bibliotheek importeren"
+
+#: includes/editor.php:644
+msgid "Have a look"
+msgstr "Neem een kijkje"
+
+#: includes/controls/dimensions.php:128
+msgid "Unlinked values"
+msgstr "Ontkoppelde waarden"
+
+#: includes/controls/popover-toggle.php:74
+#: includes/controls/popover-toggle.php:76
+msgid "Back to default"
+msgstr "Terug naar standaard"
+
+#: includes/widgets/accordion.php:155 includes/widgets/toggle.php:152
+msgid "Active Icon"
+msgstr "Actief icoon"
+
+#: includes/editor-templates/panel.php:92
+#: includes/editor-templates/panel.php:95
+msgid "Preview Changes"
+msgstr "Voorbeeld wijzigingen"
+
+#: includes/controls/groups/typography.php:159
+msgctxt "Typography Control"
+msgid "Decoration"
+msgstr "Decoratie"
+
+#: includes/editor.php:572
+msgid "Show Panel"
+msgstr "Paneel tonen"
+
+#: includes/editor.php:595
+msgid "You can mark any pre-designed template as a favorite."
+msgstr "Je kan elke bestaande template als een favoriet markeren."
+
+#: includes/editor-templates/templates.php:252
+msgid "Select File"
+msgstr "Selecteer bestand"
+
+#: includes/editor-templates/templates.php:239
+#: includes/editor-templates/templates.php:255
+#: includes/editor-templates/templates.php:268
+msgid "Want to learn more about the Elementor library?"
+msgstr "Meer weten over de Elementor bibliotheek?"
+
+#: includes/widgets/alert.php:97
+msgid "This is an Alert"
+msgstr "Dit is een melding"
+
+#: includes/editor-templates/templates.php:250
+msgid "Drag & drop your .JSON or .zip template file"
+msgstr "Sleep je .JSON- of .zip-templatebestand hier naartoe"
+
+#: modules/history/revisions-manager.php:366
+msgid "Edit Published"
+msgstr "Gepubliceerde bewerken"
+
+#: core/base/document.php:866
+msgctxt "revision date format"
+msgid "M j, H:i"
+msgstr "j M, H:i"
+
+#: includes/admin.php:617
+msgctxt "Dashboard Overview Widget Recently Date"
+msgid "M jS"
+msgstr "j M"
+
+#: includes/editor-templates/templates.php:85
+msgid "Trend"
+msgstr "Trend"
+
+#: includes/editor-templates/panel.php:109
+#: includes/editor-templates/panel.php:111
+msgid "Save Options"
+msgstr "Opties om op te slaan"
+
+#: includes/editor-templates/panel-elements.php:33
+msgid "Search Widget:"
+msgstr "Widget zoeken:"
+
+#: includes/editor-templates/repeater.php:13
+msgid "Drag & Drop"
+msgstr "Hier naartoe slepen"
+
+#: includes/admin.php:580
+msgid "Create New Page"
+msgstr "Nieuwe pagina aanmaken"
+
+#: modules/history/revisions-manager.php:372
+msgid "There is an autosave of this post that is more recent than the version below. You can restore the saved data fron the Revisions panel"
+msgstr "Er is een automatisch opgeslagen versie van dit bericht dat recenter is dan de versie hieronder. Je kunt de opgeslagen gegevens via het revisies-paneel herstellen"
+
+#: includes/widgets/video.php:242
+msgid "Privacy Mode"
+msgstr "Privacymodus"
+
+#: includes/widgets/video.php:244
+msgid "When you turn on privacy mode, YouTube won't store information about visitors on your website unless they play the video."
+msgstr "Als je privacymodus inschakelt, slaat YouTube geen informatie over bezoekers van je website op, tenzij ze de video afspelen."
+
+#: includes/widgets/shortcode.php:92
+msgid "Enter your shortcode"
+msgstr "Voer je shortcode in"
+
+#: includes/widgets/image.php:145
+msgid "Enter your image caption"
+msgstr "Voer het onderschrift van je afbeelding in"
+
+#: includes/widgets/html.php:81
+msgid "Enter your code"
+msgstr "Voer je code in"
+
+#: includes/widgets/alert.php:107 includes/widgets/icon-box.php:143
+#: includes/widgets/image-box.php:121
+msgid "Enter your description"
+msgstr "Voer je beschrijving in"
+
+#: includes/editor.php:554
+msgid "Dashboard Settings"
+msgstr "Dashboardinstellingen"
+
+#: includes/controls/groups/typography.php:165
+msgctxt "Typography Control"
+msgid "Overline"
+msgstr "Bovenstreept"
+
+#: includes/controls/groups/typography.php:164
+msgctxt "Typography Control"
+msgid "Underline"
+msgstr "Onderstreept"
+
+#: includes/controls/groups/typography.php:166
+msgctxt "Typography Control"
+msgid "Line Through"
+msgstr "Doorstreept"
+
+#. translators: %s: the document title.
+#: core/base/document.php:335
+msgid "Hurray! Your %s is live."
+msgstr "Hoera! Je %s is live."
+
+#: includes/template-library/sources/local.php:482
+#: includes/template-library/sources/local.php:546
+#: includes/template-library/sources/local.php:673
+#: modules/history/revisions-manager.php:243
+#: modules/history/revisions-manager.php:273
+msgid "Access denied."
+msgstr "Toegang geweigerd."
+
+#: includes/settings/settings.php:278
+msgid "Disable Default Fonts"
+msgstr "Standaard lettertypen uitschakelen"
+
+#: includes/widgets/accordion.php:303 includes/widgets/toggle.php:323
+msgid "End"
+msgstr "Einde"
+
+#: includes/widgets/accordion.php:299 includes/widgets/toggle.php:319
+msgid "Start"
+msgstr "Begin"
+
+#: includes/editor.php:659
+msgid "Your session has expired. Please reload the page to continue editing."
+msgstr "Je sessie is verlopen. Laad de pagina opnieuw om door te gaan met bewerken."
+
+#: includes/editor.php:658
+msgid "Timeout"
+msgstr "Time-out"
+
+#: includes/editor.php:555
+msgid "Default Colors"
+msgstr "Standaardkleuren"
+
+#: includes/editor.php:611
+msgid "The preview could not be loaded"
+msgstr "Het voorbeeld kon niet worden geladen"
+
+#: includes/editor.php:657
+msgid "Reload Page"
+msgstr "Pagina opnieuw laden"
+
+#: includes/editor.php:612
+msgid "We're sorry, but something went wrong. Click on 'Learn more' and follow each of the steps to quickly solve it."
+msgstr "Het spijt ons, maar er ging iets fout. Klik op 'Meer weten' en volg elk van de stappen om het snel op te lossen."
+
+#: includes/editor.php:576
+msgid "Type Here"
+msgstr "Hier typen"
+
+#: includes/admin.php:370
+msgid "Update Notification"
+msgstr "Melding update"
+
+#: includes/editor.php:661
+msgid "Unknown Value"
+msgstr "Onbekende waarde"
+
+#. Author URI of the plugin/theme
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Plugin URI of the plugin/theme
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#: includes/editor.php:656
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: modules/history/module.php:57
+msgid "Moved"
+msgstr "Verplaatst"
+
+#: includes/editor-templates/templates.php:137
+#: modules/history/views/history-panel-template.php:9
+msgid "Actions"
+msgstr "Acties"
+
+#: modules/history/module.php:54
+msgid "Added"
+msgstr "Toegevoegd"
+
+#: includes/editor-templates/panel.php:88
+#: includes/editor-templates/panel.php:90 modules/history/module.php:52
+msgid "History"
+msgstr "Geschiedenis"
+
+#: modules/history/module.php:56
+msgid "Edited"
+msgstr "Bewerkt"
+
+#: modules/history/views/history-panel-template.php:10
+#: modules/history/views/revisions-panel-template.php:26
+msgid "Revisions"
+msgstr "Revisies"
+
+#: modules/history/views/history-panel-template.php:26
+msgid "No History Yet"
+msgstr "Nog geen geschiedenis"
+
+#: modules/history/module.php:59
+msgid "Editing Started"
+msgstr "Bewerken gestart"
+
+#: modules/history/views/history-panel-template.php:19
+#: modules/history/views/history-panel-template.php:28
+msgid "Switch to Revisions tab for older versions"
+msgstr "Schakel naar de revisies-tab voor oudere versies"
+
+#: core/settings/general/model.php:169 includes/widgets/video.php:546
+msgid "UI Hover Color"
+msgstr "UI hoverkleur"
+
+#: core/settings/general/model.php:162 includes/widgets/video.php:535
+msgid "UI Color"
+msgstr "UI kleur"
+
+#: modules/history/views/history-panel-template.php:27
+msgid "Once you start working, you'll be able to redo / undo any action you make in the editor."
+msgstr "Zodra je begint te werken, kun je elke actie in de editor opnieuw doen / ongedaan maken."
+
+#: core/settings/general/model.php:67
+msgid "Global Settings"
+msgstr "Globale instellingen"
+
+#: core/settings/general/model.php:142 includes/settings/settings.php:357
+msgid "Image Lightbox"
+msgstr "Lightbox afbeelding"
+
+#: includes/controls/groups/text-shadow.php:61
+#: includes/controls/groups/text-shadow.php:88
+msgctxt "Text Shadow Control"
+msgid "Text Shadow"
+msgstr "Tekstschaduw"
+
+#: includes/widgets/video.php:496
+msgctxt "Text Shadow Control"
+msgid "Shadow"
+msgstr "Schaduw"
+
+#: includes/widgets/video.php:231
+msgid "Mute"
+msgstr "Dempen"
+
+#: core/settings/general/model.php:149
+msgid "Enable In Editor"
+msgstr "Activeer in editor"
+
+#: core/settings/general/model.php:145 includes/settings/settings.php:362
+msgid "Open all image links in a lightbox popup window. The lightbox will automatically work on any link that leads to an image file."
+msgstr "Open alle links van afbeeldingen in een lightbox pop-up venster. De lightbox zal automatisch werken op elke link die leidt naar een afbeeldingsbestand."
+
+#: includes/template-library/sources/local.php:888
+msgid "Choose an Elementor template JSON file or a .zip archive of Elementor templates, and add them to the list of templates available in your library."
+msgstr "Kies een Elementor template JSON-bestand of een .zip-archief van Elementor templates en voeg ze toe aan de lijst van beschikbare templates in je bibliotheek."
+
+#: includes/settings/settings.php:363
+msgid "You can customize the lightbox design by going to: Top-left hamburger icon > Global Settings > Lightbox."
+msgstr "Je kunt het ontwerp van de lightbox aanpassen door hier naartoe te gaan: Hamburger-icoon links bovenin > Algemene instellingen > Lightbox."
+
+#: includes/settings/tools.php:229
+msgid "Version Control"
+msgstr "Versiecontrole"
+
+#: includes/base/widget-base.php:64 includes/base/widget-base.php:379
+msgid "Widget"
+msgstr "Widget"
+
+#. translators: %s: Widget label
+#. translators: %s: Column label
+#. translators: %s: Section label
+#: includes/base/widget-base.php:69 includes/elements/column.php:48
+#: includes/elements/section.php:68
+msgid "Duplicate %s"
+msgstr "%s dupliceren"
+
+#. translators: %s: Widget label
+#. translators: %s: Column label
+#. translators: %s: Section label
+#: includes/base/widget-base.php:74 includes/elements/column.php:58
+#: includes/elements/section.php:83
+msgid "Remove %s"
+msgstr "%s verwijderen"
+
+#. translators: %s: Widget label
+#. translators: %s: Element name.
+#. translators: %s: Section label
+#: includes/base/widget-base.php:379 includes/editor.php:549
+#: includes/elements/column.php:806 includes/elements/column.php:808
+#: includes/elements/section.php:1269
+msgid "Edit %s"
+msgstr "%s bewerken"
+
+#. translators: %s: Column label
+#. translators: %s: Section label
+#: includes/elements/column.php:53 includes/elements/section.php:73
+msgid "Add %s"
+msgstr "%s toevoegen"
+
+#. translators: %s: Section label
+#: includes/elements/section.php:78
+msgid "Save %s"
+msgstr "%s opslaan"
+
+#: includes/controls/url.php:106
+msgid "Open in new window"
+msgstr "Open in nieuw venster"
+
+#: includes/controls/url.php:110
+msgid "Add nofollow"
+msgstr "Voeg nofollow toe"
+
+#: includes/elements/column.php:650 includes/elements/section.php:1094
+#: includes/widgets/common.php:90
+msgid "Z-Index"
+msgstr "Z-Index"
+
+#: includes/settings/settings.php:371
+msgid "Integrations"
+msgstr "Integraties"
+
+#: includes/settings/tools.php:272
+msgid "Beta Tester"
+msgstr "Beta-tester"
+
+#: includes/settings/tools.php:263
+msgid "Become a Beta Tester"
+msgstr "Word beta-tester"
+
+#: core/settings/general/model.php:110 includes/elements/column.php:177
+msgid "Widgets Space"
+msgstr "Ruimte van de widget"
+
+#: includes/controls/groups/box-shadow.php:75
+msgctxt "Box Shadow Control"
+msgid "Outline"
+msgstr "Contouren"
+
+#: includes/settings/settings.php:329
+msgid "Space Between Widgets"
+msgstr "Ruimte tussen widgets"
+
+#: includes/controls/groups/box-shadow.php:72
+msgctxt "Box Shadow Control"
+msgid "Position"
+msgstr "Positie"
+
+#: includes/elements/column.php:694 includes/elements/section.php:1138
+#: includes/widgets/common.php:134
+msgid "Animation Delay"
+msgstr "Vertraging animatie"
+
+#: includes/elements/column.php:256 includes/elements/column.php:372
+#: includes/elements/column.php:478 includes/elements/section.php:542
+#: includes/elements/section.php:658 includes/elements/section.php:763
+#: includes/widgets/common.php:217 includes/widgets/common.php:323
+msgid "Transition Duration"
+msgstr "Duur overgang"
+
+#: includes/editor.php:584
+msgid "Do you want to also import the document settings of the template?"
+msgstr "Wil je ook de documentinstellingen van de template importeren?"
+
+#: includes/admin.php:57
+msgid "Are you sure you want to reinstall previous version?"
+msgstr "Weet je zeker dat je een vorige versie opnieuw wilt installeren?"
+
+#: includes/editor.php:585
+msgid "Attention: Importing may override previous settings."
+msgstr "Opgelet: importeren kan vorige instellingen overschrijven."
+
+#: includes/settings/tools.php:280
+msgid "Please Note: We do not recommend updating to a beta version on production sites."
+msgstr "Let op: we raden het af om naar een betaversie bij te werken op productiesites."
+
+#: includes/elements/column.php:751
+msgid "Deprecated: Mobile Width control is no longer supported. Please use the Column Width control in the Layout tab instead."
+msgstr "Verouderd: controle over de mobiele breedte wordt niet langer ondersteund. Gebruik in plaats daarvan de breedte kolom-instelling in de layout-tab."
+
+#: core/settings/general/model.php:114 includes/settings/settings.php:335
+msgid "Sets the default space between widgets (Default: 20)"
+msgstr "Stelt de standaard ruimte tussen widgets in (standaard: 20)"
+
+#. translators: %s: Elementor previous stable version
+#: includes/settings/tools.php:253
+msgid "Reinstall v%s"
+msgstr "v%s opnieuw installeren"
+
+#: includes/settings/settings.php:397
+msgid "Switch Editor Loader Method"
+msgstr "Wijzig de methode waarop de editor wordt geladen"
+
+#: includes/settings/tools.php:245
+msgid "Rollback Version"
+msgstr "Versie terugdraaien"
+
+#: includes/admin.php:58 includes/rollback.php:162
+#: includes/settings/tools.php:137 includes/settings/tools.php:232
+msgid "Rollback to Previous Version"
+msgstr "Naar vorige versie terugdraaien"
+
+#. translators: %s: Elementor version
+#: includes/settings/tools.php:236
+msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
+msgstr "Ondervind je problemen met Elementor versie %s? Draai dan terug naar een vorige versie voordat het probleem verscheen."
+
+#: includes/controls/url.php:99
+msgid "Link Options"
+msgstr "Linkinstellingen"
+
+#: includes/settings/tools.php:265
+msgid "Turn-on Beta Tester, to get notified when a new beta version of Elementor or E-Pro is available. The Beta version will not install automatically. You always have the option to ignore it."
+msgstr "Schakel beta-tester in om meldingen te krijgen als een nieuwe beta-versie van Elementor of Elementor Pro beschikbaar is. De beta-versie zal niet automatisch installeren. Je hebt altijd de optie om het te negeren."
+
+#: includes/settings/tools.php:257
+msgid "Warning: Please backup your database before making the rollback."
+msgstr "Waarschuwing: maak eerst een back-up van je database, voordat je terugdraait naar een vorige versie."
+
+#: includes/settings/settings.php:385
+msgid "External File"
+msgstr "Extern bestand"
+
+#: includes/settings/settings.php:386
+msgid "Internal Embedding"
+msgstr "Interne invoeging"
+
+#: includes/settings/settings.php:392
+msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
+msgstr "Gebruik interne CSS die in het hoofd van de pagina is ingevoegd. Voor probleemoplossing van conflicten met de serverconfiguratie en het beheer van ontwikkelomgevingen."
+
+#: includes/settings/settings.php:389
+msgid "Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended)."
+msgstr "Gebruik externe CSS-bestanden voor alle gegenereerde stylesheets. Kies deze instelling voor betere prestaties (aanbevolen)."
+
+#: includes/settings/settings.php:380
+msgid "CSS Print Method"
+msgstr "CSS print-methode"
+
+#: includes/settings/settings.php:402 includes/settings/tools.php:278
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: includes/settings/settings.php:401 includes/settings/tools.php:277
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: core/base/document.php:418
+msgid "Status"
+msgstr "Status"
+
+#: includes/settings/settings.php:404
+msgid "For troubleshooting server configuration conflicts."
+msgstr "Voor probleemoplossing van conflicten met de serverconfiguratie."
+
+#: includes/widgets/spacer.php:94 includes/widgets/text-editor.php:268
+msgid "Space"
+msgstr "Ruimte"
+
+#: includes/maintenance-mode.php:219
+msgid "Who Can Access"
+msgstr "Wie heeft toegang"
+
+#: includes/maintenance-mode.php:211
+msgid "Maintenance Mode returns HTTP 503 code, so search engines know to come back a short time later. It is not recommended to use this mode for more than a couple of days."
+msgstr "Onderhoudsmodus geeft de HTTP 503 code terug, dus zoekmachines weten dat ze binnenkort terug moeten komen. Het is niet aangeraden deze modus te gebruiken voor langer dan enkele dagen."
+
+#: includes/maintenance-mode.php:205
+msgid "Maintenance"
+msgstr "Onderhoud"
+
+#: includes/maintenance-mode.php:203
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: includes/maintenance-mode.php:199
+msgid "Choose Mode"
+msgstr "Kies modus"
+
+#: includes/maintenance-mode.php:191
+msgid "Maintenance Mode"
+msgstr "Onderhoudsmodus"
+
+#: includes/maintenance-mode.php:270
+msgid "Maintenance Mode ON"
+msgstr "Onderhoudsmodus AAN"
+
+#: modules/history/module.php:53
+msgid "Template"
+msgstr "Template"
+
+#: includes/maintenance-mode.php:239
+msgid "Choose Template"
+msgstr "Kies template"
+
+#: includes/maintenance-mode.php:181
+msgid "To enable maintenance mode you have to set a template for the maintenance mode page."
+msgstr "Om onderhoudsmodus in te schakelen moet je een template instellen voor de onderhoudsmodus pagina."
+
+#: includes/maintenance-mode.php:178 includes/maintenance-mode.php:277
+msgid "Edit Template"
+msgstr "Template bewerken"
+
+#: includes/maintenance-mode.php:231
+msgid "Roles"
+msgstr "Rollen"
+
+#: includes/maintenance-mode.php:225
+msgid "Logged In"
+msgstr "Ingelogd"
+
+#: includes/widgets/text-editor.php:106 includes/widgets/text-editor.php:183
+msgid "Drop Cap"
+msgstr "Initiaal"
+
+#: includes/maintenance-mode.php:204
+msgid "Coming Soon"
+msgstr "Komt binnenkort"
+
+#. translators: %s: Create page URL
+#: includes/maintenance-mode.php:185
+msgid "Select one or go ahead and <a target=\"_blank\" href=\"%s\">create one</a> now."
+msgstr "Selecteer er een of ga door en <a target=\"_blank\" href=\"%s\">maak er nu een aan</a>."
+
+#: includes/settings/controls.php:155
+#: includes/template-library/sources/local.php:270
+msgid "Select"
+msgstr "Selecteren"
+
+#: core/document-types/post.php:89
+msgid "Hide Title"
+msgstr "Titel verbergen"
+
+#: includes/maintenance-mode.php:214
+msgid "Coming Soon returns HTTP 200 code, meaning the site is ready to be indexed."
+msgstr "Komt binnenkort geeft een HTTP 200-code, dit betekent dat de site klaar is om geïndexeerd te worden."
+
+#: includes/maintenance-mode.php:208
+msgid "Choose between Coming Soon mode (returning HTTP 200 code) or Maintenance Mode (returning HTTP 503 code)."
+msgstr "Kies tussen komt binnenkort-modus (geeft HTTP 200-code) of onderhoudsmodus (geeft HTTP 503-code)."
+
+#: core/settings/general/model.php:128 includes/settings/settings.php:348
+msgid "Page Title Selector"
+msgstr "Selector titel pagina"
+
+#: core/settings/general/model.php:131 includes/settings/settings.php:353
+msgid "Elementor lets you hide the page title. This works for themes that have \"h1.entry-title\" selector. If your theme's selector is different, please enter it above."
+msgstr "Elementor laat je de titel van de pagina verbergen. Dit werkt voor thema's die de \"h1.entry-title\"-selector hebben. Als de selector van je thema anders is, voer die dan hierboven in."
+
+#. translators: %s: Setting page link
+#: core/document-types/post.php:95
+msgid "Not working? You can set a different selector for the title in the <a href=\"%s\" target=\"_blank\">Settings page</a>."
+msgstr "Werkt het niet? Je kunt een andere selector voor de titel instellen in de <a href=\"%s\" target=\"_blank\">instellingen-pagina</a>."
+
+#: includes/maintenance-mode.php:195
+msgid "Set your entire website as MAINTENANCE MODE, meaning the site is offline temporarily for maintenance, or set it as COMING SOON mode, meaning the site is offline until it is ready to be launched."
+msgstr "Stel je volledige website in als ONDERHOUDSMODUS, dit betekent dat de website tijdelijk offline is voor onderhoud, of zet deze als KOMT BINNENKORT-modus, dit betekent dat de website offline is totdat hij klaar is voor lancering."
+
+#: includes/elements/section.php:937
+msgid "Bring to Front"
+msgstr "Naar voren brengen"
+
+#: core/settings/general/manager.php:208 core/settings/general/model.php:139
+#: includes/widgets/image-carousel.php:200
+#: includes/widgets/image-gallery.php:142 includes/widgets/image.php:182
+#: includes/widgets/video.php:401 includes/widgets/video.php:511
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/widgets/icon-list.php:157 includes/widgets/toggle.php:205
+msgid "Space Between"
+msgstr "Tussenruimte"
+
+#: includes/widgets/icon-list.php:149
+msgid "List"
+msgstr "Lijst"
+
+#: includes/shapes.php:138
+msgctxt "Shapes"
+msgid "Clouds"
+msgstr "Wolken"
+
+#: includes/shapes.php:132
+msgctxt "Shapes"
+msgid "Drops"
+msgstr "Druppels"
+
+#: includes/shapes.php:128
+msgctxt "Shapes"
+msgid "Mountains"
+msgstr "Bergen"
+
+#: includes/elements/section.php:910
+msgid "Flip"
+msgstr "Omdraaien"
+
+#: includes/shapes.php:203
+msgctxt "Shapes"
+msgid "Book"
+msgstr "Boek"
+
+#: includes/shapes.php:199
+msgctxt "Shapes"
+msgid "Split"
+msgstr "Splijt"
+
+#: includes/shapes.php:195
+msgctxt "Shapes"
+msgid "Arrow"
+msgstr "Pijl"
+
+#: includes/shapes.php:182
+msgctxt "Shapes"
+msgid "Waves"
+msgstr "Golven"
+
+#: includes/shapes.php:173
+msgctxt "Shapes"
+msgid "Curve"
+msgstr "Curve"
+
+#: includes/shapes.php:152
+msgctxt "Shapes"
+msgid "Triangle"
+msgstr "Driehoek"
+
+#: includes/shapes.php:147
+msgctxt "Shapes"
+msgid "Pyramids"
+msgstr "Pyramides"
+
+#: includes/shapes.php:144
+msgctxt "Shapes"
+msgid "Zigzag"
+msgstr "Zigzag"
+
+#: includes/elements/section.php:924
+msgid "Invert"
+msgstr "Omkeren"
+
+#: includes/elements/column.php:531 includes/elements/section.php:969
+msgid "Note: The following colors won't work if Default Colors are enabled."
+msgstr "Let op: de volgende kleuren zullen niet werken als globale kleuren zijn ingeschakeld."
+
+#: includes/shapes.php:156
+msgctxt "Shapes"
+msgid "Triangle Asymmetrical"
+msgstr "Asymmetrische driehoek"
+
+#: includes/shapes.php:177
+msgctxt "Shapes"
+msgid "Curve Asymmetrical"
+msgstr "Asymmetrische curve"
+
+#: includes/shapes.php:191
+msgctxt "Shapes"
+msgid "Waves Pattern"
+msgstr "Golfpatroon"
+
+#: includes/shapes.php:161
+msgctxt "Shapes"
+msgid "Tilt"
+msgstr "Kanteling"
+
+#: includes/shapes.php:166
+msgctxt "Shapes"
+msgid "Tilt Opacity"
+msgstr "Doorzichtige kanteling"
+
+#: includes/shapes.php:187
+msgctxt "Shapes"
+msgid "Waves Brush"
+msgstr "Effectgolven"
+
+#: includes/shapes.php:170
+msgctxt "Shapes"
+msgid "Fan Opacity"
+msgstr "Doorzichtige stralen"
+
+#: includes/elements/section.php:805
+msgid "Shape Divider"
+msgstr "Vormscheiding"
+
+#: includes/widgets/tabs.php:150
+msgid "Navigation Width"
+msgstr "Navigatiebreedte"
+
+#: includes/elements/column.php:241 includes/elements/column.php:334
+#: includes/elements/column.php:443 includes/elements/section.php:527
+#: includes/elements/section.php:620 includes/elements/section.php:728
+#: includes/widgets/button.php:311 includes/widgets/common.php:202
+#: includes/widgets/common.php:288 includes/widgets/icon-list.php:355
+#: includes/widgets/icon-list.php:413
+msgid "Hover"
+msgstr "Hover"
+
+#: includes/elements/column.php:710 includes/elements/section.php:1154
+#: includes/widgets/common.php:150
+msgid "CSS ID"
+msgstr "CSS-ID"
+
+#: includes/elements/column.php:713 includes/elements/section.php:1157
+#: includes/widgets/common.php:153
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr "Voeg je aangepaste id ZONDER het hekje toe. Bijvoorbeeld: mijn-id"
+
+#: includes/controls/groups/background.php:140
+#: includes/controls/groups/background.php:166
+msgctxt "Background Control"
+msgid "Location"
+msgstr "Locatie"
+
+#: includes/controls/groups/background.php:96
+msgctxt "Background Control"
+msgid "Gradient"
+msgstr "Verloop"
+
+#: includes/controls/groups/background.php:181
+msgctxt "Background Control"
+msgid "Type"
+msgstr "Type"
+
+#: includes/controls/groups/background.php:196
+msgctxt "Background Control"
+msgid "Angle"
+msgstr "Hoek"
+
+#: includes/controls/groups/background.php:185
+msgctxt "Background Control"
+msgid "Radial"
+msgstr "Radiaal"
+
+#: includes/controls/groups/background.php:184
+msgctxt "Background Control"
+msgid "Linear"
+msgstr "Lineair"
+
+#: includes/controls/groups/background.php:155
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr "Tweede kleur"
+
+#: includes/admin.php:311
+msgid "Video Tutorials"
+msgstr "Videohandleidingen"
+
+#: includes/settings/settings.php:282
+msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
+msgstr "Dit vakje aanvinken zal de standaard lettertypen van Elementor uitschakelen en zorgt ervoor dat Elementor de lettertypen van je thema overneemt."
+
+#: includes/settings/settings.php:274
+msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
+msgstr "Dit vakje aanvinken zal de standaardkleuren van Elementor uitschakelen en zorgt ervoor dat Elementor de kleuren van je thema overneemt."
+
+#: includes/admin.php:310
+msgid "Docs & FAQs"
+msgstr "Docs & FAQ's"
+
+#: includes/admin.php:311
+msgid "View Elementor Video Tutorials"
+msgstr "Videohandleidingen Elementor bekijken"
+
+#: includes/admin.php:310
+msgid "View Elementor Documentation"
+msgstr "Documentatie Elementor bekijken"
+
+#: modules/history/views/revisions-panel-template.php:34
+msgid "No Revisions Saved Yet"
+msgstr "Nog geen revisies opgeslagen"
+
+#: modules/history/revisions-manager.php:373
+msgid "Revision"
+msgstr "Revisie"
+
+#: modules/history/views/revisions-panel-template.php:44
+msgid "By"
+msgstr "Door"
+
+#. translators: 1: Human readable time difference, 2: Date
+#: modules/history/revisions-manager.php:167
+msgid "%1$s ago (%2$s)"
+msgstr "%1$s geleden (%2$s)"
+
+#: includes/settings/tools.php:86
+msgid "The `from` and `to` URL's must be different"
+msgstr "De 'van' en 'naar' URL's moeten verschillend zijn"
+
+#: includes/settings/tools.php:82
+msgid "The `from` and `to` URL's must be a valid URL"
+msgstr "De 'van' en 'naar' URL's moeten een geldige URL zijn"
+
+#: includes/editor.php:655
+msgid "Autosave"
+msgstr "Automatisch opslaan"
+
+#: includes/settings/tools.php:202 includes/settings/tools.php:220
+msgid "Replace URL"
+msgstr "URL vervangen"
+
+#: includes/settings/tools.php:221
+msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
+msgstr "Voer je oude en nieuwe URL's van je Wordpress-installatie in om alle gegevens van Elementor bij te werken (relevant voor domeinveranderingen of overgang naar 'HTTPS')."
+
+#: includes/settings/tools.php:217
+msgid "Update Site Address (URL)"
+msgstr "Siteadres bijwerken (URL)"
+
+#. translators: %s: Codex URL
+#: includes/settings/tools.php:208
+msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
+msgstr "<strong>Belangrijk:</strong> het wordt sterk aanbevolen dat je een <a target=\"_blank\" href=\"%s\">back-up van je database maakt</a> voordat je URL vervangen gebruikt."
+
+#. translators: 1: Minimum recommended_memory, 2: Codex URL
+#: includes/settings/system-info/classes/wordpress.php:91
+msgctxt "System Info"
+msgid "We recommend setting memory to at least %1$s. For more information, read about <a href=\"%2$s\">how to Increase memory allocated to PHP</a>."
+msgstr "We bevelen je aan om het geheugen op tenminste %1$s in te stellen. Voor meer informatie, lees over <a href=\"%2$s\">het verhogen van het toegewezen geheugen voor PHP</a>."
+
+#: modules/history/revisions-manager.php:142
+msgctxt "revision date format"
+msgid "M j @ H:i"
+msgstr "j Mj @ H:i"
+
+#: modules/history/revisions-manager.php:375
+msgid "It looks like the post revision feature is unavailable in your website."
+msgstr "Het lijkt erop dat de berichtrevisie-functionaliteit niet beschikbaar is voor je website."
+
+#: modules/history/revisions-manager.php:368
+msgid "Start designing your page and you'll be able to see the entire revision history here."
+msgstr "Begin met het ontwerpen van je pagina en je zult de hele revisiegeschiedenis hier zien."
+
+#: modules/history/revisions-manager.php:367
+msgid "Revision history lets you save your previous versions of your work, and restore them any time."
+msgstr "Revisiegeschiedenis laat je vorige versies van je werk opslaan en ze op ieder moment herstellen."
+
+#: modules/history/revisions-manager.php:281
+msgid "Cannot delete this revision."
+msgstr "Kan deze revisie niet verwijderen."
+
+#. translators: %s: Codex URL
+#: modules/history/revisions-manager.php:378
+msgid "Learn more about <a target=\"_blank\" href=\"%s\">WordPress revisions</a>"
+msgstr "Kom meer te weten over <a target=\"_blank\" href=\"%s\">WordPress revisies</a>"
+
+#: includes/widgets/counter.php:141
+msgid "Thousand Separator"
+msgstr "Scheidingsteken duizendtallen"
+
+#: includes/controls/groups/background.php:263
+#: includes/controls/groups/background.php:288
+#: includes/controls/groups/background.php:318
+#: includes/controls/groups/background.php:338
+msgctxt "Background Control"
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/editor-templates/panel-elements.php:11
+msgid "Global"
+msgstr "Globaal"
+
+#: includes/editor-templates/panel-elements.php:22
+msgid "Get more with Elementor Pro"
+msgstr "Krijg meer met Elementor Pro"
+
+#: includes/managers/controls.php:883
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: includes/widgets/icon-list.php:204 includes/widgets/text-editor.php:109
+#: includes/widgets/video.php:405
+msgid "On"
+msgstr "Aan"
+
+#: includes/widgets/icon-list.php:203 includes/widgets/text-editor.php:108
+#: includes/widgets/video.php:404
+msgid "Off"
+msgstr "Uit"
+
+#: includes/editor-templates/panel-elements.php:54
+#: includes/managers/controls.php:901
+msgid "This feature is only available on Elementor Pro."
+msgstr "Deze functionaliteit is alleen beschikbaar in Elementor Pro."
+
+#: includes/managers/controls.php:895
+msgid "Meet Our Custom CSS"
+msgstr "Ontdek onze aangepaste CSS"
+
+#: core/role-manager/role-manager.php:167 includes/admin.php:285
+#: includes/admin.php:709 includes/editor-templates/panel-elements.php:23
+#: includes/editor-templates/panel-elements.php:55
+#: includes/editor-templates/templates.php:217
+#: includes/managers/controls.php:904 includes/settings/settings.php:101
+#: includes/settings/settings.php:170
+msgid "Go Pro"
+msgstr "Word Pro"
+
+#: includes/editor-templates/panel-elements.php:53
+msgid "With this feature, you can save a widget as global, then add it to multiple areas. All areas will be editable from one single place."
+msgstr "Met deze functionaliteit kun je een widget als globaal opslaan en het dan in meerdere gebieden toevoegen. Alle gebieden zijn dan bewerkbaar vanaf een enkele plek."
+
+#: includes/editor-templates/panel-elements.php:52
+msgid "Meet Our Global Widget"
+msgstr "Ontdek onze globale widget"
+
+#: includes/managers/controls.php:898
+msgid "Custom CSS lets you add CSS code to any widget, and see it render live right in the editor."
+msgstr "Aangepaste CSS laat je CSS-code aan elke widget toevoegen en toont het direct live in de editor."
+
+#: includes/settings/tools.php:182
+msgid "Regenerate CSS"
+msgstr "CSS opnieuw samenstellen"
+
+#: includes/settings/tools.php:185
+msgid "Regenerate Files"
+msgstr "Bestanden opnieuw samenstellen"
+
+#: includes/widgets/button.php:89
+msgid "Extra Small"
+msgstr "Extra klein"
+
+#: includes/widgets/button.php:93
+msgid "Extra Large"
+msgstr "Extra groot"
+
+#: includes/base/widget-base.php:286 includes/base/widget-base.php:295
+msgid "Skin"
+msgstr "Uiterlijk"
+
+#: includes/settings/settings.php:288
+msgid "Improve Elementor"
+msgstr "Elementor verbeteren"
+
+#: includes/managers/elements.php:347
+msgid "General Elements"
+msgstr "Algemene elementen"
+
+#: includes/frontend.php:928
+msgid "Invalid Data: The Template ID cannot be the same as the currently edited template. Please choose a different one."
+msgstr "Ongeldige gegevens: de template-ID kan niet hetzelfde zijn als de huidige bewerkte template. Kies een andere."
+
+#: includes/settings/tools.php:186
+msgid "Styles set in Elementor are saved in CSS files in the uploads folder. Recreate those files, according to the most recent settings."
+msgstr "Stijlen ingesteld in Elementor zijn opgeslagen in CSS-bestanden in de uploads-map. Maak deze bestanden, volgens de meest recente instellingen, opnieuw aan."
+
+#: includes/editor.php:553 includes/schemes/color-picker.php:228
+msgid "Color Picker"
+msgstr "Kleurenkiezer"
+
+#: includes/editor.php:564
+msgid "Ascending order"
+msgstr "Oplopende volgorde"
+
+#: includes/editor.php:565
+msgid "Descending order"
+msgstr "Aflopende volgorde"
+
+#: includes/editor.php:569
+msgid "Attention: We are going to DELETE ALL CONTENT from this page. Are you sure you want to do that?"
+msgstr "Opgelet: we gaan ALLE INHOUD van deze pagina VERWIJDEREN. Weet je zeker dat je dat wilt doen?"
+
+#: core/base/document.php:374 includes/editor.php:568
+msgid "Delete All Content"
+msgstr "Alle inhoud verwijderen"
+
+#: includes/editor-templates/panel.php:158
+msgid "Update changes to page"
+msgstr "Wijzigingen aan pagina bijwerken"
+
+#: includes/schemes/color-picker.php:66
+msgid "Choose which colors appear in the editor's color picker. This makes accessing the colors you chose for the site much easier."
+msgstr "Kies welke kleuren in de kleurenkiezer van de editor verschijnen. Dit zorgt ervoor dat de kleuren die je kiest voor de site makkelijker toegankelijk zijn."
+
+#: includes/editor-templates/panel.php:169
+msgid "%s are disabled"
+msgstr "%s zijn uitgeschakeld"
+
+#: includes/tracker.php:265
+msgid "No thanks"
+msgstr "Nee bedankt"
+
+#: includes/controls/groups/background.php:367
+msgid "This cover image will replace the background video on mobile and tablet devices."
+msgstr "Deze omslagafbeelding zal de achtergrondvideo op mobiele apparaten en tablets vervangen."
+
+#: includes/elements/section.php:270
+msgid "Stretch Section"
+msgstr "Sectie uitrekken"
+
+#: core/settings/general/model.php:120 includes/settings/settings.php:339
+msgid "Stretched Section Fit To"
+msgstr "Uitgerekte sectie past tot"
+
+#: core/settings/general/model.php:104 includes/settings/settings.php:325
+msgid "Sets the default width of the content area (Default: 1140)"
+msgstr "Stelt de standaard breedte van het inhoudgebied in (standaard: 1140)"
+
+#: includes/elements/section.php:277
+msgid "Stretch the section to the full width of the page using JS."
+msgstr "Rek de sectie uit tot de volledige breedte van de pagina met behulp van JS."
+
+#: core/settings/general/model.php:123 includes/settings/settings.php:344
+msgid "Enter parent element selector to which stretched sections will fit to (e.g. #primary / .wrapper / main etc). Leave blank to fit to page width."
+msgstr "Voer de selector van het hoofdelement in waar uitgerekte secties naar aan moeten passen (bijv. #primair / .wrapper / main, enz.) Laat leeg om aan de paginabreedte aan te passen."
+
+#: includes/editor-templates/panel.php:82
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: includes/elements/column.php:743
+msgid "Mobile Width"
+msgstr "Mobiele breedte"
+
+#: includes/elements/section.php:277 includes/settings/settings.php:296
+#: includes/tracker.php:264
+msgid "Learn more."
+msgstr "Meer weten."
+
+#: includes/editor-templates/panel.php:83
+msgid "Preview for 360px"
+msgstr "Voorbeeld voor 360px"
+
+#: includes/elements/section.php:1188
+msgid "Reverse Columns"
+msgstr "Kolommen omkeren"
+
+#: includes/elements/section.php:1193
+msgid "Reverse column order - When on mobile, the column order is reversed, so the last column appears on top and vice versa."
+msgstr "Kolomvolgorde omkeren - op een mobiel wordt de kolomvolgorde omgekeerd, zodat de laatste kolom bovenop verschijnt en vice versa."
+
+#: includes/controls/dimensions.php:121 includes/controls/dimensions.php:124
+msgid "Link values together"
+msgstr "Waarden allemaal gelijk houden"
+
+#: includes/editor-templates/panel.php:78
+msgid "Preview for 768px"
+msgstr "Voorbeeld voor 768px"
+
+#: includes/editor-templates/panel.php:73
+msgid "Default Preview"
+msgstr "Standaardvoorbeeld"
+
+#: includes/widgets/shortcode.php:42 includes/widgets/shortcode.php:85
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/template-library/sources/remote.php:46
+msgid "Remote"
+msgstr "Extern"
+
+#: includes/editor-templates/global.php:22
+#: includes/editor-templates/templates.php:13
+#: includes/editor-templates/templates.php:14
+#: includes/template-library/sources/local.php:244
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/editor.php:586
+msgid "Library"
+msgstr "Bibliotheek"
+
+#: includes/editor-templates/templates.php:186
+#: includes/editor-templates/templates.php:210
+msgid "Insert"
+msgstr "Invoegen"
+
+#: includes/editor.php:579 includes/settings/tools.php:99
+msgid "An error occurred"
+msgstr "Er is een fout opgetreden"
+
+#: core/document-types/post.php:39 includes/editor.php:588
+#: modules/library/documents/page.php:65
+msgid "Page"
+msgstr "Pagina"
+
+#: includes/template-library/sources/local.php:173
+msgid "Local"
+msgstr "Lokaal"
+
+#: includes/editor-templates/global.php:26
+msgid "Add Template"
+msgstr "Template toevoegen"
+
+#: includes/editor-templates/templates.php:45
+msgid "My Templates"
+msgstr "Mijn templates"
+
+#: includes/editor-templates/templates.php:200
+#: includes/template-library/sources/local.php:1095
+msgid "Export"
+msgstr "Exporteren"
+
+#: includes/editor.php:581
+msgid "Delete Template"
+msgstr "Template verwijderen"
+
+#: includes/template-library/sources/local.php:322
+msgctxt "Template Library"
+msgid "Template"
+msgstr "Template"
+
+#: includes/template-library/sources/local.php:324
+msgctxt "Template Library"
+msgid "Add New Template"
+msgstr "Nieuwe template toevoegen"
+
+#: includes/template-library/sources/local.php:325
+msgctxt "Template Library"
+msgid "Edit Template"
+msgstr "Template bewerken"
+
+#: includes/template-library/sources/local.php:327
+msgctxt "Template Library"
+msgid "All Templates"
+msgstr "Alle templates"
+
+#: includes/template-library/sources/local.php:328
+msgctxt "Template Library"
+msgid "View Template"
+msgstr "Template bekijken"
+
+#: includes/template-library/sources/local.php:329
+msgctxt "Template Library"
+msgid "Search Template"
+msgstr "Template zoeken"
+
+#: includes/template-library/sources/local.php:330
+msgctxt "Template Library"
+msgid "No Templates found"
+msgstr "Geen templates gevonden"
+
+#: includes/template-library/sources/local.php:370
+msgctxt "Template Library"
+msgid "Type"
+msgstr "Type"
+
+#: includes/template-library/sources/local.php:486
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: includes/template-library/sources/local.php:859
+msgid "Export Template"
+msgstr "Template exporteren"
+
+#: includes/template-library/sources/local.php:894
+msgid "Import Now"
+msgstr "Nu importeren"
+
+#: includes/editor.php:599
+msgid "The following error(s) occurred while processing the request:"
+msgstr "De volgende fout(en) trad(en) op bij het verwerken van de aanvraag:"
+
+#: includes/template-library/sources/local.php:886
+msgid "Import Templates"
+msgstr "Templates importeren"
+
+#: includes/editor-templates/templates.php:56
+msgid "Back to Library"
+msgstr "Terug naar bibliotheek"
+
+#: includes/template-library/sources/local.php:326
+msgctxt "Template Library"
+msgid "New Template"
+msgstr "Nieuwe template"
+
+#: includes/template-library/sources/local.php:323
+msgctxt "Template Library"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/template-library/sources/local.php:331
+msgctxt "Template Library"
+msgid "No Templates found in Trash"
+msgstr "Geen templates in de prullenbak gevonden"
+
+#: includes/editor-templates/global.php:30
+msgid "Select your Structure"
+msgstr "Selecteer je structuur"
+
+#: includes/editor.php:594
+msgid "Haven’t Saved Templates Yet?"
+msgstr "Nog geen templates opgeslagen?"
+
+#: includes/editor-templates/templates.php:33
+#: includes/editor-templates/templates.php:34 includes/settings/tools.php:190
+#: includes/settings/tools.php:193
+msgid "Sync Library"
+msgstr "Bibliotheek synchroniseren"
+
+#: includes/settings/tools.php:194
+msgid "Elementor Library automatically updates on a daily basis. You can also manually update it by clicking on the sync button."
+msgstr "De Elementor bibliotheek wordt dagelijks automatisch bijgewerkt. Je kunt deze ook handmatig bijwerken door op de synchroniseren-knop te klikken."
+
+#: includes/editor-templates/templates.php:145
+msgid "Stay tuned! More awesome templates coming real soon."
+msgstr "Blijf kijken! Heel binnenkort komen er meer prachtige templates."
+
+#: includes/editor.php:582
+msgid "Are you sure you want to delete this template?"
+msgstr "Weet je zeker dat je deze template wilt verwijderen?"
+
+#: includes/editor-templates/templates.php:230
+msgid "Enter Template Name"
+msgstr "Voer naam template in"
+
+#: includes/settings/tools.php:36 includes/settings/tools.php:37
+#: includes/settings/tools.php:315
+msgid "Tools"
+msgstr "Extra"
+
+#: includes/editor.php:593
+msgid "This is where your templates should be. Design it. Save it. Reuse it."
+msgstr "Dit is waar je templates horen te zijn. Ontwerp ze. Sla ze op. Hergebruik ze."
+
+#: includes/editor.php:591
+msgid "Your designs will be available for export and reuse on any page or website"
+msgstr "Je ontwerpen zullen beschikbaar zijn voor export en hergebruik op elke pagina of website"
+
+#. translators: %s: Template type.
+#: includes/editor.php:590
+msgid "Save Your %s to Library"
+msgstr "Sla je %s op in de bibliotheek"
+
+#. translators: %s: Codex URL
+#: includes/settings/system-info/classes/theme.php:192
+msgctxt "System Info"
+msgid "If you want to modify the source code of your theme, we recommend using a <a href=\"%s\">child theme</a>."
+msgstr "Als je de broncode van je thema wilt aanpassen, raden we je aan om een <a href=\"%s\">subthema</a> te gebruiken."
+
+#: includes/editor.php:608
+msgid "Learn More"
+msgstr "Meer weten"
+
+#: includes/widgets/button.php:354 includes/widgets/icon-box.php:406
+#: includes/widgets/icon.php:337 includes/widgets/image-box.php:280
+#: includes/widgets/image.php:298 includes/widgets/social-icons.php:406
+msgid "Hover Animation"
+msgstr "Hover animatie"
+
+#: includes/controls/groups/background.php:341
+msgctxt "Background Control"
+msgid "Contain"
+msgstr "Inhouden"
+
+#: includes/elements/column.php:680 includes/elements/section.php:1124
+#: includes/widgets/common.php:120
+msgid "Slow"
+msgstr "Traag"
+
+#: includes/elements/column.php:682 includes/elements/section.php:1126
+#: includes/widgets/common.php:122
+msgid "Fast"
+msgstr "Snel"
+
+#: includes/widgets/google-maps.php:148
+msgid "Prevent Scroll"
+msgstr "Scrollen blokkeren"
+
+#: includes/admin.php:461
+msgid "Submit & Deactivate"
+msgstr "Versturen & deactiveren"
+
+#: includes/controls/box-shadow.php:83
+msgid "Spread"
+msgstr "Verspreiding"
+
+#: includes/controls/box-shadow.php:68 includes/controls/text-shadow.php:71
+#: includes/widgets/tabs.php:129
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: includes/controls/box-shadow.php:73 includes/controls/text-shadow.php:76
+#: includes/widgets/tabs.php:130
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: includes/editor.php:556 includes/schemes/typography.php:78
+msgid "Default Fonts"
+msgstr "Standaard lettertypen"
+
+#: includes/controls/box-shadow.php:78 includes/controls/text-shadow.php:66
+msgid "Blur"
+msgstr "Vervaging"
+
+#: includes/editor-templates/panel.php:170
+msgid "You can enable it from the <a href=\"%s\" target=\"_blank\">Elementor settings page</a>."
+msgstr "Je kunt het inschakelen vanaf de <a href=\"%s\" target=\"_blank\">Elementor instellingen pagina</a>."
+
+#: includes/controls/groups/box-shadow.php:76
+msgctxt "Box Shadow Control"
+msgid "Inset"
+msgstr "Inset"
+
+#: includes/settings/settings.php:270
+msgid "Disable Default Colors"
+msgstr "Standaardkleuren uitschakelen"
+
+#: includes/admin.php:462
+msgid "Skip & Deactivate"
+msgstr "Overslaan & deactiveren"
+
+#: includes/schemes/color.php:78
+msgid "Color Palettes"
+msgstr "Kleurenpaletten"
+
+#: includes/elements/column.php:664 includes/elements/section.php:1108
+#: includes/widgets/common.php:104 includes/widgets/video.php:597
+msgid "Entrance Animation"
+msgstr "Inkomende animatie"
+
+#: includes/controls/groups/box-shadow.php:61
+#: includes/controls/groups/box-shadow.php:102
+msgctxt "Box Shadow Control"
+msgid "Box Shadow"
+msgstr "Boxschaduw"
+
+#: includes/widgets/testimonial.php:42 includes/widgets/testimonial.php:72
+msgid "Testimonial"
+msgstr "Aanbeveling"
+
+#: includes/widgets/social-icons.php:171
+msgid "Rounded"
+msgstr "Afgerond"
+
+#: includes/widgets/testimonial.php:124 includes/widgets/testimonial.php:323
+msgid "Job"
+msgstr "Functie"
+
+#: includes/widgets/testimonial.php:149
+msgid "Aside"
+msgstr "Aside"
+
+#: includes/widgets/social-icons.php:231
+msgid "Official Color"
+msgstr "Officiële kleur"
+
+#: includes/widgets/social-icons.php:42 includes/widgets/social-icons.php:71
+#: includes/widgets/social-icons.php:78
+msgid "Social Icons"
+msgstr "Sociale iconen"
+
+#: includes/widgets/progress.php:81
+msgid "My Skill"
+msgstr "Mijn vaardigheid"
+
+#: includes/admin.php:486
+msgid "Please share which plugin"
+msgstr "Vertel ons welke plugin"
+
+#: includes/admin.php:514
+msgid "If you have a moment, please share why you are deactivating Elementor:"
+msgstr "Als je een momentje hebt, vertel ons dan waarom je Elementor deactiveert:"
+
+#: includes/admin.php:498
+msgid "Please share the reason"
+msgstr "Vertel ons de reden"
+
+#: includes/widgets/audio.php:195
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: includes/widgets/audio.php:51 includes/widgets/audio.php:80
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: includes/admin.php:493
+msgid "It's a temporary deactivation"
+msgstr "Het is een tijdelijke deactivatie"
+
+#: includes/admin.php:485
+msgid "I found a better plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: includes/admin.php:497
+msgid "Other"
+msgstr "Anders"
+
+#: includes/widgets/audio.php:173
+msgid "Comments"
+msgstr "Reacties"
+
+#: includes/elements/section.php:327
+msgid "Extended"
+msgstr "Uitgebreid"
+
+#: includes/widgets/audio.php:99
+msgid "Visual Player"
+msgstr "Visuele speler"
+
+#: includes/admin.php:392
+msgid "Update Now"
+msgstr "Nu bijwerken"
+
+#: includes/admin.php:481
+msgid "I no longer need the plugin"
+msgstr "Ik heb de plugin niet langer nodig"
+
+#: includes/widgets/audio.php:129
+msgid "Buy Button"
+msgstr "Kopen-knop"
+
+#: includes/widgets/audio.php:140
+msgid "Like Button"
+msgstr "Vind ik leuk-knop"
+
+#: includes/widgets/audio.php:162
+msgid "Share Button"
+msgstr "Delen-knop"
+
+#: includes/widgets/audio.php:151
+msgid "Download Button"
+msgstr "Downloaden-knop"
+
+#: includes/widgets/audio.php:184
+msgid "Play Counts"
+msgstr "Aantal keer afgespeeld"
+
+#: includes/elements/column.php:281 includes/elements/section.php:567
+msgid "Background Overlay"
+msgstr "Overlay achtergrond"
+
+#: includes/admin.php:506
+msgid "Quick Feedback"
+msgstr "Snelle feedback"
+
+#: includes/admin.php:489
+msgid "I couldn't get the plugin to work"
+msgstr "Ik kreeg de plugin niet werkend"
+
+#. translators: %s: Elementor version
+#: includes/admin.php:379
+msgid "View Elementor version %s details"
+msgstr "Details Elementor versie %s bekijken"
+
+#. translators: 1: Details URL, 2: Accessibility text, 3: Version number, 4:
+#. Update URL, 5: Accessibility text
+#: includes/admin.php:375
+msgid "There is a new version of Elementor Page Builder available. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">update now</a>."
+msgstr "Er is een nieuwe versie van Elementor pagina bouwer beschikbaar. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">Details versie %3$s bekijken</a> of <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">nu bijwerken</a>."
+
+#: includes/widgets/image-carousel.php:179 includes/widgets/image.php:158
+msgid "Custom URL"
+msgstr "Aangepaste URL"
+
+#: includes/elements/column.php:214 includes/elements/section.php:492
+#: includes/widgets/accordion.php:220 includes/widgets/accordion.php:381
+#: includes/widgets/common.php:175 includes/widgets/toggle.php:240
+#: includes/widgets/toggle.php:401
+msgid "Background"
+msgstr "Achtergrond"
+
+#: includes/elements/section.php:329
+msgid "Wider"
+msgstr "Breder"
+
+#: core/role-manager/role-manager.php:56 includes/settings/settings.php:247
+#: includes/settings/tools.php:177
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/widgets/image-carousel.php:372
+#: includes/widgets/image-carousel.php:435
+msgid "Inside"
+msgstr "Binnen"
+
+#: includes/widgets/image-carousel.php:373
+#: includes/widgets/image-carousel.php:434
+msgid "Outside"
+msgstr "Buiten"
+
+#: includes/widgets/accordion.php:347 includes/widgets/icon-box.php:260
+#: includes/widgets/icon-box.php:477 includes/widgets/image-box.php:208
+#: includes/widgets/image-box.php:351 includes/widgets/image-carousel.php:490
+#: includes/widgets/image-gallery.php:191 includes/widgets/image.php:406
+#: includes/widgets/social-icons.php:313 includes/widgets/toggle.php:367
+msgid "Spacing"
+msgstr "Afstand"
+
+#: includes/widgets/image-carousel.php:319
+msgid "Animation Speed"
+msgstr "Snelheid animatie"
+
+#: includes/widgets/image-carousel.php:161
+msgid "Arrows and Dots"
+msgstr "Pijlen en punten"
+
+#: includes/widgets/audio.php:112 includes/widgets/image-carousel.php:243
+msgid "Additional Options"
+msgstr "Extra opties"
+
+#: includes/widgets/image-carousel.php:329
+msgid "Direction"
+msgstr "Richting"
+
+#: includes/elements/column.php:676 includes/elements/section.php:1120
+#: includes/widgets/common.php:116 includes/widgets/counter.php:130
+msgid "Animation Duration"
+msgstr "Duur animatie"
+
+#: includes/widgets/alert.php:171
+msgid "Left Border Width"
+msgstr "Breedte linkerrand"
+
+#: includes/widgets/image-carousel.php:144
+msgid "Image Stretch"
+msgstr "Afbeelding uitrekken"
+
+#: includes/widgets/image-carousel.php:43
+#: includes/widgets/image-carousel.php:86
+msgid "Image Carousel"
+msgstr "Carrousel afbeelding"
+
+#: includes/controls/groups/image-size.php:254
+msgid "You can crop the original image size to any custom size. You can also set a single value for height or width in order to keep the original size ratio."
+msgstr "Je kunt de originele afmetingen van de afbeelding naar elk aangepaste afmetingen bijsnijden Je kunt ook een enkele waarde voor de hoogte of breedte instellen om de originele verhoudingen te behouden."
+
+#: includes/editor.php:610
+msgid "You must call 'the_content' function in the current template, in order for Elementor to work on this page."
+msgstr "Je moet de 'the_content'-functie aanroepen in de huidige template, zodat Elementor op deze pagina werkt."
+
+#: includes/widgets/video.php:305
+msgid "Intro Byline"
+msgstr "Naamregel intro"
+
+#: includes/editor.php:609
+msgid "Sorry, the content area was not found in your page."
+msgstr "Sorry, het inhoudgebied is niet op je pagina gevonden."
+
+#: includes/controls/groups/border.php:64
+msgctxt "Border Control"
+msgid "Solid"
+msgstr "Doorgetrokken"
+
+#: includes/widgets/video.php:44 includes/widgets/video.php:89
+#: includes/widgets/video.php:419
+msgid "Video"
+msgstr "Video"
+
+#: includes/widgets/video.php:101
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/editor.php:620
+msgid "Insert Media"
+msgstr "Media invoegen"
+
+#: includes/controls/groups/image-size.php:335
+msgctxt "Image Size Control"
+msgid "Custom"
+msgstr "Aangepast"
+
+#: includes/widgets/image-gallery.php:159
+msgid "Ordering"
+msgstr "Volgorde"
+
+#: includes/controls/groups/border.php:67
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr "Gestreept"
+
+#: includes/controls/groups/border.php:66
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr "Gestippeld"
+
+#: includes/controls/groups/border.php:65
+msgctxt "Border Control"
+msgid "Double"
+msgstr "Dubbel"
+
+#: includes/editor.php:619
+msgid "No Images Selected"
+msgstr "Geen afbeeldingen geselecteerd"
+
+#: includes/widgets/video.php:96
+msgid "Video Type"
+msgstr "Type video"
+
+#: includes/controls/groups/image-size.php:252
+msgctxt "Image Size Control"
+msgid "Image Dimension"
+msgstr "Afmeting afbeelding"
+
+#: includes/widgets/video.php:157
+msgid "Enter your video link"
+msgstr "Voer je videolink in"
+
+#: includes/widgets/video.php:137
+msgid "Enter your Vimeo link"
+msgstr "Voer je Vimeo-link in"
+
+#: includes/widgets/audio.php:206 includes/widgets/video.php:319
+msgid "Controls Color"
+msgstr "Kleur besturingselementen"
+
+#: includes/widgets/video.php:277
+msgid "Intro Title"
+msgstr "Titel intro"
+
+#: includes/widgets/video.php:291
+msgid "Intro Portrait"
+msgstr "Portret intro"
+
+#: includes/widgets/video.php:266
+msgid "Loop"
+msgstr "Herhalen"
+
+#: includes/widgets/video.php:169
+msgid "Video Options"
+msgstr "Video-instellingen"
+
+#: includes/widgets/image-gallery.php:263
+msgid "Display"
+msgstr "Weergave"
+
+#: includes/controls/image-dimensions.php:81
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr "De server heeft ImageMagick of GD niet geïnstalleerd en/of ingeschakeld! Een van deze bibliotheken is nodig voor WordPress om afbeeldingen van formaat te wijzigen. Neem contact op met je serverbeheerder om dit in te schakelen voordat je verdergaat."
+
+#. translators: %s: The number of images.
+#: includes/editor.php:618
+msgid "%s Images Selected"
+msgstr "%s afbeeldingen geselecteerd"
+
+#: includes/widgets/image-carousel.php:307
+msgid "Fade"
+msgstr "Vervagen"
+
+#: includes/editor.php:615
+msgid "Reset Gallery"
+msgstr "Galerij opnieuw instellen"
+
+#: includes/widgets/image-carousel.php:302
+msgid "Effect"
+msgstr "Effect"
+
+#: includes/controls/groups/image-size.php:332
+msgctxt "Image Size Control"
+msgid "Full"
+msgstr "Volledig"
+
+#: includes/editor.php:616
+msgid "Are you sure you want to reset this gallery?"
+msgstr "Weet je zeker dat je deze galerij opnieuw wilt instellen?"
+
+#: includes/widgets/icon-box.php:453 includes/widgets/image-box.php:327
+msgid "Vertical Alignment"
+msgstr "Verticale uitlijning"
+
+#: includes/widgets/image-carousel.php:163
+#: includes/widgets/image-carousel.php:418
+msgid "Dots"
+msgstr "Punten"
+
+#: includes/widgets/image-carousel.php:288
+msgid "Infinite Loop"
+msgstr "Oneindig herhalen"
+
+#: includes/controls/groups/typography.php:167
+msgctxt "Typography Control"
+msgid "None"
+msgstr "Geen"
+
+#: includes/controls/structure.php:54
+msgid "Reset Structure"
+msgstr "Structuur opnieuw instellen"
+
+#: includes/controls/groups/image-size.php:246
+msgctxt "Image Size Control"
+msgid "Image Size"
+msgstr "Afmeting afbeelding"
+
+#: includes/widgets/accordion.php:126 includes/widgets/icon-box.php:194
+#: includes/widgets/image-box.php:169 includes/widgets/toggle.php:123
+msgid "Title HTML Tag"
+msgstr "HTML-tag titel"
+
+#: includes/widgets/icon-box.php:128 includes/widgets/image-box.php:106
+msgid "This is the heading"
+msgstr "Dit is de kop"
+
+#: includes/widgets/icon-box.php:142 includes/widgets/image-box.php:120
+msgid "Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr "Klik op de bewerken-knop om deze tekst te wijzigen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+
+#: includes/elements/column.php:725 includes/elements/section.php:1169
+#: includes/widgets/common.php:165
+msgid "Add your custom class WITHOUT the dot. e.g: my-class"
+msgstr "Voeg je aangepaste class ZONDER de punt toe. Bijvoorbeeld: mijn-class"
+
+#: includes/elements/section.php:1209 includes/widgets/common.php:357
+msgid "Attention: The display settings (show/hide for mobile, tablet or desktop) will only take effect once you are on the preview or live page, and not while you're in editing mode in Elementor."
+msgstr "Opgelet: de weergave-instellingen (tonen/verbergen op mobiel, tablet of desktop) zullen pas effect hebben zodra je op de voorbeeld- of livepagina bent en niet terwijl je in de bewerken-modus van Elementor bent."
+
+#: core/settings/general/model.php:94 includes/settings/settings.php:310
+msgid "Default Generic Fonts"
+msgstr "Standaard generieke lettertypen"
+
+#: core/settings/general/model.php:97 includes/settings/settings.php:315
+msgid "The list of fonts used if the chosen font is not available."
+msgstr "De lijst met lettertypen die gebruikt worden als het gekozen lettertype niet beschikbaar is."
+
+#: includes/managers/elements.php:368
+msgid "Pojo Themes"
+msgstr "Pojo thema's"
+
+#: includes/editor-templates/panel-elements.php:10
+msgid "Elements"
+msgstr "Elementen"
+
+#: includes/widgets/wordpress.php:207
+msgid "Form"
+msgstr "Formulier"
+
+#: includes/settings/system-info/classes/server.php:121
+msgctxt "System Info"
+msgid "We recommend to use php 5.4 or higher"
+msgstr "We raden aan om php 5.4 of hoger te gebruiken"
+
+#: includes/controls/groups/background.php:356
+msgid "YouTube link or video file (mp4 is recommended)."
+msgstr "YouTube-link of videobestand (mp4 wordt aangeraden)."
+
+#: includes/settings/settings.php:296
+msgid "Opt-in to our anonymous plugin data collection and to updates. We guarantee no sensitive data is collected."
+msgstr "Geef toestemming voor onze anonieme plugingegevens verzameling en voor updates. We garanderen dat er geen gevoelige gegevens worden verzameld."
+
+#: core/dynamic-tags/base-tag.php:166 includes/admin.php:281
+#: includes/editor-templates/panel.php:59 includes/editor.php:558
+#: includes/managers/controls.php:296 includes/settings/settings.php:208
+msgid "Settings"
+msgstr "Instellingen"
+
+#. Description of the plugin/theme
+msgid "The most advanced frontend drag & drop page builder. Create high-end, pixel perfect websites at record speeds. Any theme, any page, any design."
+msgstr "De meest geavanceerde frontend drag & drop pagina bouwer. Maak high-end, pixel perfecte websites in recordtempo. Elk thema, elke pagina, elk ontwerp."
+
+#: includes/controls/groups/typography.php:154
+msgctxt "Typography Control"
+msgid "Oblique"
+msgstr "Schuin"
+
+#: includes/controls/groups/typography.php:153
+msgctxt "Typography Control"
+msgid "Italic"
+msgstr "Cursief"
+
+#: includes/controls/groups/typography.php:142
+#: includes/controls/groups/typography.php:152
+msgctxt "Typography Control"
+msgid "Normal"
+msgstr "Normaal"
+
+#: includes/controls/groups/typography.php:139
+msgctxt "Typography Control"
+msgid "Uppercase"
+msgstr "Hoofdletters"
+
+#: includes/controls/groups/typography.php:140
+msgctxt "Typography Control"
+msgid "Lowercase"
+msgstr "Kleine letters"
+
+#: includes/controls/groups/typography.php:141
+msgctxt "Typography Control"
+msgid "Capitalize"
+msgstr "Enkele hoofdletter"
+
+#: includes/widgets/sidebar.php:73
+msgid "No sidebars were found"
+msgstr "Geen sidebars gevonden"
+
+#: includes/widgets/menu-anchor.php:90
+msgid "For Example: About"
+msgstr "Bijvoorbeeld: Over ons"
+
+#: includes/widgets/sidebar.php:42 includes/widgets/sidebar.php:88
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: includes/elements/column.php:161 includes/elements/section.php:427
+#: includes/elements/section.php:446 includes/widgets/icon-box.php:457
+#: includes/widgets/image-box.php:331
+msgid "Middle"
+msgstr "Midden"
+
+#: includes/widgets/icon-box.php:92 includes/widgets/icon.php:99
+#: includes/widgets/text-editor.php:199
+msgid "Framed"
+msgstr "Omlijst"
+
+#: includes/widgets/spacer.php:42 includes/widgets/spacer.php:87
+msgid "Spacer"
+msgstr "Afstandhouder"
+
+#: includes/widgets/accordion.php:145 includes/widgets/accordion.php:284
+#: includes/widgets/button.php:199 includes/widgets/icon-box.php:216
+#: includes/widgets/icon-list.php:127 includes/widgets/icon-list.php:331
+#: includes/widgets/icon.php:42 includes/widgets/icon.php:87
+#: includes/widgets/icon.php:109 includes/widgets/icon.php:176
+#: includes/widgets/social-icons.php:94 includes/widgets/social-icons.php:219
+#: includes/widgets/toggle.php:142 includes/widgets/toggle.php:304
+msgid "Icon"
+msgstr "Icoon"
+
+#: core/document-types/post.php:140 includes/elements/column.php:638
+#: includes/elements/section.php:1082 includes/widgets/accordion.php:270
+#: includes/widgets/accordion.php:416 includes/widgets/button.php:397
+#: includes/widgets/common.php:78 includes/widgets/icon-box.php:300
+#: includes/widgets/icon.php:234 includes/widgets/social-icons.php:285
+#: includes/widgets/toggle.php:290 includes/widgets/toggle.php:436
+msgid "Padding"
+msgstr "Padding"
+
+#: includes/widgets/divider.php:202
+msgid "Gap"
+msgstr "Tussenruimte"
+
+#: includes/controls/groups/background.php:366
+msgctxt "Background Control"
+msgid "Background Fallback"
+msgstr "Achtergrond waar op teruggevallen wordt"
+
+#: includes/elements/column.php:119 includes/elements/section.php:262
+#: includes/managers/controls.php:295 includes/widgets/icon-list.php:78
+msgid "Layout"
+msgstr "Layout"
+
+#: includes/elements/column.php:597 includes/elements/section.php:1035
+#: includes/widgets/button.php:169 includes/widgets/divider.php:184
+#: includes/widgets/heading.php:168 includes/widgets/icon-box.php:432
+#: includes/widgets/icon-list.php:186 includes/widgets/icon.php:156
+#: includes/widgets/image-box.php:306 includes/widgets/image-carousel.php:573
+#: includes/widgets/image-gallery.php:287 includes/widgets/image.php:125
+#: includes/widgets/image.php:359 includes/widgets/social-icons.php:190
+#: includes/widgets/testimonial.php:171 includes/widgets/text-editor.php:136
+#: includes/widgets/video.php:582
+msgid "Center"
+msgstr "Gecentreerd"
+
+#: includes/widgets/button.php:177 includes/widgets/heading.php:176
+#: includes/widgets/icon-box.php:440 includes/widgets/image-box.php:314
+#: includes/widgets/image-carousel.php:581
+#: includes/widgets/image-gallery.php:295 includes/widgets/image.php:367
+#: includes/widgets/text-editor.php:144
+msgid "Justified"
+msgstr "Uitgevuld"
+
+#: modules/history/revisions-manager.php:374
+msgid "Revision History"
+msgstr "Revisiegeschiedenis"
+
+#: includes/widgets/divider.php:43 includes/widgets/divider.php:88
+#: includes/widgets/icon-list.php:201
+msgid "Divider"
+msgstr "Scheiding"
+
+#: includes/elements/column.php:396 includes/elements/section.php:683
+#: includes/widgets/common.php:241
+msgid "Border"
+msgstr "Rand"
+
+#: includes/widgets/divider.php:98 includes/widgets/icon-list.php:219
+msgid "Solid"
+msgstr "Doorgetrokken"
+
+#: includes/controls/groups/typography.php:134
+msgctxt "Typography Control"
+msgid "Transform"
+msgstr "Transformeren"
+
+#: includes/controls/groups/typography.php:172
+msgctxt "Typography Control"
+msgid "Line-Height"
+msgstr "Lijnhoogte"
+
+#: includes/controls/groups/typography.php:188
+msgctxt "Typography Control"
+msgid "Letter Spacing"
+msgstr "Letterafstand"
+
+#: includes/widgets/divider.php:113 includes/widgets/icon-list.php:238
+msgid "Weight"
+msgstr "Dikte"
+
+#: includes/controls/groups/typography.php:127
+msgctxt "Typography Control"
+msgid "Weight"
+msgstr "Dikte"
+
+#: includes/widgets/sidebar.php:75 includes/widgets/sidebar.php:93
+msgid "Choose Sidebar"
+msgstr "Kies sidebar"
+
+#: includes/controls/groups/background.php:314
+#: includes/controls/groups/background.php:320
+msgctxt "Background Control"
+msgid "Repeat"
+msgstr "Herhalen"
+
+#: includes/widgets/counter.php:101
+msgid "Ending Number"
+msgstr "Eindgetal"
+
+#: includes/widgets/counter.php:92
+msgid "Starting Number"
+msgstr "Begingetal"
+
+#. Author of the plugin/theme
+msgid "Elementor.com"
+msgstr "Elementor.com"
+
+#: includes/widgets/video.php:100
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/elements/column.php:224 includes/elements/column.php:294
+#: includes/elements/column.php:406 includes/elements/column.php:681
+#: includes/elements/section.php:502 includes/elements/section.php:580
+#: includes/elements/section.php:693 includes/elements/section.php:1125
+#: includes/widgets/button.php:275 includes/widgets/common.php:121
+#: includes/widgets/common.php:185 includes/widgets/common.php:251
+msgid "Normal"
+msgstr "Normaal"
+
+#: includes/admin.php:141 includes/admin.php:149 includes/admin.php:209
+#: includes/frontend.php:885
+msgid "Edit with Elementor"
+msgstr "Bewerk met Elementor"
+
+#: includes/controls/gallery.php:86 includes/widgets/image-carousel.php:93
+#: includes/widgets/image-gallery.php:94
+msgid "Add Images"
+msgstr "Afbeeldingen toevoegen"
+
+#: includes/widgets/accordion.php:295 includes/widgets/button.php:161
+#: includes/widgets/divider.php:176 includes/widgets/heading.php:160
+#: includes/widgets/icon-box.php:424 includes/widgets/icon-list.php:178
+#: includes/widgets/icon.php:148 includes/widgets/image-box.php:298
+#: includes/widgets/image-carousel.php:565
+#: includes/widgets/image-gallery.php:279 includes/widgets/image.php:117
+#: includes/widgets/image.php:351 includes/widgets/social-icons.php:182
+#: includes/widgets/testimonial.php:162 includes/widgets/text-editor.php:128
+#: includes/widgets/toggle.php:315
+msgid "Alignment"
+msgstr "UItlijning"
+
+#: includes/elements/section.php:342
+msgid "Fit To Screen"
+msgstr "Passend op scherm"
+
+#: includes/elements/section.php:289
+msgid "Full Width"
+msgstr "Volledige breedte"
+
+#: includes/editor-templates/templates.php:37
+#: includes/editor-templates/templates.php:38
+#: includes/editor-templates/templates.php:224
+#: includes/editor-templates/templates.php:235 includes/editor.php:638
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/editor.php:592 includes/elements/section.php:63
+#: includes/elements/section.php:114 includes/elements/section.php:1269
+#: modules/library/documents/section.php:64
+msgid "Section"
+msgstr "Sectie"
+
+#: includes/elements/section.php:1223 includes/elements/section.php:1236
+#: includes/elements/section.php:1249 includes/widgets/alert.php:121
+#: includes/widgets/audio.php:132 includes/widgets/audio.php:143
+#: includes/widgets/audio.php:154 includes/widgets/audio.php:165
+#: includes/widgets/audio.php:176 includes/widgets/audio.php:187
+#: includes/widgets/audio.php:198 includes/widgets/counter.php:144
+#: includes/widgets/image-gallery.php:267 includes/widgets/progress.php:120
+#: includes/widgets/video.php:193 includes/widgets/video.php:206
+#: includes/widgets/video.php:220 includes/widgets/video.php:280
+#: includes/widgets/video.php:294 includes/widgets/video.php:308
+#: includes/widgets/video.php:352
+msgid "Show"
+msgstr "Tonen"
+
+#: includes/controls/dimensions.php:89 includes/elements/column.php:601
+#: includes/elements/section.php:1039 includes/widgets/button.php:173
+#: includes/widgets/divider.php:188 includes/widgets/heading.php:172
+#: includes/widgets/icon-box.php:179 includes/widgets/icon-box.php:436
+#: includes/widgets/icon-list.php:190 includes/widgets/icon.php:160
+#: includes/widgets/image-box.php:157 includes/widgets/image-box.php:310
+#: includes/widgets/image-carousel.php:334
+#: includes/widgets/image-carousel.php:577
+#: includes/widgets/image-gallery.php:291 includes/widgets/image.php:129
+#: includes/widgets/image.php:363 includes/widgets/social-icons.php:194
+#: includes/widgets/testimonial.php:175 includes/widgets/text-editor.php:140
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/elements/section.php:425
+msgid "Stretch"
+msgstr "Uitrekken"
+
+#: includes/elements/section.php:1200
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: core/settings/general/model.php:91 includes/editor.php:557
+#: includes/managers/controls.php:292 includes/settings/settings.php:305
+#: includes/widgets/divider.php:95 includes/widgets/icon-list.php:216
+msgid "Style"
+msgstr "Stijl"
+
+#: includes/controls/groups/typography.php:147
+msgctxt "Typography Control"
+msgid "Style"
+msgstr "Stijl"
+
+#: includes/widgets/heading.php:42
+msgid "Heading"
+msgstr "Kop"
+
+#: core/base/document.php:400 includes/widgets/accordion.php:212
+#: includes/widgets/alert.php:190 includes/widgets/counter.php:168
+#: includes/widgets/counter.php:224 includes/widgets/heading.php:87
+#: includes/widgets/heading.php:94 includes/widgets/heading.php:201
+#: includes/widgets/icon-box.php:468 includes/widgets/image-box.php:342
+#: includes/widgets/image-carousel.php:222 includes/widgets/progress.php:78
+#: includes/widgets/tabs.php:216 includes/widgets/toggle.php:232
+msgid "Title"
+msgstr "Titel"
+
+#: includes/widgets/text-editor.php:43 includes/widgets/text-editor.php:88
+#: includes/widgets/text-editor.php:120
+msgid "Text Editor"
+msgstr "Tekstbewerker"
+
+#: includes/widgets/button.php:43 includes/widgets/button.php:109
+#: includes/widgets/button.php:256
+msgid "Button"
+msgstr "Knop"
+
+#: includes/widgets/image-box.php:78 includes/widgets/image.php:94
+#: includes/widgets/testimonial.php:92
+msgid "Choose Image"
+msgstr "Afbeelding kiezen"
+
+#: core/base/document.php:375 includes/controls/media.php:136
+#: includes/editor-templates/templates.php:195 includes/editor.php:546
+#: modules/history/views/revisions-panel-template.php:52
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/widgets/icon-box.php:153 includes/widgets/image-box.php:131
+#: includes/widgets/image-carousel.php:173
+#: includes/widgets/image-carousel.php:187
+#: includes/widgets/image-gallery.php:128 includes/widgets/image.php:152
+#: includes/widgets/image.php:166 includes/widgets/testimonial.php:136
+msgid "Link to"
+msgstr "Link naar"
+
+#: includes/base/widget-base.php:271 includes/controls/font.php:67
+#: includes/controls/groups/typography.php:119
+#: includes/controls/groups/typography.php:138
+#: includes/controls/groups/typography.php:151
+#: includes/controls/groups/typography.php:163
+#: includes/editor-templates/panel.php:209 includes/elements/column.php:159
+#: includes/elements/column.php:197 includes/elements/column.php:747
+#: includes/elements/section.php:324 includes/elements/section.php:341
+#: includes/elements/section.php:386 includes/elements/section.php:444
+#: includes/elements/section.php:464 includes/widgets/button.php:120
+#: includes/widgets/heading.php:127 includes/widgets/icon-box.php:90
+#: includes/widgets/icon-list.php:83 includes/widgets/icon.php:97
+#: includes/widgets/image-carousel.php:120
+#: includes/widgets/image-carousel.php:204
+#: includes/widgets/image-carousel.php:493
+#: includes/widgets/image-gallery.php:146
+#: includes/widgets/image-gallery.php:162
+#: includes/widgets/image-gallery.php:194 includes/widgets/image.php:186
+#: includes/widgets/progress.php:93 includes/widgets/text-editor.php:197
+#: modules/page-templates/module.php:254
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/controls/animation.php:133 includes/controls/groups/border.php:63
+#: includes/controls/hover-animation.php:108 includes/elements/section.php:813
+#: includes/widgets/image-carousel.php:164
+#: includes/widgets/image-carousel.php:177
+#: includes/widgets/image-carousel.php:221
+#: includes/widgets/image-gallery.php:134 includes/widgets/image.php:156
+msgid "None"
+msgstr "Geen"
+
+#: includes/widgets/image-carousel.php:178
+#: includes/widgets/image-gallery.php:132 includes/widgets/image.php:157
+msgid "Media File"
+msgstr "Mediabestand"
+
+#: includes/widgets/image-carousel.php:217
+#: includes/widgets/image-carousel.php:223
+#: includes/widgets/image-carousel.php:554
+#: includes/widgets/image-gallery.php:255 includes/widgets/image.php:142
+#: includes/widgets/image.php:340
+msgid "Caption"
+msgstr "Onderschrift"
+
+#: includes/admin.php:158 includes/editor-templates/editor-wrapper.php:46
+#: includes/editor-templates/templates.php:67
+msgid "Loading"
+msgstr "Bezig met laden"
+
+#: includes/controls/popover-toggle.php:70
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/controls/box-shadow.php:110 includes/controls/text-shadow.php:103
+#: includes/elements/section.php:847 includes/widgets/accordion.php:231
+#: includes/widgets/accordion.php:319 includes/widgets/accordion.php:392
+#: includes/widgets/divider.php:133 includes/widgets/icon-box.php:494
+#: includes/widgets/icon-box.php:528 includes/widgets/icon-list.php:310
+#: includes/widgets/icon-list.php:339 includes/widgets/image-box.php:368
+#: includes/widgets/image-box.php:402 includes/widgets/image-carousel.php:404
+#: includes/widgets/image-carousel.php:466 includes/widgets/progress.php:158
+#: includes/widgets/social-icons.php:227 includes/widgets/tabs.php:225
+#: includes/widgets/tabs.php:273 includes/widgets/toggle.php:251
+#: includes/widgets/toggle.php:339 includes/widgets/toggle.php:412
+#: includes/widgets/video.php:455
+msgid "Color"
+msgstr "Kleur"
+
+#: includes/controls/groups/background.php:127
+msgctxt "Background Control"
+msgid "Color"
+msgstr "Kleur"
+
+#: includes/controls/groups/background.php:244
+msgctxt "Background Control"
+msgid "Image"
+msgstr "Afbeelding"
+
+#. #-#-#-#-#  elementor-code.pot (Elementor 2.0.16)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: core/documents-manager.php:296 includes/admin.php:233 includes/admin.php:422
+#: includes/admin.php:591 includes/editor-templates/editor-wrapper.php:29
+#: includes/editor.php:545 includes/settings/settings.php:68
+#: includes/settings/settings.php:69 includes/settings/settings.php:425
+#: includes/template-library/sources/local.php:408
+#: includes/template-library/sources/local.php:409
+msgid "Elementor"
+msgstr "Elementor"
+
+#: includes/editor-templates/templates.php:182
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: includes/editor-templates/panel.php:48
+#: includes/editor-templates/panel.php:49
+msgid "Menu"
+msgstr "Menu"
+
+#: includes/editor-templates/panel.php:72
+msgid "Desktop"
+msgstr "Desktop"
+
+#: includes/editor-templates/panel.php:77
+msgid "Tablet"
+msgstr "Tablet"
+
+#: includes/admin.php:702
+msgid "Help"
+msgstr "Hulp"
+
+#: includes/admin.php:60 includes/editor.php:547
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/editor.php:626
+msgid "Take Over"
+msgstr "Overnemen"
+
+#: includes/schemes/color.php:64
+msgid "Colors"
+msgstr "Kleuren"
+
+#: includes/schemes/color.php:95 includes/widgets/button.php:133
+#: includes/widgets/icon-list.php:119 includes/widgets/icon-list.php:389
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/schemes/typography.php:95
+msgid "Body Text"
+msgstr "Body-tekst"
+
+#: core/base/document.php:392
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: includes/widgets/accordion.php:83
+msgid "Accordion #1"
+msgstr "Accordeon #1"
+
+#: includes/widgets/accordion.php:87
+msgid "Accordion #2"
+msgstr "Accordeon #2"
+
+#: includes/widgets/alert.php:85 includes/widgets/button.php:123
+#: includes/widgets/progress.php:96
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: includes/widgets/alert.php:84 includes/widgets/button.php:122
+#: includes/widgets/progress.php:95
+msgid "Success"
+msgstr "Succes"
+
+#: core/dynamic-tags/tag.php:89 includes/widgets/button.php:213
+msgid "Before"
+msgstr "Voor"
+
+#: core/dynamic-tags/tag.php:96 includes/widgets/button.php:214
+msgid "After"
+msgstr "Na"
+
+#: includes/widgets/button.php:90 includes/widgets/heading.php:128
+msgid "Small"
+msgstr "Klein"
+
+#: includes/widgets/audio.php:87 includes/widgets/button.php:146
+#: includes/widgets/heading.php:107 includes/widgets/icon-list.php:134
+#: includes/widgets/icon.php:136 includes/widgets/social-icons.php:151
+#: includes/widgets/video.php:109 includes/widgets/video.php:129
+#: includes/widgets/video.php:149
+msgid "Link"
+msgstr "Link"
+
+#: includes/widgets/button.php:189 includes/widgets/heading.php:123
+#: includes/widgets/icon-box.php:283 includes/widgets/icon-list.php:367
+#: includes/widgets/icon.php:217 includes/widgets/image-carousel.php:384
+#: includes/widgets/image-carousel.php:446
+#: includes/widgets/social-icons.php:268 includes/widgets/text-editor.php:246
+#: includes/widgets/video.php:471
+msgid "Size"
+msgstr "Afmeting"
+
+#: includes/widgets/button.php:92 includes/widgets/heading.php:130
+msgid "Large"
+msgstr "Groot"
+
+#: includes/widgets/counter.php:190
+msgid "Number"
+msgstr "Nummer"
+
+#: includes/widgets/html.php:42
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/widgets/heading.php:131
+msgid "XL"
+msgstr "XL"
+
+#: includes/widgets/heading.php:132
+msgid "XXL"
+msgstr "XXL"
+
+#: includes/widgets/google-maps.php:97
+msgid "Address"
+msgstr "Adres"
+
+#: includes/widgets/google-maps.php:114
+msgid "Zoom Level"
+msgstr "Zoomniveau"
+
+#: includes/widgets/image-box.php:200 includes/widgets/image-carousel.php:482
+#: includes/widgets/image.php:42 includes/widgets/image.php:87
+#: includes/widgets/image.php:210 includes/widgets/testimonial.php:234
+#: includes/widgets/video.php:359
+msgid "Image"
+msgstr "Afbeelding"
+
+#: includes/widgets/tabs.php:43 includes/widgets/tabs.php:72
+#: includes/widgets/tabs.php:142
+msgid "Tabs"
+msgstr "Tabs"
+
+#: includes/editor-templates/templates.php:122
+#: includes/widgets/testimonial.php:112 includes/widgets/testimonial.php:287
+msgid "Name"
+msgstr "Naam"
+
+#: includes/widgets/tabs.php:87
+msgid "Tab #2"
+msgstr "Tab #2"
+
+#: includes/widgets/tabs.php:83
+msgid "Tab #1"
+msgstr "Tab #1"
+
+#: includes/widgets/image-carousel.php:162
+#: includes/widgets/image-carousel.php:356
+msgid "Arrows"
+msgstr "Pijlen"
+
+#: includes/widgets/progress.php:105
+msgid "Percentage"
+msgstr "Percentage"
+
+#: includes/widgets/menu-anchor.php:72
+msgid "Anchor"
+msgstr "Anker"
+
+#: includes/widgets/progress.php:42 includes/widgets/progress.php:71
+#: includes/widgets/progress.php:150
+msgid "Progress Bar"
+msgstr "Voortgangsbalk"
+
+#: includes/widgets/progress.php:131
+msgid "Web Designer"
+msgstr "Webdesigner"
+
+#: includes/widgets/progress.php:130
+msgid "e.g. Web Designer"
+msgstr "bijv. Webdesigner"
+
+#: includes/widgets/google-maps.php:89
+msgid "Map"
+msgstr "Kaart"
+
+#: includes/widgets/google-maps.php:44
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: includes/widgets/image-gallery.php:183
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: includes/widgets/image-gallery.php:163
+msgid "Random"
+msgstr "Willekeurig"
+
+#: includes/widgets/image-gallery.php:133
+msgid "Attachment Page"
+msgstr "Bijlagepagina"
+
+#: includes/widgets/counter.php:42 includes/widgets/counter.php:85
+msgid "Counter"
+msgstr "Teller"
+
+#: includes/widgets/counter.php:123
+msgid "Plus"
+msgstr "Plus"
+
+#: includes/elements/section.php:1222 includes/elements/section.php:1235
+#: includes/elements/section.php:1248 includes/widgets/alert.php:122
+#: includes/widgets/audio.php:131 includes/widgets/audio.php:142
+#: includes/widgets/audio.php:153 includes/widgets/audio.php:164
+#: includes/widgets/audio.php:175 includes/widgets/audio.php:186
+#: includes/widgets/audio.php:197 includes/widgets/counter.php:145
+#: includes/widgets/image-gallery.php:268 includes/widgets/progress.php:121
+#: includes/widgets/video.php:192 includes/widgets/video.php:205
+#: includes/widgets/video.php:219 includes/widgets/video.php:279
+#: includes/widgets/video.php:293 includes/widgets/video.php:307
+#: includes/widgets/video.php:351
+msgid "Hide"
+msgstr "Verbergen"
+
+#: includes/widgets/alert.php:86 includes/widgets/button.php:124
+#: includes/widgets/progress.php:97
+msgid "Danger"
+msgstr "Gevaar"
+
+#: includes/widgets/alert.php:83 includes/widgets/button.php:121
+#: includes/widgets/progress.php:94
+msgid "Info"
+msgstr "Info"
+
+#: includes/editor-templates/templates.php:126
+#: includes/elements/section.php:836
+#: includes/template-library/sources/local.php:1463
+#: includes/widgets/alert.php:79 includes/widgets/button.php:116
+#: includes/widgets/progress.php:89 includes/widgets/tabs.php:125
+msgid "Type"
+msgstr "Type"
+
+#: includes/widgets/accordion.php:43 includes/widgets/accordion.php:72
+#: includes/widgets/accordion.php:170
+msgid "Accordion"
+msgstr "Accordeon"
+
+#: includes/settings/system-info/main.php:155
+msgid "You can copy the below info as simple text with Ctrl+C / Ctrl+V:"
+msgstr "Je kunt onderstaande informatie eenvoudig kopiëren met Ctrl+C / Ctrl+V: "
+
+#: core/document-types/post.php:91 includes/controls/switcher.php:74
+#: includes/editor.php:587 includes/widgets/audio.php:104
+#: includes/widgets/image-carousel.php:148
+#: includes/widgets/image-carousel.php:206
+#: includes/widgets/image-carousel.php:255
+#: includes/widgets/image-carousel.php:269
+#: includes/widgets/image-carousel.php:293
+#: includes/widgets/image-gallery.php:148 includes/widgets/image.php:188
+#: includes/widgets/video.php:388
+msgid "No"
+msgstr "Nee"
+
+#: core/document-types/post.php:92 includes/admin.php:59
+#: includes/controls/switcher.php:75 includes/editor.php:600
+#: includes/widgets/audio.php:103 includes/widgets/image-carousel.php:149
+#: includes/widgets/image-carousel.php:205
+#: includes/widgets/image-carousel.php:254
+#: includes/widgets/image-carousel.php:268
+#: includes/widgets/image-carousel.php:292
+#: includes/widgets/image-gallery.php:147 includes/widgets/image.php:187
+#: includes/widgets/video.php:389
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/elements/column.php:721 includes/elements/section.php:1165
+#: includes/widgets/common.php:161
+msgid "CSS Classes"
+msgstr "CSS-classes"
+
+#: includes/elements/column.php:626 includes/elements/section.php:1063
+#: includes/widgets/common.php:66
+msgid "Margin"
+msgstr "Marge"
+
+#: includes/elements/column.php:589 includes/elements/section.php:1027
+msgid "Text Align"
+msgstr "Tekstuitlijning"
+
+#: includes/elements/column.php:520 includes/elements/section.php:959
+#: includes/schemes/typography.php:64
+msgid "Typography"
+msgstr "Typografie"
+
+#: includes/elements/column.php:43 includes/elements/column.php:89
+#: includes/elements/column.php:806 includes/elements/column.php:808
+msgid "Column"
+msgstr "Kolom"
+
+#: includes/controls/structure.php:47 includes/elements/section.php:479
+msgid "Structure"
+msgstr "Structuur"
+
+#: core/base/document.php:365 core/dynamic-tags/tag.php:82
+#: includes/elements/column.php:617 includes/elements/section.php:1055
+#: includes/managers/controls.php:293 includes/settings/settings.php:375
+#: includes/widgets/common.php:58
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: includes/managers/controls.php:291
+#: includes/template-library/sources/local.php:1390
+#: includes/widgets/accordion.php:104 includes/widgets/accordion.php:370
+#: includes/widgets/alert.php:105 includes/widgets/icon-box.php:416
+#: includes/widgets/image-box.php:115 includes/widgets/image-box.php:290
+#: includes/widgets/tabs.php:102 includes/widgets/tabs.php:264
+#: includes/widgets/testimonial.php:79 includes/widgets/testimonial.php:198
+#: includes/widgets/toggle.php:101 includes/widgets/toggle.php:390
+msgid "Content"
+msgstr "Inhoud"
+
+#: includes/editor.php:561 includes/widgets/image-gallery.php:118
+msgid "Columns"
+msgstr "Kolommen"
+
+#: includes/editor.php:552
+msgid "About Elementor"
+msgstr "Over Elementor"
+
+#: includes/editor.php:660
+msgid "Soon"
+msgstr "Binnenkort"
+
+#: includes/editor.php:639
+msgid "Saved"
+msgstr "Opgeslagen"
+
+#: includes/controls/image-dimensions.php:104
+#: includes/editor-templates/panel.php:160 includes/schemes/base.php:172
+#: modules/history/views/revisions-panel-template.php:18
+msgid "Apply"
+msgstr "Toepassen"
+
+#: includes/schemes/base.php:168
+#: modules/history/views/revisions-panel-template.php:13
+msgid "Discard"
+msgstr "Ongedaan maken"
+
+#: includes/controls/groups/background.php:340
+msgctxt "Background Control"
+msgid "Cover"
+msgstr "Bedekken"
+
+#: includes/fonts.php:79
+msgid "Google"
+msgstr "Google"
+
+#: includes/fonts.php:78
+msgid "System"
+msgstr "Systeem"
+
+#: includes/controls/gallery.php:83
+msgid "Clear"
+msgstr "Wissen"
+
+#: includes/controls/groups/background.php:219
+#: includes/controls/groups/background.php:259
+msgctxt "Background Control"
+msgid "Position"
+msgstr "Positie"
+
+#: includes/controls/groups/background.php:92
+msgctxt "Background Control"
+msgid "Classic"
+msgstr "Klassiek"
+
+#: includes/controls/groups/background.php:290
+msgctxt "Background Control"
+msgid "Fixed"
+msgstr "Vast"
+
+#: includes/controls/groups/background.php:230
+#: includes/controls/groups/background.php:272
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr "Rechtsonder"
+
+#: includes/controls/groups/background.php:229
+#: includes/controls/groups/background.php:270
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr "Linksonder"
+
+#: includes/controls/groups/background.php:227
+#: includes/controls/groups/background.php:266
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr "Rechtsboven"
+
+#: includes/controls/groups/background.php:226
+#: includes/controls/groups/background.php:264
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr "Linksboven"
+
+#: includes/controls/groups/background.php:334
+msgctxt "Background Control"
+msgid "Size"
+msgstr "Afmeting"
+
+#: includes/controls/dimensions.php:91 includes/elements/column.php:593
+#: includes/elements/section.php:1031 includes/widgets/button.php:165
+#: includes/widgets/divider.php:180 includes/widgets/heading.php:164
+#: includes/widgets/icon-box.php:171 includes/widgets/icon-box.php:428
+#: includes/widgets/icon-list.php:182 includes/widgets/icon.php:152
+#: includes/widgets/image-box.php:149 includes/widgets/image-box.php:302
+#: includes/widgets/image-carousel.php:333
+#: includes/widgets/image-carousel.php:569
+#: includes/widgets/image-gallery.php:283 includes/widgets/image.php:121
+#: includes/widgets/image.php:355 includes/widgets/social-icons.php:186
+#: includes/widgets/testimonial.php:167 includes/widgets/text-editor.php:132
+msgid "Left"
+msgstr "Links"
+
+#: includes/controls/groups/background.php:339
+msgctxt "Background Control"
+msgid "Auto"
+msgstr "Automatisch"
+
+#: includes/controls/groups/background.php:322
+msgctxt "Background Control"
+msgid "Repeat-y"
+msgstr "Herhaal-y"
+
+#: includes/controls/groups/background.php:321
+msgctxt "Background Control"
+msgid "Repeat-x"
+msgstr "Herhaal-x"
+
+#: includes/controls/groups/background.php:319
+msgctxt "Background Control"
+msgid "No-repeat"
+msgstr "Geen herhaling"
+
+#: includes/controls/groups/typography.php:282
+msgctxt "Typography Control"
+msgid "Typography"
+msgstr "Typografie"
+
+#: includes/widgets/icon-box.php:105 includes/widgets/icon.php:119
+#: includes/widgets/social-icons.php:167
+msgid "Shape"
+msgstr "Vorm"
+
+#: includes/widgets/icon-box.php:108 includes/widgets/icon.php:122
+#: includes/widgets/social-icons.php:173
+msgid "Circle"
+msgstr "Cirkel"
+
+#: includes/widgets/icon-box.php:109 includes/widgets/icon.php:123
+#: includes/widgets/social-icons.php:172
+msgid "Square"
+msgstr "Vierkant"
+
+#: includes/controls/image-dimensions.php:102 includes/elements/section.php:337
+#: includes/elements/section.php:382 includes/elements/section.php:891
+#: includes/widgets/google-maps.php:131 includes/widgets/icon-list.php:281
+msgid "Height"
+msgstr "Hoogte"
+
+#: includes/widgets/image-carousel.php:157
+#: includes/widgets/image-carousel.php:345
+msgid "Navigation"
+msgstr "Navigatie"
+
+#: includes/managers/elements.php:373
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/widgets/icon-box.php:91 includes/widgets/icon.php:98
+#: includes/widgets/text-editor.php:198
+msgid "Stacked"
+msgstr "Gestapeld"
+
+#: includes/widgets/divider.php:99 includes/widgets/icon-list.php:220
+msgid "Double"
+msgstr "Dubbel"
+
+#: includes/widgets/google-maps.php:93
+msgid "London Eye, London, United Kingdom"
+msgstr "Anne Frank Huis, Amsterdam, Nederland"
+
+#: includes/managers/elements.php:331
+msgid "Basic"
+msgstr "Basis"
+
+#: includes/widgets/divider.php:101 includes/widgets/icon-list.php:222
+msgid "Dashed"
+msgstr "Gestreept"
+
+#: includes/widgets/audio.php:121 includes/widgets/image-carousel.php:264
+#: includes/widgets/video.php:179 includes/widgets/video.php:255
+msgid "Autoplay"
+msgstr "Automatisch afspelen"
+
+#: includes/elements/section.php:326
+msgid "Narrow"
+msgstr "Smal"
+
+#: includes/controls/groups/typography.php:98
+msgctxt "Typography Control"
+msgid "Family"
+msgstr "Familie"
+
+#: includes/controls/groups/typography.php:105
+msgctxt "Typography Control"
+msgid "Size"
+msgstr "Afmeting"
+
+#: includes/controls/groups/border.php:87
+msgctxt "Border Control"
+msgid "Color"
+msgstr "Kleur"
+
+#: includes/widgets/divider.php:100 includes/widgets/icon-list.php:221
+msgid "Dotted"
+msgstr "Gestippeld"
+
+#: includes/elements/column.php:748 includes/maintenance-mode.php:226
+#: includes/widgets/image-carousel.php:494
+#: includes/widgets/image-gallery.php:195 includes/widgets/social-icons.php:232
+msgid "Custom"
+msgstr "Aangepast"
+
+#: includes/schemes/base.php:162
+msgid "Reset"
+msgstr "Opnieuw instellen"
+
+#: includes/widgets/accordion.php:117 includes/widgets/alert.php:130
+#: includes/widgets/audio.php:214 includes/widgets/button.php:245
+#: includes/widgets/counter.php:179 includes/widgets/divider.php:222
+#: includes/widgets/google-maps.php:160 includes/widgets/heading.php:190
+#: includes/widgets/icon-box.php:87 includes/widgets/icon.php:94
+#: includes/widgets/image-box.php:189 includes/widgets/image-carousel.php:232
+#: includes/widgets/image-gallery.php:172 includes/widgets/image.php:199
+#: includes/widgets/progress.php:139 includes/widgets/social-icons.php:208
+#: includes/widgets/spacer.php:114 includes/widgets/tabs.php:116
+#: includes/widgets/testimonial.php:186 includes/widgets/text-editor.php:194
+#: includes/widgets/toggle.php:114 includes/widgets/video.php:331
+msgid "View"
+msgstr "Weergave"
+
+#: includes/elements/column.php:735 includes/elements/section.php:1180
+#: includes/managers/controls.php:294 includes/widgets/common.php:349
+msgid "Responsive"
+msgstr "Responsive"
+
+#: includes/controls/image-dimensions.php:96 includes/elements/section.php:861
+#: includes/widgets/divider.php:149 includes/widgets/icon-list.php:262
+#: includes/widgets/image-box.php:231 includes/widgets/image.php:218
+msgid "Width"
+msgstr "Breedte"
+
+#: includes/schemes/color.php:93
+msgid "Primary"
+msgstr "Primair"
+
+#: includes/schemes/color.php:94
+msgid "Secondary"
+msgstr "Secundair"
+
+#: includes/schemes/color.php:96
+msgid "Accent"
+msgstr "Accent"
+
+#: includes/widgets/button.php:91 includes/widgets/heading.php:129
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: includes/elements/column.php:421 includes/elements/column.php:458
+#: includes/elements/section.php:707 includes/elements/section.php:743
+#: includes/widgets/button.php:377 includes/widgets/common.php:266
+#: includes/widgets/common.php:303 includes/widgets/icon-box.php:349
+#: includes/widgets/icon.php:283 includes/widgets/image-carousel.php:540
+#: includes/widgets/image-gallery.php:241 includes/widgets/image.php:315
+#: includes/widgets/social-icons.php:339 includes/widgets/testimonial.php:272
+#: includes/widgets/text-editor.php:288
+msgid "Border Radius"
+msgstr "Afgeronde hoeken"
+
+#: includes/elements/section.php:328
+msgid "Wide"
+msgstr "Breed"
+
+#: includes/widgets/image-box.php:42 includes/widgets/image-box.php:71
+msgid "Image Box"
+msgstr "Afbeeldingsbox"
+
+#: includes/widgets/image-carousel.php:306
+msgid "Slide"
+msgstr "Slide"
+
+#: includes/widgets/toggle.php:43 includes/widgets/toggle.php:72
+#: includes/widgets/toggle.php:167
+msgid "Toggle"
+msgstr "Wisselen"
+
+#: includes/widgets/toggle.php:83
+msgid "Toggle #1"
+msgstr "Wissel #1"
+
+#: includes/widgets/toggle.php:87
+msgid "Toggle #2"
+msgstr "Wissel #2"
+
+#: includes/widgets/image-carousel.php:129
+msgid "Slides to Scroll"
+msgstr "Slides om te scrollen"
+
+#: includes/widgets/image-carousel.php:117
+msgid "Slides to Show"
+msgstr "Slides om weer te geven"
+
+#: modules/history/module.php:55
+msgid "Removed"
+msgstr "Verwijderd"
+
+#: modules/history/module.php:58
+msgid "Duplicated"
+msgstr "Gedupliceerd"
+
+#: includes/editor-templates/global.php:27
+msgid "Or drag widget here"
+msgstr "Of sleep een widget hier naartoe"
+
+#: includes/widgets/alert.php:108
+msgid "I am a description. Click the edit button to change this text."
+msgstr "Ik ben een beschrijving. Klik op de bewerken-knop om deze tekst te wijzigen."
+
+#: includes/widgets/video.php:190
+msgid "Suggested Videos"
+msgstr "Aanbevolen video's"
+
+#: includes/widgets/icon-box.php:320 includes/widgets/icon.php:254
+msgid "Rotate"
+msgstr "Draaien"
+
+#: includes/widgets/icon-box.php:244 includes/widgets/icon-box.php:390
+#: includes/widgets/icon.php:201 includes/widgets/icon.php:321
+#: includes/widgets/social-icons.php:254 includes/widgets/social-icons.php:376
+#: includes/widgets/text-editor.php:231
+msgid "Secondary Color"
+msgstr "Secundaire kleur"
+
+#: includes/widgets/icon-box.php:227 includes/widgets/icon-box.php:377
+#: includes/widgets/icon.php:184 includes/widgets/icon.php:308
+#: includes/widgets/social-icons.php:240 includes/widgets/social-icons.php:361
+#: includes/widgets/text-editor.php:212
+msgid "Primary Color"
+msgstr "Primaire kleur"
+
+#: includes/compatibility.php:157 includes/widgets/alert.php:220
+#: includes/widgets/icon-box.php:519 includes/widgets/image-box.php:393
+#: includes/widgets/image-carousel.php:224
+msgid "Description"
+msgstr "Beschrijving"
+
+#: core/settings/general/model.php:155 includes/widgets/alert.php:149
+#: includes/widgets/button.php:294 includes/widgets/button.php:329
+#: includes/widgets/progress.php:173 includes/widgets/tabs.php:204
+#: includes/widgets/video.php:524
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: includes/widgets/alert.php:94 includes/widgets/icon-box.php:123
+#: includes/widgets/image-box.php:101
+msgid "Title & Description"
+msgstr "Titel & beschrijving"
+
+#: includes/widgets/accordion.php:246 includes/widgets/accordion.php:333
+#: includes/widgets/tabs.php:240 includes/widgets/toggle.php:266
+#: includes/widgets/toggle.php:353
+msgid "Active Color"
+msgstr "Actieve kleur"
+
+#: includes/elements/column.php:155 includes/elements/section.php:440
+#: includes/widgets/video.php:578
+msgid "Content Position"
+msgstr "Positie inhoud"
+
+#: includes/elements/section.php:421
+msgid "Column Position"
+msgstr "Positie kolom"
+
+#: includes/elements/section.php:325
+msgid "No Gap"
+msgstr "Geen tussenruimte"
+
+#: includes/elements/section.php:288
+msgid "Boxed"
+msgstr "Vaste breedte"
+
+#: includes/editor.php:625
+msgid "Go Back"
+msgstr "Ga terug"
+
+#: includes/schemes/color.php:145
+msgid "More Palettes"
+msgstr "Meer paletten"
+
+#: includes/editor-templates/panel-elements.php:34
+msgid "Search Widget..."
+msgstr "Widget zoeken..."
+
+#: includes/editor-templates/global.php:25
+msgid "Add New Section"
+msgstr "Nieuwe sectie toevoegen"
+
+#: includes/controls/structure.php:60
+msgid "More Structures"
+msgstr "Meer structuren"
+
+#: includes/controls/repeater.php:165
+msgid "Add Item"
+msgstr "Item toevoegen"
+
+#: includes/controls/groups/background.php:249
+msgctxt "Background Control"
+msgid "Background Image"
+msgstr "Achtergrondafbeelding"
+
+#: includes/controls/groups/background.php:130
+msgctxt "Background Control"
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: includes/widgets/button.php:151 includes/widgets/heading.php:112
+#: includes/widgets/icon-box.php:158 includes/widgets/icon-list.php:137
+#: includes/widgets/icon.php:141 includes/widgets/image-box.php:136
+#: includes/widgets/image-carousel.php:189 includes/widgets/image.php:171
+#: includes/widgets/social-icons.php:157 includes/widgets/testimonial.php:138
+msgid "https://your-link.com"
+msgstr "https://jouw-link.nl"
+
+#: includes/elements/column.php:553 includes/elements/section.php:991
+#: includes/widgets/alert.php:198 includes/widgets/alert.php:228
+#: includes/widgets/button.php:282 includes/widgets/button.php:318
+#: includes/widgets/counter.php:198 includes/widgets/counter.php:232
+#: includes/widgets/heading.php:209 includes/widgets/icon-list.php:397
+#: includes/widgets/image-carousel.php:595
+#: includes/widgets/image-gallery.php:312 includes/widgets/image.php:381
+#: includes/widgets/progress.php:205 includes/widgets/testimonial.php:206
+#: includes/widgets/testimonial.php:295 includes/widgets/testimonial.php:331
+#: includes/widgets/text-editor.php:157
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: includes/controls/icon.php:872 includes/controls/icon.php:873
+msgid "Select Icon"
+msgstr "Selecteer icoon"
+
+#: includes/editor.php:635
+msgid "Please note: All unsaved changes will be lost."
+msgstr "Let op: alle niet-opgeslagen wijzigingen zullen verloren gaan."
+
+#: includes/elements/section.php:1244 includes/widgets/common.php:392
+msgid "Hide On Mobile"
+msgstr "Op mobiel verbergen"
+
+#: includes/elements/section.php:1231 includes/widgets/common.php:379
+msgid "Hide On Tablet"
+msgstr "Op tablet verbergen"
+
+#: includes/elements/section.php:1218 includes/widgets/common.php:366
+msgid "Hide On Desktop"
+msgstr "Op desktop verbergen"
+
+#: includes/editor-templates/panel.php:64
+#: includes/editor-templates/panel.php:66
+msgid "Responsive Mode"
+msgstr "Responsive modus"
+
+#: core/settings/general/model.php:101 includes/elements/section.php:284
+#: includes/elements/section.php:298 includes/settings/settings.php:319
+#: includes/widgets/video.php:558
+msgid "Content Width"
+msgstr "Breedte inhoud"
+
+#: includes/controls/dimensions.php:90 includes/elements/column.php:162
+#: includes/elements/section.php:428 includes/elements/section.php:447
+#: includes/elements/section.php:822 includes/widgets/icon-box.php:458
+#: includes/widgets/image-box.php:332
+msgid "Bottom"
+msgstr "Onder"
+
+#: includes/controls/dimensions.php:88 includes/elements/column.php:160
+#: includes/elements/section.php:426 includes/elements/section.php:445
+#: includes/elements/section.php:821 includes/widgets/icon-box.php:175
+#: includes/widgets/icon-box.php:456 includes/widgets/image-box.php:153
+#: includes/widgets/image-box.php:330 includes/widgets/testimonial.php:150
+#: includes/widgets/video.php:583
+msgid "Top"
+msgstr "Boven"
+
+#: includes/controls/groups/background.php:120
+msgctxt "Background Control"
+msgid "Background Type"
+msgstr "Type achtergrond"
+
+#: includes/controls/groups/background.php:100
+msgctxt "Background Control"
+msgid "Background Video"
+msgstr "Achtergrondvideo"
+
+#: includes/controls/groups/background.php:222
+#: includes/controls/groups/background.php:268
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr "Midden gecentreerd"
+
+#: includes/controls/groups/background.php:223
+#: includes/controls/groups/background.php:267
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr "Midden links"
+
+#: includes/controls/groups/background.php:224
+#: includes/controls/groups/background.php:269
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr "Midden rechts"
+
+#: includes/controls/groups/background.php:225
+#: includes/controls/groups/background.php:265
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr "Boven midden"
+
+#: includes/controls/groups/background.php:228
+#: includes/controls/groups/background.php:271
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr "Onder midden"
+
+#: includes/controls/groups/background.php:289
+msgctxt "Background Control"
+msgid "Scroll"
+msgstr "Scroll"
+
+#: includes/controls/groups/background.php:284
+msgctxt "Background Control"
+msgid "Attachment"
+msgstr "Vastzetting"
+
+#: includes/controls/groups/border.php:60
+msgctxt "Border Control"
+msgid "Border Type"
+msgstr "Type rand"
+
+#: includes/elements/column.php:540 includes/elements/section.php:978
+msgid "Heading Color"
+msgstr "Kopkleur"
+
+#: includes/elements/column.php:565 includes/elements/section.php:1003
+msgid "Link Color"
+msgstr "Linkkleur"
+
+#: includes/elements/column.php:127 includes/elements/column.php:758
+msgid "Column Width"
+msgstr "Breedte kolom"
+
+#: includes/elements/section.php:320
+msgid "Columns Gap"
+msgstr "Tussenruimte kolommen"
+
+#: includes/elements/section.php:343 includes/elements/section.php:387
+msgid "Min Height"
+msgstr "Min. hoogte"
+
+#: includes/elements/section.php:353 includes/elements/section.php:397
+msgid "Minimum Height"
+msgstr "Minimale hoogte"
+
+#: includes/schemes/typography.php:93
+msgid "Primary Headline"
+msgstr "Primaire kopregel"
+
+#: includes/schemes/typography.php:94
+msgid "Secondary Headline"
+msgstr "Secundaire kopregel"
+
+#: includes/schemes/typography.php:96
+msgid "Accent Text"
+msgstr "Accent-tekst"
+
+#: includes/settings/settings.php:261
+msgid "Post Types"
+msgstr "Berichttypen"
+
+#: core/role-manager/role-manager.php:61
+msgid "Exclude Roles"
+msgstr "Rollen uitsluiten"
+
+#: includes/settings/settings.php:291
+msgid "Usage Data Tracking"
+msgstr "Gebruiksgegevens verzamelen"
+
+#: includes/settings/system-info/main.php:151
+#: includes/settings/system-info/main.php:312
+msgid "System Info"
+msgstr "Systeeminformatie"
+
+#: includes/settings/system-info/main.php:153
+msgid "Copy & Paste Info"
+msgstr "Informatie kopiëren & plakken"
+
+#: includes/settings/system-info/main.php:175
+msgid "Download System Info"
+msgstr "Systeeminformatie downloaden"
+
+#: includes/widgets/button.php:209 includes/widgets/icon-box.php:166
+msgid "Icon Position"
+msgstr "Positie icoon"
+
+#: includes/widgets/counter.php:110
+msgid "Number Prefix"
+msgstr "Voorvoegsel nummer"
+
+#: includes/widgets/counter.php:120
+msgid "Number Suffix"
+msgstr "Achtervoegsel nummer"
+
+#: includes/widgets/icon-box.php:78
+msgid "Choose Icon"
+msgstr "Kies icoon"
+
+#: includes/widgets/progress.php:197
+msgid "Title Style"
+msgstr "Stijl titel"
+
+#: includes/widgets/html.php:71
+msgid "HTML Code"
+msgstr "HTML-code"
+
+#: includes/elements/column.php:203 includes/elements/section.php:470
+#: includes/widgets/heading.php:140
+msgid "HTML Tag"
+msgstr "HTML-tag"
+
+#: includes/widgets/accordion.php:106
+msgid "Accordion Content"
+msgstr "Inhoud accordeon"
+
+#: includes/widgets/accordion.php:96
+msgid "Accordion Title"
+msgstr "Titel accordeon"
+
+#: includes/widgets/accordion.php:79
+msgid "Accordion Items"
+msgstr "Items accordeon"
+
+#: includes/widgets/tabs.php:103 includes/widgets/tabs.php:104
+msgid "Tab Content"
+msgstr "Inhoud tab"
+
+#: includes/widgets/tabs.php:96 includes/widgets/tabs.php:97
+msgid "Tab Title"
+msgstr "Titel tab"
+
+#: includes/widgets/accordion.php:94 includes/widgets/tabs.php:94
+#: includes/widgets/toggle.php:94
+msgid "Title & Content"
+msgstr "Titel & inhoud"
+
+#: includes/settings/system-info/main.php:193
+msgid "You don't have a permission to download this file"
+msgstr "Je hebt geen toestemming om dit bestand te downloaden"
+
+#: includes/widgets/accordion.php:178 includes/widgets/icon-box.php:335
+#: includes/widgets/icon.php:269 includes/widgets/tabs.php:173
+#: includes/widgets/text-editor.php:307 includes/widgets/toggle.php:175
+msgid "Border Width"
+msgstr "Randdikte"
+
+#: includes/widgets/accordion.php:197 includes/widgets/alert.php:160
+#: includes/widgets/button.php:340 includes/widgets/social-icons.php:391
+#: includes/widgets/tabs.php:193 includes/widgets/toggle.php:193
+msgid "Border Color"
+msgstr "Randkleur"
+
+#: includes/controls/groups/border.php:76
+msgctxt "Border Control"
+msgid "Width"
+msgstr "Dikte"
+
+#: includes/widgets/video.php:117
+msgid "Enter your YouTube link"
+msgstr "Voer je YouTube-link in"
+
+#: includes/widgets/alert.php:96 includes/widgets/heading.php:99
+#: includes/widgets/icon-box.php:129 includes/widgets/image-box.php:107
+#: includes/widgets/progress.php:80
+msgid "Enter your title"
+msgstr "Voer je titel in"
+
+#: includes/widgets/alert.php:117
+msgid "Dismiss Button"
+msgstr "Negeren-knop"
+
+#: includes/widgets/video.php:342 includes/widgets/video.php:349
+msgid "Image Overlay"
+msgstr "Overlay afbeelding"
+
+#: includes/widgets/button.php:225
+msgid "Icon Spacing"
+msgstr "Afstand icoon"
+
+#: includes/widgets/image-carousel.php:506
+#: includes/widgets/image-gallery.php:208
+msgid "Image Spacing"
+msgstr "Afstand afbeelding"
+
+#: includes/widgets/video.php:385 includes/widgets/video.php:443
+msgid "Play Icon"
+msgstr "Afspeel-icoon"
+
+#: includes/widgets/video.php:217
+msgid "Player Title & Actions"
+msgstr "Titel speler & acties"
+
+#: includes/widgets/video.php:203
+msgid "Player Control"
+msgstr "Besturingselementen speler"
+
+#: includes/widgets/video.php:427
+msgid "Aspect Ratio"
+msgstr "Beeldverhouding"
+
+#: includes/widgets/toggle.php:79
+msgid "Toggle Items"
+msgstr "Items wissel"
+
+#: includes/widgets/toggle.php:103
+msgid "Toggle Content"
+msgstr "Inhoud wissel"
+
+#: includes/widgets/toggle.php:96
+msgid "Toggle Title"
+msgstr "Titel wissel"
+
+#: includes/widgets/text-editor.php:100
+msgid "I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr "Ik ben een tekstblok. Klik op de bewerken-knop om deze tekst te wijzigen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+
+#: includes/widgets/tabs.php:84 includes/widgets/tabs.php:88
+msgid "I am tab content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr "Ik ben tabinhoud. Klik op de bewerken-knop om deze tekst te wijzigen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+
+#: includes/widgets/tabs.php:79
+msgid "Tabs Items"
+msgstr "Items tabs"
+
+#: includes/widgets/image-carousel.php:250
+msgid "Pause on Hover"
+msgstr "Pauzeren bij hover"
+
+#: includes/widgets/image-carousel.php:278
+msgid "Autoplay Speed"
+msgstr "Snelheid automatisch afspelen"
+
+#: includes/widgets/progress.php:184
+msgid "Inner Text Color"
+msgstr "Kleur binnenste tekst"
+
+#: includes/widgets/progress.php:128
+msgid "Inner Text"
+msgstr "Binnenste tekst"
+
+#: includes/widgets/progress.php:116
+msgid "Display Percentage"
+msgstr "Weergave percentage"
+
+#: includes/widgets/menu-anchor.php:88
+msgid "The ID of Menu Anchor."
+msgstr "Het ID van menu-anker."
+
+#: includes/widgets/menu-anchor.php:43
+msgid "Menu Anchor"
+msgstr "Menu-anker"
+
+#: includes/widgets/image-box.php:144 includes/widgets/testimonial.php:145
+msgid "Image Position"
+msgstr "Positie afbeelding"
+
+#: includes/widgets/testimonial.php:245
+msgid "Image Size"
+msgstr "Afmeting afbeelding"
+
+#: includes/widgets/icon-box.php:366 includes/widgets/icon.php:300
+#: includes/widgets/social-icons.php:353
+msgid "Icon Hover"
+msgstr "Hover icoon"
+
+#: includes/widgets/icon-list.php:425
+msgid "Text Indent"
+msgstr "Inspringing tekst"
+
+#: includes/widgets/icon-list.php:42 includes/widgets/icon-list.php:71
+msgid "Icon List"
+msgstr "Iconenlijst"
+
+#: includes/widgets/icon-list.php:122 includes/widgets/icon-list.php:123
+msgid "List Item"
+msgstr "Lijstitem"
+
+#: includes/widgets/icon-list.php:112
+msgid "List Item #3"
+msgstr "Lijstitem #3"
+
+#: includes/widgets/icon-list.php:108
+msgid "List Item #2"
+msgstr "Lijstitem #2"
+
+#: includes/widgets/icon-list.php:104
+msgid "List Item #1"
+msgstr "Lijstitem #1"
+
+#: includes/widgets/icon-box.php:42 includes/widgets/icon-box.php:71
+msgid "Icon Box"
+msgstr "Icoonbox"
+
+#: includes/widgets/image-gallery.php:42 includes/widgets/image-gallery.php:87
+msgid "Image Gallery"
+msgstr "Afbeeldingsgalerij"
+
+#: includes/widgets/counter.php:171 includes/widgets/counter.php:172
+msgid "Cool Number"
+msgstr "Gaaf nummer"
+
+#: includes/widgets/alert.php:43 includes/widgets/alert.php:72
+#: includes/widgets/alert.php:141
+msgid "Alert"
+msgstr "Melding"
+
+#: includes/widgets/accordion.php:84 includes/widgets/accordion.php:88
+#: includes/widgets/toggle.php:84 includes/widgets/toggle.php:88
+msgid "I am item content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr "Ik ben iteminhoud. Klik op de bewerken-knop om deze tekst te wijzigen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+
+#: includes/tracker.php:265
+msgid "Sure! I'd love to help"
+msgstr "Natuurlijk! Ik zou het leuk vinden om te helpen"
+
+#: includes/elements/column.php:577 includes/elements/section.php:1015
+msgid "Link Hover Color"
+msgstr "Hoverkleur link"
+
+#: includes/schemes/color.php:284
+msgid "Color Palette"
+msgstr "Kleurenpalet"
+
+#: includes/editor-templates/panel.php:53
+#: includes/editor-templates/panel.php:54
+msgid "Widgets Panel"
+msgstr "Widgets-paneel"
+
+#: includes/controls/groups/background.php:353
+msgctxt "Background Control"
+msgid "Video Link"
+msgstr "Videolink"
+
+#: includes/tracker.php:250
+msgid "Love using Elementor? Become a super contributor by opting in to our anonymous plugin data collection and to our updates. We guarantee no sensitive data is collected."
+msgstr "Hou je van Elementor? Wordt een superbijdrager door toestemming te geven voor het anoniem verzamelen van plugingegevens en voor onze updates. We garanderen dat er geen gevoelige gegevens worden verzameld."
+
+#: includes/widgets/menu-anchor.php:79
+msgid "This ID will be the CSS ID you will have to use in your own page, Without #."
+msgstr "Dit ID is het CSS-ID dat je op je eigen pagina moet gebruiken. Zonder #."
+
+#. translators: %s: Template type.
+#: includes/editor.php:632
+msgid "Are you sure you want to remove this %s?"
+msgstr "Weet je zeker dat je deze %s wilt verwijderen?"
+
+#. translators: %s: User name.
+#: includes/editor.php:624
+msgid "%s has taken over and is currently editing. Do you want to take over this page editing?"
+msgstr "%s heeft het overgenomen en is op dit moment aan het bewerken. Wil je het bewerken van deze pagina overnemen?"

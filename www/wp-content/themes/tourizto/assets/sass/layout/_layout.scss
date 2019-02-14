@@ -1,0 +1,28 @@
+.site {
+	.container {
+		&.site-header,
+		&.site-content,
+		&.site-footer {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	.row {
+		&.vertical-center {
+			align-items: center;
+		}
+	}
+
+	.full-height {
+		@include media-breakpoint-up(lg) {
+			min-height: 100vh;
+		}
+	}
+	.vertical-center {
+		@include media-breakpoint-up(lg) {
+			align-items: center;
+			display: flex;
+		}
+	}
+}

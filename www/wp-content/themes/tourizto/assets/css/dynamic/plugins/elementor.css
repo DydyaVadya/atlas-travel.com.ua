@@ -1,0 +1,525 @@
+.elementor-widget-heading h1.elementor-heading-title {
+	line-height: $h1_line_height;
+}
+
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h1_font_size, multiple, ceil, 0.8)px;
+}
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-medium {
+	font-size: $h1_font_size{px};
+}
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h1_font_size, multiple, ceil, 1.2)px;
+}
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h1_font_size, multiple, ceil, 1.4)px;
+}
+.elementor-widget-heading h1.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h1_font_size, multiple, ceil, 1.6)px;
+}
+
+.elementor-widget-heading h2.elementor-heading-title {
+	line-height: $h2_line_height;
+}
+
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h2_font_size, multiple, ceil, 0.8)px;
+}
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-medium {
+	font-size: $h2_font_size{px};
+}
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h2_font_size, multiple, ceil, 1.2)px;
+}
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h2_font_size, multiple, ceil, 1.4)px;
+}
+.elementor-widget-heading h2.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h2_font_size, multiple, ceil, 1.6)px;
+}
+
+.elementor-widget-heading h3.elementor-heading-title {
+	line-height: $h3_line_height;
+}
+
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h3_font_size, multiple, ceil, 0.8)px;
+}
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-medium {
+	font-size: $h3_font_size{px};
+}
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h3_font_size, multiple, ceil, 1.2)px;
+}
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h3_font_size, multiple, ceil, 1.4)px;
+}
+.elementor-widget-heading h3.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h3_font_size, multiple, ceil, 1.6)px;
+}
+
+.elementor-widget-heading h4.elementor-heading-title {
+	line-height: $h4_line_height;
+}
+
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h4_font_size, multiple, ceil, 0.8)px;
+}
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-medium {
+	font-size: $h4_font_size{px};
+}
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h4_font_size, multiple, ceil, 1.2)px;
+}
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h4_font_size, multiple, ceil, 1.4)px;
+}
+.elementor-widget-heading h4.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h4_font_size, multiple, ceil, 1.6)px;
+}
+
+.elementor-widget-heading h5.elementor-heading-title {
+	line-height: $h5_line_height;
+}
+
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h5_font_size, multiple, ceil, 0.8)px;
+}
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-medium {
+	font-size: $h5_font_size{px};
+}
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h5_font_size, multiple, ceil, 1.2)px;
+}
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h5_font_size, multiple, ceil, 1.4)px;
+}
+.elementor-widget-heading h5.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h5_font_size, multiple, ceil, 1.6)px;
+}
+
+.elementor-widget-heading h6.elementor-heading-title {
+	line-height: $h6_line_height;
+}
+
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($h6_font_size, multiple, ceil, 0.8)px;
+}
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-medium {
+	font-size: $h6_font_size{px};
+}
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($h6_font_size, multiple, ceil, 1.2)px;
+}
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($h6_font_size, multiple, ceil, 1.4)px;
+}
+.elementor-widget-heading h6.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($h6_font_size, multiple, ceil, 1.6)px;
+}
+
+.elementor-widget-heading div.elementor-heading-title,
+.elementor-widget-heading span.elementor-heading-title,
+.elementor-widget-heading p.elementor-heading-title {
+	line-height: $body_line_height;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-small,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-small,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-small {
+	font-size: @font_size($body_font_size, multiple, ceil, 0.8)px;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-medium,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-medium,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-medium {
+	font-size: $body_font_size{px};
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-large,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-large,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-large {
+	font-size: @font_size($body_font_size, multiple, ceil, 1.2)px;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-xl,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-xl,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-xl {
+	font-size: @font_size($body_font_size, multiple, ceil, 1.4)px;
+}
+.elementor-widget-heading div.elementor-heading-title.elementor-size-xxl,
+.elementor-widget-heading span.elementor-heading-title.elementor-size-xxl,
+.elementor-widget-heading p.elementor-heading-title.elementor-size-xxl {
+	font-size: @font_size($body_font_size, multiple, ceil, 1.6)px;
+}
+
+.elementor-widget-heading .elementor-heading-title > a {
+	color: $regular_link_color;
+}
+.elementor-widget-heading .elementor-heading-title > a:hover {
+	color: $regular_link_hover_color;
+}
+
+.elementor-button-wrapper,
+.elementor-button,
+.elementor-button.elementor-size-md {
+	font-weight: $h6_font_weight;
+	font-family: @font_family( $h1_font_family );
+}
+.elementor-button {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+
+.invert .elementor-button {
+	color: $invert_text_color;
+	background-color: $regular_accent_color_1;
+}
+
+.elementor-button:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+.elementor-button:active {
+	background-color: @darken($regular_accent_color_2, 10);
+}
+.elementor-element.elementor-button-warning .elementor-button {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+.elementor-element.elementor-button-warning .elementor-button:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+.elementor-element.elementor-button-warning .elementor-button:active {
+	background-color: @darken($regular_accent_color_1, 10);
+}
+
+.elementor-element.elementor-button-info .elementor-button {
+	color: $regular_link_hover_color;
+	background-color: $invert_accent_color_1;
+}
+.elementor-element.elementor-button-info .elementor-button:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_2;
+}
+.elementor-element.elementor-button-info .elementor-button:active {
+	background-color: @darken($regular_accent_color_2, 10);
+}
+.elementor-element.elementor-button-info .elementor-button-icon {
+	color: $regular_link_color;
+}
+.elementor-element.elementor-button-info .elementor-button:hover .elementor-button-icon {
+	color: $invert_accent_color_1;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-icon {
+	color: $regular_link_color;
+}
+.elementor-icon,
+.elementor-view-framed .elementor-icon {
+	color: $regular_link_color;
+}
+.elementor-view-stacked .elementor-icon {
+	color: $invert_link_hover_color;
+}
+.elementor-view-stacked .elementor-icon {
+	background-color: $regular_accent_color_4;
+}
+.elementor-widget-icon-box .elementor-widget-container {
+	border-color: $grey_color_2;
+}
+
+.elementor-widget-icon-box .elementor-widget-container {
+	background-color: $invert_text_color;
+}
+.elementor-accordion .elementor-accordion-item,
+.elementor-toggle .elementor-toggle-title {
+	border-color: $grey_color_2;
+}
+.elementor-accordion .elementor-accordion-title,
+.elementor-toggle .elementor-toggle-title {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	color: $regular_h6_color;
+}
+.elementor-accordion .elementor-accordion-title .elementor-accordion-icon,
+.elementor-toggle .elementor-toggle-title .elementor-toggle-icon {
+	color: $regular_link_color;
+}
+
+.elementor-widget-toggle .elementor-widget-container {
+	border-color: $grey_color_2;
+}
+
+.elementor-testimonial-wrapper .elementor-testimonial-name {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	color: $regular_h6_color;
+}
+
+.elementor-testimonial-wrapper .elementor-testimonial-content {
+	background-color: $grey_color_3;
+}
+
+.elementor-testimonial-wrapper .elementor-testimonial-content::after {
+	border-color: $grey_color_3 transparent transparent transparent;
+}
+
+.invert .elementor-testimonial-wrapper .elementor-testimonial-content {
+	background-color: $regular_accent_color_3;
+}
+
+.invert .elementor-testimonial-wrapper .elementor-testimonial-content::after {
+	border-color: $regular_accent_color_3 transparent transparent transparent;
+}
+
+.elementor-testimonial-wrapper .elementor-testimonial-content::before,
+.elementor-testimonial-wrapper .elementor-testimonial-job {
+	color: $regular_link_color;
+}
+
+.elementor-progress-wrapper {
+	background-color: $regular_accent_color_3;
+}
+.elementor-progress-bar,
+.elementor-widget-progress .elementor-progress-wrapper.progress-info .elementor-progress-bar {
+	background-color: $regular_accent_color_1;
+	color: $invert_link_hover_color;
+}
+.elementor-widget-progress .elementor-progress-wrapper.progress-warning .elementor-progress-bar {
+	background-color: $regular_accent_color_2;
+}
+.elementor-widget-progress .elementor-progress-wrapper.progress-info {
+	background-color: $grey_color_3;
+}
+.elementor-widget-progress .elementor-title,
+.elementor-progress-percentage {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-family: @font_family( $h6_font_family );
+}
+.elementor-widget-progress .elementor-title {
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	color: $regular_h6_color;
+}
+
+.jet-elements .featured-table .pricing-table__heading,
+.jet-elements .featured-table .pricing-table__price {
+	background-color: $regular_accent_color_1;
+}
+.jet-elements .featured-table .pricing-table__heading,
+.jet-elements .featured-table .pricing-table__title,
+.jet-elements .featured-table .pricing-table__subtitle,
+.jet-elements .featured-table .pricing-table__price {
+	color: $invert_link_hover_color;
+}
+.jet-elements .pricing-table__title {
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+	font-size: $h4_font_size{px};
+	line-height: $h4_line_height;
+	font-family: @font_family( $h4_font_family );
+	letter-spacing: $h4_letter_spacing{em};
+}
+.jet-elements .pricing-table__subtitle {
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+	font-size: $body_font_size{px};
+	line-height: $body_line_height;
+	font-family: @font_family( $body_font_family );
+	letter-spacing: $body_letter_spacing{em};
+}
+.pricing-table__icon i {
+	background-color: $regular_accent_color_2;
+	color: $invert_accent_color_1;
+}
+.jet-elements .pricing-table__price-val,
+.jet-elements .pricing-table__price-prefix {
+	font-style: $h2_font_style;
+	font-weight: $h2_font_weight;
+	font-size: @font_size($h2_font_size, multiple, ceil, 0.6)px;
+	font-family: @font_family( $h2_font_family );
+	letter-spacing: $h2_letter_spacing{em};
+}
+@media (min-width: 1200px) {
+	.jet-elements .pricing-table__price-val,
+	.jet-elements .pricing-table__price-prefix { font-size: $h2_font_size{px}; }
+}
+.elementor-jet-pricing-table .featured-table.pricing-table > div:nth-last-child(2):not(.pricing-table__heading),
+.elementor-jet-pricing-table .featured-table.pricing-table > div:last-child:not(.pricing-table__heading),
+.pricing-table:not(.featured-table) .pricing-table__heading {
+	border-color: $grey_color_2;
+}
+.pricing-table:not(.featured-table) .pricing-table__features,
+.pricing-table:not(.featured-table) .pricing-table__action {
+	background-color: $grey_color_3;
+}
+.pricing-table:not(.featured-table) .pricing-table__subtitle {
+	color: $regular_text_color;
+}
+.pricing-table:not(.featured-table) .pricing-table__price-val,
+.pricing-table:not(.featured-table) .pricing-table__price-prefix,
+.pricing-table:not(.featured-table) .pricing-table__price-suffix {
+	color: $regular_link_color;
+}
+.pricing-feature .item-bullet,
+.pricing-table__features .pricing-feature:not(.item-included) .pricing-feature__inner {
+	color: $grey_color_2;
+}
+.pricing-feature.item-included .item-bullet {
+	color: $regular_accent_color_1;
+}
+
+.brands-list__item-name {
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size{px};
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+	color: $regular_h6_color;
+}
+.elementor-jet-brands .brands-list__item .brands-list__item-link {
+	border-color: $grey_color_2;
+}
+.brands-list__item-desc {
+	color: $regular_text_color;
+}
+
+.elementor-slick-slider .slick-slider .slick-next,
+.elementor-slick-slider .slick-slider .slick-prev,
+.elementor-slick-slider .slick-next,
+.elementor-slick-slider .slick-prev,
+.elementor .swiper-button-prev,
+.elementor .swiper-button-next {
+	color: $regular_link_hover_color;
+	background-color: $invert_accent_color_1;
+}
+.elementor-slick-slider .slick-slider .slick-next:hover,
+.elementor-slick-slider .slick-slider .slick-prev:hover,
+.elementor-slick-slider .slick-next:hover,
+.elementor-slick-slider .slick-prev:hover,
+.elementor .swiper-button-prev:hover,
+.elementor .swiper-button-next:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+.elementor-slick-slider ul.slick-dots li button::before,
+.elementor .swiper-pagination-bullet {
+	background-color: $grey_color_1;
+}
+.elementor-slick-slider ul.slick-dots li:hover button::before,
+.elementor-slick-slider ul.slick-dots li.slick-active button::before,
+.elementor .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.elementor .swiper-pagination-bullet:hover {
+	background-color: $regular_accent_color_3;
+}
+
+
+.elementor-widget-tabs .elementor-tab-desktop-title {
+	border-color: $grey_color_2;
+	background-color: $grey_color_3;
+	color: $regular_link_hover_color;
+
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: @font_size($h6_font_size, multiple, ceil, 0.75)px;
+	line-height: $h6_line_height;
+	font-family: @font_family( $h6_font_family );
+}
+.elementor-widget-tabs .elementor-tab-desktop-title:hover,
+.elementor-widget-tabs .elementor-tab-desktop-title.elementor-active {
+	color: $regular_link_color;
+}
+.elementor-widget-tabs .elementor-tab-desktop-title,
+.elementor-widget-tabs .elementor-tab-desktop-title.elementor-active,
+.elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tabs-borderless .elementor-tabs-content-wrapper,
+.elementor-widget-tabs.elementor-tabs-view-vertical .elementor-tabs-borderless .elementor-tabs-content-wrapper {
+	border-color: $grey_color_2;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-icon_horizontal .elementor-tab-desktop-title,
+.elementor-widget-tabs.elementor-tabs-view-icon_vertical .elementor-tab-desktop-title {
+	font-size: $h6_font_size{px};
+}
+.elementor-widget-tabs.elementor-tabs-view-icon_horizontal .elementor-tab-title__icon,
+.elementor-widget-tabs.elementor-tabs-view-icon_vertical .elementor-tab-title__icon {
+	color: @lighten($regular_accent_color_1,30);
+}
+
+.elementor-widget-tabs.elementor-tabs-view-icon_horizontal .elementor-tab-title:hover,
+.elementor-widget-tabs.elementor-tabs-view-icon_horizontal .elementor-tab-title.elementor-active,
+.elementor-widget-tabs.elementor-tabs-view-icon_vertical .elementor-tab-title:hover,
+.elementor-widget-tabs.elementor-tabs-view-icon_vertical .elementor-tab-title.elementor-active {
+	color: $invert_link_hover_color;
+	background-color: $regular_accent_color_3;
+	border-color: $regular_accent_color_3;
+}
+
+.elementor-widget-tabs.elementor-tabs-view-icon_horizontal .elementor-tabs-wrapper .elementor-tab-title::before {
+	border-color: $regular_accent_color_3 transparent transparent transparent;
+}
+.elementor-widget-tabs.elementor-tabs-view-icon_vertical .elementor-tabs-wrapper .elementor-tab-title::before {
+	border-color: transparent transparent transparent $regular_accent_color_3;
+}
+.elementor-widget-tabs .elementor-tab-desktop-title.elementor-active {
+	color: $regular_h1_color;
+}
+
+
+.elementor-counter .elementor-counter-number-wrapper {
+	font-style: $h2_font_style;
+	font-weight: $h5_font_weight;
+	font-size: $h3_font_size{px};
+	font-family: @font_family( $h2_font_family );
+	color: $regular_h2_color;
+}
+
+.invert .elementor-counter .elementor-counter-number-wrapper {
+	color: $regular_accent_color_1;
+}
+
+.elementor-counter .elementor-counter-title,
+.circle-counter__number {
+	font-style: $h5_font_style;
+	font-size: $h5_font_size{px};
+	font-family: @font_family( $h5_font_family );
+	color: $regular_h5_color;
+}
+
+
+
+.adv-carousel__item-title {
+	font-style: $h1_font_style;
+	font-weight: $h1_font_weight;
+	font-size: $h4_font_size{px};
+	line-height: $h1_line_height;
+	font-family: @font_family( $h1_font_family );
+	letter-spacing: $h1_letter_spacing{em};
+	color: $regular_h1_color;
+}
+
+.adv-carousel__item-text {
+	font-style: $h5_font_style;
+	font-weight: $h5_font_weight;
+	font-size: $h5_font_size{px};
+	line-height: $h5_line_height;
+	font-family: @font_family( $h5_font_family );
+	letter-spacing: $h5_letter_spacing{em};
+	color: $regular_h5_color;
+}
+
+@media (min-width: 980px) {
+	.adv-carousel[data-slider_options*="\"desktop\":1"] .adv-carousel__item-title {
+		font-size: $h1_font_size{px};
+	}
+}
+@media (min-width: 980px) {
+	.adv-carousel__item-title,
+	.adv-carousel__item-text {
+		color: $invert_h1_color;
+	}
+}

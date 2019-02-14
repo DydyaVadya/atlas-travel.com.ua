@@ -1,0 +1,141 @@
+.custom-posts {
+	&__holder {
+		margin-bottom: -35px;
+
+		.full-width-header-area &,
+		.after-content-full-width-area & {
+
+			> * {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
+	&__item {
+		padding-bottom: 23px;
+	}
+
+	.post-thumbnail {
+		margin-bottom: 10px;
+
+		img {
+			width: 100%;
+		}
+		.sidebar-1-3 .sidebar &,
+		.footer-area & {
+			img {
+				width: auto;
+			}
+			@include media-breakpoint-up(sm) {
+				margin-bottom: 0;
+				float: left;
+				margin-right: 20px;
+				margin-top: 6px;
+
+				img {
+					width: 60px;
+				}
+			}
+		}
+	}
+	.post-inner {
+		position: relative;
+	}
+	.post-content-wrap {
+		.sidebar &,
+		.footer-area & {
+			overflow: hidden;
+		}
+		.full-width-header-area &,
+		.after-content-full-width-area &,
+		.before-content-area &,
+		.before-loop-area &,
+		.after-loop-area &,
+		.after-content-area & {
+			@include media-breakpoint-up(lg) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				padding: 20px;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				z-index: 10;
+			}
+			&:before {
+				@include media-breakpoint-up(lg) {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					opacity: .5;
+					z-index: -1;
+					transition: .3s all;
+				}
+			}
+			&:hover {
+				&:before {
+					opacity: .9;
+				}
+				.btn-link {
+					@include media-breakpoint-up(lg) {
+						max-height: 100px;
+						visibility: visible;
+						margin-top: 10px;
+					}
+				}
+			}
+		}
+	}
+	.entry {
+		&-title {
+			.sidebar &,
+			.footer-area & {
+				font-weight: bold;
+				text-transform: none;
+			}
+		}
+		&-header,
+		&-content {
+			> * {
+				margin-top: 1px;
+			}
+		}
+		&-meta {
+			&.header-meta {
+				> * {
+					margin: 0;
+				}
+			}
+		}
+		&-footer {
+			> * {
+				&:not(:empty) {
+					margin-top: 10px;
+				}
+			}
+			.btn-link {
+				text-transform: uppercase;
+
+				.full-width-header-area &,
+				.after-content-full-width-area &,
+				.before-content-area &,
+				.before-loop-area &,
+				.after-loop-area &,
+				.after-content-area & {
+					@include media-breakpoint-up(lg) {
+						margin-top: 0;
+						max-height: 0;
+						overflow: hidden;
+						visibility: hidden;
+					}
+				}
+			}
+		}
+	}
+}

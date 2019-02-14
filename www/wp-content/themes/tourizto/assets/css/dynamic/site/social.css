@@ -1,0 +1,19 @@
+.social-list a {
+	color: $regular_text_color;
+}
+.share-btns__link:hover,
+.social-list a:hover {
+	color: $regular_accent_color_2;
+}
+.invert .social-list a {
+	color: @lighten($invert_text_color, 10);
+}
+.invert .share-btns__link:hover,
+.invert .social-list a:hover {
+	color: $regular_accent_color_1;
+}
+
+/* Social top-panel-invert */
+.top-panel.invert .social-list a:hover {
+	color: $regular_accent_color_1;
+}

@@ -1,0 +1,29 @@
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: -999em;
+	overflow: hidden;
+	width: 44px;
+	height: 44px;
+	z-index: 999;
+	text-align: center;
+	border-radius: 50%;
+
+	&:before{
+		width: 100%;
+		line-height: 44px;
+		font-size: 12px;
+		content: "\e905";
+	}
+	&:focus {
+		outline: 0;
+	}
+	@include media-breakpoint-up(sm) {
+		right: 20px;
+	}
+	@include media-breakpoint-up(md) {
+		bottom: 80px;
+	}
+}

@@ -1,0 +1,27 @@
+.widget-banner,
+.elementor-widget-wp-widget-tourizto_widget_banner {
+	text-align: center;
+
+	.widget-title {
+		.sidebar &,
+		.single-service &,
+		.single-project & {
+			text-align: left;
+		}
+	}
+	&__img {
+		display: inline-block;
+		vertical-align: top;
+	}
+	&__link {
+		display: inline-block;
+
+		.main-navigation & {
+			padding: 0 !important;
+		}
+		&:hover{
+			transform: scale(1.01);
+			box-shadow: $box__shadow_banner;
+		}
+	}
+}

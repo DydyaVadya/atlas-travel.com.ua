@@ -1,0 +1,48 @@
+@keyframes stickup {
+	0% {
+		transform: translateY(-100%);
+	}
+	50% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.isStuck {
+	@include media-breakpoint-up(sm) {
+		position: fixed !important;
+		z-index: 1000;
+		margin: 0 !important;
+		width: 100%;
+		left: 0;
+		right: 0;
+		box-shadow: $box__shadow_banner;
+
+		animation: stickup .7s ease-out;
+	}
+
+	.site-header &.header-container.stuckMenu {
+		@include media-breakpoint-up(sm) {
+			position: fixed !important;
+			background-color: $color__white;
+
+			&.invert {
+				background-color: $color__dark;
+			}
+		}
+	}
+}
+
+.pseudoStickyBlock {
+	@include media-breakpoint-down(xs) {
+		display: none !important;
+	}
+	width: 100%;
+	margin: 0 !important;
+
+	.site-header.transparent & {
+		position: absolute !important;
+	}
+}

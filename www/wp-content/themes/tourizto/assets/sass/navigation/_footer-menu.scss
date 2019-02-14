@@ -1,0 +1,23 @@
+.footer-menu {
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 -11px;
+		padding-left: 0;
+		list-style: none;
+
+		@include media-breakpoint-up(md) {
+			justify-content: flex-start;
+
+			.site-footer.style-2 & {
+				justify-content: center;
+			}
+		}
+		.menu-item {
+			padding: 5px 11px;
+			font-size: 14px;
+			text-transform: inherit;
+		}
+	}
+}

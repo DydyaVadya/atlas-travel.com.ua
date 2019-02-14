@@ -1,0 +1,48 @@
+.about-author {
+	&:after {
+		display: block;
+		clear: both;
+		width: 100%;
+		content: '';
+	}
+	&_avatar {
+		text-align: center;
+		margin-bottom: 20px;
+
+		.full-width-header-area &,
+		.after-content-full-width-area &,
+		.before-content-area &,
+		.before-loop-area &,
+		.after-content-area &,
+		.after-loop-area &,
+		.footer-area--fullwidth & {
+			margin: 0 0 1em;
+			max-width: 100%;
+
+			@include media-breakpoint-up(sm) {
+				float: left;
+				max-width: 50%;
+				margin: 0 1.5em 0 0;
+			}
+		}
+	}
+	&_content {
+		.full-width-header-area &,
+		.after-content-full-width-area &,
+		.before-content-area &,
+		.before-loop-area &,
+		.after-content-area &,
+		.after-loop-area &,
+		.footer-area--fullwidth & {
+			overflow: hidden;
+		}
+	}
+	&_name {
+		margin: 0;
+		padding: 0 0 1em;
+	}
+	&_description {
+		margin-bottom: 20px;
+	}
+	&_btn_box {}
+}

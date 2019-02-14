@@ -1,0 +1,147 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: blank\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-02 14:37+0200\n"
+"PO-Revision-Date: 2015-04-06 06:14+0300\n"
+"Last-Translator: Vladimir Anokhin <ano.vladimir@gmail.com>\n"
+"Language-Team: Cherry Team <support@cherryframework.com>\n"
+"Language: su\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;__;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.9\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/class-trending-posts-callback-rating.php:105
+#, php-format
+msgid "%1$s (%2$s. Average %3$s of %4$s)"
+msgstr ""
+
+#: inc/class-trending-posts-callback-rating.php:135
+#: inc/class-trending-posts-callback-rating.php:332
+#, php-format
+msgid "%s vote"
+msgid_plural "%s votes"
+msgstr[0] ""
+
+#: inc/class-trending-posts-widget.php:47
+msgid "Displays the most popular/trending posts on your blog."
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:49
+msgid "Cherry Trending Posts"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:53
+msgid "Trending Posts"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:54
+msgid "Title"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:62
+msgid "Title length in characters (0 &mdash; hide, -1 &mdash; full)"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:69
+msgid "Views"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:72
+#: inc/class-trending-posts-widget.php:168
+msgid "Rating"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:76
+#: inc/class-trending-posts-widget.php:169
+msgid "Comments"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:79
+msgid "Filter by"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:86
+msgid "Most Rated"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:87
+msgid "Highest Rated"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:91
+msgid "Select rating type"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:98
+#: inc/class-trending-posts-widget.php:170
+msgid "Category"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:102
+#: inc/class-trending-posts-widget.php:171
+msgid "Tag"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:106
+msgid "Show from"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:116
+msgid "Select category"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:126
+msgid "Select tags"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:134
+msgid "Number of post to show (Use -1 to show all posts)"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:142
+msgid ""
+"Offset (ignored when `posts_per_page`=>-1 (show all posts) is used)"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:150
+msgid "Excerpt length in words (0 &mdash; hide, -1 &mdash; all)"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:165
+msgid "Date"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:166
+msgid "Author"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:167
+msgid "View"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:172
+#: inc/class-trending-posts-widget.php:178
+msgid "Read More"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:174
+msgid "Display meta"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:179
+msgid "Button text"
+msgstr ""
+
+#: inc/class-trending-posts-widget.php:401
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr ""

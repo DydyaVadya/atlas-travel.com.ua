@@ -1,0 +1,7 @@
+.elementor-image-box-content {
+	.elementor-image-box-title {
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.smart-slider__instance .sp-arrow,
+.smart-slider__instance .sp-thumbnail-arrow {
+	color: $regular_accent_color_3;
+	background-color: $invert_accent_color_1;
+}
+.smart-slider__instance .sp-arrow:hover,
+.smart-slider__instance .sp-thumbnail-arrow:hover {
+	color: $invert_accent_color_1;
+	background-color: $regular_accent_color_1;
+}
+.smart-slider__instance .sp-button {
+	background-color: $grey_color_1;
+}
+.smart-slider__instance .sp-button:hover,
+.smart-slider__instance .sp-button.sp-selected-button {
+	background-color: $regular_accent_color_3;
+}
+.smart-slider__instance .sp-full-screen-button {
+	color: $invert_accent_color_1;
+}
+.smart-slider__instance .sp-full-screen-button:hover {
+	color: $regular_accent_color_1;
+}
+.sp-thumbnails-container {
+	background-color: @alpha($regular_accent_color_3, 85);
+}
+h2.sp-title {
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+	line-height: $h4_line_height;
+	font-family: @font_family( $h5_font_family );
+	letter-spacing: $h4_letter_spacing{em};
+}
+.smart-slider__instance .sp-title a,
+.smart-slider__instance .sp-content-container .sp-content {
+	color: $invert_link_hover_color;
+}

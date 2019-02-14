@@ -1,0 +1,107 @@
+.contact-block {
+	&__inner {
+		display: flex;
+
+		.site-footer.style-1 & {
+			@include grid-indent(10px);
+
+			flex-direction: column;
+			align-items: center;
+
+			@include media-breakpoint-up(md) {
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+		}
+		.site-footer.style-2 & {
+			flex-direction: column;
+			align-items: center;
+		}
+		.site-header & {
+			flex-direction: column;
+			align-items: center;
+
+			@include media-breakpoint-up(md) {
+				@include grid-indent(9px);
+
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+		}
+	}
+	&__item {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		position: relative;
+
+		& + .contact-block__item {
+			.site-footer.style-2 & {
+				margin-top: 1px;
+			}
+		}
+
+		a {
+			display: inline-block;
+		}
+		&--icon {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+		&:not(.contact-block__item--icon) {
+			text-align: center;
+
+			@include media-breakpoint-up(md) {
+				text-align: left;
+			}
+		}
+		.contact-block__value-wrap {
+			span:first-child,
+			span:first-child a {
+				font-size: 13px;
+			}
+			span:last-child,
+			span:last-child a {
+				font-size: 12px;
+			}
+		}
+	}
+	&__icon {
+		font-size: 14px;
+		margin-right: 6px;
+	}
+	&__text {
+		text-align: left;
+		span {
+			letter-spacing: -1px;
+		}
+	}
+	&__label {
+		padding-right: 4px;
+	}
+
+	&.contact-block--header {
+		line-height: 1.42;
+		font-size: .86rem;
+
+		@include media-breakpoint-up(md) {
+			font-size: 1rem;
+		}
+		.contact-block__inner,
+		.contact-block__item {
+			align-items: flex-start;
+		}
+		.contact-block__icon {
+			font-size: 28px;
+			margin-right: 15px;
+		}
+		.contact-block__label {
+			display: block;
+			padding-right: 0;
+		}
+		a[href^="tel:"] {
+			font-size: 1.29em;
+			line-height: 1.2;
+		}
+	}
+}

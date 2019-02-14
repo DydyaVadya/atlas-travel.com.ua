@@ -1,0 +1,27 @@
+.widget-about,
+.elementor-widget-wp-widget-tourizto_widget_about {
+	.widget-about {
+		&__logo-img {
+			vertical-align: top;
+		}
+		&__content {
+			margin-top: 19px;
+			padding-right: 24px;
+		}
+		&__tagline {
+			@include font-size(.75);
+			margin-top: 5px;
+		}
+
+		&__content,
+		&__tagline {
+			&:empty {
+				margin-top: 0;
+			}
+		}
+
+		&__social {
+			margin-top: 15px;
+		}
+	}
+}

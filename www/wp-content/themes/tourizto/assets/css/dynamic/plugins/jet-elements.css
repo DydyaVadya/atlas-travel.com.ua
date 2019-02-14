@@ -1,0 +1,130 @@
+/* for Jet-slider */
+.jet-slider .jet-slider__content-inner .jet-slider__title {
+	font-weight: $h1_font_weight;
+	font-size: $h1_font_size{px};
+	color: $invert_h1_color;
+}
+.jet-slider .jet-slider__content-inner .jet-slider__title span{
+	font-weight: $h4_font_weight;
+	color: $regular_accent_color_1;
+}
+.jet-slider .jet-slider__content-inner .jet-slider__subtitle {
+	font-weight: $h1_font_weight;
+	color: $invert_h1_color;
+}
+.jet-slider .jet-slider__content-inner .jet-slider__desc {
+	font-weight: $breadcrumbs_font_weight;
+	color: $invert_h5_color;
+}
+.jet-slider .jet-slider__button-wrapper .jet-slider__button--primary {
+	background-color: $regular_accent_color_1;
+	color: $invert_h1_color;
+}
+.jet-slider .jet-slider__button-wrapper .jet-slider__button--primary:hover {
+	background-color: $regular_accent_color_2;
+	color: $invert_h1_color;
+}
+.jet-slider .sp-buttons .sp-button {
+	background-color: $invert_accent_color_1;
+}
+.jet-slider .sp-buttons .sp-button:hover {
+	background-color: $regular_accent_color_1;
+}
+.jet-slider .sp-buttons .sp-button.sp-selected-button {
+	background-color: $regular_accent_color_1;
+}
+.jet-slider .sp-arrows .sp-arrow {
+	background-color: $invert_accent_color_1;
+	color: $regular_text_color;
+}
+
+/* for Jet-testimonials */
+
+.jet-testimonials .jet-testimonials__figure {
+	border-color: $grey_color_3;
+}
+ .jet-testimonials__name {
+	font-weight: $h5_font_weight;
+}
+.jet-testimonials .jet-testimonials__instance .jet-arrow {
+	background-color: transparent;
+	border-color: $grey_color_3;
+	color: $regular_h1_color;
+}
+.jet-testimonials .jet-testimonials__instance .jet-arrow:hover {
+	background-color: $regular_accent_color_1;
+	border-color: $regular_accent_color_1;
+	color: $invert_accent_color_1;
+}
+.invert .jet-testimonials .jet-testimonials__icon {
+	color: $regular_accent_color_1;
+}
+.invert .jet-testimonials .jet-testimonials__name {
+	color: $regular_accent_color_1;
+	font-weight: $h1_font_weight;
+}
+.invert .jet-testimonials .jet-testimonials__position {
+	color: $invert_accent_color_1;
+}
+.invert .jet-testimonials .jet-testimonials__date {
+	color: $invert_accent_color_1;
+}
+.invert .jet-testimonials .jet-slick-dots li span {
+	background-color: $invert_accent_color_1;
+}
+.invert .jet-testimonials .jet-slick-dots li span:hover {
+	background-color: $regular_accent_color_1;
+}
+.invert .jet-testimonials .jet-slick-dots li.slick-active span {
+	background-color: $regular_accent_color_1;
+}
+
+/* for Jet-post */
+.jet-posts .jet-posts__inner-box {
+	background-color: $invert_text_color;
+}
+.jet-posts .jet-posts__inner-content .post-meta {
+	font-family: @font_family( $h1_font_family );
+	font-size: $meta_font_size{px};
+	color: $regular_accent_color_1;
+}
+.jet-posts .jet-posts__inner-content .post-meta a {
+	color: $regular_text_color;
+}
+.jet-posts .jet-posts__inner-content .post-meta a:hover {
+	color: $regular_accent_color_1;
+}
+.jet-posts .jet-posts__inner-content .entry-title a:hover {
+	color: $regular_accent_color_1;
+}
+.jet-posts.slick-slider .jet-arrow {
+	background-color: $invert_accent_color_1;
+	color: $regular_text_color;
+}
+/* for Jet-carusel */
+.jet-carousel .jet-arrow {
+	background-color: $regular_accent_color_1;
+	color: $invert_text_color;
+}
+.jet-carousel .jet-arrow:hover {
+	background-color: $regular_accent_color_2;
+	color: $invert_text_color;
+}
+.jet-carousel .jet-carousel__item .jet-carousel__item-link:before {
+	background-color: $invert_accent_color_1;
+}
+/* for Animated Box */
+.jet-animated-box .jet-animated-box__title {
+	font-family: @font_family( $h5_font_family );
+	font-size: $h5_font_size{px};
+	font-weight: $h5_font_weight;
+}
+.jet-animated-box .jet-animated-box__description {
+	font-style: $body_font_style;
+	font-weight: $body_font_weight;
+	font-size: $body_font_size{px};
+	line-height: $body_line_height;
+	font-family: @font_family( $body_font_family );
+	letter-spacing: $body_letter_spacing{em};
+	color: $invert_text_color;
+}
