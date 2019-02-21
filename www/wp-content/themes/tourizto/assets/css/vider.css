@@ -77,4 +77,131 @@
     .header_menu_vider_2 {
         margin-left: 30px;
     }
+
+
+
+
 }
+
+
+
+
+
+/*стили формы попап*/
+#fancybox-outer {
+    border-radius: 20px;
+}
+#fancybox-content {
+    border-radius: 20px;
+
+}
+#wpcf7-f5923-o1 {
+    margin: 3px;
+}
+
+.form_popup_flex {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*max-width: 430px;*/
+    /*max-height: 430px;*/
+    /*width: 430px;*/
+    /*height: 430px;*/
+}
+.cf_name_form {
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-align: center;
+}
+.cf_name_form_descriotion {
+    font-size: 16px;
+    font-family: "Lato", Sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 1.688;
+    text-align: center;
+}
+.cf_name {
+    font-size: 18px;
+    font-family: "Lato",Sans-serif;
+    color: rgb(153, 153, 153);
+}
+.cf_number {
+    font-size: 18px;
+    font-family: "Lato",Sans-serif;
+    color: rgb(153, 153, 153);
+}
+.cf_sumbit {
+    display: flex;
+    justify-content: center;
+}
+.cf_sumbit .wpcf7-submit {
+    border-radius: 35px!important;
+    width: 40%!important;
+    line-height: 35px;
+    font-size: 18px;
+    font-family: "Lato",sans-serif;
+    text-transform: none;
+
+}
+.cf_number input {
+    /*width: auto!important;*/
+    border: none;
+    border-bottom: 2px solid #cccccc;
+    font-size: 18px;
+    font-family: "Lato",Sans-serif;
+    color: rgb(153, 153, 153);
+    min-height: 0px!important;
+    margin-top: 0px!important;
+    line-height: 0px;
+}
+.cf_number input:focus {
+    /*width: auto!important;*/
+    border: none;
+    font-size: 18px;
+    border-bottom: 2px solid #09585d;
+    font-family: "Lato",Sans-serif;
+    color: #09585d;
+    min-height: 0px!important;
+    margin-top: 0px!important;
+}
+.cf_name input {
+    /*width: auto!important;*/
+    border: none;
+    border-bottom: 2px solid #cccccc;
+    font-family: "Lato",Sans-serif;
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+    min-height: 0px!important;
+    margin-top: 0px!important;
+}
+.cf_name input:focus {
+    /*width: auto!important;*/
+    border: none;
+    border-bottom: 2px solid #09585d;
+    font-size: 18px;
+    font-family: "Lato",Sans-serif;
+    color: #09585d;
+    min-height: 0px!important;
+    margin-top: 0px!important;
+}
+#fancybox-close {
+    position: absolute;
+    top: 22px!important;
+    right: 15px!important;
+    width: 30px;
+    height: 30px;
+    background: transparent url(../images/fancybox1.png)!important;
+    cursor: pointer;
+    background-repeat: no-repeat!important;
+}
+
+
+}
+
+
+
+
+
+
