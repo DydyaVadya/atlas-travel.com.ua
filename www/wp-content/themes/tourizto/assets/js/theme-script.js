@@ -1179,3 +1179,5 @@
 	CherryJsCore.theme_script.init();
 
 }( jQuery ));
+
+

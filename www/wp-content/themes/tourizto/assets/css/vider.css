@@ -1,89 +1,3 @@
-@media screen and (min-width: 600px) {
-    .site-header .isStuck.header-container.stuckMenu.invert {
-        background-image: url("https://image.freepik.com/free-photo/no-translate-detected_1401-1061.jpg");
-    }
-    .invert .menu-toggle:not(:hover) .menu-toggle-inner {
-        background-color: #f8f400;
-        width: 28px;
-        height: 2px;
-    }
-    .invert .menu-toggle:hover .menu-toggle-inner {
-        background-color: #f8f400;
-        width: 28px;
-        height: 2px;
-    }
-
-    .menu-toggle .menu-toggle-inner::before {
-        left: 8px;
-        width: 20px;
-        height: 2px;
-    }
-    .menu-toggle .menu-toggle-inner::after {
-        left: 8px;
-        width: 20px;
-        height: 2px;
-    }
-    .head_button {
-        border: 2px solid #f8f400;
-        font-size: 16px;
-        font-family: "Lato", Sans-serif;
-        border-radius: 30px;
-        padding: 14px 37px;
-        margin-right: 22px;
-    }
-    .invert a {
-        color: rgb(255, 255, 255);
-    }
-
-   .top_phone {
-       font-size: 20px;
-       font-family: "Lato", Sans-serif;
-       color: rgb(255, 255, 255);
-       line-height: 1.2;
-       margin-right: 50px!important;
-   }
-   .call_header {
-       font-size: 14px;
-       font-family: "Lato", Sans-serif;
-       color: rgb(248, 244, 0)!important;
-       line-height: 1.714;
-       position: relative;
-       text-decoration: none;
-       border-bottom: 1px dashed #f8f400;
-
-
-   }
-    .call_header::before {
-        content: url("https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/images/mobile_header.png");
-        position: absolute;
-        left: -40px;
-        top: -21px;
-    }
-    .heder_menu_vider {
-
-    }
-    #menu-header_new {
-        display: flex;
-        font-size: 16px;
-        font-family: "Lato", Sans-serif;
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-        line-height: 1.5;
-    }
-    .header_menu_vider_1 {
-        margin-right: 30px;
-
-    }
-    .header_menu_vider_2 {
-        margin-left: 30px;
-    }
-
-
-
-
-}
-
-
 
 
 
@@ -198,7 +112,260 @@
 }
 
 
+/**мобильный**/
+@media (max-width: 600px) {
+
+
+     /*стили телефона в мобильнной шапке*/
+
+    .top_phone {
+        font-size: 20px;
+        font-family: "Lato", Sans-serif;
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        margin-right: 50px!important;
+    }
+    .call_header {
+        font-size: 14px;
+        font-family: "Lato", Sans-serif;
+        color: rgb(248, 244, 0)!important;
+        line-height: 1.714;
+        position: relative;
+        text-decoration: none;
+        border-bottom: 1px dashed #f8f400;
+
+
+    }
+    .call_header::before {
+        content: url("https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/images/mobile_header.png");
+        position: absolute;
+        left: -40px;
+        top: -21px;
+    }
+    /*конец стилей телефона в мобильнной шапке*/
+
+
+    .header-container {
+        padding: 0px;
+    }
+    .mobile-panel__inner {
+        justify-content: flex-end;
+    }
+    .header-container__flex{
+        flex-direction: unset;
+    }
+
+    .mobile-panel {
+        background-color: unset;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        transition: background-color 0.3s;
+        height: 11%;
+    }
+
+    .header-container__flex-wrap {
+        opacity: 0;
+    }
+    .site-header.style-3 .header-container__flex-wrap:after {
+        display: none;
+    }
+    .site-header {
+        margin-top: 0px;
+    }
+
+    .site-logo--image {
+        margin-left: -50px;
+    }
+
+    .mobile-panel.fixed {
+        position: fixed;
+        width:100%;
+        top: 0;
+        background:rgba(47,100,100,0.95);
+        height: 11%;
+
+    }
+.mobile-panel.fixed .top_phone {
+    color: yellow;
 }
+
+    /*меню бургер мобильный*/
+    .site-header .header-container.transparent.invert:not(.isStuck){
+        background: unset;
+    }
+
+    .invert .menu-toggle:not(:hover) .menu-toggle-inner {
+        background-color: #f8f400;
+        width: 28px;
+        height: 2px;
+    }
+    .invert .menu-toggle:hover .menu-toggle-inner {
+        background-color: #f8f400;
+        width: 28px;
+        height: 2px;
+    }
+
+    .menu-toggle .menu-toggle-inner::before {
+        left: 8px;
+        width: 20px;
+        height: 2px;
+    }
+    .menu-toggle .menu-toggle-inner::after {
+        left: 8px;
+        width: 20px;
+        height: 2px;
+    }
+
+}
+
+
+/*что то 600*/
+
+@media (min-width: 600px) {
+
+    /*фон шапки при скроле*/
+
+    .site-header .isStuck.header-container.stuckMenu.invert {
+        /*background-image: url("https://image.freepik.com/free-photo/no-translate-detected_1401-1061.jpg");*/
+        background: rgba(47,100,100,0.85);
+    }
+
+    /*меню бургер компы*/
+    .invert .menu-toggle:not(:hover) .menu-toggle-inner {
+        background-color: #f8f400;
+        width: 28px;
+        height: 2px;
+    }
+    .invert .menu-toggle:hover .menu-toggle-inner {
+        background-color: #f8f400;
+        width: 28px;
+        height: 2px;
+    }
+
+    .menu-toggle .menu-toggle-inner::before {
+        left: 8px;
+        width: 20px;
+        height: 2px;
+    }
+    .menu-toggle .menu-toggle-inner::after {
+        left: 8px;
+        width: 20px;
+        height: 2px;
+    }
+
+    /*что то в шапке*/
+
+    .head_button {
+        border: 2px solid #f8f400;
+        font-size: 16px;
+        font-family: "Lato", Sans-serif;
+        border-radius: 30px;
+        padding: 14px 37px;
+        margin-right: 22px;
+    }
+    .invert a {
+        color: rgb(255, 255, 255);
+    }
+
+   .top_phone {
+       font-size: 20px;
+       font-family: "Lato", Sans-serif;
+       color: rgb(255, 255, 255);
+       line-height: 1.2;
+       margin-right: 50px!important;
+
+   }
+   .call_header {
+       font-size: 14px;
+       font-family: "Lato", Sans-serif;
+       color: rgb(248, 244, 0)!important;
+       line-height: 1.714;
+       position: relative;
+       text-decoration: none;
+       border-bottom: 1px dashed #f8f400;
+
+
+   }
+    .call_header::before {
+        content: url("https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/images/mobile_header.png");
+        position: absolute;
+        left: -40px;
+        top: -21px;
+    }
+    .heder_menu_vider {
+
+    }
+    #menu-header_new {
+        display: flex;
+        font-size: 16px;
+        font-family: "Lato", Sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.5;
+    }
+    .header_menu_vider_1 {
+        margin-right: 30px;
+
+    }
+    .header_menu_vider_2 {
+        margin-left: 30px;
+    }
+    .site-header .header-container.transparent {
+        position: absolute !important;
+    }
+
+
+
+}
+
+
+/*планшеты*/
+@media screen and (max-width: 773px) {
+    .site-header .header-container.transparent {
+        position: absolute !important;
+        background-color: none;
+    }
+    .site-header .header-container.transparent.invert:not(.isStuck) {
+        background: unset!important;
+    }
+    .header_menu_vider_1 {
+        display: none;
+    }
+    .header_menu_vider_2 {
+        display: none;
+    }
+    .head_button_wrap {
+        display: none;
+    }
+    .elementor-widget-heading .elementor-heading-title {
+        margin-top: 20px;
+        font-size: 36px;
+        font-family: "Lato", Sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.278;
+        text-align: center;
+    }
+    .elementor-278 .elementor-element.elementor-element-62d2882 {
+        font-size: 20px;
+        font-family: "Lato",Sans-serif;
+        color: rgb(248, 244, 0);
+        line-height: 1.2;
+        text-align: center;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

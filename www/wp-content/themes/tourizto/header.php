@@ -17,7 +17,10 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+    <script type="text/javascript" src="<?php echo get_bloginfo('template_url') . '/assets/js/vider.js';?>"></script>
     <link rel="stylesheet" href="<?php echo get_bloginfo('template_url') . '/assets/css/vider.css';?>">
+
+
 
 </head>
 
