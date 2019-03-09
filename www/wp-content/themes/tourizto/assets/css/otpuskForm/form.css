@@ -1,0 +1,2679 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+#new_os-to .new_f-dropdown-body.popup .type-item,
+.ui-helper-hidden-accessible {
+	display: none !important;
+}
+.new_f-container #new_os-to .ui-autocomplete {
+	position: static !important;
+	width: 100% !important;
+	display: block !important;
+	border: none !important;
+	background: #fff !important;
+	margin: 0 !important;
+}
+#cntList li::before {
+	display: none !important;
+}
+.new_os .owl-carousel {
+	display: block !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.new_os svg {
+	vertical-align: inherit;
+	max-width: 1000px;
+}
+
+/*===== разное =====*/
+@charset "utf-8";
+
+.new_os {
+	text-align: left;
+	position: relative;
+	z-index: 3;
+}
+.new_os,
+.new_f-container *,
+.new_f-container *::before,
+.new_f-container *::after,
+.new_spinner-wrap *,
+.new_spinner-wrap *::before,
+.new_spinner-wrap *::after,
+.new_r-container *,
+.new_r-container *::before,
+.new_r-container *::after,
+.new_t-container *,
+.new_t-container *::before,
+.new_t-container *::after {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif !important;
+	line-height: normal;
+	/*transition: none !important;*/
+}
+.new_f-ext-scale::before,
+.new_f-ext-bl-body::after,
+.new_os::before,
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+	border-collapse: collapse;
+}
+.new_weight-bold {
+	font-weight: bold;
+}
+.new_check-mobile {
+	display: none;
+}
+.new_os label {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+/* градиент для формы и слайдеров "оценка отеля", "цена" */
+.new_f-ext-container .ui-slider-range,
+.new_f-ext-container .slider-container .ui-widget-content,
+.new_f-container {
+	background: rgb(76,156,224);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjOWNlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzU0YTNlNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NWIyZjMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(left, rgba(76,156,224,1) 0%, rgba(84,163,230,1) 50%, rgba(101,178,243,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(76,156,224,1)), color-stop(50%,rgba(84,163,230,1)), color-stop(100%,rgba(101,178,243,1)));
+	background: -webkit-linear-gradient(left, rgba(76,156,224,1) 0%,rgba(84,163,230,1) 50%,rgba(101,178,243,1) 100%);
+	background: -o-linear-gradient(left, rgba(76,156,224,1) 0%,rgba(84,163,230,1) 50%,rgba(101,178,243,1) 100%);
+	background: -ms-linear-gradient(left, rgba(76,156,224,1) 0%,rgba(84,163,230,1) 50%,rgba(101,178,243,1) 100%);
+	background: linear-gradient(to right, rgba(76,156,224,1) 0%,rgba(84,163,230,1) 50%,rgba(101,178,243,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c9ce0', endColorstr='#65b2f3',GradientType=1 );
+}
+/* контейнер формы */
+.new_f-container {
+	border-radius: 3px;
+	margin: 0 auto 20px;
+	position: relative;
+	z-index: 2;
+	max-width: 1200px;
+}
+/* контейнер формы при открытом "расширенный поиск" */
+.new_f-container.ext-opened {
+	border-radius: 4px;
+}
+/* изображения компаса и самолета на форме */
+.new_f-wrapper-bg-imgs {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: url(../../images/onsite/compass-icon.png) no-repeat left -35px top 56px, url(../../images/onsite/plane-icon.png) no-repeat right 15px top 14px;
+}
+.new_f-wrapper {
+	position: relative;
+}
+.new_f-ext-container .new_f-dropdown-body-bottom,
+.new_f-wrapper > .new_f-title,
+.new_f-form > .clearfix,
+.new_f-ext-btn-container,
+.new_f-ext-body {
+	margin: 0 auto;
+	width: 890px;
+	position: relative;
+}
+/* заголовок "поиск тура" */
+.new_f-title {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 20px 0;
+	height: 66px;
+}
+.new_f-form {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-size: 14px;
+}
+.new_f-form input {
+	outline: 0 none;
+}
+.new_f-form-field,
+.new_os .new_f-form-submit {
+	float: left;
+	height: 40px;
+}
+/* стили полей формы */
+.new_f-form-field {
+	background-color: #fff;
+	position: relative;
+	border-top: 1px solid #D4D4D4;
+	border-bottom: 1px solid #D4D4D4;
+	border-left: 1px solid transparent;
+}
+.new_f-form-field:not(.date) {
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow;
+	transition-property: box-shadow;
+	box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.1), 0 0 1px transparent;
+}
+.new_f-form-field:not(.date):hover,
+.new_f-form-field:not(.date):focus,
+.new_f-form-field:not(.date):active {
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1), 1px 0 1px transparent;
+}
+
+.new_f-form-field.to {
+	width: 204px;
+	border-left-color: #D4D4D4;
+	border-radius: 3px 0 0 3px;
+}
+/* разделители между полями формы */
+.new_f-form-field::before {
+	content: '';
+	position: absolute;
+	left: -1px;
+	top: 8px;
+	bottom: 8px;
+	display: block;
+	width: 1px;
+	background-color: #E0E0E0;
+}
+.new_f-form-field.to::before {
+	display: none;
+}
+.new_f-form-field.from {
+	width: 127px;
+}
+.new_f-form-field.date {
+	width: 180px;
+}
+.new_f-form-field.duration {
+	width: 137px;
+}
+.new_f-form-field.people {
+	width: 135px;
+}
+/* кнопки "найти", "применить" */
+.new_not-found-message .os-order-form-submit_button,
+.new_f-ext-container .new_f-dropdown-btn-apply,
+.new_os .new_f-form-submit {
+	background: #f7941d;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+	text-transform: none;
+	letter-spacing: normal;
+}
+.new_os .new_f-form-submit {
+	border-radius: 0 3px 3px 0;
+	box-shadow: none;
+	color: #ffffff !important;
+	margin: 0;
+	padding: 0;
+	width: 107px;
+	transition: background .5s ease !important;
+}
+.new_not-found-message .os-order-form-submit_button:hover,
+.new_os .new_f-form-submit:hover,
+.new_os .new_f-dropdown-btn-apply:hover{
+	background: #ec8100;
+}
+/* Ripple Out Animation on click */
+@-webkit-keyframes hvr-ripple-out {
+	100% {
+		top: -12px;
+		right: -12px;
+		bottom: -12px;
+		left: -12px;
+		opacity: 0;
+	}
+}
+@keyframes hvr-ripple-out {
+	100% {
+		top: -12px;
+		right: -12px;
+		bottom: -12px;
+		left: -12px;
+		opacity: 0;
+	}
+}
+.hvr-ripple-out {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+}
+.hvr-ripple-out:before {
+	content: '';
+	position: absolute;
+	border: #ec8100 solid 6px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+}
+.hvr-ripple-out:hover:before, .hvr-ripple-out:focus:before, .hvr-ripple-out:active:before {
+	-webkit-animation-name: hvr-ripple-out;
+	animation-name: hvr-ripple-out;
+}
+/* элемент внутри полей формы */
+.new_f-dropdown-btn {
+	height: 38px;
+	padding: 9px 8px 0;
+	position: relative;
+}
+/* иконки стрелок внутри полей формы */
+.new_f-dropdown-btn .cnt::after,
+.new_f-dropdown-btn::after {
+	content: '';
+	position: absolute;
+	top: 17px;
+	right: 8px;
+	pointer-events: none;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 6px 4px 0;
+	border-color: #4C9CE0 transparent transparent;
+}
+#new_os-to .new_f-dropdown-btn::after,
+#new_os-date-check .new_f-dropdown-btn::after {
+	display: none;
+}
+/* выпадающая область полей формы */
+.new_f-dropdown-body {
+	display: none;
+	background: #fff;
+	padding: 1px 1px 0;
+	position: absolute;
+	left: 0;
+	top: 38px;
+	z-index: 2;
+	border: 1px solid #cbcbcb;
+}
+/* выпадающая область туристов */
+.new_f-dropdown-container.people .new_f-dropdown-body {
+	left: auto;
+	right: 0;
+	min-width: 216px;
+	padding: 15px 14px 14px;
+}
+/* элементы списка в выпадающей области полей */
+.new_f-dropdown-item {
+	white-space: nowrap;
+	cursor: pointer;
+	padding: 3px 7px;
+	margin: 0 0 1px;
+	font-size: 13px;
+}
+/* активный элемент списка */
+.new_f-dropdown-item.selected {
+	background-color: #E1E7EF;
+	font-weight: 600;
+}
+
+/*= стили для модальных окон =*/
+.new_f-dropdown-body-top,
+.new_f-dropdown-body-bottom {
+	display: none;
+}
+.new_f-dropdown-body-date .new_f-dropdown-body-top {
+	display: block;
+	text-align: center;
+	font-weight: normal;
+	color: #666;
+	background: transparent;
+}
+.new_f-dropdown-body-date .new_f-dropdown-body-top .new_f-dropdown-body-close {
+	display: none;
+}
+/* шапка */
+.new_t-tab-content-top,
+.new_t-modal-body-top,
+.new_f-dropdown-body-top {
+	background: #4C9CE0;
+	color: #fff;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 15px;
+	font-weight: 700;
+	font-size: 16px;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+/* элемент "×" для закрытия окна */
+.new_t-tab-content-close,
+.new_t-modal-body-close,
+.new_f-dropdown-body-close {
+	font-size: 36px;
+	padding: 0 8px;
+	position: absolute;
+	right: 4px;
+	top: 2px;
+	font-family: "Times New Roman";
+	line-height: 42px;
+	font-weight: 400;
+	color: #fff;
+	cursor: pointer;
+	z-index: 1;
+}
+#new_f-dates-container.new_f-dates-container .new_f-dropdown-body-close {
+	font-family: "Times New Roman" !important;
+}
+
+
+/*===== стили для "куда" формы поиска =====*/
+#new_os-to * {
+	outline: none 0;
+}
+#new_os-to .new_f-dropdown-btn {
+	padding: 0;
+}
+.new_f-autocomplete-input {
+	border: none !important;
+	border-radius: 0;
+	display: block;
+	width: 100% !important;
+	height: 38px !important;
+	margin: 0 !important;
+	background: transparent !important;
+	font-size: 14px !important;
+	color: #666666;
+}
+.new_f-autocomplete-input::-webkit-input-placeholder {
+	color: #a3a3a3 !important;
+	opacity: 1 !important;
+	font-size: 14px !important;
+}
+.new_f-autocomplete-input::-moz-placeholder {
+	color: #a3a3a3 !important;
+	opacity: 1 !important;
+	line-height: 38px !important;
+	font-size: 14px !important;
+}
+.new_f-autocomplete-input:-ms-input-placeholder {
+	color: #a3a3a3 !important;
+	opacity: 1 !important;
+	font-size: 14px !important;
+}
+.new_f-autocomplete-input:-moz-placeholder {
+	color: #a3a3a3 !important;
+	opacity: 1 !important;
+	line-height: 38px !important;
+	font-size: 14px !important;
+}
+.new_f-autocomplete-input,
+.new_input-mask {
+	padding: 0 24px 0 8px !important;
+}
+.new_f-autocomplete-input:not[style*="display: none"] ~ .new_input-mask {
+	display: none !important;
+}
+.new_input-mask {
+	white-space: nowrap;
+	padding-top: 9px !important;
+	display: none;
+	height: 38px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.new_input-mask-country {
+	padding-right: 5px;
+}
+.new_f-dropdown-btn .cnt {
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	width: 16px;
+	height: 30px;
+	border-radius: 2px;
+	background-color: #E1E7EF;
+}
+.new_f-dropdown-btn .cnt:hover {
+	background-color: #F3F3F3;
+}
+.new_f-dropdown-btn .cnt::after {
+	right: 4px;
+	top: 13px;
+}
+
+
+/*=== стили для списка стран ===*/
+#cntList {
+	position: relative;
+	z-index: 20;
+}
+#new_os-to .new_f-dropdown-body {
+	border: 1px solid #cbcbcb;
+	left: -1px;
+	z-index: 5;
+	text-align: left;
+}
+#new_os-to .new_f-dropdown-body.popup #cntList::-webkit-scrollbar,
+#ctyList .ctyLists-wrapper::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 2px;
+}
+#new_os-to .new_f-dropdown-body.popup #cntList::-webkit-scrollbar-track,
+#ctyList .ctyLists-wrapper::-webkit-scrollbar-track {
+	border-radius: 2px;
+}
+#new_os-to .new_f-dropdown-body.popup #cntList::-webkit-scrollbar-thumb,
+#ctyList .ctyLists-wrapper::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	background-color: rgba(156, 156, 156, .7);
+}
+#new_os-to .ui-autocomplete {
+	padding: 0;
+	margin: 0;
+	max-height: 10000px;
+}
+#new_os-to .popup .ui-autocomplete {
+	padding: 10px 0;
+}
+#new_os-to #cntList .ui-menu-item.active a,
+#new_os-to #cntList .ui-menu-item.active a * {
+	background: #E1E7EF !important;
+}
+#cntList .ui-menu-item a * {
+	background: #fff;
+}
+#new_os-to li {
+	list-style-type: none;
+	display: block !important;
+}
+#new_os-to li a {
+	background: url(../../images/onsite/autoc.jpg) repeat-x left 8px;
+	display: block;
+	line-height: normal;
+	padding: 0 !important;
+	text-align: left;
+	margin: 0 !important;
+}
+#new_os-to .ui-menu-item a:hover {
+	text-decoration: none !important;
+}
+#new_os-to .ui-corner-all,
+#new_os-to .ui-corner-bottom,
+#new_os-to .ui-corner-right,
+#new_os-to .ui-corner-br {
+	border-radius: 0px !important;
+}
+#new_os-to .ui-menu .ui-menu-item .price-from,
+#new_os-to .ui-menu .ui-menu-item .label {
+	z-index: 0;
+}
+#new_os-to .ui-autocomplete .ui-menu-item .price-from {
+	font-size: 11px;
+	color: #999;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-weight: normal;
+	padding: 4px 12px 0 5px;
+	margin: 0;
+}
+#new_os-to .ui-autocomplete.line3 .ui-menu-item .label {
+	padding-left: 17px;
+}
+#new_os-to .ui-menu .ui-menu-item .label,
+#new_os-to .ui-menu .ui-menu-item .noplace {
+	padding-left: 12px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 5px;
+	margin-right: 95px;
+	position: static;
+	color: #666;
+	font-size: 13px;
+	display: block;
+	height: 22px;
+	float: left;
+}
+#new_os-to .ui-menu .ui-menu-item .label,
+#new_os-to .ui-menu .ui-menu-item .label b,
+#new_os-to .ui-menu .ui-menu-item .noplace {
+	line-height: 22px;
+}
+#new_os-to .ui-menu .ui-menu-item .noplace {
+	height: 22px;
+	display: block;
+}
+#new_os-to .ui-menu .ui-menu-item .label {
+	font-weight: normal;
+}
+#new_os-to .ui-menu .ui-menu-item .label .gfont {
+	font-weight: normal;
+}
+#new_os-to .ui-menu .ui-menu-item {
+	white-space: nowrap;
+	height: auto;
+	position: relative;
+}
+#new_os-to .ui-menu .ui-menu-item .ui-corner-all:hover,
+#new_os-to .ui-menu .ui-menu-item .ui-state-focus {
+	border: none;
+	cursor: pointer;
+	border-radius: 0px !important;
+}
+#new_os-to .type-item {
+	background-color: #edeaea;
+	color: #888888;
+	font-size: 13px;
+	padding: 3px 0 3px 12px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+/*=== стили для списка курортов ===*/
+#ctyList {
+	display: none;
+	width: 256px;
+	height: 153px;
+	background: #E2E8EF;
+	position: absolute;
+	left: 0;
+	/*left: 253px;*/
+	top: 0;
+	border: 1px solid #cbcbcb;
+	border-top: none;
+	border-left: none;
+	padding: 0;
+	overflow: hidden;
+}
+.new_f-dropdown-body:not(.popup) #ctyList {
+	display: none !important;
+}
+#ctyList.no-loader::before {
+	display: none;
+}
+#ctyList::before {
+	background: #E2E8EF url("../../images/onsite/loader.svg") no-repeat scroll center center !important;
+	bottom: 44px;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+#ctyList .new_f-dropdown-btn-apply span {
+	display: none;
+}
+.ctyLists-wrapper {
+	padding: 10px 0 0 12px;
+	overflow: auto;
+	height: 100px;
+	-webkit-overflow-scrolling: touch;
+}
+#ctyList ul,
+#ctyList li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#ctyList li {
+	font-size: 13px;
+	background-color: #E2E8EF;
+}
+#ctyList li label {
+	display: block;
+	cursor: pointer;
+	position: relative;
+}
+#new_os-to #cntList li a,
+#ctyList li,
+#ctyList li label {
+	height: 22px !important;
+	min-height: 22px !important;
+}
+#ctyList .labelName {
+	position: relative;
+	top: 2px;
+	padding-right: 3px;
+}
+#ctyList .itemPrice {
+	color: #999;
+	font-size: 11px;
+	font-weight: normal;
+	padding: 4px 8px 0 3px;
+	position: absolute;
+	right: 3px;
+}
+#ctyList .labelName,
+#ctyList .itemPrice {
+	background: #E2E8EF;
+}
+#ctyList label::before {
+	background: #999 none repeat scroll 0 0;
+	content: "";
+	height: 1px;
+	left: 25px;
+	position: absolute;
+	right: 11px;
+	top: 15px;
+}
+#ctyList .no-li-bg label::before {
+	display: none;
+}
+
+/*= стили для чекбоксов =*/
+.new_os input[type="checkbox"] {
+	display: none;
+}
+.new_os input[type="checkbox"] + * {
+	position: relative;
+	padding-left: 24px;
+	cursor: pointer;
+}
+.new_os input[type="checkbox"] + *::before,
+.new_os input[type="checkbox"] + *::after {
+	content: '';
+	display: block;
+	position: absolute;
+}
+.new_os input[type="checkbox"] + *::before {
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+	border: 1px solid #D5D5D5;
+	background-color: #fff;
+	left: 0;
+	top: 3px;
+}
+.new_os input[type="checkbox"]:checked + *::after {
+	background: url(../../images/onsite/check.svg) no-repeat center;
+	width: 12px;
+	height: 12px;
+	left: 2px;
+	top: 5px;
+	visibility: visible;
+}
+
+/*===== стили для "откуда" формы поиска =====*/
+.new_f-dropdown-container.from .new_f-dropdown-btn span {
+	display: inline-block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.new_f-dropdown-container.from .new_f-dropdown-btn-text {
+	max-width: 75px;
+}
+.new_m-mobile-form .new_f-dropdown-container.from .new_f-dropdown-btn-text {
+	max-width: 975px;
+}
+
+/*===== стили для "выбора дат" формы поиска =====*/
+/* контейнер */
+.new_f-search-dates-wrap {
+	height: 38px;
+	padding: 4px 6px 4px 30px;
+	position: relative;
+}
+/* иконка календаря */
+.new_f-search-dates-wrap svg {
+	position: absolute;
+	width: 17px;
+	top: 10px;
+	left: 7px;
+	fill: #4C9CE0;
+}
+/* подсказка "Выберите даты начала тура" */
+.new_f-search-dates-popup {
+	position: absolute;
+	background-color: #E1E7EF;
+	border-radius: 5px;
+	font-size: 12px;
+	right: 7px;
+	left: 30px;
+	top: -25px;
+	color: #666;
+	padding: 2px 7px;
+	text-align: center;
+	height: 20px;
+	display: none;
+	letter-spacing: 0;
+}
+.new_f-tip-calendar .new_f-search-dates-popup,
+.new_f-tip-hovered .new_f-search-dates-popup,
+.new_f-tip-active.new_f-search-dates-popup {
+	display: block;
+}
+.new_f-search-dates-popup:before,
+.new_f-search-dates-popup:after {
+	border-color: #E2E8EF transparent transparent;
+	border-style: solid;
+	border-width: 4px 4px 0;
+	content: "";
+	height: 0;
+	position: absolute;
+	top: 20px;
+	width: 0;
+}
+.new_f-search-dates-popup:before {
+	left: 26px;
+}
+.new_f-search-dates-popup:after {
+	right: 25px;
+}
+/* оболочка инпутов выбора дат */
+.new_f-datepicker-wrap {
+	float: left;
+	width: 60px;
+	position: relative;
+}
+/* инпут выбора дат */
+.new_f-datepicker-wrap button {
+	height: 30px;
+	width: 100%;
+	border-radius: 0;
+	display: block;
+	padding: 0 0 1px 6px !important;
+	font-size: 14px;
+	background: #E1E7EF;
+	border: none;
+	cursor: text;
+	text-align: left !important;
+	outline: 0 none;
+	color: #666 !important;
+	font-weight: 400 !important;
+	letter-spacing: 0;
+	margin: 0;
+}
+.new_f-datepicker-wrap:hover button {
+	background-color: #cedae7;
+    cursor: pointer;
+}
+
+/* разделитель между двумя инпутами */
+.new_f-datepicker-wrap-2:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: -18px;
+	width: 13px;
+	height: 1px;
+	background-color: #666;
+}
+.new_f-datepicker-wrap-2 {
+	margin-left: 23px;
+}
+
+/*= заглушка для дат при невыбранной стране =*/
+#new_os-date-check {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#new_os-date-check .new_f-dropdown-body {
+	left: -96px;
+	right: -96px;
+	padding: 15px 0;
+	min-height: 48px;
+	text-align: center;
+}
+
+/* выпадающий элемент внутри которого находятся календари */
+.new_f-dropdown-body-date {
+	width: 500px;
+	background-color: #E1E7EF;
+}
+
+/* контейнер календарей */
+.new_f-dates-container#new_f-dates-container .dp-container {
+	padding: 4px 7px 8px;
+}
+.new_f-dates-container#new_f-dates-container * {
+	box-shadow: none !important;
+	font-family: "Open Sans", sans-serif !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div {
+	left: 0 !important;
+	top: 0 !important;
+	position: relative !important;
+	width: auto !important;
+	height: auto !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+	background: #fff !important;
+	display: block !important;
+}
+#new_f-dates-container.new_f-dates-container #ui-datepicker-div::after {
+	background-color: #e1e7ef !important;
+	bottom: 0 !important;
+	content: "" !important;
+	display: block !important;
+	height: auto !important;
+	left: 238px !important;
+	position: absolute !important;
+	top: 0 !important;
+	visibility: visible !important;
+	width: 6px !important;
+}
+/* контейнер календаря */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-group {
+	float: left;
+	width: 238px !important;
+	padding: 7px 6px 8px !important;
+	margin: 0 !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-group-first {
+	margin-right: 6px !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-row-break {
+	clear: both;
+	font-size: 0;
+	width: 100% !important;
+	margin: 0 !important;
+}
+/* календарь */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar {
+	width: 100% !important;
+	background: transparent !important;
+	margin: 0 !important;
+	text-align: center !important;
+	border-collapse: separate !important;
+	border-spacing: 0;
+	border: none;
+}
+/* шапка календаря */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-header {
+	position: relative !important;
+	text-align: center !important;
+	color: #4c9ce0 !important;
+	font-weight: 600 !important;
+	text-transform: uppercase !important;
+	font-size: 13px !important;
+	border: none !important;
+	background: none !important;
+	padding: 0 !important;
+	height: auto !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div.ui-datepicker .ui-datepicker-title {
+	line-height: normal !important;
+	color: #4c9ce0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar thead,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar thead * {
+	background-color: transparent;
+}
+/* элементы переключения (стрелки влево-вправо) */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-prev,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-next {
+	position: absolute !important;
+	display: block;
+	width: 9px !important;
+	height: 18px !important;
+	cursor: pointer;
+	overflow: hidden;
+	background: url(../../images/onsite/arr-left.svg) no-repeat center !important;
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	border-radius: 0 !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-next {
+	right: 2px !important;
+	transform: rotate(180deg);
+	top: 2px !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-prev {
+	left: 2px !important;
+	top: 0 !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-next span,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-prev span {
+	display: none;
+}
+/* разделитель между названием месяца и числами */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .dp-title-divider {
+	font-size: 10px;
+	position: relative;
+	top: -2px;
+}
+/* дни недели */
+#new_f-dates-container.new_f-dates-container #ui-datepicker-div th {
+	background: none !important;
+	border: medium none !important;
+	box-shadow: none !important;
+	color: #999999 !important;
+	font: 13px "Open Sans", sans-serif !important;
+	padding: 2px 0 !important;
+	text-transform: lowercase !important;
+}
+/* ячейка календаря */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td {
+	background: #e6e6e6 !important;
+	padding: 0;
+	height: 23px;
+	overflow: hidden;
+	border: 1px solid #ffffff !important;
+	box-shadow: none !important;
+	line-height: normal;
+	border-radius: 0;
+	vertical-align: inherit;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td span,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td a {
+	background-image: none !important;
+	text-align: center !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td * {
+	font-size: 13px !important;
+	display: block !important;
+	padding: 1px 0 2px !important;
+	border: 1px solid transparent !important;
+	line-height: normal !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td a {
+	text-decoration: none;
+	color: #4c9ce0 !important;
+	background: none !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td span {
+	color: #4c9ce0 !important;
+	cursor: pointer;
+}
+/* недоступная дата */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.ui-state-disabled .ui-state-default {
+	cursor: default;
+	color: #d1cfcf !important;
+}
+/* стилизация дней следующих за интервалом */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.ui-state-disabled.ceil-max-date .ui-state-default {
+	color: #4c9ce0 !important;
+}
+/* нет тура */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.ui-state-disabled.new_ceil-no-tours *,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.new_ceil-no-tours * {
+	cursor: default;
+	color: #d1cfcf !important;
+}
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.new_ceil-no-tours {
+	position: relative;
+}
+/* сегодня */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.ui-datepicker-today .ui-state-default {
+	color: #4c9ce0 !important;
+	background-color: #fef2e0;
+}
+
+/* ячейка календаря в выбранном интервале */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.ui-state-highlight {
+	background-color: #DDE6A7 !important;
+}
+/* активная ячейка календаря */
+.new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active.ui-state-highlight,
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active:not(.ui-datepicker-current-day),
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active.ui-state-highlight.ui-datepicker-current-day {
+	background-color: #B4CB5B !important;
+	position: relative;
+}
+.new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active.ui-state-highlight a,
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active:not(.ui-datepicker-current-day) a,
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active.ui-state-highlight.ui-datepicker-current-day a {
+	color: #fff !important;
+}
+/* активная ячейка, но нет тура */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active.new_ceil-no-tours {
+	overflow: hidden !important;
+}
+/* стили "стрелок" активных элементов календаря */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active::before,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active::after {
+	pointer-events: none;
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::before,
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::before,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-highlight-right::before,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active::before {
+	top: 0;
+	bottom: initial;
+	left: -4px;
+	right: auto;
+	transform: rotate(-14deg);
+	border-width: 14px 14px 0 0;
+	border-color: #DDE6A7 transparent transparent;
+}
+.new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div td.ceil.ui-state-active:not(.ui-state-highlight)::before,
+.new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div td.ceil.ui-state-active:not(.ui-state-highlight)::after,
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active:not(.ui-state-highlight).ui-datepicker-current-day::before,
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div .ui-datepicker-calendar td.ui-state-active:not(.ui-state-highlight).ui-datepicker-current-day::after {
+	display: none !important;
+}
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::after,
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::after,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-highlight-right::after,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active::after {
+	top: initial;
+	bottom: 0;
+	left: -4px;
+	right: auto;
+	transform: rotate(14deg);
+	border-width: 14px 0 0 14px;
+	border-color: transparent transparent transparent #DDE6A7;
+}
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active::before,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-highlight-left::before,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::before {
+	top: 0;
+	bottom: initial;
+	right: -4px;
+	left: auto;
+	border-width: 0 14px 14px 0;
+	border-color: transparent #DDE6A7 transparent transparent;
+	transform: rotate(14deg);
+}
+.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active::after,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-highlight-left::after,
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::after {
+	bottom: 0;
+	top: initial;
+	right: -4px;
+	left: auto;
+	border-width: 0 0 14px 14px;
+	border-color: transparent transparent #DDE6A7 transparent;
+	transform: rotate(-14deg);
+}
+
+@media (min-width: 479px) {
+
+	/* активная ячейка календаря */
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:hover,
+	.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:hover {
+		background-color: #B4CB5B !important;
+		position: relative;
+	}
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container #ui-datepicker-div td.new_ceil-tours-exists:hover a {
+		color: #fff !important;
+	}
+	/* стили "стрелок" активных элементов календаря */
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:not(.ui-datepicker-today):hover::before,
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:not(.ui-datepicker-today):hover::after,
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:not(.ui-datepicker-today):hover::before,
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:not(.ui-datepicker-today):hover::after {
+		pointer-events: none;
+		content: '';
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-style: solid;
+	}
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:hover::before {
+		top: 0;
+		bottom: initial;
+		left: -4px;
+		right: auto;
+		transform: rotate(-14deg);
+		border-width: 14px 14px 0 0;
+		border-color: #DDE6A7 transparent transparent;
+	}
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:hover::after {
+		top: initial;
+		bottom: 0;
+		left: -4px;
+		right: auto;
+		transform: rotate(14deg);
+		border-width: 14px 0 0 14px;
+		border-color: transparent transparent transparent #DDE6A7;
+	}
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:hover::before {
+		top: 0;
+		bottom: initial;
+		right: -4px;
+		left: auto;
+		border-width: 0 14px 14px 0;
+		border-color: transparent #DDE6A7 transparent transparent;
+		transform: rotate(14deg);
+	}
+	body:not(.new_tour-one-col-sm) .new_f-dates-container#new_f-dates-container .new_first_calendar_open #ui-datepicker-div td.new_ceil-tours-exists:hover::after {
+		bottom: 0;
+		top: initial;
+		right: -4px;
+		left: auto;
+		border-width: 0 0 14px 14px;
+		border-color: transparent transparent #DDE6A7 transparent;
+		transform: rotate(-14deg);
+	}
+
+
+
+}
+
+/* недоступная ячейка календаря */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.ui-state-disabled {
+	background-color: #f5f5f5 !important;
+	opacity: 1;
+}
+/* пустая ячейка календаря */
+.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.ui-datepicker-other-month {
+	background-color: #fff !important;
+}
+
+/*===== стили для "длительности" формы поиска =====*/
+.new_f-dropdown-btn .new_f-duration-days {
+	display: none;
+}
+.duration .new_f-dropdown-item {
+	font-weight: 600;
+}
+.duration .new_f-dropdown-item .new_f-duration-days {
+	font-weight: normal;
+	color: #a3a3a3;
+}
+
+/*===== стили для "туристов" формы поиска =====*/
+.new_f-people-list {
+	margin: 14px 0 18px !important;
+}
+/* элемент выбора количества взрослых */
+.new_f-people-item {
+	float: left;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 1px;
+}
+/* активный элемент выбора количества взрослых */
+.new_f-people-item.active {
+	background-color: #4C9CE0;
+	color: #fff;
+}
+/* кнопка "добавить ребёнка" */
+.new_f-children-accordion-btn {
+	position: relative;
+	border: 1px solid #dcdcdc;
+	padding: 6px 9px;
+	cursor: pointer;
+	margin-bottom: 8px;
+}
+.new_f-children-accordion-btn.active {
+	margin: 0;
+}
+/* недоступная кнопка "добавить ребёнка" */
+.new_f-children-accordion-btn.disabled {
+	color: #BDBDBD;
+	border-color: #dfdfdf;
+	cursor: default;
+}
+/* иконка кнопки "добавить ребёнка" */
+.new_f-children-accordion-btn::after {
+	content: '';
+	position: absolute;
+	top: 14px;
+	right: 8px;
+	pointer-events: none;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 6px 4px 0;
+	border-color: #999 transparent transparent;
+}
+.new_f-children-accordion-btn.active::after {
+	border-width: 0 4px 6px;
+	border-color: transparent transparent #999;
+}
+.new_f-children-accordion-btn.disabled::after {
+	border-color: #ccc transparent transparent;
+}
+/* выпадающая часть со списком возрастов детей */
+.new_f-children-accordion-body {
+	display: none;
+	background: #F2F2F2;
+	border: 1px solid #dcdcdc;
+	border-top: none;
+	padding: 8px 0 0 8px;
+}
+.new_f-children-accordion-btn.active + .new_f-children-accordion-body {
+	display: block;
+}
+.new_f-children-list:empty {
+	display: none;
+}
+.new_f-children-container {
+	display: flex;
+	flex-direction: column;
+}
+.new_f-children-container .new_f-people-title {
+	order: 1;
+	margin-bottom: 14px;
+}
+.new_f-children-list {
+	order: 2;
+	margin: 0 0 10px;
+}
+.new_f-children-accordion-wrap {
+	order: 3;
+}
+/* стили для элементов выбора детей */
+.new_f-children-age-item,
+.new_f-children-list-item {
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 8px 8px 0;
+}
+.new_f-children-list-item {
+	background: #4C9CE0;
+	color: #ffffff;
+	height: 40px;
+	padding: 4px 24px 0 0;
+	position: relative;
+	width: 70px;
+}
+.new_f-children-age-item {
+	width: 36px;
+	height: 34px;
+	padding: 1px 0 0;
+}
+.new_f-children-list-item::after {
+	color: #ffffff;
+	content: "×";
+	font-family: "Times New Roman";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 40px;
+	position: absolute;
+	right: 7px;
+	top: 0;
+}
+.new_f-children-age-item div,
+.new_f-children-list-item div {
+	font-size: 11px;
+	font-weight: 400;
+	position: relative;
+	top: -5px;
+}
+
+/*===== расширенный поиск =====*/
+/*= стили кнопки "расширенного поиска" =*/
+.new_f-ext-btn-container {
+	margin-top: 7px;
+	margin-bottom: 25px;
+	height: 18px;
+}
+.new_f-form .new_f-ext-btn {
+	color: #fff;
+	font-size: 13px;
+	padding-left: 14px;
+	display: inline-block;
+	cursor: pointer;
+}
+.new_f-ext-btn-text {
+	text-decoration: underline;
+	position: relative;
+	color: #fff;
+}
+.new_f-ext-btn-text::before {
+	content: '';
+	position: absolute;
+	left: -14px;
+	top: 7px;
+	border-color: #fff transparent transparent;
+	border-style: solid;
+	border-width: 6px 4px 0;
+	height: 0;
+	width: 0;
+}
+.ext-opened .new_f-ext-btn-text::before {
+	border-color: transparent transparent #fff;
+	border-width: 0 4px 6px;
+}
+.new_f-ext-btn-filters-num:empty {
+	display: none;
+}
+
+/*= стили выпадающей части "расширенного поиска" =*/
+/* контейнер */
+.new_f-ext-container {
+	display: none;
+	background: #E2E7EF url(../../images/onsite/compass-icon.png) no-repeat left -35px top -101px;
+	border-radius: 0 0 3px 3px;
+	padding: 35px 0 30px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.08);
+}
+/* тень сверху контейнера */
+.new_f-ext-container::before {
+	content: '';
+	display: block;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+}
+.ext-opened .new_f-ext-container {
+	display: block;
+	position: relative;
+}
+.new_f-ext-col {
+	float: left;
+	width: 33.3333%;
+}
+.new_f-ext-col-recommend,
+.new_f-ext-col-serv {
+	width: 100%;
+}
+.new_f-ext-bl {
+	margin-bottom: 30px;
+}
+/* заголовок фильтров */
+.new_f-ext-bl-title {
+	font-size: 14px;
+	font-weight: 700;
+	color: #4C9CE0;
+	position: relative;
+}
+/* подзаголовок фильтров */
+.new_f-ext-bl-title span {
+	font-size: 13px;
+	position: absolute;
+	left: 0;
+	top: 18px;
+	color: #a3a3a3;
+	font-weight: normal;
+}
+.new_f-ext-bl .new_f-ext-bl-title {
+	margin-bottom: 19px;
+}
+.new_f-ext-bl-cat .new_f-ext-bl-body {
+	margin-left: -2px;
+}
+.new_f-ext-bl-food .new_f-ext-bl-body {
+	margin-left: -4px;
+}
+.new_f-ext-bl-price .new_f-ext-bl-body,
+.new_f-ext-bl-cat .new_f-ext-bl-body,
+.new_f-ext-bl-rat .new_f-ext-bl-body {
+	height: 47px;
+}
+.new_f-ext-bl-rat .new_f-ext-bl-body,
+.new_f-ext-bl-price .new_f-ext-bl-body {
+	padding-top: 11px;
+	width: 240px;
+}
+.new_f-ext-bl label {
+	position: relative;
+	color: #666;
+}
+/* черточка между чекбоксом и значением */
+.new_f-ext-bl-price .slider-container::before,
+.new_f-ext-bl-price .slider-container::after,
+.new_f-ext-scale-item::before,
+.new_f-ext-bl-cat label::before,
+.new_f-ext-bl-food label::before {
+	content: '';
+	display: block;
+	width: 1px;
+	height: 8px;
+	background: #C2C5CA;
+	position: absolute;
+	top: -7px;
+	left: 50%;
+	margin-left: -1px;
+}
+.new_f-ext-bl-price .slider-container::before,
+.new_f-ext-bl-price .slider-container::after {
+	top: 9px;
+}
+.new_f-ext-bl-price .slider-container::before {
+	left: 1px;
+}
+.new_f-ext-bl-price .slider-container::after {
+	left: auto;
+	right: 1px;
+}
+/* другое */
+.new_f-ext-bl-cat label,
+.new_f-ext-bl-food label {
+	display: inline;
+}
+.new_f-ext-bl-cat label span,
+.new_f-ext-bl-food label span {
+	display: inline-block;
+	text-align: center;
+	padding: 27px 0 0 !important;
+}
+.new_f-ext-bl-cat label span {
+	width: 20px;
+}
+.new_f-ext-bl-food label span {
+	width: 24px;
+	white-space: nowrap;
+}
+.new_f-ext-bl-cat label {
+	margin-right: 30px;
+}
+.new_f-ext-bl-food label {
+	margin-right: 15.2px;
+}
+.new_f-ext-bl-transp label {
+	display: block;
+	margin-bottom: 15px;
+}
+.new_f-ext-bl label:last-child {
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+.new_os .new_f-ext-bl-cat input[type="checkbox"] + *::before {
+	left: 2px;
+}
+.new_os .new_f-ext-bl-cat input[type="checkbox"]:checked + *::after {
+	left: 4px;
+}
+.new_os .new_f-ext-bl-food input[type="checkbox"] + *::before {
+	left: 4px;
+}
+.new_os .new_f-ext-bl-food input[type="checkbox"]:checked + *::after {
+	left: 6px;
+}
+.new_f-ext-bl-price .slider-container {
+	position: relative;
+}
+.new_f-ext-bl-price .slider-container input {
+	position: absolute;
+	background: none;
+	border: none;
+	top: 14px;
+	width: 55px;
+	color: #666;
+}
+.new_f-ext-bl-price .slider-container input:nth-child(1) {
+	left: -5px;
+}
+.new_f-ext-bl-price .slider-container input:nth-child(2) {
+	right: -7px;
+	text-align: right;
+}
+/* стили фильтров рекомендуемых отелей */
+.new_f-ext-col-recommend label {
+	display: block;
+	padding: 0 20px 8px 0;
+	cursor: pointer;
+}
+.new_f-ext-col-recommend input {
+	display: none;
+}
+.new_f-ext-col-recommend input + span {
+	padding-left: 24px;
+	display: inline-block;
+}
+.new_f-ext-col-recommend input[type="checkbox"] + ::before,
+.new_f-ext-col-recommend input[type="checkbox"] + ::after {
+	content: '';
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+}
+.new_f-ext-col-recommend input[type="checkbox"] + ::before {
+	width: 15px;
+	height: 15px;
+	border: 1px solid #D5D5D5;
+	background-color: #fff;
+	left: 0;
+	top: 3px;
+}
+.new_f-ext-col-recommend input[type="checkbox"]:checked + ::after {
+	width: 5px;
+	height: 5px;
+	background: #bbb;
+	left: 5px;
+	top: 8px;
+}
+.new_f-ext-col-recommend input[type="checkbox"]:checked + ::after {
+	background: #fff !important;
+	filter: none !important;
+}
+.new_f-ext-col-recommend input[type="checkbox"]:checked + ::before {
+	border-color: #4a89cb !important;
+	background: #4C9CE0;
+}
+/* стили для услуг */
+.new_f-services-label-wrap {
+	-webkit-padding-start: 0;
+	padding: 0;
+	margin: 0;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 0;
+	-moz-column-gap: 0;
+	column-gap: 0;
+}
+.new_f-services-label-wrap .new_f-services-label:not(:only-child) {
+	float: none;
+	width: auto;
+	position: relative;
+	margin: 0;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid-column;
+	display: table;
+	padding: 0 0 20px;
+}
+.new_f-services-label-wrap .new_f-services-label:only-child {
+	-webkit-padding-start: 0;
+	padding: 0;
+	margin: 0;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 0;
+	-moz-column-gap: 0;
+	column-gap: 0;
+	display: table;
+}
+@-moz-document url-prefix() {
+	.new_f-services-label-wrap .new_f-services-label:only-child {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+		display: block;
+		-webkit-column-break-inside: avoid-column;
+		page-break-inside: avoid-column;
+		break-inside: avoid-column;
+	}
+}
+.new_f-label-name {
+	color: #4C9CE0;
+	margin-bottom: 8px;
+}
+.new_f-services-label-wrap .new_f-services-label span,
+.new_f-services-label-wrap .new_f-services-label label {
+	display: block;
+}
+.new_f-services-label-wrap .new_f-services-label label {
+	padding: 0 20px 8px 0;
+}
+.new_f-ext-col-serv .new_f-ext-bl {
+	margin-bottom: 5px;
+}
+/* стили для слайдер рейтинга и цены */
+.new_f-ext-container .ui-slider {
+	position: relative;
+}
+.new_f-ext-container .ui-slider .ui-slider-handle {
+	cursor: default;
+	background: #F6F7F9;
+	border: 1px solid #4C9CE0;
+	border-radius: 50%;
+	height: 15px;
+	position: absolute;
+	width: 15px;
+	margin-left: -8px;
+	top: -3px;
+	z-index: 1;
+	outline: none;
+}
+.new_f-ext-container .ui-slider-range,
+.new_f-ext-container .new_f-ext-bl-price .ui-widget-content,
+.new_f-ext-container .slider-container .ui-widget-content {
+	border: medium none;
+	height: 8px !important;
+}
+.new_f-ext-container .ui-slider-range,
+.new_f-ext-container .slider-container .ui-widget-content {
+	border-radius: 4px;
+}
+.new_f-ext-container .new_f-ext-bl-rat .ui-slider-range,
+.new_f-ext-container .new_f-ext-bl-price .ui-widget-content {
+	background: #CDD4E0 !important;
+	border-radius: 3px;
+	box-shadow: inset 0 0 2px rgba(0,0,0,.05);
+}
+.new_f-ext-container .ui-slider-range {
+	position: absolute;
+}
+.new_f-ext-scale {
+	margin-top: 4px !important;
+	margin: 0 -8%;
+}
+.new_f-ext-scale-item {
+	float: left;
+	padding-top: 4px;
+	text-align: center;
+	width: 14.2857%;
+	position: relative;
+}
+.new_f-ext-scale-item::before {
+	top: -3px;
+}
+/* стили для кнопок фильтров */
+.new_f-ext-container .new_f-dropdown-btn-apply,
+.new_f-ext-clear-btn {
+	float: right;
+}
+.new_f-ext-clear-btn {
+	bottom: -31px;
+	color: #4c9ce0;
+	cursor: pointer;
+	position: absolute;
+	right: 205px;
+	text-decoration: underline;
+	z-index: 5;
+}
+.new_f-ext-container .new_f-dropdown-body-bottom {
+	display: block;
+	overflow: hidden;
+}
+.new_f-ext-container .new_f-dropdown-body-bottom .new_f-dropdown-btn-cancel {
+	display: none;
+}
+
+/*===== стили планшетной формы =====*/
+.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-container .new_f-dropdown-body-bottom,
+.new_m-mobile-form:not(.new_mobile-form) .new_f-wrapper > .new_f-title,
+.new_m-mobile-form:not(.new_mobile-form) .new_f-form > .clearfix,
+.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-btn-container,
+.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-body {
+	width: auto;
+}
+.new_m-mobile-form:not(.new_mobile-form) .new_f-wrapper-bg-imgs {
+	background: url("../../images/onsite/compass-icon.png") no-repeat scroll left -35px top 178px, rgba(0, 0, 0, 0) url("../../images/onsite/plane-icon.png") no-repeat scroll right 15px top 14px;
+}
+.new_m-mobile-form:not(.new_mobile-form) .new_f-form {
+	padding: 0 9px;
+}
+.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-container,
+.new_m-mobile-form:not(.new_mobile-form) .new_f-title {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.new_m-mobile-form:not(.new_mobile-form) .new_f-form-submit,
+.new_m-mobile-form:not(.new_mobile-form) .new_f-form-field {
+	width: calc(50% - 18px) !important;
+	margin: 0 9px 14px !important;
+	border-radius: 3px !important;
+}
+.new_m-mobile-form:not(.new_mobile-form) .new_f-form-field {
+	border: 1px solid #d4d4d4;
+}
+.new_m-mobile-form:not(.new_mobile-form) .new_f-search-dates-popup,
+.new_m-mobile-form:not(.new_mobile-form) .new_f-form-field::before {
+	display: none !important;
+}
+.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-btn-container {
+	padding-left: 9px;
+	padding-right: 9px;
+}
+.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-container {
+	margin: 0 -9px;
+}
+
+.new_res-price-down.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(1),
+.new_tour-one-col.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(1) {
+	width: 38%;
+}
+.new_res-price-down.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(2),
+.new_tour-one-col.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(2) {
+	width: 40%;
+}
+.new_res-price-down.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(3),
+.new_tour-one-col.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(3) {
+	width: 22%;
+}
+.new_tour-rat-under-photo.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(1),
+.new_tour-rat-under-photo.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(2) {
+	width: 50% !important;
+}
+.new_tour-rat-under-photo.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(3),
+.new_res-price-down.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(4),
+.new_tour-one-col.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(4) {
+	width: 100% !important;
+}
+.new_tour-rat-under-photo.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-col:nth-child(2) {
+	padding-left: 9px;
+}
+.new_tour-rat-under-photo.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-bl-rat .new_f-ext-bl-body,
+.new_tour-rat-under-photo.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-bl-price .new_f-ext-bl-body {
+	padding-top: 11px;
+	width: 100%;
+}
+.new_tour-rat-under-photo.new_m-mobile-form:not(.new_mobile-form) .new_f-ext-bl-transp label {
+	display: inline-block;
+	margin-right: 25px;
+}
+.new_res-price-down.new_m-mobile-form:not(.new_mobile-form) .new_f-services-label-wrap,
+.new_tour-one-col.new_m-mobile-form:not(.new_mobile-form) .new_f-services-label-wrap {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+}
+.new_m-mobile-form:not(.new_mobile-form) #new_os-date-check .new_f-dropdown-body {
+	left: 0;
+	padding: 11px;
+	right: 0;
+	min-height: 20px;
+}
+
+/*===== стили для вертикально-ориентированной формы =====*/
+.new_mobile-form .new_f-container {
+	max-width: 400px;
+}
+.new_mobile-form .new_f-ext-container .new_f-dropdown-body-bottom,
+.new_mobile-form .new_f-wrapper > .new_f-title,
+.new_mobile-form .new_f-form > .clearfix,
+.new_mobile-form .new_f-ext-btn-container {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: auto;
+}
+.new_mobile-form .new_f-ext-body {
+	width: auto;
+}
+.new_mobile-form .new_f-ext-body > .clearfix {
+	padding: 0 15px;
+	overflow: hidden;
+}
+.new_mobile-form .new_f-container,
+.new_mobile-form .new_f-wrapper {
+	height: auto;
+}
+.new_mobile-form .new_f-form-field {
+	float: none;
+	width: auto;
+	margin-bottom: 12px;
+	border: 1px solid #d4d4d4;
+	border-radius: 3px;
+}
+.new_mobile-form .new_f-form-field::before {
+	display:  none;
+}
+.new_mobile-form .new_f-search-dates-popup {
+	display: none !important;
+}
+.new_mobile-form #new_os-date-check .new_f-dropdown-body {
+	left: -1px;
+	right: -1px;
+}
+.new_mobile-form #new_os-date-check .new_f-dropdown-body {
+	padding: 17px 15px;
+}
+.new_mobile-form .new_os .new_f-form-submit {
+	border-radius: 3px;
+	width: 100%;
+	float: none;
+	display: block;
+}
+.new_mobile-form .new_f-ext-btn-container {
+	top: -83px;
+	text-align: center;
+}
+.new_mobile-form #new_os-people {
+	margin-bottom: 50px;
+}
+.new_mobile-form .new_f-ext-col {
+	float: none;
+	width: 100%;
+}
+.new_mobile-form .new_f-ext-bl.new_f-ext-bl-cat .new_f-ext-bl-title,
+.new_mobile-form .new_f-ext-bl.new_f-ext-bl-food .new_f-ext-bl-title,
+.new_mobile-form .new_f-ext-bl.new_f-ext-bl-transp .new_f-ext-bl-title,
+.new_mobile-form .new_f-ext-col-serv .new_f-ext-bl .new_f-ext-bl-title {
+	margin-bottom: 10px;
+}
+.new_mobile-form .new_f-services-label-wrap {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+}
+.new_mobile-form .new_f-services-label-wrap .new_f-services-label {
+	padding: 0 0 10px;
+}
+.new_mobile-form .new_f-ext-bl-transp label {
+	display: block;
+	margin-bottom: 8px;
+}
+.new_mobile-form .new_f-ext-clear-btn {
+	bottom: auto;
+	display: inline-block;
+	float: none;
+	left: 50%;
+	margin: 0 0 20px -65px;
+	position: relative;
+	right: auto;
+}
+.new_mobile-form .new_f-ext-bl-rat .new_f-ext-bl-body,
+.new_mobile-form .new_f-ext-bl-price .new_f-ext-bl-body {
+	padding-left: 4px;
+	padding-right: 4px;
+	width: auto;
+}
+.new_m-mobile-form .new_f-search-dates-wrap {
+	padding: 4px 30px 4px 6px;
+}
+.new_m-mobile-form .new_f-search-dates-wrap svg {
+	right: 7px;
+	left: auto;
+}
+.new_m-mobile-form .new_f-datepicker-wrap {
+	width: calc(50% - 12px);
+}
+.new_mobile-form .new_f-ext-bl-cat .new_f-ext-bl-body {
+	margin-left: -10%;
+	margin-right: -10%;
+}
+.new_mobile-form .new_f-ext-bl-food .new_f-ext-bl-body {
+	margin-left: -7.6%;
+	margin-right: -7.6%;
+}
+.new_mobile-form .new_f-ext-bl-food {
+	margin-right: 0;
+}
+.new_mobile-form .new_f-ext-bl-food label,
+.new_mobile-form .new_f-ext-bl-cat label {
+	margin-right: 0;
+	float: left;
+	text-align: center;
+}
+.new_mobile-form .new_f-ext-bl-cat label {
+	width: 20%;
+}
+.new_mobile-form .new_f-ext-bl-food label {
+	width: 16.6666%;
+}
+.new_mobile-form .new_f-ext-bl-cat label::before,
+.new_mobile-form .new_f-ext-bl-food label::before {
+	background: #c2c5ca none repeat scroll 0 0;
+	content: "";
+	display: block;
+	height: 8px;
+	left: 50%;
+	margin-left: -1px;
+	position: absolute;
+	top: 20px;
+	width: 1px;
+}
+.new_mobile-form .new_f-datepicker-wrap input,
+.new_mobile-form .new_f-autocomplete-input,
+.new_mobile-form .new_f-form .new_f-dropdown-btn {
+	font-size: 16px;
+}
+.new_mobile-form .new_f-autocomplete-input::-webkit-input-placeholder {
+	font-size: 16px !important;
+}
+.new_mobile-form .new_f-autocomplete-input::-moz-placeholder {
+	font-size: 16px !important;
+}
+.new_mobile-form .new_f-autocomplete-input:-ms-input-placeholder {
+	font-size: 16px !important;
+}
+.new_mobile-form .new_f-autocomplete-input:-moz-placeholder {
+	font-size: 16px !important;
+}
+.new_mobile-form .new_f-form .new_f-dropdown-btn {
+	padding-top: 8px;
+}
+
+/*===== Стили для НЕ мобильного =====*/
+@media all and (min-width: 479px) {
+	.new_f-dropdown-btn {
+		cursor: pointer;
+	}
+
+	/*===== стили для "откуда" формы поиска =====*/
+	#new_os-to .new_f-dropdown-body.popup {
+		width: 255px !important;
+		box-shadow: none;
+		padding: 0;
+		top: auto;
+		margin: 0;
+	}
+	.new_mobile-form #ctyList,
+	.new_mobile-form #new_os-to .new_f-dropdown-body {
+		width: 380px !important;
+	}
+	.new_mobile-form .new_f-dropdown-container.people .new_f-dropdown-body,
+	.new_mobile-form .new_f-dropdown-body {
+		left: -1px;
+		right: -1px;
+	}
+	#new_os-to .new_f-dropdown-body:not(.popup) .ui-autocomplete {
+		max-height: 300px;
+		overflow-x: hidden;
+	}
+	.new_mobile-form #new_os-to .new_f-dropdown-body.popup #cntList {
+		direction: ltr;
+	}
+	#new_os-to .new_f-dropdown-body.popup #cntList {
+		max-height: 152px;
+		unicode-bidi: bidi-override;
+		direction: rtl;
+		overflow: scroll;
+		overflow-x: hidden !important;
+		padding-left: 0;
+	}
+	body:not(.new_mobile-form) #new_os-to .new_f-dropdown-body.popup #cntList {
+		max-height: 300px;
+	}
+	body:not(.new_mobile-form) #new_os-to .new_f-dropdown-body.popup #ctyList {
+		height: 301px;
+	}
+	body:not(.new_mobile-form) #new_os-to .new_f-dropdown-body.popup #ctyList .ctyLists-wrapper {
+		max-height: 255px;
+		height: 100%;
+	}
+	#new_os-to .ui-menu .ui-menu-item .ui-corner-all:hover .price-from,
+	#new_os-to .ui-menu .ui-menu-item .ui-corner-all:hover .label,
+	#new_os-to .ui-menu .ui-menu-item .ui-corner-all:hover .label i,
+	#new_os-to .ui-menu .ui-menu-item .ui-state-focus .price-from,
+	#new_os-to .ui-menu .ui-menu-item .ui-state-focus .gfont,
+	#new_os-to .ui-menu .ui-menu-item .ui-state-focus .label {
+		background-color: transparent;
+	}
+	.new_mobile-form #ctyList {
+		border: 1px solid #cbcbcb;
+		border-top: none;
+		left: -1px !important;
+		top: 153px;
+		width: 255px;
+	}
+	#ctyList .new_f-dropdown-body-bottom {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 44px;
+		background-color: #f8f8f8;
+	}
+	#ctyList .new_f-dropdown-btn-apply {
+		line-height: 42px;
+		position: absolute;
+		font-weight: 600;
+		text-align: center;
+		font-size: 16px;
+		width: 60px;
+		height: 30px;
+		background-color: #4C9CE0;
+		right: 7px;
+		top: 7px;
+		cursor: pointer;
+	}
+	#ctyList .new_f-dropdown-btn-apply span {
+		line-height: 26px;
+		color: #fff;
+	}
+	#ctyList .new_f-dropdown-btn-apply span:first-child,
+	#ctyList .new_f-dropdown-body-bottom {
+		display: block;
+	}
+	#ctyList .new_f-dropdown-btn-cancel {
+		display: none;
+	}
+	#new_os-to .new_f-dropdown-body.popup #cntList::-webkit-scrollbar,
+	#ctyList .ctyLists-wrapper::-webkit-scrollbar {
+		width: 6px;
+	}
+	#new_os-to .new_f-dropdown-body.popup #cntList::-webkit-scrollbar-track,
+	#ctyList .ctyLists-wrapper::-webkit-scrollbar-track,
+	#new_os-to .new_f-dropdown-body.popup #cntList::-webkit-scrollbar-thumb,
+	#ctyList .ctyLists-wrapper::-webkit-scrollbar-thumb {
+		border-radius: 6px;
+	}
+	#new_os-to .new_f-dropdown-body.popup #cntList::-webkit-scrollbar-thumb,
+	#ctyList .ctyLists-wrapper::-webkit-scrollbar-thumb {
+		background-color: #B5B5B5;
+	}
+	#new_os-to .new_f-dropdown-body.popup #cntList::-webkit-scrollbar-track {
+		background-color: #F2F2F2;
+	}
+	#ctyList .ctyLists-wrapper::-webkit-scrollbar-track {
+		background-color: #FFFFFF;
+	}
+
+	/*===== стили для "выбора дат" формы поиска =====*/
+	.new_mobile-form .new_f-dropdown-body-date {
+		width: auto;
+	}
+	.new_mobile-form .new_f-dates-container#new_f-dates-container #ui-datepicker-div::after {
+		left: 50% !important;
+		margin-left: -3px !important;
+	}
+	.new_mobile-form .new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-group {
+		width: calc(50% - 3px) !important;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td.new_ceil-tours-exists:hover a {
+		border-color: #b4cb5b !important;
+	}
+	.new_ceil-no-tours {
+		overflow: visible !important;
+	}
+	.new_ceil-no-tours a {
+		position: relative;
+	}
+	.new_ceil-no-tours:hover a::before,
+	.new_ceil-no-tours:hover a::after {
+		position: absolute;
+		z-index: 1;
+	}
+	.new_ceil-no-tours:hover a::before {
+		content: 'Нет туров на эту дату';
+		top: -25px;
+		left: -54px;
+		display: block;
+		background-color: #333;
+		color: #fff;
+		font-size: 12px;
+		white-space: nowrap;
+		padding: 0 5px;
+		border-radius: 2px;
+		height: 17px;
+	}
+	.new_ceil-no-tours:hover a::after {
+		content: '';
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 5px 5px 0 5px;
+		border-color: #333333 transparent transparent transparent;
+		top: -8px;
+		left: 50%;
+		margin-left: -5px;
+	}
+
+	/*===== стили для "длительности" формы поиска =====*/
+	.new_f-dropdown-container.from .new_f-dropdown-list,
+	.new_f-dropdown-container.duration .new_f-dropdown-list {
+		max-height: 300px;
+		overflow-x: hidden;
+	}
+
+	/*===== стили для "туристов" формы поиска =====*/
+	.new_f-people-item:hover {
+		background-color: #F3F3F3;
+		color: #666;
+	}
+	.new_f-children-age-item:hover {
+		background: #4C9CE0;
+		color: #ffffff;
+	}
+
+	/*===== расширенный поиск =====*/
+	.new_mobile-form .new_f-ext-container {
+		top: 0;
+		margin-top: -90px;
+		padding: 20px 0;
+	}
+	.new_mobile-form .new_f-ext-container {
+		background-position: left -35px top -33px;
+	}
+	.new_mobile-form .new_f-ext-container .new_f-dropdown-btn-apply {
+		float: none;
+		width: auto;
+	}
+	.new_f-ext-container .new_f-dropdown-btn-apply {
+		height: 40px;
+		border-radius: 3px;
+		text-align: center;
+		width: 180px;
+		line-height: 40px;
+	}
+	.new_f-ext-col-recommend label:hover input[type="checkbox"] + ::after {
+		width: 5px;
+		height: 5px;
+		background: #bbb;
+		left: 5px;
+		top: 8px;
+	}
+	.new_f-ext-col-recommend label:hover input[type="checkbox"] + ::before {
+		border-color: #bbb;
+	}
+
+	/*=== разное ===*/
+	body:not(.iOS) .new_f-container #new_os-to .ui-menu-item a:hover *,
+	body:not(.iOS) .new_f-container #new_os-to .ui-menu .ui-menu-item .ui-corner-all:hover,
+	body:not(.iOS) .new_f-container #new_os-to .ui-menu .ui-menu-item .ui-state-focus,
+	body:not(.iOS) .new_f-container #new_os-to .ui-menu .ui-menu-item .ui-corner-all:hover *,
+	body:not(.iOS) .new_f-container #new_os-to .ui-menu .ui-menu-item .ui-state-focus * {
+		background: #F3F3F3 !important;
+	}
+	/*=== Highlighting the active menu item ===*/
+	body:not(.iOS) .new_f-container #new_os-to .ui-menu .ui-menu-item.active .ui-corner-all,
+	body:not(.iOS) .new_f-container #new_os-to .ui-menu .ui-menu-item.active .ui-corner-all * {
+		background: #e2e8ef !important;
+	}
+	.new_f-dropdown-item:hover {
+		background-color: #F3F3F3;
+	}
+	.new_os label:hover input[type="checkbox"] + *::before {
+		border-color: #bbb;
+	}
+}
+
+/*===== Стили для мобильного =====*/
+@media all and (max-width: 478px) {
+	.new_mobile-form .new_f-container {
+		max-width: 1400px;
+	}
+	.new_check-mobile {
+		display: block;
+	}
+	/*===== стили для открывающихся окон =====*/
+	/*.new_layer-open-ext,*/
+	.new_layer-open-ext body,
+	/*.new_layer-open-map,*/
+	.new_layer-open-map body,
+	/*.new_layer-open,*/
+	.new_layer-open body {
+		overflow: hidden !important;
+		position: relative;
+		height: 100%;
+	}
+	.new_t-tab-content-top,
+	.new_f-dropdown-body-top,
+	.new_f-dropdown-body-bottom {
+		display: block !important;
+	}
+	.new_f-ext-container::before {
+		display: none;
+	}
+	.new_f-ext-container .new_f-dropdown-body-bottom .new_f-dropdown-btn-cancel {
+		display: block;
+	}
+	.new_f-dropdown-body-bottom {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 44px;
+	}
+	.new_f-dropdown-bottom-btn {
+		position: absolute;
+		width: 50%;
+		top: 0;
+		bottom: 0;
+		line-height: 42px;
+		font-size: 16px;
+		text-align: center;
+		border: 1px solid transparent;
+		border-left: none;
+		border-right: none;
+	}
+	.new_f-dropdown-btn-cancel {
+		left: 0;
+		background-color: #DFE8F0;
+		border-top-color: #C8D4DF;
+	}
+	.new_f-dropdown-btn-apply {
+		right: 0;
+		background-color: #F7941D;
+		color: #fff;
+		font-weight: 600;
+	}
+	.new_results-map-overlay,
+	.new_f-ext-container,
+	.new_modal-open .new_tour-one-col-sm .new_t-modal-body,
+	.new_t-tab-content.map,
+	.new_t-tab-content.reviews,
+	.new_f-dropdown-container:not(#new_os-date-check) .new_f-dropdown-body,
+	.new_layer-open .new_t-change-people .new_f-dropdown-body {
+		position: fixed !important;
+		left: 0 !important;
+		right: 0 !important;
+		top: 0 !important;
+		bottom: 0 !important;
+		width: auto !important;
+		border: none !important;
+		border-radius: 0 !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		z-index: 999 !important;
+		background: #fff;
+		transform: translate(0,0);
+		box-shadow: none;
+	}
+	.new_f-dropdown-item {
+		white-space: nowrap;
+		cursor: pointer;
+		padding: 7px 14px;
+		margin: 0;
+		font-size: 16px;
+	}
+	.new_layer-open .new_t-change-people .new_f-dropdown-body {
+		text-align: left;
+	}
+	.new_layer-open .new_t-change-people  .new_f-dropdown-list,
+	.new_f-dropdown-container.people .new_f-dropdown-list {
+		padding: 15px;
+	}
+	.new_results-map-body,
+	.new_mobile-form .new_f-ext-body,
+	.new_f-dates-container#new_f-dates-container .dp-container,
+	.new_t-tab-content-body,
+	.new_t-modal-body-middle,
+	.new_t-modal-body-item,
+	.new_f-dropdown-list {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.new_mobile-form .new_f-ext-body,
+	.new_t-tab-content-body,
+	.new_t-modal-body-middle,
+	.new_t-modal-body-item,
+	.new_f-dropdown-list {
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	#new_hotels-map,
+	.new_mobile-form .new_f-ext-body,
+	.new_f-dates-container#new_f-dates-container .dp-container,
+	.new_t-tab-content-body,
+	.new_t-modal-body-middle,
+	.new_f-dropdown-list {
+		top: 44px;
+	}
+	.new_mobile-form .new_f-ext-body,
+	#new_os-people .new_f-dropdown-list {
+		bottom: 44px;
+	}
+	#new_os-from .new_f-dropdown-list,
+	#new_os-duration .new_f-dropdown-list {
+		padding: 10px 0 0;
+	}
+	#new_os-from .new_f-dropdown-list .new_f-dropdown-item:last-child,
+	#new_os-duration .new_f-dropdown-list .new_f-dropdown-item:last-child {
+		margin-bottom: 10px;
+	}
+	.new_f-ext-container .new_f-dropdown-body-bottom {
+		position: absolute;
+		width: auto;
+	}
+	#new_hotel-map,
+	#new_hotels-map {
+		height: 100% !important;
+	}
+
+	/*===== стили для "куда" формы поиска =====*/
+	.new_f-to-mobile-shield {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+		background-color: rgba(0,0,0,0);
+		cursor: pointer;
+	}
+	#ctyList .new_f-dropdown-btn-apply span:last-child {
+		display: block;
+		line-height: 42px;
+	}
+	.new_layer-open-to #new_os-to .new_f-dropdown-btn {
+		border: 1px solid #D3D3D3;
+		border-radius: 3px;
+		height: 40px;
+		left: 15px;
+		position: fixed;
+		right: 15px;
+		top: 54px;
+		z-index: 1000;
+	}
+	.new_layer-open-to .listsWrap {
+		position: absolute;
+		top: 104px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 200%;
+	}
+	.new_os #cntList,
+	.new_os #ctyList {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 50%;
+		display: block !important;
+		height: auto !important;
+		border: none !important;
+	}
+	.new_os #cntList {
+		left: 0;
+		right: auto;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	.new_os #ctyList {
+		left: 50% !important;
+		right: 0;
+	}
+	.new_os #ctyList .ctyLists-wrapper {
+		height: auto;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+		padding: 10px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 44px;
+	}
+	#new_os-to .ui-menu .ui-menu-item .label,
+	#new_os-to .ui-menu .ui-menu-item .noplace,
+	#new_os-to #cntList li a,
+	#ctyList li,
+	#ctyList li label {
+		height: 33px !important;
+	}
+	#new_os-to .ui-menu .ui-menu-item .label,
+	#new_os-to .ui-menu .ui-menu-item .label b,
+	#new_os-to .ui-menu .ui-menu-item .noplace {
+		line-height: 33px !important;
+	}
+	#new_os-to .type-item,
+	#new_os-to .ui-menu .ui-menu-item .label,
+	#new_os-to .ui-menu .ui-menu-item .noplace {
+		padding-left: 14px;
+	}
+	#new_os-to .ui-menu .ui-menu-item .label {
+		font-weight: normal;
+		max-width: calc(100% - 120px);
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	#new_os-to .ui-autocomplete .ui-menu-item .price-from {
+		padding-right: 14px;
+		padding-top: 8px;
+	}
+	#new_os-to li a {
+		background-position: left 13px;
+	}
+	#ctyList .itemPrice {
+		padding-top: 2px;
+	}
+	.new_os #ctyList input[type="checkbox"] + *::before {
+		top: 6px;
+	}
+	.new_os #ctyList input[type="checkbox"]:checked + *::after {
+		top: 8px;
+	}
+	#new_os-to .ui-autocomplete,
+	#new_os-to .popup .ui-autocomplete {
+		padding-top: 0 !important;
+	}
+	.new_layer-open-to .new_f-dropdown-btn .cnt {
+		width: 30px;
+	}
+	.new_layer-open-to .new_f-dropdown-btn .cnt::after {
+		right: 11px;
+	}
+	.new_layer-open-to .new_f-autocomplete-input,
+	.new_layer-open-to .new_input-mask {
+		padding-right: 38px !important;
+	}
+	.new_input-mask {
+		padding-top: 8px !important;
+	}
+
+	/*===== стили для "выбора дат" формы поиска =====*/
+	.new_f-dropdown-body-date .new_f-dropdown-body-top .new_f-dropdown-body-close,
+	.new_f-dates-container#new_f-dates-container .mobile-calendar-days {
+		display: block !important;
+	}
+	.new_f-dropdown-body-date .new_f-dropdown-body-top {
+		background: #4C9CE0;
+		color: #fff;
+		font-weight: 700;
+		text-align: left;
+	}
+	.new_f-dates-container#new_f-dates-container .dp-container {
+		padding: 0;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div th,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-prev,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-next,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div::after {
+		display: none !important;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div {
+		padding-top: 35px !important;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-group {
+		float: none;
+		padding: 0 !important;
+		width: 100% !important;
+		margin: 0 0 25px !important;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td * {
+		padding: 16px 0 17px !important;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-title {
+		padding: 10px 0;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td *,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-title {
+		font-size: 14px;
+	}
+	.ui-datepicker * {
+		cursor: pointer !important;
+	}
+	.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::before,
+	.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::before,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-highlight-right::before,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active::before {
+		top: -8px;
+		border-width: 30px 30px 0 0;
+	}
+	.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::after,
+	.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::after,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-highlight-right::after,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active::after {
+		bottom: -9px;
+		border-width: 30px 0 0 30px;
+	}
+	.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active::before,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-highlight-left::before,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::before {
+		top: -8px;
+		border-width: 0 30px 30px 0;
+	}
+	.new_f-dates-container#new_f-dates-container .new_second_calendar_open #ui-datepicker-div td.ceil.ui-state-active::after,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-highlight-left::after,
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div td.ceil.ui-state-active.ui-datepicker-current-day::after {
+		bottom: -9px;
+		border-width: 0 0 30px 30px;
+	}
+	.new_f-dates-container#new_f-dates-container .mobile-calendar-days {
+		position: absolute;
+		top: 44px;
+		left: 0;
+		right: 0;
+		z-index: 4;
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+	.new_f-dates-container#new_f-dates-container .new_first_calendar_open + .mobile-calendar-days .calendar-tip {
+		display: none !important;
+	}
+	.new_f-dates-container#new_f-dates-container .mobile-calendar-days .mobile-calendar-day {
+		float: left;
+		padding: 5px 0;
+		position: relative;
+		text-align: center;
+		top: 0;
+		width: 14.25%;
+		color: #a3a3a3;
+	}
+	.new_f-dates-container#new_f-dates-container .calendar-tip {
+		height: 29px;
+		line-height: 29px;
+		background-color: #F7941D;
+		color: #ffffff;
+		display: none;
+		left: 0;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		z-index: 1;
+	}
+	.new_os-date-check .new_f-dropdown-body {
+		line-height: 120%;
+	}
+	#new_f-dates-container.new_f-dates-container #ui-datepicker-div {
+		overflow-y: scroll !important;
+		position: absolute !important;
+		bottom: 0;
+		right: 0;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	/*===== расширенный поиск =====*/
+	.new_f-form .new_f-ext-btn {
+		font-size: 14px;
+	}
+	.new_mobile-form .new_f-ext-body {
+		padding-top: 15px;
+	}
+	.new_f-children-list-item {
+		padding-top: 2px;
+	}
+	.new_f-ext-btn-text::before {
+		top: 8px;
+	}
+	.new_os .new_f-ext-col-serv input[type="checkbox"] + *::before,
+	.new_os .new_f-ext-bl-transp input[type="checkbox"] + *::before {
+		top: 5px;
+	}
+	.new_os .new_f-ext-col-serv input[type="checkbox"]:checked + *::after,
+	.new_os .new_f-ext-bl-transp input[type="checkbox"]:checked + *::after {
+		top: 7px;
+	}
+	.new_f-ext-bl-price .slider-container input {
+		width: 80px;
+	}
+	.new_mobile-form .new_f-ext-bl-cat .new_f-ext-bl-body {
+		margin-left: -9%;
+		margin-right: -9%;
+	}
+	.new_mobile-form .new_f-ext-bl-food .new_f-ext-bl-body {
+		margin-left: -6.6%;
+		margin-right: -6.6%;
+	}
+	.new_mobile-form .ui-slider {
+		pointer-events: none;
+	}
+    .new_mobile-form .ui-slider .ui-slider-handle {
+        pointer-events: auto;
+        width: 24px;
+        height: 24px;
+        top: -8px;
+        margin-left: -12px;
+    }
+	.new_mobile-form .ui-slider .ui-slider-handle::after {
+		content: '';
+		display: block;
+		position: absolute;
+		left: -10px;
+		right: -10px;
+		top: -10px;
+		bottom: -10px;
+	}
+    .new_mobile-form .new_f-ext-bl-rat .new_f-ext-bl-body,
+    .new_mobile-form .new_f-ext-bl-price .new_f-ext-bl-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+	.new_f-ext-col-recommend input[type="checkbox"] + ::before {
+		top: 5px;
+	}
+	.new_f-ext-col-recommend label:hover input[type="checkbox"] + ::after,
+	.new_f-ext-col-recommend input[type="checkbox"]:checked + ::after {
+		top: 10px;
+	}
+
+	/*===== разное =====*/
+	.new_f-autocomplete-input::-webkit-input-placeholder {
+		font-size: 16px !important;
+	}
+	.new_f-autocomplete-input::-moz-placeholder {
+		font-size: 16px !important;
+	}
+	.new_f-autocomplete-input:-ms-input-placeholder {
+		font-size: 16px !important;
+	}
+	.new_f-autocomplete-input:-moz-placeholder {
+		font-size: 16px !important;
+	}
+	.new_f-form .new_f-dropdown-btn {
+		padding-top: 8px;
+	}
+	.new_f-datepicker-wrap input,
+	.new_f-autocomplete-input,
+	.new_f-form .new_f-dropdown-btn,
+	.new_f-datepicker-wrap button,
+	.new_f-ext-bl-price .slider-container input,
+	.new_os-date-check .new_f-dropdown-body,
+	.new_f-ext-bl-title,
+	.new_mobile-form .new_f-ext-body,
+	#ctyList .itemPrice,
+	#ctyList li,
+	#new_os-to .ui-menu .ui-menu-item .label,
+	#new_os-to .ui-menu .ui-menu-item .noplace,
+	.new_f-people-title,
+	.new_f-people-item,
+	.new_f-children-accordion-btn,
+	.new_f-children-age-item,
+	.new_f-children-list-item {
+		font-size: 16px !important;
+	}
+	#new_os-to .ui-menu .ui-menu-item .price-from {
+		font-size: 14px;
+	}
+}
+
+@media all and (max-width: 380px) {
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td * {
+		padding: 13px 0 14px !important;
+	}
+}
+
+@media all and (max-width: 321px) {
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div {
+		padding-top: 30px;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-group {
+		margin: 0 0 15px !important;
+	}
+	.new_f-dates-container#new_f-dates-container #ui-datepicker-div .ui-datepicker-calendar td * {
+		padding: 10px 0 12px !important;
+	}
+}
+
+.new_mobile-form .new_f-form::after {
+	display: none;
+}

@@ -1,0 +1,2130 @@
+/*===== стили отеля =====*/
+/* контейнер */
+.new_t-container {
+	color: #666;
+}
+
+/*===== стили меню =====*/
+/* оболочка меню */
+.new_t-menu-wrap {
+	overflow: auto;
+	position: relative;
+}
+/* полоса снизу меню */
+.new_t-menu-wrap::after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: #4C9CE0;
+}
+/* ссылка "вернуться к рез-там поиска" */
+.new_t-menu-back {
+	margin-bottom: 23px;
+	position: relative;
+}
+.new_t-menu-back .new_r-currency-switch {
+	top: -5px;
+}
+.new_t-menu-back-link {
+	font-size: 13px;
+	text-decoration: none;
+	color: #4e90c7;
+}
+.new_t-menu-back-link:hover {
+	text-decoration: underline;
+}
+@media screen and (max-width: 478px) {
+	.new_t-menu-back-link {
+		width: 210px;
+		display: inline-block;
+		position: relative;
+		padding-left: 15px;
+		line-height: 120%;
+	}
+	.new_t-menu-back-link span {
+		position: absolute;
+		left: 0;
+	}
+	.new_t-menu-back .new_r-currency-switch {
+		top: 2px;
+	}
+}
+
+/* меню */
+.new_t-menu {
+	font-size: 0;
+	margin: 0;
+	padding: 0 0 15px;
+	white-space: nowrap;
+}
+/* пункт меню */
+.new_t-menu-item {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	list-style-type: none;
+	padding: 8px 30px;
+	cursor: pointer;
+	color: #4C9CE0;
+	position: relative;
+	border-bottom: 1px solid #4C9CE0;
+}
+.new_t-menu-item span {
+	display: none;
+}
+	/* активный пункт меню */
+.new_t-menu-item.selected {
+	background: #4C9CE0;
+	color: #fff;
+	border-radius: 3px 3px 0 0;
+}
+.new_t-menu-item.selected::after {
+	content: '';
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	margin-left: -15px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 13px 15px 0;
+	border-color: #4C9CE0 transparent transparent transparent;
+}
+
+/*===== стили верхней части отеля =====*/
+/* контейнер */
+.new_t-header {
+	margin: 21px 0 22px;
+	display: table;
+	width: 100%;
+}
+/* колонки */
+.new_t-header-col {
+	display: table-cell;
+	vertical-align: top;
+}
+.new_tour-one-col-sm .new_t-header,
+.new_tour-one-col-sm .new_t-header-col {
+	display: block !important;
+	width: auto !important;
+}
+.new_tour-one-col-sm .new_t-header-col {
+	padding: 0 !important;
+}
+/* первая колонка */
+.new_t-header-col:first-child {
+	width: 255px;
+	padding-right: 25px;
+}
+.new_tour-rat-under-photo:not(.new_tour-one-col-sm) .new_t-header-col:first-child {
+	padding-right: 20px;
+	width: 215px;
+}
+/* картинка первой колонки */
+.new_t-header-desktop-img {
+	height: 135px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 3px;
+}
+/* название отеля */
+.new_t-header-title {
+	font-weight: bold;
+	font-size: 20px;
+}
+/* гео отеля */
+.new_t-header-geo {
+	position: relative;
+	font-size: 15px;
+	padding-left: 0;
+	display: inline-block;
+	color: #a3a3a3;
+	cursor: pointer;
+}
+.new_t-header-geo.new_t-geo-with-map {
+	padding-left: 20px;
+}
+
+
+.new_tour-one-col-sm .new_t-header-geo {
+	margin-top: 15px;
+}
+/* иконка гео отеля */
+.new_t-header-geo svg {
+	position: absolute;
+	left: 0;
+	top: 3px;
+	height: 18px;
+	fill: #4C9CE0;
+	display: none;
+}
+.new_t-header-geo.new_t-geo-with-map svg {
+	display: block;
+}
+/* правая часть */
+.new_t-header-top {
+	position: relative;
+	padding-right: 90px;
+}
+.new_tour-rat-under-photo:not(.new_tour-one-col-sm) .new_t-header-top {
+	padding-right: 0;
+}
+.new_tour-one-col-sm .new_t-header-top {
+	padding-right: 90px;
+}
+/* стили рейтинга */
+.new_t-header-top .new_r-item-rating-container {
+	position: absolute;
+	top: -14px;
+	right: 0;
+	font-size: 70px;
+	margin: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+.new_tour-rat-under-photo:not(.new_tour-one-col-sm) .new_t-header-top .new_r-item-rating-container {
+	left: -205px;
+	right: auto;
+	top: 10px;
+}
+.new_tour-one-col-sm .new_t-header-top .new_r-item-rating-container {
+	top: 0;
+}
+.new_t-rating-tab-container .new_r-item-rating-container .new_r-item-rating-value,
+.new_t-header-top .new_r-item-rating-container .new_r-item-rating-value {
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+}
+.new_t-header-top .new_r-item-rating-container .new_r-item-rating-value {
+	top: 36px;
+}
+.new_t-header-top .new_r-item-rating-container .bar,
+.new_t-header-top .new_r-item-rating-container.new_r-p6 .fill,
+.new_t-header-top .new_r-item-rating-container.new_r-p7 .fill,
+.new_t-header-top .new_r-item-rating-container.new_r-p8 .fill,
+.new_t-header-top .new_r-item-rating-container.new_r-p9 .fill,
+.new_t-header-top .new_r-item-rating-container.new_r-p10 .fill {
+	height: 0.86em;
+	width: 0.86em;
+}
+.new_t-header-top .new_r-item-rating-container::after {
+	height: 0.86em;
+	left: 0.07em;
+	top: 0.07em;
+	width: 0.86em;
+}
+.new_t-header-top .new_r-item-rating-rev {
+	top: 5px;
+	font-size: 12px;
+}
+.new_t-header-top .new_r-item-rating-value:empty + .new_r-item-rating-rev {
+	top: 22px;
+}
+.new_t-header-top .new_r-item-rating-rev span {
+	display: block;
+	position: relative;
+	top: 5px;
+}
+/* краткое описание отеля */
+.new_t-header-desc {
+	font-size: 13px;
+	margin-top: 20px;
+	margin-right: -90px;
+}
+.new_tour-rat-under-photo:not(.new_tour-one-col-sm) .new_t-header-desc {
+	margin-right: 0;
+}
+.new_tour-one-col-sm .new_t-header-desc {
+	margin-right: -90px;
+}
+
+/*===== стили нижней части отеля (контент) =====*/
+/* контейнер */
+.new_t-content {
+	padding: 22px 15px;
+	background-color: #F7F7F7;
+	border-radius: 3px;
+}
+
+.new_t-notice-msg {
+	background: #f4eed8;
+	padding: 8px 15px;
+	margin: 0 0 30px;
+	border-radius: 3px;
+}
+
+.new_t-content-table {
+	display: table;
+	width: 100%;
+}
+/* колонки */
+.new_t-content-col {
+	display: table-cell;
+	vertical-align: top;
+}
+
+
+/*===== правая часть (цена, заказать тур) =====*/
+/* контейнер */
+.new_t-order-content {
+	padding-left: 17px;
+	width: 210px;
+}
+.new_tour-one-col-sm .new_t-order-content {
+	width: 100%;
+}
+.new_t-order-table {
+	text-align: center;
+	font-size: 13px;
+	color: #a3a3a3;
+	position: -webkit-sticky;
+	position: sticky;
+	top: -1px;
+	margin-top: -20px;
+	padding-top: 20px;
+}
+.new_tour-one-col-sm .new_t-order-table {
+	display: table;
+	width: 100%;
+	margin-bottom: 23px;
+	position: relative;
+	padding-top: 0;
+}
+.new_tour-one-col-sm .new_t-order-col {
+	display: table-cell;
+	vertical-align: top;
+	padding-top: 20px;
+}
+.new_tour-one-col-sm .new_t-order-col:first-child {
+	text-align: left;
+	padding-right: 20px;
+	padding-top: 23px;
+}
+.new_tour-one-col-sm .new_t-order-content-mobile .new_t-order-col:first-child {
+	padding-top: 20px;
+}
+/* цена */
+.new_t-order-price {
+	color: #4C9CE0;
+	font-weight: bold;
+	font-size: 20px;
+	margin: -2px 0 7px;
+	min-height: 30px;
+}
+.new_t-order-price span {
+	font-weight: bold;
+	font-size: 22px;
+}
+.new_t-order-price .new_price .secondary,
+.new_t-order-price .new_price .secondary .currency {
+	font-size: 14px;
+}
+.new_t-order-price .new_price .primary,
+.new_t-order-price .new_price .secondary {
+	display: block;
+}
+/*доп. информация*/
+.new_t-order-price-descr {
+	font-size: 11px;
+	padding-bottom: 7px;
+}
+.new_tour-one-col-sm .new_t-order-price-descr {
+	width: calc(200% + 40px);
+	padding-top: 30px;
+	padding-bottom: 0;
+}
+.new_request-flight,
+.new_extra-fee {
+	margin-bottom: 10px;
+}
+.new_request-flight {
+	color: #ff3600;
+}
+
+/* логотип оператора */
+.new_t-order-operator {
+	height: 50px;
+	width: 160px;
+	margin: 0 auto 5px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* кнопка "заказать тур" */
+.new_t-order-btn {
+	color: #fff;
+	background-color: #F7941D;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 14px 0;
+	margin-bottom: 6px;
+	height: 51px;
+}
+/* код тура */
+.new_t-order-table .new_t-order-code {
+	margin-left: 2px;
+	font-size: 14px;
+}
+/* кнопка "вернуться в поиск" (видна на мобильном) */
+.new_t-order-return {
+	border-radius: 3px;
+	height: 51px;
+	border: 1px solid #4C9CE0;
+	color: #4C9CE0;
+	padding-left: 30px;
+	padding-right: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 14px;
+	line-height: 120%;
+	position: relative;
+}
+/* иконка кнопки "вернуться в поиск" */
+.new_t-order-return svg {
+	fill: #4c9ce0;
+	height: 25px;
+	left: 3px;
+	position: absolute;
+	top: 12px;
+	transform: rotate(180deg);
+}
+/*===== левая часть (контент меняющийся в зависимости от выбранной вкладки) =====*/
+body .new_t-tab-content {
+	display: none;
+	padding: 0;
+}
+.new_t-tab-content.map .new_t-tab-content-body {
+	height: calc(100% - 44px);
+}
+.new_t-tab-content.map .new_t-tab-content-body .t-map-wrapper {
+	height: 100%;
+}
+.new_t-tab-content-top,
+.new_t-tab-content-bottom {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.new_t-tab-content-top {
+	top: 0;
+}
+.new_t-tab-content-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.new_t-tab-content-bottom {
+	bottom: 0;
+}
+
+/*=== контент вкладки "тур" ===*/
+.new_t-tour-tab-table {
+	display: table;
+	width: 100%;
+	margin-bottom: 7px;
+}
+.new_t-tour-tab-table:last-child {
+	margin-bottom: 0;
+}
+.new_t-tour-tab-col {
+	display: table-cell;
+	vertical-align: top;
+	position: relative;
+}
+/*= левая часть вкладки "тур" (серый фон) =*/
+.new_t-tour-tab-col-1 {
+	width: 215px;
+	background: #EAEAEA;
+	border-radius: 4px 0 0 4px;
+	position: relative;
+	border-left: 1px solid #E0E0E0;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	padding: 15px 0 15px 42px;
+}
+/* название */
+.new_t-tour-tab-col-1-title {
+	font-weight: bold;
+	font-size: 14px;
+}
+/* иконки */
+.new_t-tour-tab-col-1 svg {
+	fill: #B5B5B5;
+	position: absolute;
+}
+/* иконка туристов */
+.tourist-table .new_t-tour-tab-col-1 svg {
+	width: 21px;
+	left: 11px;
+	top: 14px;
+}
+/* иконка дат */
+.date-table .new_t-tour-tab-col-1 svg {
+	width: 18px;
+	left: 12px;
+	top: 15px;
+}
+/* иконка питания */
+.food-table .new_t-tour-tab-col-1 svg {
+	width: 21px;
+	left: 11px;
+	top: 15px;
+}
+/* иконка услуг */
+.services-table .new_t-tour-tab-col-1 svg {
+	width: 22px;
+	left: 10px;
+	top: 14px;
+}
+/*= правая часть вкладки "тур" (серый фон) =*/
+.new_t-tour-tab-col-2 {
+	padding: 15px 25px;
+	border-radius: 0 4px 4px 0;
+	border: 1px solid #E0E0E0;
+	border-left: none;
+	background-color: #fff;
+	font-size: 13px;
+}
+.tourist-table .new_t-tour-tab-col-2 {
+	text-transform: uppercase;
+}
+.tourist-table .new_t-tour-tab-col-2 span {
+	font-size: 14px;
+}
+.date-table .new_t-tour-tab-col-2 {
+	vertical-align: middle;
+}
+.food-table .new_t-tour-tab-col-2 div:first-child .new_t-important {
+	text-transform: capitalize;
+}
+.new_t-tour-tab-col-2 .new_t-important {
+	font-size: 14px;
+	color: #4C9CE0;
+}
+/* кнопки "ещё" */
+.new_t-tour-tab-col .new_t-change-btn {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	display: block;
+	width: 52px;
+	border-left: 1px solid #EBEBEB;
+	cursor: pointer;
+	text-align: center;
+	color: #F7941D;
+	overflow: hidden;
+	border-radius: 0 3px 3px 0;
+}
+.new_t-tour-tab-col .new_t-change-btn span {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	display: block;
+	margin-top: -16px;
+}
+/* иконка кнопки "ещё" */
+.new_t-change-btn svg {
+	fill: #F7941D;
+	position: absolute;
+	top: 14px;
+	left: 12px;
+	transform: rotate(270deg);
+	width: 26px;
+	height: 26px;
+}
+/* Изменение кол-ва туристов */
+.new_t-tour-tab-col .new_t-change-people {
+	overflow: initial;
+	text-transform: none;
+}
+.new_t-change-people .new_f-dropdown-body-bottom {
+	display: block;
+}
+/* стили контейнера с информацией о дате и длительности */
+.new_t-date-table {
+	display: table;
+	width: 100%;
+	opacity: 1;
+}
+.new_t-date-table .new_weight-bold {
+	white-space: normal;
+}
+.new_t-date-col {
+	display: table-cell;
+	vertical-align: top;
+}
+.new_t-nostretch {
+	width: 1%;
+	white-space: nowrap;
+}
+.new_t-duration-col {
+	position: relative;
+}
+.new_t-duration-container {
+	white-space: nowrap;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 3px;
+	transform: translate(-50%, 0);
+}
+.new_t-duration-icons {
+	height: 1px;
+	position: relative;
+	background-color: #CBCBCB;
+	margin: 29px 18px 0;
+}
+.new_t-duration-icon {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 2px solid #B6B6B6;
+	background-color: #fff;
+	top: -5px;
+}
+.new_t-duration-icon-left {
+	left: 0;
+}
+.new_t-duration-icon-right {
+	right: 0;
+}
+.new_t-duration-icon svg {
+	position: absolute;
+	fill: #C1C1C1;
+}
+.new_t-duration-icon.new_t-air svg {
+	top: -19px;
+	left: -7px;
+	width: 21px;
+}
+.new_t-duration-icon.new_t-train svg {
+	top: -23px;
+	left: -4px;
+	width: 14px;
+}
+.new_t-duration-icon.new_t-bus svg {
+	top: -22px;
+	left: -4px;
+	width: 14px;
+}
+.new_t-duration-icon.new_t-ship svg {
+	top: -19px;
+	left: -9px;
+	width: 22px;
+}
+.new_t-duration-icon.new_t-no svg {
+	top: -24px;
+	left: -2px;
+	width: 10px;
+}
+.new_t-duration-icon-right.new_t-no svg,
+.new_t-duration-icon-left.new_t-ship svg,
+.new_t-duration-icon-right.new_t-air svg {
+	transform: scale(-1, 1);
+}
+.new_t-duration-text {
+	text-align: center;
+	padding-top: 5px;
+}
+.new_t-duration-text span {
+	color: #a3a3a3;
+}
+/* услуги (трансфер, страховка, виза) */
+.new_t-service-item {
+	font-size: 14px;
+	display: inline-block;
+	position: relative;
+	padding-left: 21px;
+	margin-right: 30px;
+}
+/* иконки услуг */
+.new_t-service-item svg {
+	position: absolute;
+	left: 0;
+	top: 3px;
+	display: block;
+	width: 14px;
+	height: 14px;
+}
+/* цвет иконки "включено" */
+.new_t-service-item-yes svg {
+	fill: #a4c758;
+}
+/* цвет иконки "не включено" */
+.new_t-service-item-no svg {
+	fill: #c45555;
+}
+/*= стили для правой части "Дата отправления и длительность тура", если контент не помещается горизонтально =*/
+.date-table:not(.vertical-table) .new_t-duration-col + .new_t-date-col {
+	text-align: right;
+}
+.new_m-mobile-form .date-table .new_t-duration-col + .new_t-date-col {
+	text-align: left !important;
+}
+.new_m-mobile-form .date-table .new_t-date-table,
+.new_m-mobile-form .date-table .new_t-date-col,
+.date-table.vertical-table .new_t-date-table,
+.date-table.vertical-table .new_t-date-col {
+	display: block;
+	width: auto;
+	white-space: normal;
+}
+.new_m-mobile-form .date-table .new_t-tour-tab-col-2,
+.date-table.vertical-table .new_t-tour-tab-col-2 {
+	padding-left: 51px;
+}
+.new_m-mobile-form .date-table .new_t-duration-container,
+.date-table.vertical-table .new_t-duration-container {
+	white-space: normal;
+	text-align: left;
+	position: relative;
+	left: 0;
+	top: 0;
+	transform: translate(0, 0);
+	padding: 15px 0;
+}
+.new_m-mobile-form .date-table .new_t-duration-icons,
+.date-table.vertical-table .new_t-duration-icons {
+	height: auto;
+	width: 1px;
+	position: absolute;
+	margin: 0;
+	top: -33px;
+	bottom: -35px;
+	left: -25px;
+}
+.new_m-mobile-form .date-table .new_t-no-3rd-row .new_t-duration-icons,
+.date-table.vertical-table .new_t-no-3rd-row .new_t-duration-icons {
+	top: -13px;
+	bottom: -15px;
+}
+.new_m-mobile-form .date-table .new_t-duration-icon-left,
+.new_m-mobile-form .date-table .new_t-duration-icon-right,
+.date-table.vertical-table .new_t-duration-icon-left,
+.date-table.vertical-table .new_t-duration-icon-right {
+	left: -4px;
+	right: auto;
+}
+.new_m-mobile-form .date-table .new_t-duration-icon-left,
+.date-table.vertical-table .new_t-duration-icon-left {
+	top: 0;
+	bottom: auto;
+}
+.new_m-mobile-form .date-table .new_t-duration-icon-right,
+.date-table.vertical-table .new_t-duration-icon-right {
+	top: auto;
+	bottom: 0;
+}
+.new_m-mobile-form .date-table .new_t-duration-icon-left.new_t-air svg,
+.date-table.vertical-table .new_t-duration-icon-left.new_t-air svg {
+	top: -22px;
+}
+.new_m-mobile-form .date-table .new_t-duration-icon-left svg,
+.date-table.vertical-table .new_t-duration-icon-left svg {
+	top: -25px;
+}
+.new_m-mobile-form .date-table .new_t-duration-icon-right.new_t-air svg,
+.date-table.vertical-table .new_t-duration-icon-right.new_t-air svg {
+	top: 15px;
+}
+.new_m-mobile-form .date-table .new_t-duration-icon-right svg,
+.date-table.vertical-table .new_t-duration-icon-right svg {
+	top: 13px;
+}
+.new_m-mobile-form .date-table .new_t-duration-text,
+.date-table.vertical-table .new_t-duration-text {
+	text-align: left;
+	padding-top: 0;
+	position: relative;
+	top: -15px;
+}
+
+/*= стили для вкладки "тур", когда описание перестраивается в одну колонку =*/
+.new_tour-one-col .new_t-tour-tab-col-1 {
+	border-radius: 4px 4px 0 0;
+	border: 1px solid #e0e0e0;
+	border-bottom: none;
+}
+.new_tour-one-col .new_t-tour-tab-col-2 {
+	border-radius: 0 0 4px 4px;
+	border: 1px solid #e0e0e0;
+	border-top: none;
+	padding: 15px 10px;
+}
+.new_tour-one-col .new_t-tour-tab-table {
+	margin-bottom: 9px;
+}
+.new_tour-one-col .new_t-tour-tab-table:last-child {
+	margin-bottom: 0;
+}
+.new_tour-rat-under-photo .date-table .new_t-tour-tab-col-2 {
+	padding-left: 42px;
+}
+.new_tour-rat-under-photo .date-table .new_t-duration-icons {
+	left: -22px;
+}
+
+/*=== контент вкладки "описание" ===*/
+/* колонки */
+.new_serv-cols {
+	list-style: none;
+	-webkit-padding-start: 0;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+	margin-top: 0;
+}
+.new_res-one-col .new_serv-cols,
+.new_res-price-down .new_serv-cols {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+	-webkit-column-gap: 0;
+	-moz-column-gap: 0;
+	column-gap: 0;
+}
+.new_serv-cols .new_br-avoid {
+	float: none;
+	width: auto;
+	position: relative;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+	font-size: 13px;
+}
+/* заголовки */
+.new_serv-cols > div:first-child .new_h6 {
+	margin-top: 0;
+}
+.new_serv-cols .new_h6 {
+	margin: 21px 0 9px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #666;
+}
+/* стили списков */
+.new_serv-cols .new_serv-list {
+	margin: 0;
+	padding: 3px 0 0;
+}
+.new_serv-cols .new_serv-list > li {
+	color: #666;
+	font-size: 13px;
+	line-height: 190%;
+	list-style-type: none;
+	padding-left: 8px;
+	position: relative;
+	margin: 0;
+}
+.new_serv-cols a {
+	color: #4c9ce0;
+}
+/* буллеты элементов списка */
+.new_serv-cols .new_serv-list > li::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display: block;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	background-color: #666;
+}
+.new_serv-cols .new_serv-list > li::after {
+	display: inline-block;
+	margin-left: 3px;
+}
+/* бесплатно */
+.new_serv-cols .new_serv-list > li.new_free::after {
+	background-color: #faea36;
+	border-radius: 2px;
+	color: #333333;
+	content: "FREE";
+	font-size: 9px;
+	padding: 0 3px;
+}
+/* платно */
+.new_serv-cols .new_serv-list > li.new_pay::after {
+	color: #c45555;
+	content: "$";
+	font-size: 15px;
+	font-weight: 600;
+	position: relative;
+	top: 1px;
+}
+
+
+/*=== контент вкладки "фотографии" ===*/
+.new_t-tab-content.photo {
+	font-size: 0;
+}
+.new_t-tab-content.photo img {
+	display: block;
+	width: 100%;
+	margin: 0 0 10px;
+}
+.new_t-tab-content.photo img:last-child {
+	margin-bottom: 0;
+}
+
+/*=== контент вкладки "карта" ===*/
+#new_os-map:empty {
+	display: none !important;
+}
+.new_r-container .new_results-map-body #new_os-map,
+.new_layer-open-map #new_os-map {
+	height: calc(100% - 44px);
+}
+.new_t-map-wrapper {
+	background-color: #D2E3A4;
+	height: 385px;
+	position: relative;
+}
+#new_os-map .gm-style-iw,
+#new_os-map .gm-style-iw > div,
+.new_map-infowindow-wrap {
+	width: 380px !important;
+	min-width: 380px !important;
+	max-width: 380px !important;
+}
+#new_os-map .gm-style-iw,
+#new_os-map .gm-style-iw * {
+	overflow: visible !important;
+}
+#new_os-map .gm-style-iw {
+	left: 10px !important;
+	right: 10px !important;
+}
+#new_os-map .gm-style-iw + div {
+	top: 7px !important;
+	right: 7px !important;
+}
+.new_map-infowindow-wrap {
+	position: relative;
+	min-height: 100px;
+	padding: 0 45px 0 150px;
+}
+.new_map-infowindow-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.new_map-infowindow-image img {
+	margin: 0 !important;
+}
+.new_map-infowindow-title {
+	font-weight: bold;
+}
+.new_map-infowindow-rating {
+	position: absolute;
+	top: -10px;
+	right: -35px;
+}
+#new_os-map .new_r-item-rating-rev {
+	top: 3px;
+}
+#new_os-map .new_r-item-rating-value:empty + .new_r-item-rating-rev {
+	top: 18px;
+}
+#new_os-map .new_r-item-rating-rev span {
+	display: block;
+	top: 4px;
+}
+
+#new_os-map .new_r-item-rating-value {
+	bottom: 7px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.new_map-infowindow-price {
+	color: #888;
+}
+.new_map-infowindow-price .new_order-button {
+	display: inline-block;
+	background: #00a8cc;
+	line-height: 30px;
+	border-bottom: 2px solid #097f98;
+	color: #fff;
+	height: 32px;
+	margin: 12px 0 0;
+	padding: 0 8px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+}
+.new_map-infowindow-price .currency-uah::after {
+	content: ' /';
+}
+
+/*=== контент вкладки "отзывы" ===*/
+.new_t-tab-content.reviews {
+	font-size: 0;
+}
+/* контейнер рейтингов */
+.new_t-rating-tab-container {
+	margin: 50px 0 20px;
+	position: relative;
+	padding-left: 135px;
+}
+.new_res-one-col .new_t-rating-tab-container {
+	padding-left: 0;
+}
+.new_r-item-ratings-divider {
+	display: none;
+}
+.new_res-one-col .new_r-item-ratings-divider {
+	display: block;
+	clear: both;
+}
+/* большой круг рейтинга */
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating {
+	font-size: 115px;
+	position: absolute;
+	margin: 0;
+	top: -27px;
+	left: 0;
+}
+.new_res-one-col .new_t-rating-tab-container .new_r-item-rating-container.big-rating {
+	position: relative;
+	margin-bottom: 15px;
+}
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating .new_r-item-rating-value {
+	font-size: 32px;
+	top: 51px;
+}
+.new_t-rating-tab-container .big-rating .new_r-item-rating-rev {
+	color: #4C9CE0;
+	font-size: 14px;
+	left: 0;
+	right: 0;
+	top: 14px;
+}
+.new_t-rating-tab-container .big-rating .new_r-item-rating-rev span {
+	font-size: 14px;
+	display: block;
+	position: relative;
+	top: 4px;
+}
+/* маленькие круги рейтинга */
+.new_t-rating-tab-container .new_r-item-rating-container {
+	margin: 0 20px 40px;
+}
+.new_t-rating-tab-container .new_r-item-rating-container .new_r-item-rating-value {
+	top: 18px;
+}
+.new_t-rating-tab-container .new_r-item-rating-rev {
+	color: #888888;
+	font-size: 12px;
+	left: -20px;
+	right: -20px;
+	top: -23px;
+	white-space: nowrap;
+}
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating .bar,
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating.new_r-p6 .fill,
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating.new_r-p7 .fill,
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating.new_r-p8 .fill,
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating.new_r-p9 .fill,
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating.new_r-p10 .fill {
+	border-width: 8px;
+	height: 99px;
+	width: 99px;
+}
+.new_t-rating-tab-container .new_r-item-rating-container.big-rating::after {
+	height: 0.86em;
+	left: 0.07em;
+	top: 0.07em;
+	width: 0.86em;
+}
+/* отзывы турправды */
+.new_t-tab-content.reviews #cg-r3 {
+	width: 100%;
+	height: 633px !important;
+	border: none;
+}
+.new_t-tab-content.reviews .infHtmlcg-r3 {
+	width: 100%;
+	padding: 0 0 20px;
+	overflow: hidden;
+}
+
+/*===== стили модальных окон (заказать тур, даты и длительность, номер и питание) =====*/
+.new_modal-open,
+.new_modal-open body {
+	overflow: hidden !important;
+}
+.new_modal-open .new_t-modal-wrap {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: 999;
+}
+.new_modal-open .new_t-modal-wrap:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em;
+}
+.new_modal-open .new_t-modal-body {
+	background: #fff;
+	padding: 0;
+	width: auto;
+	min-width: 480px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 auto;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	overflow: hidden;
+}
+body:not(.new_tour-one-col-sm) .new_t-modal-body {
+}
+.new_t-modal-body-item,
+.new_t-modal-body-close {
+	display: none;
+}
+.new_modal-open .new_t-modal-body-close {
+	display: block;
+}
+.new_t-modal-wrap .new_spinner-wrap {
+	padding: 0;
+	margin-right: -16px;
+	max-width: 460px;
+}
+
+/*=== модальное окно "даты и длительность" ===*/
+.new_t-modal-body-item.date .new_t-modal-body-middle {
+	padding: 15px 31px 31px 15px;
+	background-color: #FAFAFA;
+}
+.new_t-date-modal-table-container {
+	position: relative;
+}
+.new_t-date-change {
+	position: absolute;
+	border: 1px solid #C6D3DE;
+	cursor: pointer;
+	overflow: hidden;
+}
+.new_t-date-change-top,
+.new_t-date-change-bottom {
+	width: 17px;
+	right: -16px;
+	background-color: #F9E8CC;
+	height: calc(50% - 23px);
+}
+.new_t-date-change-top {
+	top: 48px;
+}
+.new_t-date-change-bottom {
+	bottom: 0;
+}
+.new_t-date-change-left,
+.new_t-date-change-right {
+	height: 17px;
+	width: calc(50% - 24px);
+	bottom: -16px;
+	background-color: #DFE8EF;
+}
+.new_t-date-change-left {
+	left: 49px;
+}
+.new_t-date-change-right {
+	right: 0;
+}
+.new_t-date-change svg {
+	fill: #999;
+	height: 20px;
+	position: absolute;
+	width: 20px;
+}
+.new_t-date-change-top svg,
+.new_t-date-change-bottom svg {
+	top: 50%;
+	margin-top: -10px;
+}
+.new_t-date-change-top svg {
+	transform: rotate(90deg);
+	left: -2px;
+}
+.new_t-date-change-bottom svg {
+	transform: rotate(270deg);
+	left: -3px;
+}
+.new_t-date-change-left svg,
+.new_t-date-change-right svg {
+	left: 50%;
+	margin-left: -10px;
+}
+.new_t-date-change-left svg {
+	top: -3px;
+}
+.new_t-date-change-right svg {
+	transform: rotate(180deg);
+	top: -2px;
+}
+.new_t-date-modal-table {
+	border-collapse: collapse;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.new_t-date-modal-table .new_t-date-modal-table-head {
+	padding: 9px 3px 5px;
+	border-top: 1px solid #DDDDDD;
+}
+.new_t-date-modal-table td {
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+.new_t-date-modal-table td.selected {
+	background-color: #F1F1F1;
+}
+.new_t-date-modal-table td:first-child {
+	padding: 0 0 2px;
+	line-height: 100%;
+	border-left: 1px solid #DDDDDD;
+	max-width: 50px;
+	min-width: 50px;
+	width: 50px;
+}
+.new_t-date-modal-table thead td:first-child {
+	border-left: none;
+}
+.new_t-date-modal-table td:first-child span {
+	white-space: nowrap;
+	font-weight: bold;
+	display: block;
+}
+.new_t-date-modal-table-head div {
+	white-space: nowrap;
+	height: 18px;
+}
+.new_t-date-modal-table-head .new_t-head-nights {
+	font-weight: bold;
+	margin-bottom: -3px;
+	font-size: 12px;
+}
+.new_t-date-modal-table-head .new_t-head-days {
+	font-size: 9px;
+}
+.new_t-date_link {
+	height: 50px;
+	display: block;
+	background-color: #fff;
+	cursor: pointer;
+	padding: 1px 5px;
+}
+.new_t-date_link.new_t-selected {
+	background-color: #D9EDFF;
+}
+.new_t-date_link,
+.new_t-date_link * {
+	text-decoration: none;
+	color: #4c9ce0;
+}
+.new_t-date_link > span > span {
+	white-space: nowrap;
+	display: block;
+}
+.new_t-date_link > span > span:first-child {
+	margin: 8px 0 -3px;
+	font-weight: bold;
+}
+.new_t-date_link.selected {
+	background-color: #4C9CE0 !important;
+	color: #fff;
+}
+
+/*=== модальное окно "номер и питание" ===*/
+.food .new_t-modal-table-container {
+	overflow: auto;
+	padding-bottom: 2px;
+}
+.food .new_t-modal-table {
+	border-collapse: collapse;
+	background-color: #FAFAFA;
+}
+.food .new_t-modal-table td {
+	padding: 5px 8px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	font-size: 13px;
+	text-align: left;
+	vertical-align: middle;
+}
+.food .new_t-modal-table tr td:first-child {
+	padding: 15px 8px;
+}
+.new_t-modal-room-list-title,
+.new_t-modal-room-title,
+.new_t-food-abbr {
+	font-weight: bold;
+}
+.new_t-food-abbr {
+	text-transform: uppercase;
+}
+.new_t-food-abbr ~ span {
+	display: block;
+	margin-top: -3px;
+}
+.new_t-modal-room-title {
+	color: #4C9CE0;
+}
+.new_t-modal-room-title span {
+	font-weight: normal;
+}
+.new_t-food-abbr ~ span,
+.new_t-modal-room-desc,
+.new_t-modal-room-title span {
+	color: #a3a3a3;
+}
+.new_t-modal-room-list-title {
+	margin: 5px 0;
+}
+.food .new_t-modal-table .new_t-room-price,
+.food .new_t-modal-table tr:first-child td:first-child {
+	background-color: #fff;
+}
+.food .new_t-modal-table .new_t-room-price {
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+	min-width: 75px;
+}
+.food .new_t-modal-table .new_t-room-price a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-decoration: none;
+	display: flex;
+	color: #666;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 1px #999;
+}
+.food .new_t-modal-table .new_t-room-price.selected {
+	background-color: #4C9CE0 !important;
+}
+.food .new_t-modal-table .new_t-room-price.selected * {
+	color: #fff;
+}
+.new_t-modal-room-list-item {
+	padding-left: 8px;
+	position: relative;
+}
+.new_t-modal-room-list-item::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display: block;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	background-color: #666;
+}
+
+/*=== модальное окно "заказать тур" ===*/
+body .os-order-header-title, .os-order-form-wrap *:after {
+	color: #4C9CE0 !important;
+}
+.os-order-form-wrap select {
+	height: 28px !important;
+	line-height: 28px !important;
+}
+.os-order-form-wrap .os-order-input-office .os-order-error {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.os-order-form-wrap .os-order-error {
+	margin-bottom: 0;
+}
+.os-order-user-contacts {
+	margin-top: 0 !important;
+}
+.os-order-input-comment,
+.os-order-input-office {
+	margin-top: 10px !important;
+}
+.new_t-order-form-open .os-order-form-wrap form {
+	margin: 0;
+}
+.new_t-order-form-open .fancybox-overlay {
+	background: rgba(0,0,0,.5);
+}
+
+/* Фон и рамка формы */
+.new_t-order-form-open .os-order-form-wrap {
+	background: #fff;
+	border: none;
+	padding: 10px !important;
+	width: 430px;
+}
+@media all and (max-width: 560px) {
+	.new_t-order-form-open .os-order-form-wrap {
+		width: 253px;
+	}
+}
+@media all and (max-width: 340px) {
+	.new_t-order-form-open .os-order-form-wrap {
+		width: auto;
+	}
+}
+/* Заголовок формы */
+.new_t-order-form-open .os-order-form-wrap .os-order-header-title {
+	display: none;
+}
+/* Шрифты и цвета некоторых полей (взрослые и дети, и, возраст детей, возможны другие даты) */
+.new_t-order-form-open .os-order-first-title,
+.new_t-order-form-open .os-order-and-title,
+.new_t-order-form-open .os-order-second-title,
+.new_t-order-form-open .os-order-input-dates label {font-family: 'Open Sans'; color: #666;} /*возможны другие даты*/
+/* Выпадающие списки (страна, курорт, взрослые, дети, возрасты, длительности) */
+.new_t-order-form-open .os-order-form-wrap select {font-family: 'Open Sans'; color: #666;}
+.new_t-order-form-open .os-order-select-wrapper,
+.new_t-order-form-open .os-order-select-wrapper:after {background: #fff;}
+.new_t-order-form-open .os-order-select-wrapper {border-radius: 3px; border: 1px solid #e0e0e0;}
+.new_t-order-form-open .os-order-input-duration .os-order-select-wrapper {border-radius: 3px;} /*длительность*/
+/* Цвета иконок в полях. Добавьте !important чтобы сработало, например:
+   .new_t-order-form-open .os-order-input-country .os-order-select-wrapper:after {color: green !important;}*/
+.new_t-order-form-open .os-order-form-wrap .os-order-select-wrapper:after {color: #4C9CE0;} /*выпадающий список ближайшего офиса*/
+/* Шрифты, их цвета, фон и цвет рамки в полях формы (имя, телефон, е-мейл, пожелания)*/
+.new_t-order-form-open .os-order-user-contacts input,
+.new_t-order-form-open .os-order-form-wrap textarea {font-family: 'Open Sans'; color: #666; background: #F0F0F0; border-color: #e0e0e0;}
+/* Скругление углов в полях формы (имя, телефон, е-мейл, пожелания) (4 значения означают углы: верхний-левый верхний-правый нижний-правый нижний-левый)*/
+.new_t-order-form-open .os-order-user-contacts input,
+.new_t-order-form-open .os-order-form-wrap textarea {border-radius: 0px 0px 0px 0px;}
+/* Скругление углов в выпадающем списке "ближайший офис"*/
+.new_t-order-form-open .os-order-input-office .os-order-select-wrapper {border-radius: 0px 0px 0px 0px;}
+/* Поле даты */
+.new_t-order-form-open .os-order-input-dates .os-order-input-wrapper {
+	font-family: 'Open Sans';
+	color: #666;
+	background: #fff;
+	border-radius: 3px;
+	border-color: #e0e0e0;
+}
+/* цвет иконки календаря */
+.new_t-order-form-open .os-order-input-dates .os-order-input-wrapper:after {color: #4C9CE0;}
+/* Кнопка "Отправить" */
+.new_t-order-form-open .os-order-form-submit .os-order-form-submit_button {
+	font: bold 16px 'Open Sans';
+	color: #ffffff;
+	border: none;
+	border-radius: 3px;
+	background: #F7941D !important;
+	height: 51px;
+	box-shadow: none !important;
+	margin: 11px 0 0 !important;
+	width: 100%;
+}
+/* Кнопка "Отправить" при наведении мыши */
+.new_t-order-form-open .os-order-form-submit .os-order-form-submit_button:hover {
+	background: #F7941D !important;
+}
+/* календарь */
+.new_t-order-form-open .table-condensed .prev, .table-condensed .next, .table-condensed .switch {
+	background-color: #4C9CE0 !important;
+}
+.new_t-order-form-open .datepicker {
+	border-color: #4C9CE0 !important;
+	z-index:9999;
+}
+
+/*= разное =*/
+.new_tour-one-col-sm .new_t-content-table,
+.date-table.vertical-table .new_t-date-col:last-child {
+	display: flex;
+	flex-direction: column;
+}
+.new_tour-one-col-sm .new_t-content-table .new_t-tabs-content,
+.date-table.vertical-table .new_t-date-col:last-child .new_t-important {
+	order: 3;
+}
+.new_tour-one-col-sm .new_t-content-table .new_t-order-content,
+.date-table.vertical-table .new_t-date-col:last-child .new_weight-bold {
+	order: 2;
+	padding: 0;
+}
+.date-table.vertical-table .new_t-date-col:last-child .new_weight-bold + .new_t-important {
+	order: 1;
+}
+.new_tour-one-col .new_t-tour-tab-table,
+.new_tour-one-col .new_t-tour-tab-col {
+	display: block;
+	width: auto;
+}
+.new_t-modal-check {
+	display: none;
+}
+.new_tour-one-col-sm .new_t-header-gallery-container {
+	margin-bottom: 22px;
+}
+.new_tour-one-col-sm .new_t-header-desktop-img {
+	height: 190px;
+}
+
+/*=== просмотренные туры ===*/
+.new_t-similar-viewed-wrapper {
+	padding: 35px 0 0;
+}
+.new_t-container .new_t-similar-viewed-gallery {
+	overflow: visible;
+	width: 100%;
+	position: relative;
+	padding: 0 20px;
+	margin: 0 0 14px !important;
+}
+.new_t-container .new_t-similar-viewed-gallery:not(.owl-drag) {
+	padding-top: 20px;
+	height: 200px;
+	overflow: hidden;
+}
+.new_t-container .new_t-similar-viewed-gallery .owl-stage-outer {
+	overflow: hidden;
+	padding: 20px 0;
+}
+@media (min-width: 479px) {
+	.new_t-container .new_t-similar-viewed-gallery .owl-stage-outer {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.new_r-item {
+		box-shadow: 0 0 5px rgba(0,0,0,.2);
+	}
+}
+.new_t-header-gallery-mobile {
+	display: none
+}
+.new_t-similar-viewed-gallery .owl-item,
+.new_t-similar-viewed-gallery .owl-stage {
+	height: 165px;
+}
+.new_t-similar-viewed-gallery-item {
+	height: 165px;
+}
+.owl-item .new_r-item-wrap {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 14px;
+}
+.new_res-one-col .new_t-similar-viewed-gallery .owl-item .new_r-item-wrap {
+	padding-right: 0;
+}
+.new_t-container .owl-nav {
+	display: none;
+}
+.new_t-similar-viewed-wrapper .owl-prev,
+.new_t-similar-viewed-wrapper .owl-next {
+	background: rgba(0, 0, 0, 0) url("../../images/onsite/arr-left.svg") no-repeat scroll center center / cover ;
+	cursor: pointer;
+	font-size: 0;
+	height: 28px;
+	position: absolute;
+	top: 87px;
+	width: 15px;
+	filter: grayscale(100%);
+	opacity: .8;
+}
+.new_t-similar-viewed-wrapper .owl-next {
+	transform: scale(-1, 1);
+}
+.new_t-similar-viewed-wrapper .owl-nav .disabled {
+	display: none;
+}
+.new_t-similar-viewed-wrapper .owl-prev {
+	left: -4px;
+}
+.new_t-similar-viewed-wrapper .owl-next {
+	right: -4px;
+}
+.new_t-container .owl-dots,
+.new_t-container .owl-dot {
+	margin: 0;
+	padding: 0;
+	height: 5px;
+	border-radius: 3px;
+}
+.new_t-container .owl-dots {
+	background-color: #eee;
+	bottom: 0;
+	display: inline-flex;
+	flex-direction: row;
+	left: 15px;
+	margin-top: 10px;
+	position: absolute;
+	right: 15px;
+}
+.new_t-container .owl-dot {
+	list-style-type: none;
+	flex-grow: 1;
+}
+.new_t-container .owl-dot.active {
+	background-color: #ccc;
+}
+
+@media all and (max-width: 550px) {
+	.new_modal-open .new_t-modal-body {
+		width: 450px;
+		min-width: 320px;
+	}
+	.new_t-modal-check {
+		display: block;
+	}
+}
+
+/*===== Стили для НЕ мобильного =====*/
+@media all and (min-width: 479px) {
+	.new_t-container[style*="flex"] {
+		display: block !important;
+	}
+	.new_t-tour-tab-col .new_t-change-btn:hover {
+		background-color: #fafafa;
+	}
+	.new_t-order-content-mobile {
+		display: none !important;
+	}
+	.date-table .new_t-tour-tab-col-2,
+	.food-table .new_t-tour-tab-col-2 {
+		padding-right: 77px !important;
+	}
+	.new_modal-open body {
+		padding-right: 15px !important;
+	}
+	@-moz-document url-prefix() {
+		.new_modal-open body {
+			padding-right: 14px !important;
+		}
+	}
+	.food .new_t-modal-table .new_t-room-price:hover,
+	.new_t-date_link.new_t-selected,
+	.new_t-date_link:hover {
+		background-color: #D9EDFF;
+	}
+	.new_t-date-change-top:hover,
+	.new_t-date-change-bottom:hover {
+		background-color: #fce2b7;
+	}
+	.new_t-date-change-left:hover,
+	.new_t-date-change-right:hover {
+		background-color: #d2e6f6;
+	}
+	.new_t-date-change:hover svg {
+		fill: #666;
+	}
+
+	/*===== Стили формы "заказать тур" =====*/
+	.os-order-small-form .os-order-input-name,
+	.os-order-small-form .os-order-input-phone,
+	.os-order-small-form .os-order-input-email {
+		float: left !important;
+		width: 33.33% !important;
+	}
+	.os-order-small-form .os-order-input-phone input,
+	.os-order-small-form .os-order-input-email input {
+		border-left: none !important;
+		border-top: 1px solid #e0e0e0 !important;
+	}
+
+	/*=== модальные окна ===*/
+	.new_layer-open-map,
+	.new_layer-open-map body {
+		overflow: hidden !important;
+	}
+	.new_results-map-overlay,
+	.new_layer-open-map .new_t-tabs-content {
+		background-color: rgba(0, 0, 0, 0.5);
+		bottom: 0;
+		left: 0;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 999;
+	}
+	.new_r-container .new_results-map-body .new_t-tab-content-top,
+	.new_layer-open-map .new_results-map-body .new_t-tab-content-top,
+	.new_layer-open-map .new_t-tabs-content .new_t-tab-content-top {
+		display: block;
+		position: static;
+	}
+	.new_results-map-body,
+	.new_layer-open-map .new_t-tabs-content .new_t-tab-content {
+		left: 60px;
+		top: 60px;
+		right: 60px;
+		bottom: 60px;
+		margin: 0 auto;
+		width: auto;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		vertical-align: middle;
+		height: auto;
+		background: #fff;
+		max-width: 1200px;
+		max-height: 800px;
+	}
+	.new_layer-open-map .new_loading-container svg {
+		margin: 140px 0 0 190px;
+	}
+	.new_modal-open-food .new_t-modal-body {
+		top: 60px;
+		bottom: 60px;
+		position: absolute;
+	}
+	.new_modal-open-food .new_t-modal-body-middle {
+		position: absolute;
+		top: 44px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		overflow: auto;
+	}
+	.new_modal-open-food .new_t-modal-table {
+		width: 100%;
+	}
+	/* выпадающая область туристов в туре */
+	.new_t-change-people .new_t-change-people-dropdown {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(0,0,0,.5);
+		z-index: 999;
+		border: none
+	}
+	.new_t-change-people .new_f-dropdown-body-wrap {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		width: 304px;
+		padding: 56px 14px 53px;
+		background: #fff;
+		color: #666;
+		font-size: 14px;
+		text-align: left;
+		transform: translate(-50%,-50%);
+	}
+	.new_t-change-people .new_f-dropdown-body-top {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+	}
+	.new_t-change-people .new_f-dropdown-list {
+		height: 353px;
+	}
+	.new_t-change-people .new_f-dropdown-bottom-btn {
+		position: absolute;
+		width: 50%;
+		bottom: 0;
+		line-height: 40px;
+		height: 42px;
+		font-size: 14px;
+		text-align: center;
+		border: 1px solid transparent;
+		border-left: none;
+		border-right: none;
+	}
+	.new_t-change-people .new_f-dropdown-btn-cancel {
+		left: 0;
+		background-color: #DFE8F0;
+		border-top-color: #C8D4DF;
+	}
+	.new_t-change-people .new_f-dropdown-btn-apply {
+		right: 0;
+		background-color: #F7941D;
+		color: #fff;
+		font-weight: 600;
+	}
+
+	/*=== просмотренные туры ===*/
+	.new_t-similar-viewed-wrapper .owl-dots {
+		display: none !important;
+	}
+	.new_t-similar-viewed-wrapper .owl-nav {
+		display: block;
+	}
+}
+
+/*===== Стили для мобильного =====*/
+@media all and (max-width: 478px) {
+	.new_t-menu-back .new_r-currency-switch {
+		right: 15px;
+	}
+	/* отступы */
+	.new_t-similar-viewed .new_t-header-title,
+	.new_t-menu-back,
+	.new_t-header,
+	.new_t-menu-wrap,
+	.new_t-content {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	/* меню */
+	.new_t-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.new_t-menu-back {
+		order: 1;
+		margin-bottom: 5px;
+	}
+	.new_t-header {
+		order: 2;
+	}
+	.new_t-menu-wrap {
+		order: 3;
+		margin-bottom: 10px;
+	}
+	.new_t-content {
+		order: 4;
+	}
+	.new_t-similar-viewed {
+		order: 5;
+	}
+	.new_t-menu-wrap::after {
+		left: 15px;
+		right: 15px;
+	}
+	.new_t-menu-item {
+		width: 50%;
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.new_t-tab-photos,
+	.new_t-tab-map,
+	.new_t-tab-rev {
+		display: none
+	}
+
+	/*=== контейнер с ценой и кнопкой "заказать тур" ===*/
+	.new_t-order-content-mobile {
+		display: block;
+	}
+	.new_t-order-content .new_t-order-col {
+		width: 50%;
+	}
+	.new_t-order-content-mobile {
+		margin-top: 27px;
+	}
+	.new_t-order-content-mobile {
+		order: 3 !important;
+	}
+	.new_t-order-content-mobile .new_t-order-table {
+		margin-bottom: 0;
+	}
+
+	/*===== стили для галереи фотографий =====*/
+	.new_tour-one-col-sm .new_t-header-desktop-img {
+		display: none;
+	}
+	.new_tour-one-col-sm .new_t-header-gallery-mobile {
+		position: relative;
+		margin: 0 -15px 20px;
+		display: block;
+	}
+	.new_t-header-gallery-slider-body {
+		height: 215px;
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 15px;
+	}
+	.new_t-header-gallery-slider-item {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 200px;
+	}
+	.new_t-header-gallery-container .owl-item,
+	.new_t-header-gallery-container .owl-stage {
+		height: 200px;
+	}
+
+	/*===== контент вкладок =====*/
+	/*=== контент вкладки "тур" ===*/
+	.new_tour-one-col .new_t-tour-tab-table {
+		margin: 0 -15px;
+	}
+	.new_t-tour-tab-table.date-table .new_t-date-table,
+	.new_t-tour-tab-table.date-table .new_t-date-col {
+		display: block;
+		width: auto;
+		white-space: normal;
+	}
+	.new_tour-one-col .new_t-tour-tab-col-1,
+	.new_tour-one-col .new_t-tour-tab-col-2 {
+		border-radius: 0;
+		border: none;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-container {
+		white-space: normal;
+		text-align: left;
+		position: relative;
+		left: 0;
+		top: 0;
+		transform: translate(0, 0);
+		padding: 15px 0;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-icons {
+		height: auto;
+		width: 1px;
+		position: absolute;
+		margin: 0;
+		top: -33px;
+		bottom: -35px;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-icon-left,
+	.new_t-tour-tab-table.date-table .new_t-duration-icon-right {
+		left: -4px;
+		right: auto;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-icon-left {
+		top: 0;
+		bottom: auto;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-icon-right {
+		top: auto;
+		bottom: 0;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-icon-left svg {
+		top: -22px;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-icon-right svg {
+		top: 15px;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-text {
+		text-align: left;
+		padding-top: 0;
+		position: relative;
+		top: -15px;
+	}
+	.new_t-tour-tab-table.date-table .new_t-no-3rd-row .new_t-duration-icons {
+		top: -13px;
+		bottom: -15px;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-icon-left svg {
+		top: -25px;
+	}
+	.new_t-tour-tab-table.date-table .new_t-duration-icon-right svg {
+		top: 13px;
+	}
+	.new_t-tour-tab-table.date-table .new_t-date-col:last-child {
+		display: flex;
+		flex-direction: column;
+	}
+	.new_t-tour-tab-table.date-table .new_t-date-col:last-child .new_t-important {
+		order: 3;
+	}
+	.new_t-tour-tab-table.date-table .new_t-date-col:last-child .new_weight-bold {
+		order: 2;
+		padding: 0;
+	}
+	.new_t-tour-tab-table.date-table .new_t-date-col:last-child .new_weight-bold + .new_t-important {
+		order: 1;
+	}
+	.new_t-date-table {
+		opacity: 1 !important;
+	}
+	.date-table:not(.vertical-table) .new_t-duration-col + .new_t-date-col {
+		text-align: left;
+	}
+	.new_tour-one-col .new_t-tour-tab-col-1 {
+		height: 50px;
+	}
+	.date-table .new_t-tour-tab-col-1 {
+		height: 70px;
+	}
+	.food-table .new_t-tour-tab-col-1 br {
+		display: none;
+	}
+	.new_t-tour-tab-col .new_t-change-btn {
+		border-radius: 0;
+		background: #FDFDFD;
+	}
+	.date-table .new_t-tour-tab-col .new_t-change-btn {
+		top: -69px;
+		height: 68px;
+	}
+	.tourist-table .new_t-tour-tab-col .new_t-change-btn,
+	.food-table .new_t-tour-tab-col .new_t-change-btn {
+		top: -49px;
+		height: 48px;
+	}
+	.new_t-tour-tab-col .new_t-change-btn span {
+		margin-top: -19px;
+	}
+	.new_t-change-btn svg {
+		left: 14px;
+		top: 16px;
+		transform: rotate(180deg);
+	}
+	.new_layer-open .new_t-change-people .new_f-dropdown-btn-cancel,
+	.new_layer-open .new_t-change-people .new_f-dropdown-list {
+		color: #666;
+	}
+	.new_layer-open .new_t-change-people .new_f-dropdown-list {
+		text-align: left;
+	}
+	.new_t-change-btn.new_t-change-people {
+		border-left: none;
+	}
+
+	/*=== карта ===*/
+	.new_t-map-wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: auto;
+	}
+	#new_os-map .gm-style-iw,
+	#new_os-map .gm-style-iw > div,
+	.new_map-infowindow-wrap {
+		width: 290px !important;
+		min-width: 290px !important;
+		max-width: 290px !important;
+	}
+	.new_map-infowindow-wrap {
+		padding-right: 0;
+	}
+	.new_map-infowindow-rating {
+		top: -3px;
+		right: auto;
+		left: -3px;
+	}
+	#new_os-map {
+		top: 44px;
+		height: calc(100% - 44px);
+	}
+
+	/*=== рейтинги, отзывы ===*/
+	.new_t-tab-content.reviews .new_t-tab-content-body {
+		padding: 12px 0 0;
+		background-color: #fff;
+	}
+	.new_t-tab-content.reviews .new_t-header-title {
+		padding: 0 9px;
+	}
+	.new_t-rating-tab-container {
+		background-color: #F7F7F7;
+		height: 310px;
+		margin: 15px 0 0;
+		overflow: hidden;
+	}
+	.new_t-rating-tab-container .new_r-item-rating-container {
+		margin: 0;
+		position: absolute;
+	}
+	.new_t-rating-tab-container .new_r-item-rating-container:nth-child(3) {
+		top: 40px;
+		right: 20px;
+	}
+	.new_t-rating-tab-container .new_r-item-rating-container:nth-child(4) {
+		top: 137px;
+		right: 20px;
+	}
+	.new_t-rating-tab-container .new_r-item-rating-container:nth-child(5) {
+		top: 234px;
+		right: 20px;
+	}
+	.new_t-rating-tab-container .new_r-item-rating-container:nth-child(6) {
+		top: 234px;
+		left: 20px;
+	}
+	.new_t-rating-tab-container .new_r-item-rating-container:nth-child(7) {
+		top: 234px;
+		left: 50%;
+		margin-left: -30px;
+	}
+	.new_res-one-col .new_t-rating-tab-container .new_r-item-rating-container.big-rating {
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		margin-left: -98px;
+	}
+	.new_t-tab-content.reviews #cg-r3 {
+		width: calc(100% + 22px);
+		margin-left: -11px;
+		margin-top: -1px;
+	}
+
+	/*===== модальное окно "даты и длительность" =====*/
+	.new_t-modal-body-item.date .new_t-modal-body-middle {
+		padding: 0 16px 0 0;
+	}
+	.new_t-modal-wrap .new_spinner-wrap {
+		padding: 15px;
+	}
+
+	/*===== модальное окно "заказать тур" =====*/
+	.os-order-small-form .os-order-input-phone,
+	.os-order-small-form .os-order-input-email {
+		margin-top: -1px;
+	}
+	.os-order-small-form .os-order-input-phone input,
+	.os-order-small-form .os-order-input-email input {
+		border: 1px solid #E0E0E0 !important;
+	}
+	.os-order-input-phone .os-order-error {
+		margin-bottom: 10px;
+	}
+
+	/*=== просмотренные туры ===*/
+	.new_os .new_t-similar-viewed-gallery {
+		padding: 0;
+	}
+}
+
+@media all and (max-width: 359px) {
+	#new_os-map .gm-style-iw,
+	#new_os-map .gm-style-iw > div,
+	.new_map-infowindow-wrap {
+		width: 235px !important;
+		min-width: 235px !important;
+		max-width: 235px !important;
+	}
+	#new_os-map .gm-style-iw,
+	#new_os-map .gm-style-iw * {
+		overflow: visible !important;
+	}
+	#new_os-map .gm-style-iw .new_map-infowindow-image {
+		width: 120px;
+		overflow: hidden !important;
+	}
+	.new_map-infowindow-wrap {
+		padding-left: 130px;
+	}
+}
