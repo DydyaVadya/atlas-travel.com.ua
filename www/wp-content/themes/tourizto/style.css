@@ -4517,7 +4517,9 @@ a {
 
 .header-container:not(.invert) {
   border-bottom-width: 1px;
-  border-bottom-style: solid; }
+  border-bottom-style: solid;
+  /*background: rgba(47,100,100,0.85);*/
+}
 
 .header-container__flex-wrap {
   position: relative;
@@ -15900,3 +15902,4 @@ a[href*="?media_dl="] {
     z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
+

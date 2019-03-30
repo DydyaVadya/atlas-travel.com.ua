@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-02-03 22:26:36+0000\n"
+"PO-Revision-Date: 2019-02-09 22:14:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -162,7 +162,7 @@ msgstr "Odotamme että täytämme tilauksen piakkoin."
 #: templates/emails/customer-on-hold-order.php:29
 #: templates/emails/plain/customer-on-hold-order.php:26
 msgid "Thanks for your order. It’s on-hold until we confirm that payment has been received. In the meantime, here’s a reminder of what you ordered:"
-msgstr "Kiitos tilauksesta. Tilaus on pysäytetty kunnes olemme vahvistaneet maksun saapumisen. Sillä välin tässä on muistutus siitä, mitä olet tilannut:"
+msgstr "Kiitos tilauksesta. Tilaus on pidossa kunnes olemme vahvistaneet maksun saapumisen. Sillä välin tässä on muistutus siitä, mitä olet tilannut:"
 
 #: templates/emails/plain/customer-note.php:35
 #: templates/emails/customer-note.php:33
@@ -2899,7 +2899,7 @@ msgstr "Vaihda tilauksen tila -> käsittelyssä"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:541
 msgid "Change order status to on-hold"
-msgstr "Vaihda tilauksen tila -> pysäytetty"
+msgstr "Vaihda tilauksen tila -> pidossa"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:406
 msgid "Edit this order"
@@ -3275,7 +3275,7 @@ msgstr "Valmis"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:540
 msgid "On-hold"
-msgstr "Pysäytetty"
+msgstr "Pidossa"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:370
 msgid "Payment via"
@@ -3297,7 +3297,7 @@ msgstr "Vaihda tila -> valmis"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:139
 msgid "Change status to on-hold"
-msgstr "Vaihda tila -> pysäytetty"
+msgstr "Vaihda tila -> pidossa"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:138
 msgid "Change status to processing"
@@ -8948,11 +8948,11 @@ msgstr "Palaa sähköposteihin"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:33
 msgid "This is an order notification sent to customers containing order details after an order is placed on-hold."
-msgstr "Tämä ilmoitus lähetetään asiakkaalle kun tilaus on asetettu pysäytetty -tilaan. Se sisältää tilauksen tiedot."
+msgstr "Tämä ilmoitus lähetetään asiakkaalle kun tilaus on asetettu pidossa -tilaan. Se sisältää tilauksen tiedot."
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:32
 msgid "Order on-hold"
-msgstr "Tilaus pysäytetty-tilassa."
+msgstr "Tilaus pidossa -tilassa."
 
 #: includes/class-wc-shipping-zone.php:143
 msgid "%s and %d other region"
@@ -12211,7 +12211,7 @@ msgstr "Tilauksen %s maksu on hyvitetty"
 
 #: includes/emails/class-wc-email-cancelled-order.php:32
 msgid "Cancelled order emails are sent to chosen recipient(s) when orders have been marked cancelled (if they were previously processing or on-hold)."
-msgstr "Tilaus peruttu -sähköpostit lähetetään valituille vastaanottajille kun tilaus on merkitty perutuksi (jos ne on sitä ennen merkitty odottaa maksua tai pysäytetty tilaan)."
+msgstr "Tilaus peruttu -sähköpostit lähetetään valituille vastaanottajille kun tilaus on merkitty perutuksi (jos ne on sitä ennen merkitty odottaa maksua tai pidossa -tilaan)."
 
 #: templates/single-product-reviews.php:71
 msgid "Be the first to review &ldquo;%s&rdquo;"
@@ -14356,7 +14356,7 @@ msgstr "Tilauksen #%s peruutus on peruutettu"
 #. translators: %1$s: order ID, %2$s: reason code.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:322
 msgid "Order #%1$s has been marked on-hold due to a reversal - PayPal reason code: %2$s"
-msgstr "Tilaus #%1$s on merkitty pysäytetyksi perumisen takia – PayPal-selityskoodi: %2$s"
+msgstr "Tilaus #%1$s on merkitty pidossa -tilaan perumisen takia – PayPal-selityskoodi: %2$s"
 
 #. translators: %s: order link.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:320
@@ -14884,7 +14884,7 @@ msgstr "Ota käyttöön/poista käytöstä"
 
 #: includes/emails/class-wc-email-failed-order.php:32
 msgid "Failed order emails are sent to chosen recipient(s) when orders have been marked failed (if they were previously processing or on-hold)."
-msgstr "Epäonnistunut tilaus -sähköpostit lähetetään valituille vastaanottajille kun tilaus on merkitty epäonnistuneeksi (jos ne on sitä ennen merkitty odottaa maksua tai pysäytetty tilaan)."
+msgstr "Epäonnistunut tilaus -sähköpostit lähetetään valituille vastaanottajille kun tilaus on merkitty epäonnistuneeksi (jos ne on sitä ennen merkitty odottaa maksua tai pidossa -tilaan)."
 
 #: includes/emails/class-wc-email-cancelled-order.php:31
 msgid "Cancelled order"
@@ -21163,8 +21163,8 @@ msgstr[1] "<strong>%s tuotetta</strong> vähän varastossa"
 #: includes/admin/class-wc-admin-dashboard.php:187
 msgid "<strong>%s order</strong> on-hold"
 msgid_plural "<strong>%s orders</strong> on-hold"
-msgstr[0] "<strong>%s tilaus</strong> on pysäytetty-tilassa"
-msgstr[1] "<strong>%s tilausta</strong> on pysäytetty-tilassa"
+msgstr[0] "<strong>%s tilaus</strong> on pidossa -tilassa"
+msgstr[1] "<strong>%s tilausta</strong> on pidossa -tilassa"
 
 #: includes/admin/class-wc-admin-dashboard.php:176
 msgid "<strong>%s order</strong> awaiting processing"

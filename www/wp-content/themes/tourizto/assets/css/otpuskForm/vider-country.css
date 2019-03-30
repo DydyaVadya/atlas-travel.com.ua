@@ -1,0 +1,14 @@
+@media (min-width: 960px) {
+
+    .new_f-container > div.new_f-wrapper > form > div.clearfix {
+        border: 2px solid rgb(9, 88, 93);
+    }
+    .new_f-form-field {
+        border-top: none;
+        border-bottom: none;
+    }
+    .new_f-ext-btn-text {
+        color: rgb(9, 88, 93);
+    }
+}
+

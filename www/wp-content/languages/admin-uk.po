@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.0.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-01-09 18:16:13+0000\n"
+"PO-Revision-Date: 2019-02-26 21:27:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2399,7 +2399,7 @@ msgstr "https://uk.wordpress.org/plugins/classic-editor"
 #. translators: %s: https://wordpress.org/plugins/classic-editor
 #: wp-admin/edit-form-blocks.php:412
 msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or try the <a href=\"%s\">Classic Editor plugin</a>."
-msgstr "Редактор блоків вимагає JavaScript. Будь ласка, увімкніть JavaScript в налаштуваннях вашего браузеру або спробуйте плагін <a href=\"%s\">Classic Editor</a>."
+msgstr "Блоковий редактор вимагає JavaScript. Будь ласка, увімкніть JavaScript в налаштуваннях вашего браузеру або спробуйте плагін <a href=\"%s\">Classic Editor</a>."
 
 #. Translators: Use this to specify the CSS font family for the default font
 #: wp-admin/edit-form-blocks.php:178

@@ -34,9 +34,8 @@ $search_visible                  = get_theme_mod( 'header_search', tourizto_them
 
 				<?php tourizto_site_description(); ?>
 
-
-			</div>
             <!--меню в шапке-->
+			</div>
             <div class="heder_menu_vider">
             <?php wp_nav_menu('menu=Header_new'); ?>
             </div>

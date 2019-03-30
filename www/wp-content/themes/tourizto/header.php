@@ -19,12 +19,16 @@
 <?php wp_head(); ?>
     <script type="text/javascript" src="<?php echo get_bloginfo('template_url') . '/assets/js/vider.js';?>"></script>
     <link rel="stylesheet" href="<?php echo get_bloginfo('template_url') . '/assets/css/vider.css';?>">
-
+    <link rel="stylesheet" href="https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/css/vider.css">
+    
 
 
 </head>
 
 <body <?php body_class(); ?>>
+<!--темный фон после открытия меню-->
+<div class="milk-shadow"></div>
+<!--темный фон после открытия меню-->
 <?php tourizto_get_page_preloader(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'tourizto' ); ?></a>

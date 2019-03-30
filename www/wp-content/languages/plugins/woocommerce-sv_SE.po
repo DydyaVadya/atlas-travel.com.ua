@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-01-22 14:24:17+0000\n"
+"PO-Revision-Date: 2019-02-18 21:04:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -141,13 +141,13 @@ msgstr "Vi hoppas att vi ses snart igen."
 #: templates/emails/plain/customer-refunded-order.php:31
 #: templates/emails/customer-refunded-order.php:37
 msgid "Your order on %s has been refunded. There are more details below for your reference:"
-msgstr "Din order den %s har blivit återbetald. Ytterligare information finns nedan för referens:"
+msgstr "Din order på %s har blivit återbetald. Ytterligare information finns nedan för referens:"
 
 #. translators: %s: Site title
 #: templates/emails/plain/customer-refunded-order.php:28
 #: templates/emails/customer-refunded-order.php:34
 msgid "Your order on %s has been partially refunded. There are more details below for your reference:"
-msgstr "Din order den %s har blivit delvis återbetald. Ytterligare information finns nedan för referens:"
+msgstr "Din order på %s har blivit delvis återbetald. Ytterligare information finns nedan för referens:"
 
 #: templates/emails/plain/customer-processing-order.php:52
 #: templates/emails/customer-processing-order.php:55

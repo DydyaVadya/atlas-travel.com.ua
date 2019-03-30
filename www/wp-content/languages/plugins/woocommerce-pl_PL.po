@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-01-03 21:22:35+0000\n"
+"PO-Revision-Date: 2019-02-14 09:05:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,21 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: pl\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+
+#. translators: %s: error message
+#: includes/wc-rest-functions.php:114
+msgid "Invalid image: %s"
+msgstr "Nieprawidłowy obraz: %s"
+
+#. translators: %s: Order number
+#: templates/emails/plain/customer-processing-order.php:27
+#: templates/emails/customer-processing-order.php:30
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "Właśnie otrzymaliśmy Twoje zamówienie #%s i rozpoczęliśmy jego realizację:"
+
+#: includes/api/v1/class-wc-rest-webhooks-controller.php:414
+msgid "Webhook status must be valid."
+msgstr "Status webhooka musi być prawidłowy."
 
 #: includes/admin/views/html-notice-wootenberg.php:30
 msgid "Install the WooCommerce Products Block"
@@ -259,7 +274,7 @@ msgstr "Wpisz swój adres, aby wyświetlić opcje wysyłki."
 
 #: templates/cart/cart-shipping.php:54
 msgid "This is only an estimate. Prices will be updated during checkout."
-msgstr "Jest to tylko wartość szacunkowa. Ceny zostaną zaktualizowane podczas składania zamówienia."
+msgstr "Jest to tylko oszacowanie. Ceny zostaną zaktualizowane podczas składania zamówienia."
 
 #. Translators: $s shipping destination.
 #: templates/cart/cart-shipping.php:52
@@ -1781,7 +1796,7 @@ msgstr "Kraj wysyłki"
 #: includes/class-wc-privacy-erasers.php:62
 #: includes/class-wc-privacy-exporters.php:197
 msgid "Shipping State"
-msgstr "Stan wysyłki"
+msgstr "Województwo wysyłki"
 
 #: includes/class-wc-privacy-erasers.php:61
 #: includes/class-wc-privacy-exporters.php:196
@@ -12313,7 +12328,7 @@ msgstr "ZIP"
 
 #: includes/class-wc-countries.php:1057
 msgid "State / Zone"
-msgstr "Stan / strefa"
+msgstr "Województwo / strefa"
 
 #: includes/api/legacy/v3/class-wc-api-taxes.php:681
 msgid "You do not have permission to read the tax classes count"
@@ -13020,7 +13035,7 @@ msgstr "Zmiana hasła"
 #: includes/admin/class-wc-admin-profile.php:89
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:84
 msgid "Email address"
-msgstr "Adres E-mail"
+msgstr "Adres email"
 
 #: templates/single-product/sale-flash.php:28 templates/loop/sale-flash.php:28
 msgid "Sale!"
@@ -13095,6 +13110,11 @@ msgstr "Dziękujemy. Otrzymaliśmy Twoje zamówienie."
 #: templates/checkout/payment.php:44
 msgid "Update totals"
 msgstr "Zaktualizuj sumę"
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: templates/checkout/payment.php:42
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr "Ponieważ twoja przeglądarka nie wspiera JavaScriptu lub jest on wyłączony, upewnij się, że klikniesz przycisk %1$sZaktualizuj koszyk%2$s przed złożeniem zamówienia. Możesz zapłacić więcej, niż jest podane powyżej, jeśli tego nie zrobisz."
 
 #: templates/checkout/payment.php:33
 msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
@@ -14491,7 +14511,7 @@ msgstr "Pozwól klientom płacić za pobraniem."
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:74
 msgid "Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode."
-msgstr "Proszę przesłać czek na: nazwa sklepu, adres, miasto, region, kod pocztowy."
+msgstr "Proszę przesłać czek na: nazwa sklepu, adres, miasto, województwo, kod pocztowy."
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:60
 msgid "Enable check payments"
@@ -15644,7 +15664,7 @@ msgstr "Kod pocztowy"
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:79
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:130
 msgid "State / County"
-msgstr "Stan"
+msgstr "Województwo / Region"
 
 #: includes/class-wc-countries.php:676
 msgid "Town / City"
@@ -17371,7 +17391,7 @@ msgstr "Nazwa podatku"
 #: includes/admin/settings/class-wc-settings-tax.php:194
 #: includes/admin/settings/views/html-settings-tax.php:27
 msgid "State code"
-msgstr "Kod stanu"
+msgstr "Kod województwa"
 
 #: includes/admin/settings/class-wc-settings-tax.php:193
 msgid "Country code"
@@ -19997,7 +20017,7 @@ msgstr "Adres e-mail PayPal"
 #: includes/admin/class-wc-admin-setup-wizard.php:440
 #: includes/admin/class-wc-admin-setup-wizard.php:442
 msgid "State"
-msgstr "Region"
+msgstr "Województwo"
 
 #: includes/admin/settings/class-wc-settings-products.php:401
 msgid "yd"
@@ -20238,7 +20258,7 @@ msgstr "E-mail"
 #: includes/admin/class-wc-admin-profile.php:81
 #: includes/admin/class-wc-admin-profile.php:141
 msgid "State / County or state code"
-msgstr "Stan/Okręg lub kod stanu"
+msgstr "Kod województwa, regionu lub stanu"
 
 #: templates/cart/shipping-calculator.php:31
 #: includes/wc-template-functions.php:2537
@@ -22013,7 +22033,7 @@ msgstr "Gauteng"
 
 #: i18n/states/ZA.php:15
 msgid "Free State"
-msgstr "Free State"
+msgstr "Wolne Państwo"
 
 #: i18n/states/ZA.php:14
 msgid "Eastern Cape"

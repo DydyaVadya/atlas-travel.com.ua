@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-01-31 04:41:00+0000\n"
+"PO-Revision-Date: 2019-02-18 18:25:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,21 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: it\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+
+#. translators: %s: error message
+#: includes/wc-rest-functions.php:114
+msgid "Invalid image: %s"
+msgstr "Immagine non valida: %s"
+
+#: includes/api/v1/class-wc-rest-webhooks-controller.php:414
+msgid "Webhook status must be valid."
+msgstr "Lo stato del webhook deve essere valido."
+
+#. translators: %s: Order number
+#: templates/emails/plain/customer-processing-order.php:27
+#: templates/emails/customer-processing-order.php:30
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr "Ti informiamo che abbiamo ricevuto il tuo ordine #%s ed è in fase di elaborazione."
 
 #: includes/api/v2/class-wc-rest-system-status-tools-v2-controller.php:195
 #: includes/api/v2/class-wc-rest-system-status-tools-v2-controller.php:196
@@ -886,11 +901,6 @@ msgstr "Nessuna posizione corrisponde a questi parametri."
 msgid "2 character continent code."
 msgstr "Codice del continente a 2 caratteri."
 
-#: includes/emails/class-wc-email-customer-processing-order.php:60
-#: includes/emails/class-wc-email-customer-on-hold-order.php:58
-msgid "Your {site_title} order has been received!"
-msgstr "Il tuo ordine {site_title} è stato ricevuto."
-
 #: includes/emails/class-wc-email-customer-new-account.php:76
 msgid "Your {site_title} account has been created!"
 msgstr "Il tuo account {site_title} è stato creato."
@@ -906,10 +916,6 @@ msgstr "Fattura per l'ordine #{order_number} su {site_title}"
 #: includes/emails/class-wc-email-customer-completed-order.php:93
 msgid "Thanks for shopping with us"
 msgstr "Grazie per averci scelto"
-
-#: includes/emails/class-wc-email-customer-completed-order.php:83
-msgid "Your {site_title} order is now complete"
-msgstr "Il tuo ordine {site_title} è ora completato"
 
 #: includes/emails/class-wc-email-cancelled-order.php:70
 msgid "Order Cancelled: #{order_number}"
@@ -1089,6 +1095,15 @@ msgstr "ID del file."
 #: includes/api/class-wc-rest-product-variations-controller.php:851
 msgid "Limit result set to products with specified stock status."
 msgstr "Limite del risultato impostato sui prodotti con stato della disponibilità specifico."
+
+#: includes/emails/class-wc-email-customer-processing-order.php:60
+#: includes/emails/class-wc-email-customer-on-hold-order.php:58
+msgid "Your {site_title} order has been received!"
+msgstr "Il tuo ordine su {site_title} è stato ricevuto."
+
+#: includes/emails/class-wc-email-customer-completed-order.php:83
+msgid "Your {site_title} order is now complete"
+msgstr "Il tuo ordine su {site_title} è stato completato"
 
 #. translators: %s: theme name
 #: includes/admin/views/html-notice-template-check.php:19
@@ -7005,6 +7020,22 @@ msgstr "Quante volte il coupon può essere utilizzato in totale."
 msgid "List of user IDs (or guest email addresses) that have used the coupon."
 msgstr "Elenco di ID utente (o gli indirizzi email degli ospiti) che hanno utilizzato il coupon."
 
+#: includes/api/v2/class-wc-rest-customer-downloads-v2-controller.php:135
+msgid "The date when download access expires, as GMT."
+msgstr "La data in cui scade l'accesso al download, come GMT."
+
+#: includes/api/v2/class-wc-rest-orders-v2-controller.php:899
+#: includes/api/v2/class-wc-rest-customers-v2-controller.php:136
+#: includes/api/v1/class-wc-rest-orders-controller.php:968
+msgid "The date the order was created, as GMT."
+msgstr "La data in cui l'ordine è stato creato, come GMT."
+
+#: includes/api/v2/class-wc-rest-customers-v2-controller.php:148
+#: includes/api/v1/class-wc-rest-customers-controller.php:644
+#: includes/api/class-wc-rest-customers-controller.php:101
+msgid "The date the customer was last modified, as GMT."
+msgstr "La data in cui il cliente è stato modificato l'ultima volta, come GMT."
+
 #: includes/api/v2/class-wc-rest-coupons-v2-controller.php:495
 #: includes/api/v2/class-wc-rest-product-variations-v2-controller.php:972
 #: includes/api/v2/class-wc-rest-order-refunds-v2-controller.php:394
@@ -7040,22 +7071,6 @@ msgstr "Meta dati"
 #: includes/api/class-wc-rest-product-variations-controller.php:727
 msgid "Meta ID."
 msgstr "ID Meta."
-
-#: includes/api/v2/class-wc-rest-customer-downloads-v2-controller.php:135
-msgid "The date when download access expires, as GMT."
-msgstr "La data in cui scade l'accesso al download, come GMT."
-
-#: includes/api/v2/class-wc-rest-orders-v2-controller.php:899
-#: includes/api/v2/class-wc-rest-customers-v2-controller.php:136
-#: includes/api/v1/class-wc-rest-orders-controller.php:968
-msgid "The date the order was created, as GMT."
-msgstr "La data in cui l'ordine è stato creato, come GMT."
-
-#: includes/api/v2/class-wc-rest-customers-v2-controller.php:148
-#: includes/api/v1/class-wc-rest-customers-controller.php:644
-#: includes/api/class-wc-rest-customers-controller.php:101
-msgid "The date the customer was last modified, as GMT."
-msgstr "La data in cui il cliente è stato modificato l'ultima volta, come GMT."
 
 #: includes/api/v2/class-wc-rest-customers-v2-controller.php:310
 #: includes/api/class-wc-rest-customers-controller.php:263
@@ -13793,6 +13808,11 @@ msgstr "Indirizzo di spedizione 2"
 msgid "There are some issues with the items in your cart. Please go back to the cart page and resolve these issues before checking out."
 msgstr "Sono stati riscontrati alcuni problemi con gli articoli nel tuo carrello. Torna alla pagina del carrello e risolvi questi problemi prima di effettuare il pagamento."
 
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: templates/checkout/payment.php:42
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr "Dal momento che il tuo browser non supporta JavaScript, oppure è disabilitato, assicurati di fare clic sul pulsante %1$sAggiorna Totale%2$s prima di effettuare l'ordine. È possibile che ti venga addebitato un importo superiore all'importo indicato sopra se non lo fai."
+
 #. translators: %s: number of orders
 #: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostStatusRegistrar.php:37
 #: includes/class-wc-post-types.php:543
@@ -14746,11 +14766,6 @@ msgstr "Questi costi possono essere aggiunti opzionalmente in base alle <a href=
 msgid "\"%s\" shipping class cost"
 msgstr "Costo della classe di spedizione \"%s\""
 
-#: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:97
-#: includes/shipping/flat-rate/includes/settings-flat-rate.php:68
-msgid "No shipping class cost"
-msgstr "Nessun costo per la classe di spedizione"
-
 #: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:105
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:78
 msgid "Calculation type"
@@ -14873,6 +14888,11 @@ msgstr "Effettua il pagamento tramite bonifico bancario. Usa l'ID dell'ordine co
 msgid "Order refunded emails are sent to customers when their orders are refunded."
 msgstr "Le email del tipo ‟ordine rimborsato” sono inviate ai clienti quando i loro ordini vengono rimborsati."
 
+#: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:97
+#: includes/shipping/flat-rate/includes/settings-flat-rate.php:68
+msgid "No shipping class cost"
+msgstr "Costo per \"Nessuna classe di spedizione\""
+
 #: includes/emails/class-wc-email-customer-invoice.php:74
 msgid "Your invoice for order #{order_number}"
 msgstr "La tua fattura per l'ordine #{order_number}"
@@ -14921,10 +14941,6 @@ msgstr "Permessi mancanti."
 #: includes/class-wc-ajax.php:1790
 msgid "API Key updated successfully."
 msgstr "Chiavi API aggiornate con successo."
-
-#: includes/class-wc-ajax.php:1904
-msgid "Dismiss this notice."
-msgstr "Rimuovi questo avviso"
 
 #: includes/class-wc-auth.php:97 includes/class-wc-auth.php:104
 msgid "Create webhooks"
@@ -15713,10 +15729,6 @@ msgstr "Modifica il prodotto"
 msgid "New product"
 msgstr "Nuovo prodotto"
 
-#: includes/class-wc-post-types.php:312
-msgid "View product"
-msgstr "visualizza prodotto"
-
 #: includes/class-wc-post-types.php:314
 msgid "Search products"
 msgstr "Cerca prodotti"
@@ -15926,6 +15938,14 @@ msgstr "(IVA incl.)"
 #: includes/class-wc-countries.php:427
 msgid "(ex. VAT)"
 msgstr "(IVA escl.)"
+
+#: includes/class-wc-post-types.php:312
+msgid "View product"
+msgstr "Visualizza prodotto"
+
+#: includes/class-wc-ajax.php:1904
+msgid "Dismiss this notice."
+msgstr "Ignora questo avviso."
 
 #: includes/admin/views/html-admin-page-status-report.php:58
 msgid "Home URL"
@@ -17648,10 +17668,6 @@ msgstr "Template delle email"
 msgid "Base color"
 msgstr "Colore di base"
 
-#: includes/admin/settings/class-wc-settings-emails.php:154
-msgid "Background color"
-msgstr "Colore sfondo"
-
 #: includes/customizer/class-wc-shop-customizer.php:273
 #: includes/customizer/class-wc-shop-customizer.php:439
 #: includes/widgets/class-wc-widget-rating-filter.php:27
@@ -17916,6 +17932,10 @@ msgstr "Indirizzo IP"
 #: includes/admin/settings/class-wc-settings-payment-gateways.php:56
 msgid "Installed payment methods are listed below and can be sorted to control their display order on the frontend."
 msgstr "I metodi di pagamento installati sono elencati di seguito e possono essere ordinati per controllare il loro ordine di visualizzazione sul frontend."
+
+#: includes/admin/settings/class-wc-settings-emails.php:154
+msgid "Background color"
+msgstr "Colore di sfondo"
 
 #: includes/admin/meta-boxes/views/html-variation-admin.php:219
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:99
@@ -18849,10 +18869,6 @@ msgstr "Revoca l'accesso"
 msgid "Fee name"
 msgstr "Nome tassa"
 
-#: includes/admin/meta-boxes/views/html-order-items.php:275
-msgid "Reason for refund (optional):"
-msgstr "Motivo del rimborso (opzionale)"
-
 #: includes/admin/meta-boxes/views/html-order-items.php:286
 msgid "Payment gateway"
 msgstr "Gateway di pagamento"
@@ -19073,6 +19089,10 @@ msgstr "Azzera"
 #: includes/admin/reports/class-wc-report-low-in-stock.php:25
 msgid "No low in stock products found."
 msgstr "Nessun prodotto in esaurimento trovato."
+
+#: includes/admin/meta-boxes/views/html-order-items.php:275
+msgid "Reason for refund (optional):"
+msgstr "Motivo del rimborso (opzionale):"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1745
 msgid "Offline Payments"
@@ -19564,11 +19584,6 @@ msgstr "Articoli collegati"
 msgid "Variations"
 msgstr "Variazioni"
 
-#: includes/admin/settings/class-wc-settings-advanced.php:27
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:123
-msgid "Advanced"
-msgstr "Avanzato"
-
 #: includes/admin/meta-boxes/views/html-variation-admin.php:67
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:21
 msgid "Stock Keeping Unit"
@@ -19936,6 +19951,11 @@ msgstr "Questo campo ti permette di impostare una spesa minima (subtotale) neces
 #: includes/class-wc-privacy-exporters.php:292
 msgid "Transaction ID"
 msgstr "ID della transazione"
+
+#: includes/admin/settings/class-wc-settings-advanced.php:27
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:123
+msgid "Advanced"
+msgstr "Avanzate"
 
 #: includes/admin/class-wc-admin-pointers.php:90
 msgid "Choose a type for this product. Simple is suitable for most physical goods and services (we recommend setting up a simple product for now)."
@@ -20899,6 +20919,10 @@ msgstr "ID: %d"
 msgid "View/Edit"
 msgstr "Vedi/Modifica"
 
+#: includes/admin/class-wc-admin-api-keys-table-list.php:101
+msgid "Revoke API key"
+msgstr "Revoca chiave API"
+
 #: includes/admin/class-wc-admin-api-keys-table-list.php:109
 #: includes/admin/class-wc-admin-api-keys-table-list.php:202
 msgid "Revoke"
@@ -21753,10 +21777,6 @@ msgstr "Ultimo accesso"
 msgid "API key"
 msgstr "Chiave API"
 
-#: includes/admin/class-wc-admin-api-keys-table-list.php:101
-msgid "Revoke API key"
-msgstr "Revoca chiave Api"
-
 #: includes/admin/class-wc-admin-api-keys.php:98
 msgid "Add key"
 msgstr "Aggiungi chiave"
@@ -21811,10 +21831,6 @@ msgstr "Breve descrizione del prodotto"
 #: includes/admin/class-wc-admin-meta-boxes.php:121
 msgid "Product data"
 msgstr "Dati prodotto"
-
-#: includes/admin/class-wc-admin-meta-boxes.php:122
-msgid "Product gallery"
-msgstr "Galleria prodotti"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:129
 msgid "%s notes"
@@ -21969,6 +21985,10 @@ msgstr "Leggi tutto"
 #: includes/wc-account-functions.php:351
 msgid "Delete"
 msgstr "Elimina"
+
+#: includes/admin/class-wc-admin-meta-boxes.php:122
+msgid "Product gallery"
+msgstr "Galleria prodotto"
 
 #: i18n/states/PH.php:18
 msgid "Albay"

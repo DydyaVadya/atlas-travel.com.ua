@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-01-14 18:35:35+0000\n"
+"PO-Revision-Date: 2019-02-10 14:42:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,75 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
 
+#. translators: 1: response code, 2: response message, 3: URL
+#: includes/functions.php:384
+msgid "HTTP Response: %1$s %2$s from %3$s"
+msgstr "HTTP-ответ: %1$s %2$s из %3$s"
+
+#: modules/recaptcha.php:440
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: modules/recaptcha.php:370
+msgid "reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots. For details, see %s."
+msgstr "reCAPTCHA защищает вас от спама и другого рода автоматических злоупотреблений сообщениями. С модулем интеграции reCAPTCHA в Contact Form 7 можно блокировать попытки злоупотребления формой связи спам-ботами. Подробности здесь: %s."
+
 #: modules/recaptcha.php:175 modules/recaptcha.php:373
 msgid "reCAPTCHA (v3)"
 msgstr "reCAPTCHA (v3)"
 
+#: modules/recaptcha.php:172
+msgid "API keys for reCAPTCHA v3 are different from those for v2; keys for v2 don&#8217;t work with the v3 API. You need to register your sites again to get new keys for v3. For details, see %s."
+msgstr "API-ключи для reCAPTCHA v3 отличаются от таковых v2; ключи v2 не работают с API v3. Вам следует зарегистрировать свой сайт повторно и получить ключи v3. Подробности здесь: %s."
+
+#: modules/constant-contact.php:366
+msgid "Connect to the Constant Contact API"
+msgstr "Подключение к Constant Contact API"
+
+#: modules/constant-contact.php:362 modules/recaptcha.php:436
+msgctxt "API keys"
+msgid "Remove Keys"
+msgstr "Удаление ключей"
+
+#: modules/constant-contact.php:354
+msgid "Set this URL as the redirect URI."
+msgstr "Установить этот URL как URI перенаправления."
+
+#: modules/constant-contact.php:347
+msgid "Redirect URI"
+msgstr "URI перенаправления"
+
+#: modules/constant-contact.php:330
+msgid "App Secret"
+msgstr "Секрет приложения (App Secret)"
+
+#: modules/constant-contact.php:313
+msgid "API Key"
+msgstr "API ключ"
+
+#: modules/constant-contact.php:301 modules/recaptcha.php:383
+msgid "Setup Integration"
+msgstr "Настройки интеграции"
+
+#: modules/constant-contact.php:291
+msgid "Constant Contact Integration"
+msgstr "Интеграция Constant Contact"
+
 #: modules/constant-contact.php:287
 msgid "https://contactform7.com/constant-contact-integration/"
 msgstr "https://contactform7.com/constant-contact-integration/"
+
+#: modules/constant-contact.php:285
+msgid "The Constant Contact integration module allows you to send contact data collected through your contact forms to the Constant Contact API. You can create reliable email subscription services in a few easy steps. For details, see %s."
+msgstr "Модуль интеграции Constant Contact позволяет отправлять контактные данные, собранные с помощью ваших контактных форм, в API Constant Contact. Вы можете создать надежные услуги подписки по электронной почте в несколько простых шагов. Подробнее смотрите здесь: %s."
+
+#: modules/constant-contact.php:171
+msgid "Constant Contact"
+msgstr "Constant Contact"
+
+#: modules/constant-contact.php:9
+msgid "Email Marketing"
+msgstr "Email-маркетинг"
 
 #: includes/config-validator.php:586
 msgid "It is not allowed to use files outside the wp-content directory."
@@ -99,7 +161,7 @@ msgstr "Вы можете изменить шаблон формы здесь. �
 
 #: admin/includes/editor.php:56
 msgid "Editing Form Template"
-msgstr "Редактирую шаблон формы"
+msgstr "Правка шаблона формы"
 
 #: admin/includes/editor.php:55
 msgid "https://contactform7.com/editing-form-template/"

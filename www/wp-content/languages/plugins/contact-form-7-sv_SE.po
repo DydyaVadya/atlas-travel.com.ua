@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-18 14:42:08+0000\n"
+"PO-Revision-Date: 2019-03-24 01:55:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,14 +20,38 @@ msgstr "HTTP-svar: %1$s %2$s från %3$s"
 msgid "Save Changes"
 msgstr "Spara ändringar"
 
+#: modules/recaptcha.php:370
+msgid "reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots. For details, see %s."
+msgstr "reCAPTCHA skyddar dig mot spam och andra typer av automatiserat missbruk. Med integrationsmodulen för reCAPTCHA i Contact Form 7 kan du blockera formulär som skickats in av spammande robotar. Se %s för mer information."
+
 #: modules/recaptcha.php:175 modules/recaptcha.php:373
 msgid "reCAPTCHA (v3)"
 msgstr "reCAPTCHA (v3)"
+
+#: modules/recaptcha.php:172
+msgid "API keys for reCAPTCHA v3 are different from those for v2; keys for v2 don&#8217;t work with the v3 API. You need to register your sites again to get new keys for v3. For details, see %s."
+msgstr "API-nycklarna för reCAPTCHA v3 är inte samma som för v2. Nycklarna för v2 fungerar inte med API:et för v3. Du behöver registrera dina webbplatser på nytt för att erhålla nya nycklar för v3. Se %s för mer information."
+
+#: modules/constant-contact.php:366
+msgid "Connect to the Constant Contact API"
+msgstr "Anslut till Constant Contact API"
 
 #: modules/constant-contact.php:362 modules/recaptcha.php:436
 msgctxt "API keys"
 msgid "Remove Keys"
 msgstr "Ta bort nycklar"
+
+#: modules/constant-contact.php:354
+msgid "Set this URL as the redirect URI."
+msgstr "Ange denna URL som URI för omdirigering."
+
+#: modules/constant-contact.php:347
+msgid "Redirect URI"
+msgstr "URI för omdirigering"
+
+#: modules/constant-contact.php:330
+msgid "App Secret"
+msgstr "Appens hemliga nyckel"
 
 #: modules/constant-contact.php:313
 msgid "API Key"
@@ -37,13 +61,25 @@ msgstr "API-nyckel"
 msgid "Setup Integration"
 msgstr "Ställ in integration"
 
+#: modules/constant-contact.php:291
+msgid "Constant Contact Integration"
+msgstr "Integrering med Constant Contact"
+
 #: modules/constant-contact.php:287
 msgid "https://contactform7.com/constant-contact-integration/"
 msgstr "https://contactform7.com/constant-contact-integration/"
 
+#: modules/constant-contact.php:285
+msgid "The Constant Contact integration module allows you to send contact data collected through your contact forms to the Constant Contact API. You can create reliable email subscription services in a few easy steps. For details, see %s."
+msgstr "Integreringsmodulen för Constant Contact låter dig skicka kontaktuppgifter som samlats in via dina kontaktformulär till Constant Contact API. Du kan skapa tillförlitliga prenumerationstjänster för e-post i bara några få enkla steg. Se %s för mer information."
+
 #: modules/constant-contact.php:171
 msgid "Constant Contact"
 msgstr "Constant Contact"
+
+#: modules/constant-contact.php:9
+msgid "Email Marketing"
+msgstr "E-postmarknadsföring"
 
 #: includes/config-validator.php:586
 msgid "It is not allowed to use files outside the wp-content directory."

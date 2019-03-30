@@ -49,13 +49,23 @@ function tourizto_main_menu() {
  * @since  1.0.0
  * @return void
  */
+
 function tourizto_vertical_main_menu( $slide = 'left', $args = array() ) {
 
 	$default_args = apply_filters( 'tourizto_vertical_menu_args', array(
 		'container-class'         => 'vertical-menu',
-		'navigation-buttons-html' => '<div class="main-navigation-buttons"><span class="navigation-button back hide">%1$s</span><span class="navigation-button close">%2$s</span></div>',
-		'button-back-inner-html'  => '<i class="nc-icon-mini arrows-1_bold-left"></i><span class="navigation-button__text">' . esc_html__( 'Back', 'tourizto' ) . '</span>',
-		'button-close-inner-html' => '<i class="nc-icon-mini ui-1_bold-remove"></i><span class="navigation-button__text">' . esc_html__( 'Close', 'tourizto' ) . '</span>',
+		'navigation-buttons-html' => '<div class="main-navigation-buttons">
+
+<div class="site-branding">
+
+				<div class="site-logo site-logo--image"><a class="site-logo__link" href="https://atlas-travel.com.ua/" rel="home"><img src="https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/images/invert-logo.png" alt="Atlas Travel" class="site-link__img" srcset="https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/images/invert-retina-logo.png 2x"></a></div>
+				
+            
+			</div>
+
+<span class="navigation-button back hide">%1$s</span><span class="navigation-button close">%2$s</span></div>',
+		'button-back-inner-html'  => '<i class="nc-icon-mini arrows-1_bold-left"></i><span class="navigation-button__text">' . esc_html__( 'Назад', 'tourizto' ) . '</span>',
+		'button-close-inner-html' => '<i class="nc-icon-mini ui-1_bold-remove"></i><span class="navigation-button__text">' . esc_html__( '', 'tourizto' ) . '</span>',
 	) );
 
 	$args        = wp_parse_args( $args, $default_args );

@@ -8,4 +8,7 @@ jQuery(document).ready(function($) {
             $('.mobile-panel').removeClass('fixed');
         }
     });
+
+    
 })
+

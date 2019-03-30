@@ -5169,47 +5169,47 @@ msgid "Navigation Menus"
 msgstr "Menus"
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:4509
+#: wp-includes/formatting.php:4511
 msgid "%s and %s"
 msgstr "%s e %s"
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:4507
+#: wp-includes/formatting.php:4509
 msgid "%s, and %s"
 msgstr "%s e %s"
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:4505
+#: wp-includes/formatting.php:4507
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: wp-includes/formatting.php:4274
+#: wp-includes/formatting.php:4276
 msgid "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 msgstr "https://codex.wordpress.org/pt-br:Usando_Links_permanentes#Tags_de_estrutura"
 
 #. translators: %s: Codex URL
-#: wp-includes/formatting.php:4273
+#: wp-includes/formatting.php:4275
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "Uma estrutura para tag é necessária ao utilizar links permanentes personalizados. <a href=\"%s\">Aprenda mais</a>"
 
-#: wp-includes/formatting.php:4255
+#: wp-includes/formatting.php:4257
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "O fuso horário que você digitou não é válido. Selecione um fuso horário válido."
 
-#: wp-includes/formatting.php:4200
+#: wp-includes/formatting.php:4202
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Aparentemente, o endereço de site que você digitou não é um URL válido. Digite um URL válido."
 
-#: wp-includes/formatting.php:4187
+#: wp-includes/formatting.php:4189
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Aparentemente, o endereço do WordPress que você digitou não é um URL válido. Digite um URL válido."
 
-#: wp-includes/formatting.php:4081
+#: wp-includes/formatting.php:4083
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "O endereço de e-mail inserido não parece ser um endereço de e-mail válido. Digite um endereço de e-mail válido."
 
 #. translators: Time difference between two dates, in years. 1: Number of years
-#: wp-includes/formatting.php:3274
+#: wp-includes/formatting.php:3276
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s ano"
@@ -5217,28 +5217,28 @@ msgstr[1] "%s anos"
 
 #. translators: Time difference between two dates, in months. 1: Number of
 #. months
-#: wp-includes/formatting.php:3268
+#: wp-includes/formatting.php:3270
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s mês"
 msgstr[1] "%s meses"
 
 #. translators: Time difference between two dates, in weeks. 1: Number of weeks
-#: wp-includes/formatting.php:3262
+#: wp-includes/formatting.php:3264
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s semana"
 msgstr[1] "%s semanas"
 
 #. translators: Time difference between two dates, in days. 1: Number of days
-#: wp-includes/formatting.php:3256
+#: wp-includes/formatting.php:3258
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dia"
 msgstr[1] "%s dias"
 
 #. translators: Time difference between two dates, in hours. 1: Number of hours
-#: wp-includes/formatting.php:3250
+#: wp-includes/formatting.php:3252
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s hora"
@@ -5246,7 +5246,7 @@ msgstr[1] "%s horas"
 
 #. translators: Time difference between two dates, in minutes (min=minute). 1:
 #. Number of minutes
-#: wp-includes/formatting.php:3244
+#: wp-includes/formatting.php:3246
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuto"
@@ -5315,7 +5315,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:98 wp-includes/formatting.php:4814
+#: wp-includes/formatting.php:98 wp-includes/formatting.php:4816
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -6166,7 +6166,7 @@ msgctxt "admin color scheme"
 msgid "Default"
 msgstr "Padrão"
 
-#: wp-includes/general-template.php:3847 wp-includes/formatting.php:3362
+#: wp-includes/general-template.php:3847 wp-includes/formatting.php:3364
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -10306,65 +10306,65 @@ msgid "Installed"
 msgstr "Instalado"
 
 #. translators: %d: Comment ID
-#: wp-includes/comment.php:3347
+#: wp-includes/comment.php:3349
 msgid "Comment %d contains personal data but could not be anonymized."
 msgstr "Não foi possível tornar anônimo o comentário %d, mesmo contendo dados pessoais."
 
 #. translators: Name of a comment's author after being anonymized.
-#: wp-includes/comment.php:3316 wp-includes/class-wp-theme.php:733
+#: wp-includes/comment.php:3318 wp-includes/class-wp-theme.php:733
 #: wp-includes/comment-template.php:31
 msgid "Anonymous"
 msgstr "Anônimo"
 
-#: wp-includes/comment.php:3203
+#: wp-includes/comment.php:3205
 msgid "Comment URL"
 msgstr "URL do comentário"
 
-#: wp-includes/comment.php:3202
+#: wp-includes/comment.php:3204
 msgid "Comment Content"
 msgstr "Conteúdo do comentário"
 
-#: wp-includes/comment.php:3201
+#: wp-includes/comment.php:3203
 msgid "Comment Date"
 msgstr "Data do comentário"
 
-#: wp-includes/comment.php:3200
+#: wp-includes/comment.php:3202
 msgid "Comment Author User Agent"
 msgstr "Agente de usuário do autor do comentário"
 
-#: wp-includes/comment.php:3199
+#: wp-includes/comment.php:3201
 msgid "Comment Author IP"
 msgstr "IP do autor do comentário"
 
-#: wp-includes/comment.php:3198
+#: wp-includes/comment.php:3200
 msgid "Comment Author URL"
 msgstr "URL do autor do comentário"
 
-#: wp-includes/comment.php:3197
+#: wp-includes/comment.php:3199
 msgid "Comment Author Email"
 msgstr "E-mail do autor do comentário"
 
-#: wp-includes/comment.php:3196
+#: wp-includes/comment.php:3198
 msgid "Comment Author"
 msgstr "Autor do comentário"
 
-#: wp-includes/comment.php:3161 wp-includes/comment.php:3270
+#: wp-includes/comment.php:3163 wp-includes/comment.php:3272
 msgid "WordPress Comments"
 msgstr "Comentários do WordPress"
 
-#: wp-includes/comment.php:3145
+#: wp-includes/comment.php:3147
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>ERRO</strong>: Esse comentário não pode ser salvo. Tente novamente mais tarde."
 
-#: wp-includes/comment.php:3120
+#: wp-includes/comment.php:3122
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>ERRO</strong>: digite um comentário."
 
-#: wp-includes/comment.php:3115
+#: wp-includes/comment.php:3117
 msgid "<strong>ERROR</strong>: please enter a valid email address."
 msgstr "<strong>ERRO</strong>: digite um endereço de e-mail válido."
 
-#: wp-includes/comment.php:3113
+#: wp-includes/comment.php:3115
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>ERRO</strong>: preencha os campos obrigatórios (nome, e-mail)."
 
@@ -11979,7 +11979,7 @@ msgstr "Sem permissão para editar '%s' para comentários"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:395
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:412
-#: wp-includes/comment.php:3105
+#: wp-includes/comment.php:3107
 msgid "Sorry, you must be logged in to comment."
 msgstr "Você precisa estar conectado para comentar."
 
@@ -13775,7 +13775,7 @@ msgstr "Hoje"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/script-loader.php:1884 wp-includes/formatting.php:3373
+#: wp-includes/script-loader.php:1884 wp-includes/formatting.php:3375
 #: wp-includes/js/dist/editor.js:29021
 msgctxt "Word count type. Do not translate!"
 msgid "words"
@@ -14298,7 +14298,7 @@ msgstr "Nenhum dado pessoal foi encontrado para este usuário."
 msgid "Comments (%s)"
 msgstr "Comentários (%s)"
 
-#: wp-includes/script-loader.php:1392 wp-includes/comment.php:3246
+#: wp-includes/script-loader.php:1392 wp-includes/comment.php:3248
 msgid "Comments"
 msgstr "Comentários"
 

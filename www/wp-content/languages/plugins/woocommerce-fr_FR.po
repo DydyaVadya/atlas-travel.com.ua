@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-01-28 16:21:16+0000\n"
+"PO-Revision-Date: 2019-02-14 07:48:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -56,7 +56,7 @@ msgstr "La routine de mise à jour de la base de données a été planifiée pou
 
 #: includes/api/v2/class-wc-rest-system-status-tools-v2-controller.php:200
 msgid "This tool will update your WooCommerce database to the latest version. Please ensure you make sufficient backups before proceeding."
-msgstr "Cet outil mettre à jour votre base de données WooCommerce à la dernière version. Veuillez vous assurer d’avoir une sauvegarde avant de commencer."
+msgstr "Cet outil mettra à jour votre base de données WooCommerce à la dernière version. Veuillez vous assurer d’avoir une sauvegarde avant de commencer."
 
 #: includes/api/v2/class-wc-rest-system-status-tools-v2-controller.php:195
 #: includes/api/v2/class-wc-rest-system-status-tools-v2-controller.php:196

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-19 20:37:26+0000\n"
+"PO-Revision-Date: 2019-02-23 00:21:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -485,8 +485,8 @@ msgstr "Valida la configurazione"
 #: admin/includes/config-validator.php:109
 msgid "Validate %s Contact Form Now"
 msgid_plural "Validate %s Contact Forms Now"
-msgstr[0] "Valida ora il modulo di contatto %s"
-msgstr[1] "Valida ora i moduli di contatto %s"
+msgstr[0] "Valida ora %s modulo di contatto"
+msgstr[1] "Valida ora %s moduli di contatto"
 
 #: admin/includes/config-validator.php:66
 msgid "You are not allowed to validate configuration."
