@@ -1,0 +1,540 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: "Proxima Nova";
+    src: url(../fonts/ProximaNova-Regular.woff);
+    font-weight: 300;
+}
+@font-face{
+    font-family: "Proxima Nova";
+    src: url(../fonts/ProximaNova-Bold.woff);
+    font-weight: 700;
+}
+html, body, #content{
+    font: 16px/22px "Proxima Nova", sans-serif;
+    font-weight: 300;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+#primary,
+button,
+input,
+select,
+textarea{
+    font: 16px/22px "Proxima Nova", sans-serif;
+    font-weight: 300;
+}
+html, body{
+   overflow-x: hidden;
+   max-width: 100%;
+}
+
+#main.single-country{
+    max-width: 951px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header.hotels-page-header{
+    position: static;
+}
+
+.back-link-row{
+    width: 100%;
+    position: relative;
+    height: 29px;
+    margin-bottom: 23px;
+    padding: 6px 0 7px;
+    line-height: 16px;
+    background-color: #ebebeb;
+}
+.back-link-row a,
+.back-link-row a:hover,
+.back-link-row a:focus,
+.back-link-row a:visited{
+    text-decoration: none;
+    color: #4e90c7;
+    border-bottom: 1px solid rgba(78,144,199,.3);
+}
+.back-link-row:after,
+.back-link-row:before{
+    content: "";
+    display: block;
+    width: 9999px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #ebebeb;
+}
+.back-link-row:after{
+    right: 100%;
+}
+.back-link-row:before{
+    left: 100%;
+}
+
+.hotels-filter{
+    position: relative;
+    background-color: #4d90c7;
+    padding: 30px 35px;
+    color: #fff;
+}
+.hotels-filter:after,
+.hotels-filter:before{
+    content: "";
+    display: block;
+    width: 9999px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #4d90c7;
+}
+.hotels-filter:after{
+    right: 100%;
+}
+.hotels-filter:before{
+    left: 100%;
+}
+.hotels-filter .filter-block{
+    height: 35px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 35px;
+}
+.filter-block .hotel-category-label,
+.filter-block .hotel-rate-label{
+    font-weight: 700;
+    text-align: right;
+    font-size: 16px;
+    line-height: 17px;
+    margin: 0 20px 0 0;
+    color: #fff;
+    width: auto;
+}
+.filter-block .hotel-category-label{
+    width: 85px;
+}
+.filter-block .hotel-rate-label i{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+}
+.hotels-filter-category .filter-values,
+.hotels-filter-rate .filter-values{
+    height: 35px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+}
+.hotels-filter-category .filter-values label{
+    font-weight: 300;
+    line-height: 17px;
+    margin: 0 8px 0 0;
+    color: #fff;
+    width: auto;
+}
+.hotels-filter-category .filter-values [type="checkbox"]{
+    vertical-align: top;
+    width: 17px !important;
+    height: 17px;
+    position: relative;
+    margin: 0 5px 0 0;
+}
+.hotels-filter-category .filter-values [type="checkbox"]:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    box-shadow: inset 0.7px 0.7px 2px rgba(0, 0, 0, 0.15);
+}
+.hotels-filter-category .filter-values [type="checkbox"]:checked:before{
+    background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAflBMVEUAAABOkMZOkMdPj8hNkMZOkMdOkMdOj8dOkMdOkMdNjspNkMhOkMdOkMhOksZRi8VOj8lOkMdOkMdPkMdPj8ZOkcdPj8dOkMdOkMdPjslOkMZOkMdOkMVOjsZOkMdNkcdMkslOkMdPkMZOj8dOkMdNj8dNj8ZJkshOkMcAAAC9SY/TAAAAKHRSTlMAbPdrY/7IW/3rK1P87zEWS/ryN4t2RPj1PdRlPiToVi/5fjv2SVkORSiN5QAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfgCRwKGxEDXlXKAAAAdklEQVQY05WP2Q6CMBBFC7JUoUhB2cFdzv9/IZUQU3wwYV7unExm7lwhtpXj7lbs+QQ2h5L9weIoRiVGjwunmiw3euI8c1FS1Z+mgdZIV1EW86QfkBeRZ+h02b0qbndFHH2vP56ADC2/l8b3Vh++pfOTYfyTbwIhPwar423gBwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNi0wOS0yOFQxMDoyNzoxNyswMjowMPVfIk8AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTYtMDktMjhUMTA6Mjc6MTcrMDI6MDCEAprzAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg==') no-repeat center;
+    background-size: 12px 12px;
+}
+#hotel-rate-from{
+    display: block !important;
+    width: 0;
+    height: 5px;
+    background: #3d77a5 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAGCAYAAAAYLBS/AAAA00lEQVQYVy2PO04EQQxEn9s93b0knIOMAGmFOAOHICVBK3EMLkAACTckmZn+2Gh6sWRVJfXKlrvni5t1Bo4ijDEIISIi+LHuHHOohKuX+5cPr7WSc8Z6Q0QRhSCJ1neiJsz7hMzwMOTh9dNnwAxxp7VGPp1Y15WSbxjWUFW2bSOVQq8VOb//uK+/hHyLj0oIYZ6YUqK2nSUm9n2nlIL1ji2KPL59u8Qwm5aU/38Ks3FZlqkHwF3w0TEV5Ony5S4Rix2vEGOcgGNUZfre7QrYVrQk/gB5a3YfPVNIRwAAAABJRU5ErkJggg==') repeat;
+    position: absolute;
+    font-size: 0;
+    top: 0;
+    left: 0;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    -webkit-background-clip: border-box;
+}
+.hotels-filter-rate #hotel-rate-slider{
+    position: relative;
+    top: -4px;
+    width: 135px;
+    background: #fff;
+    height:7px;
+    border-radius: 4px;
+    border-top: 1px solid #254b6f;
+    border-bottom: 1px solid #b8d2e9;
+    border-right: none;
+    border-left: none;
+    -webkit-background-clip: border-box;
+}
+.hotels-filter-rate #hotel-rate-slider .ui-slider-handle{
+    width: 13px;
+    height: 13px;
+    margin-left: -6px;
+    margin-bottom: 1px;
+    background-color: #f3f7f8;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 1px 0 white, 0 1px 2px rgba(0, 0, 0, 0.7);
+    background-image: none !important;
+    border-radius: 7px;
+    outline: none;
+}
+.hotels-filter-rate .hotel-slider-legenda{
+    position: relative;
+    top: 5px;
+}
+.hotels-filter-rate .hotel-slider-legenda span{
+    display: inline-block;
+    margin-right: 9px;
+    position: relative;   
+    left: -4px; 
+}
+.hotels-filter-rate .hotel-slider-legenda span:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 5px;
+    background-color: #85b2db;
+    left: 50%;
+    top: -9px; 
+}
+.hotels-filter-rate .hotel-slider-legenda span:last-child{
+    left: -10px;
+    margin-right: 0;
+}
+.hotels-filter [type="submit"]{
+    background-color: #a9cf55;
+    border: 2px solid #a9cf55;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 700;
+    padding: 0;
+    text-shadow: none;
+    width: 210px;
+    height: 35px;    
+    display: inline-block;
+    vertical-align: top;
+    background-image: none !important;
+    box-shadow: none;
+    outline: none;
+    float: none;
+}
+.hotels-filter [type="submit"]:hover{
+    box-shadow: none;
+    border: 2px solid #fff;
+    background-image: none !important;
+}
+.hotels-page-title {
+    color: #a9cf55;
+    font: 700 19px / 22px "Proxima Nova";
+    margin: 50px 0 11px 3px;
+}
+.hotels-page-subtitle {
+    color: #777;
+    font-style: italic;
+    margin: 0 0 0 1px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+
+
+
+
+
+.c-m_country-bl-list-wrap {
+    overflow: hidden;
+}
+
+.c-m_country-hor-bl-list {
+    margin: 23px -10px 15px;
+}
+.c-m_country-hor-wrap {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    height: 158px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #4e90c7;
+    border-radius: 3px;
+}
+.c-m_country-hor-wrap:hover {
+    background-color: #4e90c7;
+    text-decoration: none;
+}
+.c-m_country-hor-wrap:hover * {
+    color: #fff;
+}
+.c-m_country-hor-bl {
+    width: 33.3333%;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    
+}
+.c-m_country-hor-img {
+    height: 158px;
+    width: 122px;
+    background: url(../img/hotel-placeholder.PNG) no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+}
+.c-m_country-hor-img.no-image {
+    background-color: #7fb6e5;
+    background-size: 85%;
+}
+.c-m_country-ver-price {
+    font-size: 15px;
+    color: #fff;
+    background-color: #a9cf55;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 6px 10px;
+    position: absolute;
+    left: 20px;
+    top: 104px;
+    z-index: 2;
+}
+.c-m_country-hor-body {
+    padding: 19px 12px 0 130px;
+    font-size: 13px;
+    color: #777777;
+}
+.c-m_country-hor-title {
+    margin-bottom: 7px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    color: #4e90c7;
+    position: relative;
+    padding-right: 16px;
+    display: inline-block;
+}
+.c-m_country-hor-title span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.c-m_country-hor-desc {
+    height: 3em;
+    overflow: hidden;
+    line-height: 22px;
+}
+.c-m_country-hor-price {
+    font-size: 15px;
+    color: #fff;
+    background-color: #a9cf55;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    padding: 7px 0 0 15px;
+    position: absolute;
+    left: -1px;
+    xright: 137px;
+    width: 166px;
+    top: 107px;
+    z-index: 2;
+    height: 38px;
+    font-size: 13px;    
+    -webkit-background-clip: border-box;
+}
+.c-m_country-hor-price b {
+    font-size: 20px;
+    margin-left: 1px;
+}
+.c-m_country-hor-price > span {
+    position: absolute;
+    line-height: 9px;
+    margin: 2px 0 0 5px;
+}
+.c-m_country-hor-price > span span {
+    font-size: 11px;
+}
+.c-m_country-hor-rating {
+    color: #a9cf55;
+    font: 700 15px / 17px "Proxima Nova";
+    position: absolute;
+    top: 104px;
+    right: 12px;
+    left: 174px;
+}
+.c-m_rating-container {
+    height: 6px;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    margin-top: 1px;
+}
+.c-m_rating-value {
+    height: 6px;
+    background-color:#a9cf55;
+    border-radius: 4px;
+}
+.c-m_rating-value[data-value^="0"] {
+    width: 0%;
+}
+.c-m_rating-value[data-value^="1."] {
+    width: 10%;
+}
+.c-m_rating-value[data-value^="2."] {
+    width: 20%;
+}
+.c-m_rating-value[data-value^="3."] {
+    width: 30%;
+}
+.c-m_rating-value[data-value^="4."] {
+    width: 40%;
+}
+.c-m_rating-value[data-value^="5."] {
+    width: 50%;
+}
+.c-m_rating-value[data-value^="6."] {
+    width: 60%;
+}
+.c-m_rating-value[data-value^="7."] {
+    width: 70%;
+}
+.c-m_rating-value[data-value^="8."] {
+    width: 80%;
+}
+.c-m_rating-value[data-value^="9."] {
+    width: 90%;
+}
+.c-m_rating-value[data-value="10"] {
+    width: 100%;
+}
+.c-m_country-hor-rating span.link {
+    font: 300 13px / 13px "Proxima Nova";
+    text-decoration: none;
+    border-bottom: 1px solid #d9dee4;
+    display: inline-block;
+    color: #4e90c7;
+}
+.c-m_country-hor-wrap:hover .c-m_country-hor-rating span.link {
+    color: #fff;
+}
+
+
+
+
+.pagination{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+ul.pagination li{
+    display: inline-block;
+}
+ul.pagination li *{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    margin-right: 3px;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #777;
+}
+ul.pagination li a:hover{
+    background-color: #ebebeb;
+    color: #777;
+}
+ul.pagination li span:hover{
+    background-color: transparent;
+    color: #777;
+}
+ul.pagination li *.current{
+    background-color: #4f90c8;
+    color: #fff;
+}
+ul.pagination li a.prev,
+ul.pagination li a.next{
+    font-size: 0;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAPCAYAAAA2yOUNAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AkeCygxZ5CyjgAAAaxJREFUKM9NkrFrEwEcRt8vTfDaXhOopcSWphgFHRy8LfkfLCGgFbokhJLJf0EQHBw7OGSJScjYzRPaPVluKhGK0ECGpIgFheogR3O9+1yiuD/4+B6PMAyftlotXVxc+JKeSMpKciTdkWSS1pa2tra+TadTzs/PH+3u7jrr6+tnwE9JczMDiFLlchkzI4oiut1uYzKZHAEPzMwBDLCU53kb+/v7t2ZGHMf0+/29y8vLN4ArKQ2QknTted52pVJBEvP5nHa7/XI2m3XM7DGQpBa730ulUq5arSKJm5sber3e3tXV1Qtgw5IkccxsDiTA9mAw+HxycnJXEq7r0mw239viJma2BMTAvU6n83U8HgOwublJGsDMBMSSssPh8NlfwHVdDg4OPqaBVeA3sBIEwfT09DQHsLy8zOHhYSefz79OLYC1IAi++L6fS5IEx3FoNBqf8vn8O0nXaUn3R6PRxPd9JP0DdnZ2ngNZIEqNRqOz4+NjkiQhk8lQq9U6hULhFRABP8zsNh0EQU4SmUyGer3+tlgsHkn6tfAHYIRh+HBRwQdJq3Ec238FmKSVP4JQ5T6OHM7NAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 9px 15px;
+}
+ul.pagination li a.prev{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+@media screen and (max-width: 969px){
+    .breadcrumb{
+        font-size: 12px;
+    }
+    .hotels-filter{
+        padding: 20px 10px;
+    }
+    .hotels-page-title,
+    .hotels-page-subtitle,
+    .c-m_country-bl-list-wrap{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .c-m_country-hor-bl{
+        width: 50%;
+    }
+    .hotels-filter .filter-block{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){    
+    .c-m_country-hor-bl{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .hotels-filter .filter-block{
+        margin-right: 0;
+    }
+    .filter-block .hotel-category-label, .filter-block .hotel-rate-label {
+        font-weight: 300;
+        font-size: 14px;
+        margin: 0 9px 0 0;
+    }
+    .hotels-filter-category .filter-values label {
+        margin: 0 4px 0 0;
+    }
+    .hotels-filter-category .filter-values [type="checkbox"] {
+        margin: 0px 3px 0 0;
+    }
+    .filter-block .hotel-category-label {
+        width: 65px;
+    }
+}
+

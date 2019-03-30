@@ -1,0 +1,32 @@
+2019-03-19T22:00:05+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://api.otpusk.com?wsdl' : failed to load external entity "http://api.otpusk.com?wsdl"
+ in /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ODevCatalogManager.php:243
+Stack trace:
+#0 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ODevCatalogManager.php(243): SoapClient->SoapClient('http://api.otpu...', Array)
+#1 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/HotelCPT.php(644): ODevCatalogManager::establishOtpuskSoapApiConnection()
+#2 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/HotelCPT.php(620): HotelCPT->importHotelReviewsData()
+#3 [internal function]: HotelCPT->ajaxImportHotelReviewsData('')
+#4 /home/atlast01/atlas-travel.com.ua/www/wp-includes/class-wp-hook.php(286): call_user_func_array(Array, Array)
+#5 /home/atlast01/atlas-travel.com.ua/w в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ODevCatalogManager.php на строке 243
+
+2019-03-19T22:00:05+00:00 CRITICAL Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://api.otpusk.com?wsdl' : failed to load external entity "http://api.otpusk.com?wsdl"
+ in /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ODevCatalogManager.php:243
+Stack trace:
+#0 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ODevCatalogManager.php(243): SoapClient->SoapClient('http://api.otpu...', Array)
+#1 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/HotelCPT.php(644): ODevCatalogManager::establishOtpuskSoapApiConnection()
+#2 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/HotelCPT.php(620): HotelCPT->importHotelReviewsData()
+#3 [internal function]: HotelCPT->ajaxImportHotelReviewsData('')
+#4 /home/atlast01/atlas-travel.com.ua/www/wp-includes/class-wp-hook.php(286): call_user_func_array(Array, Array)
+#5 /home/atlast01/atlas-travel.com.ua/w в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ODevCatalogManager.php на строке 243
+
+2019-03-19T22:00:05+00:00 CRITICAL SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://api.otpusk.com?wsdl' : failed to load external entity "http://api.otpusk.com?wsdl"
+ в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/CountryCPT.php на строке 382
+
+2019-03-19T22:00:08+00:00 CRITICAL SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://api.otpusk.com?wsdl' : failed to load external entity "http://api.otpusk.com?wsdl"
+ в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ODevCatalogManager.php на строке 243
+
+2019-03-19T22:00:09+00:00 CRITICAL SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://api.otpusk.com?wsdl' : failed to load external entity "http://api.otpusk.com?wsdl"
+ в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ResortCPT.php на строке 396
+
+2019-03-19T22:01:05+00:00 CRITICAL SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://api.otpusk.com?wsdl' : failed to load external entity "http://api.otpusk.com?wsdl"
+ в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/ODevCatalogManager.php на строке 243
+

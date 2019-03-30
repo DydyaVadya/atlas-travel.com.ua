@@ -1,0 +1,20 @@
+2019-03-04T15:52:18+00:00 CRITICAL Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php:344
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://api.otpu...', 'http://api.otpu...', 1, 0)
+#1 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php(344): SoapClient->__call('getHotelList', Array)
+#2 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php(344): SoapClient->getHotelList(Array, Array)
+#3 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php(315): HotelCPT->importHotels('15', 555, 0)
+#4 [internal function]: HotelCPT->hotelsSettingsPage('')
+#5 /home/atlast01/atlas-travel.com.ua/www/wp-includes/class-wp-hook.php(286): call_user_func_array(Array, Array)
+#6 /home/atlast01/atlas- в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php на строке 344
+
+2019-03-04T16:00:42+00:00 CRITICAL Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php:344
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://api.otpu...', 'http://api.otpu...', 1, 0)
+#1 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php(344): SoapClient->__call('getHotelList', Array)
+#2 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php(344): SoapClient->getHotelList(Array, Array)
+#3 /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php(315): HotelCPT->importHotels('0', 555, 0)
+#4 [internal function]: HotelCPT->hotelsSettingsPage('')
+#5 /home/atlast01/atlas-travel.com.ua/www/wp-includes/class-wp-hook.php(286): call_user_func_array(Array, Array)
+#6 /home/atlast01/atlas-t в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts-plugin-master/classes/HotelCPT.php на строке 344
+

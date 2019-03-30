@@ -1,0 +1,393 @@
+body {
+    background-color: #fff;
+}
+#main .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+.site-info {
+    display: none;
+}
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v15/ty9dfvLAziwdqQ2dHoyjpvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/0eC6fl06luXEYWpBSJvXCFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/bbysZXYlQ_uS6wRz---nZA.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/ZLqKeelYbATG60EpZBSDy1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/77FXFjRbGzN4aCrSFhlh3ltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v15/s7gftie1JANC-QmDJvMWZltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nBXq9kzgndoR44SeY8PHbWY.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v13/Zd2E9abXLFGSr9G3YK2MsPtq1UKmrn1ImGwlX29WYUw.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nMG38ze9HmCb2dlCgcZrgNs.woff2) format('woff2');
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1.page-h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0 0 20px;
+}
+.brcr {
+    font-size: 11.4px;
+    color: #a8a8a8;
+    height: 38px;
+    line-height: 38px;
+}
+.brcr-separator {
+    margin: 0 3px;
+}
+.brcr a {
+    color: #4b8bc7;
+    text-decoration: none;
+}
+.brcr a:hover {
+    text-decoration: underline;
+}
+.b-countries .b-container, .b-country .b-container {
+    width: 725px;
+}
+.b-countries .choose-tour-form {
+    top: 14px;
+}
+.countries-search-wrapper {
+    background: #F5F5F5;
+    border-radius: 4px;
+    padding: 8px 9px 8px 35px;
+    margin-top: 15px;
+}
+.countries-search-form {
+    float: right;
+    width: 305px;
+}
+.countries-search-form input {
+    float: left;
+    display: block;
+    height: 29px;
+}
+.countries-search-input {
+    border: 1px solid #DADBDD;
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+    width: 220px;
+    background: #fff url('../img/sprite.png') no-repeat 4px -237px;
+    padding: 0 10px 0 29px;
+}
+.countries-search-submit {
+    width: 85px;
+    background: #3598DB;
+    color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 0 3px 3px 0;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.countries-search-submit:hover {
+    background: #3DA6ED;
+}
+.countries-tab {
+    font-size: 15.5px;
+    font-weight: 700;
+    color: #4b8cc7;
+    cursor: pointer;
+    margin: 5px 30px 0 0;
+    display: inline-block;
+    height: 21px;
+    background: url('../img/tab-underline.png') repeat-x left 19px;
+}
+.countries-tab.active {
+    color: #505050;
+    cursor: default;
+    background: none;
+}
+.countries-list-table {
+    display: table;
+    width: 100%;
+    padding: 30px 0 20px;
+}
+.countries-list-row {
+    display: table-row;
+}
+.countries-list-cell {
+    display: table-cell;
+    width: 25%;
+    padding: 12px 0 12px 35px;
+    position: relative;
+    line-height: 26px;
+}
+.cell-letter,
+.countries-list-cell a {
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 16px;
+}
+.cell-letter {
+    text-transform: uppercase;
+    color: #5e6163;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    display: block;
+    height: 22px;
+    width: 22px;
+    line-height: 21px;
+    background: #E7EBEC;
+    border-radius: 50%;
+    text-align: center;
+}
+.countries-list-cell a {
+    color: #4b8cc7;
+    text-decoration: none;
+}
+.countries-list-cell a:hover {
+    text-decoration: underline;
+}
+/*===COUNTRIES PAGE END===*/
+
+/*===SINGLE COUNTRY PAGE START===*/
+.b-country-table {
+    display: table;
+    width: 100%;
+}
+.b-country-table-col {
+    display: table-cell;
+    vertical-align: top;
+}
+.b-country-left-col .b-search {
+    min-height: 0;
+    margin: 40px 0 40px 0;
+}
+.b-country-right-col {
+    width: 250px;
+    padding: 0 0 0 20px;
+}
+.b-country-right-col .sp-title {
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 9px 0;
+    margin: 0 0 18px 0;
+}
+.b-country-right-col .choose-tour-form {
+    position: static;
+}
+.country-title {
+    margin: 45px 0 0 0;
+    color: #2c3e50;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.b-country .country-nav-wrap {
+    margin-top: 27px;
+    display: table;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ecf0f1;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.country-nav-wrap .country-nav {
+    background-color: #fff;
+    display: table-row;
+}
+.country-nav .nav-item {
+    display: table-cell;
+    font-size: 16px;
+    color: #4b8cc7;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 12px 0;
+    text-align: center;
+    min-width: 128px;
+}
+.country-nav .nav-item:hover {
+    background-color: #2c3e50;
+    color: #fff;
+}
+.b-country .country-preview-images-block {
+    border-radius: 3px;
+    background-color: rgb(236, 240, 241);
+    margin: 17px 0 0 0;
+    width: 100%;
+    padding: 8px 16px 16px 8px;
+    overflow: hidden;
+}
+.country-preview-images-block .image-item {
+    float: left;
+    margin: 8px 0 0 8px;
+}
+.country-preview-images-block .small-item {
+    float: right;
+    height: 86px;
+}
+.country-preview-images-block .large-item {
+    height: 274px;
+}
+.country-preview-images-block::after {
+    clear: both;
+}
+.b-country .country-info-wrap {
+    margin-top: 17px;
+    display: table;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ecf0f1;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+.country-info-wrap .country-info {
+    background-color: #fff;
+    display: table-row;
+}
+.country-info .country-info-cell {
+    display: table-cell;
+    min-width: 112px;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 6px;
+}
+.country-info .country-info-title {
+    color: #e95849;
+}
+.country-info .country-info-field {
+    color: #505050;
+    font-weight: bold;
+}
+.country-info .country-info-field a {
+    color: #4b8bc7;
+    font-weight: normal;
+}
+.pop-resorts-container::after {
+    content: ' ';
+    display: block;
+    border-bottom: 1px solid #ecf0f1;
+    height: 17px;
+    position: relative;
+}
+.pop-resorts-title {
+    color: #505050;
+    margin: 26px 0 17px;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pop-resorts-title span {
+    background-color: #fff;
+}
+.pop-resorts-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    height: 1px;
+    background: #ecf0f1;
+    z-index: -1;
+}
+.pop-resorts-col {
+    float: left;
+    width: 185px;
+}
+.pop-resorts-col4 {
+    width: 170px;
+}
+.pop-resorts-li {
+    padding: 6px 0;
+}
+.pop-resorts-name {
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    color: #4b8cc7;
+    font-size: 13.6px;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    display: inline-block;
+    padding-right: 5px;
+    margin-right: 10px;
+    max-width: 97px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pop-resorts-price {
+    font-size: 12px;
+    color: #888;
+    padding-left: 4px;
+}
+.pop-resorts-left-part,
+.pop-resorts-price {
+    float: left;
+    line-height: 15px;
+}
+.pop-resorts-left-part {
+    position: relative;
+    min-width: 88px;
+    max-width: 105px;
+}
+/*===SINGLE COUNTRY PAGE END===*/

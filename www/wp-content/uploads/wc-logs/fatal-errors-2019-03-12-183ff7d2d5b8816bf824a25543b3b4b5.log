@@ -1,0 +1,4 @@
+2019-03-12T22:00:20+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 78 bytes) в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/HotelCPT.php на строке 487
+
+2019-03-12T22:00:31+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 256 bytes) в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/HotelCPT.php на строке 487
+

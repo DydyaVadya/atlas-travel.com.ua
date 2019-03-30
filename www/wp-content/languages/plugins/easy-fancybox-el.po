@@ -1,0 +1,573 @@
+# Translation of Stable (latest release) in Greek
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-18 20:17:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: easy-fancybox-class.php:597 easy-fancybox-settings.php:9
+msgid "Global settings"
+msgstr "Καθολικές Ρυθμίσεις"
+
+#: easy-fancybox-settings.php:14
+msgid "Media"
+msgstr "Πολυμέσα"
+
+#: easy-fancybox-settings.php:20
+msgid "Enable FancyBox for"
+msgstr "Ενεργοποίηση Fancybox για:"
+
+#: easy-fancybox-class.php:598 easy-fancybox-settings.php:27
+#: easy-fancybox-settings.php:420
+msgid "Images"
+msgstr "Εικόνες"
+
+#: easy-fancybox-class.php:599 easy-fancybox-settings.php:34
+#: easy-fancybox-settings.php:683
+msgid "Inline content"
+msgstr "Περιεχόμενο στη γραμμή"
+
+#: easy-fancybox-class.php:600 easy-fancybox-settings.php:41
+#: easy-fancybox-settings.php:793
+msgid "PDF"
+msgstr "PDF"
+
+#: easy-fancybox-class.php:601 easy-fancybox-settings.php:48
+#: easy-fancybox-settings.php:918
+msgid "SWF"
+msgstr "SWF"
+
+#: easy-fancybox-settings.php:55 easy-fancybox-settings.php:1012
+msgid "SVG"
+msgstr "SVG"
+
+#: easy-fancybox-class.php:602 easy-fancybox-settings.php:62
+#: easy-fancybox-settings.php:1107
+msgid "YouTube"
+msgstr "YouTube"
+
+#: easy-fancybox-class.php:603 easy-fancybox-settings.php:69
+#: easy-fancybox-settings.php:1215
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: easy-fancybox-class.php:604 easy-fancybox-settings.php:76
+#: easy-fancybox-settings.php:1315
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: easy-fancybox-class.php:605 easy-fancybox-settings.php:83
+#: easy-fancybox-settings.php:1441
+msgid "iFrames"
+msgstr "iFrames"
+
+#: easy-fancybox-settings.php:86
+msgid "For advanced options and support, please get the Easy FancyBox - Pro extension."
+msgstr "Για προχωρημένες επιλογές και υποστήριξη, παρακαλώ προμηθευτείτε την επέκταση Easy FancyBox - Pro"
+
+#: easy-fancybox-settings.php:95
+msgid "Exclude"
+msgstr "Εξαίρεση"
+
+#: easy-fancybox-settings.php:101
+msgid "Empty (hidden) links"
+msgstr "Κενό (κρυφοί) συνδέσμοι"
+
+#: easy-fancybox-settings.php:102
+msgid "Without thumbnail image"
+msgstr "Χωρίς μικρογραφία εικόνας"
+
+#: easy-fancybox-settings.php:109
+msgid "Open on page load"
+msgstr "Άνοιγμα με τη φόρτωση της σελίδας"
+
+#: easy-fancybox-settings.php:115
+msgid "Link with ID \"fancybox-auto\""
+msgstr "Σύνδεση με ID \"fancybox-auto\""
+
+#: easy-fancybox-settings.php:118 easy-fancybox-settings.php:459
+#: easy-fancybox-settings.php:490 easy-fancybox-settings.php:517
+#: easy-fancybox-settings.php:592 easy-fancybox-settings.php:746
+#: easy-fancybox-settings.php:773
+msgid "More options &raquo;"
+msgstr "Περισσότερες επιλογές &raquo;"
+
+#: easy-fancybox-settings.php:125
+msgid "Include the Metadata jQuery extension script to allow passing custom parameters via link class."
+msgstr "Περίληψη της επέκτασης Metadata jQuery για να επιτραπεί το πέρασμα παραμέτρων μέσω κλάσεων συνδέσμων."
+
+#: easy-fancybox-settings.php:130 easy-fancybox-settings.php:553
+msgid "Overlay"
+msgstr "Επικάλυψη"
+
+#: easy-fancybox-settings.php:139
+msgid "Show the overlay around content opened in FancyBox."
+msgstr "Προβολή της επικάλυψης γύρω από περιεχόμενο ανοιγμένο στο FancyBox"
+
+#: easy-fancybox-settings.php:146
+msgid "Close FancyBox when overlay is clicked."
+msgstr "Κλείσιμο του FancyBox όταν πατηθεί η επικάλυψη"
+
+#: easy-fancybox-settings.php:150
+msgid "Opacity"
+msgstr "Αδιαφάνεια"
+
+#: easy-fancybox-settings.php:158
+msgid "Value between 0 and 1. "
+msgstr "Τιμή μεταξύ 0 και 1"
+
+#: easy-fancybox-settings.php:158 easy-fancybox-settings.php:167
+#: easy-fancybox-settings.php:231 easy-fancybox-settings.php:281
+#: easy-fancybox-settings.php:332 easy-fancybox-settings.php:645
+msgid "Default:"
+msgstr "Προεπιλογή:"
+
+#: easy-fancybox-settings.php:162
+msgid "Color"
+msgstr "Χρώμα"
+
+#: easy-fancybox-settings.php:167
+msgid "Enter an HTML color value."
+msgstr "Εισαγωγή HTML τιμής χρώματος."
+
+#: easy-fancybox-settings.php:175
+msgid "Spotlight effect"
+msgstr "Εφέ προβολέα"
+
+#: easy-fancybox-settings.php:175 easy-fancybox-settings.php:213
+#: easy-fancybox-settings.php:244 easy-fancybox-settings.php:574
+#: easy-fancybox-settings.php:663
+msgid "Make available &raquo;"
+msgstr "Κάνε διαθέσιμο &raquo;"
+
+#: easy-fancybox-settings.php:180
+msgid "Window"
+msgstr "Παράθυρο"
+
+#: easy-fancybox-settings.php:186 easy-fancybox-settings.php:535
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: easy-fancybox-settings.php:193
+msgid "Show the (X) close button"
+msgstr "Εμφάνιση του (Χ) κουμπιού κλεισίματος"
+
+#: easy-fancybox-settings.php:198
+msgid "Background color"
+msgstr "Χρώμα Παρασκηνίου"
+
+#: easy-fancybox-settings.php:208
+msgid "Text color"
+msgstr "Χρώμα Κειμένου"
+
+#: easy-fancybox-settings.php:218
+msgid "Title color"
+msgstr "Χρώμα Τίτλου"
+
+#: easy-fancybox-settings.php:227
+msgid "Border color"
+msgstr "Χρώμα Ορίων"
+
+#: easy-fancybox-settings.php:231 easy-fancybox-settings.php:517
+#: easy-fancybox-settings.php:592 easy-fancybox-settings.php:773
+msgid "Note:"
+msgstr "Σημείωση:"
+
+#: easy-fancybox-settings.php:231
+msgid "Use RGBA notation for semi-transparent borders."
+msgstr "Χρησιμοποίηση RGBA επισήμανσης για ημί-διάφανα όρια."
+
+#: easy-fancybox-settings.php:231 easy-fancybox-settings.php:447
+msgid "Example:"
+msgstr "Παράδειγμα:"
+
+#: easy-fancybox-settings.php:236
+msgid "Border radius"
+msgstr "Διάμετρος Ορίων"
+
+#: easy-fancybox-settings.php:249
+msgid "Dimensions"
+msgstr "Διαστάσεις"
+
+#: easy-fancybox-settings.php:281
+msgid "If content size is not set or cannot be determined automatically, these default dimensions will be used."
+msgstr "Αν το μέγεθος του κειμένου δεν έχει οριστεί ή δεν μπορεί να υπολογιστεί αυτόματα, θα χρησιμοποιηθούν αυτές οι προκαθορισμένες διαστάσεις."
+
+#: easy-fancybox-settings.php:286 easy-fancybox-settings.php:463
+msgid "Behavior"
+msgstr "Συμπεριφορά"
+
+#: easy-fancybox-settings.php:293
+msgid "Center while scrolling"
+msgstr "Κεντράρισμα κατά την κύλιση"
+
+#: easy-fancybox-settings.php:300
+msgid "Esc key stroke closes FancyBox"
+msgstr "Πάτημα του Esc κλείνει το FancyBox"
+
+#: easy-fancybox-settings.php:307
+msgid "Scale large content down to fit in the browser viewport."
+msgstr "Μείωση κλίμακας μεγάλου περιεχομένου για να χωρά στον περιηγητή."
+
+#: easy-fancybox-settings.php:311
+msgid "Opening speed"
+msgstr "Ταχύτητα ανοίγματος"
+
+#: easy-fancybox-settings.php:323
+msgid "Closing speed"
+msgstr "Ταχύτητα Κλεισίματος"
+
+#: easy-fancybox-settings.php:332 easy-fancybox-settings.php:645
+msgid "Duration in milliseconds. Higher is slower."
+msgstr "Διάρκεια σε χιλιοδευτερόλεπτα. Υψηλότερα είναι πιο αργό."
+
+#: easy-fancybox-settings.php:338
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+#: easy-fancybox-settings.php:344
+msgid "Browser & device compatibility"
+msgstr "Συμβατότητα με περιηγητές και συσκευές"
+
+#: easy-fancybox-settings.php:373
+msgid "Include IE 6 and 7 compatibility style rules"
+msgstr "Περίληψη στυλ κανόνων συμβατότητας για ΙΕ 6 και 7"
+
+#: easy-fancybox-settings.php:380
+msgid "Include IE 8 compatibility style rules"
+msgstr "Περίληψη στυλ κανόνων συμβατότητας για ΙΕ 8"
+
+#: easy-fancybox-settings.php:425
+msgid "To make images open in an overlay, add their extension to the Autodetect field or use the class \"fancybox\" for its link. Clear field to switch off all autodetection."
+msgstr "Για να κάνετε εικόνες να ανοίξουν σε επικάλυψη, προσθέστε την επέκταση τους στο πεδίο αυτόματου εντοπισμού ή χρησιμοποιήστε την κλάση \"fancybox\" για το σύνδεσμο τους. Καθαρίστε το πεδίο για να καταργήσετε τον αυτόματο εντοπισμό."
+
+#: easy-fancybox-settings.php:440 easy-fancybox-settings.php:806
+#: easy-fancybox-settings.php:931 easy-fancybox-settings.php:1025
+#: easy-fancybox-settings.php:1121 easy-fancybox-settings.php:1229
+#: easy-fancybox-settings.php:1329
+msgid "Autodetect"
+msgstr "Αυτόματος Εντοπισμός"
+
+#: easy-fancybox-settings.php:451
+msgid "Apply to"
+msgstr "Εφαρμογή σε:"
+
+#: easy-fancybox-settings.php:456
+msgid "All image links"
+msgstr "Όλοι οι σύνδεσμοι εικόνων"
+
+#: easy-fancybox-settings.php:467 easy-fancybox-settings.php:723
+msgid "Transition In"
+msgstr "Μετάβαση μέσα"
+
+#: easy-fancybox-settings.php:472 easy-fancybox-settings.php:499
+#: easy-fancybox-settings.php:728 easy-fancybox-settings.php:755
+msgid "Fade"
+msgstr "Ξεθώριασμα"
+
+#: easy-fancybox-settings.php:473 easy-fancybox-settings.php:500
+#: easy-fancybox-settings.php:729 easy-fancybox-settings.php:756
+msgid "Elastic"
+msgstr "Ελαστική"
+
+#: easy-fancybox-settings.php:480 easy-fancybox-settings.php:736
+msgid "Easing In"
+msgstr "Σταδιακή είσοδος"
+
+#: easy-fancybox-settings.php:484 easy-fancybox-settings.php:511
+#: easy-fancybox-settings.php:740 easy-fancybox-settings.php:767
+msgid "Linear"
+msgstr "Γραμμικό"
+
+#: easy-fancybox-settings.php:485 easy-fancybox-settings.php:512
+#: easy-fancybox-settings.php:741 easy-fancybox-settings.php:768
+msgid "Swing"
+msgstr "Κούνημα"
+
+#: easy-fancybox-settings.php:486 easy-fancybox-settings.php:513
+#: easy-fancybox-settings.php:742 easy-fancybox-settings.php:769
+msgid "easeInBack"
+msgstr "easeInBack"
+
+#: easy-fancybox-settings.php:487 easy-fancybox-settings.php:514
+#: easy-fancybox-settings.php:743 easy-fancybox-settings.php:770
+msgid "easeOutBack"
+msgstr "easeOutBack"
+
+#: easy-fancybox-settings.php:494 easy-fancybox-settings.php:750
+msgid "Transition Out"
+msgstr "Μετάβαση έξω"
+
+#: easy-fancybox-settings.php:507 easy-fancybox-settings.php:763
+msgid "Easing Out"
+msgstr "Σταδιακή έξοδος"
+
+#: easy-fancybox-settings.php:517 easy-fancybox-settings.php:773
+msgid "Easing effects only apply when Transition is set to Elastic. "
+msgstr "Τα εφέ σταδιακής εισόδου ισχύουν μόνο όταν η μετάβαση έχει τεθεί Ελαστική"
+
+#: easy-fancybox-settings.php:524 easy-fancybox-settings.php:780
+msgid "Transparency fade during elastic transition. CAUTION: Use only when at least Transition In is set to Elastic!"
+msgstr "Ξεθώριασμα διαφάνειας κατά την ελαστική μετάβαση. ΠΡΟΣΟΧΗ: Χρησιμοποιήστε μόνο όταν η Mετάβαση Μέσα είναι ορισμένη σε ελαστική!"
+
+#: easy-fancybox-settings.php:531 easy-fancybox-settings.php:787
+msgid "Close FancyBox when content is clicked"
+msgstr "Κλείσιμο του FancyBox όταν πατηθεί το περιεχόμενο"
+
+#: easy-fancybox-settings.php:542 easy-fancybox-settings.php:860
+#: easy-fancybox-settings.php:983 easy-fancybox-settings.php:1077
+#: easy-fancybox-settings.php:1186 easy-fancybox-settings.php:1285
+#: easy-fancybox-settings.php:1385 easy-fancybox-settings.php:1512
+msgid "Show title"
+msgstr "Προβολή τίτλου"
+
+#: easy-fancybox-settings.php:546 easy-fancybox-settings.php:864
+#: easy-fancybox-settings.php:987 easy-fancybox-settings.php:1081
+#: easy-fancybox-settings.php:1190 easy-fancybox-settings.php:1289
+#: easy-fancybox-settings.php:1389 easy-fancybox-settings.php:1516
+msgid "Title Position"
+msgstr "Θέση Τίτλου"
+
+#: easy-fancybox-settings.php:550 easy-fancybox-settings.php:868
+#: easy-fancybox-settings.php:991 easy-fancybox-settings.php:1085
+#: easy-fancybox-settings.php:1194 easy-fancybox-settings.php:1293
+#: easy-fancybox-settings.php:1393 easy-fancybox-settings.php:1520
+msgid "Float"
+msgstr "Αιώρηση"
+
+#: easy-fancybox-settings.php:551 easy-fancybox-settings.php:869
+#: easy-fancybox-settings.php:992 easy-fancybox-settings.php:1086
+#: easy-fancybox-settings.php:1195 easy-fancybox-settings.php:1294
+#: easy-fancybox-settings.php:1394 easy-fancybox-settings.php:1521
+msgid "Outside"
+msgstr "Έξω"
+
+#: easy-fancybox-settings.php:552 easy-fancybox-settings.php:870
+#: easy-fancybox-settings.php:993 easy-fancybox-settings.php:1087
+#: easy-fancybox-settings.php:1196 easy-fancybox-settings.php:1295
+#: easy-fancybox-settings.php:1395 easy-fancybox-settings.php:1522
+msgid "Inside"
+msgstr "Μέσα"
+
+#: easy-fancybox-settings.php:563 easy-fancybox-settings.php:879
+#: easy-fancybox-settings.php:1002 easy-fancybox-settings.php:1097
+#: easy-fancybox-settings.php:1205 easy-fancybox-settings.php:1304
+#: easy-fancybox-settings.php:1404 easy-fancybox-settings.php:1531
+msgid "Allow title from thumbnail alt tag"
+msgstr "Να επιτρέπεται τίτλος από της μικρογραφίας το alt tag"
+
+#: easy-fancybox-settings.php:567 easy-fancybox-settings.php:656
+msgid "Advanced"
+msgstr "Προχωρημένες"
+
+#: easy-fancybox-settings.php:571
+msgid "Hide/show title on mouse hover action"
+msgstr "Απόκρυψη/εμφάνιση τίτλου όταν ο κέρσορας περνάει από πάνω"
+
+#: easy-fancybox-settings.php:578
+msgid "Gallery"
+msgstr "Γκαλερί"
+
+#: easy-fancybox-settings.php:582
+msgid "Autogallery"
+msgstr "Αυτόματη Γκαλερί"
+
+#: easy-fancybox-settings.php:588
+msgid "WordPress galleries only"
+msgstr "Μόνο WordPress γκαλερίς"
+
+#: easy-fancybox-settings.php:589
+msgid "All in one gallery"
+msgstr "Όλα σε μια γκαλερί"
+
+#: easy-fancybox-settings.php:592
+msgid "When disabled, you can use the rel attribute to manually group image links together."
+msgstr "Όταν απενοργοποιημένο, μπορείτε να χρησιμοποιήσετε την ιδιότητα rel για να ομαδοποιήσετε χειροκίνητα τους συνδέσμους εικόνων."
+
+#: easy-fancybox-settings.php:599
+msgid "Show the gallery navigation arrows"
+msgstr "Προβολή των βέλων πλοήγησης της γκαλερί"
+
+#: easy-fancybox-settings.php:606
+msgid "Arrow key strokes browse the gallery"
+msgstr "Πάτημα κουμπιών βέλων για περιήγηση στη γκαλερί"
+
+#: easy-fancybox-settings.php:613
+msgid "Include the Mousewheel jQuery extension script to allow gallery browsing by mousewheel action."
+msgstr "Περίληψη της επέκτασης Mousewheel jQuery για να επιτρέπεται η περιήγηση των γκαλερί με το ροδάκι του ποντικιού."
+
+#: easy-fancybox-settings.php:620
+msgid "Make galleries cyclic, allowing you to keep pressing next/back."
+msgstr "Κάντε τις γκαλερί κυκλικές, για να μπορείτε να πατάτε επόμενο/προηγούμενο"
+
+#: easy-fancybox-settings.php:624
+msgid "Change speed"
+msgstr "Αλλαγή ταχύτητας"
+
+#: easy-fancybox-settings.php:636
+msgid "Fade speed"
+msgstr "Ταχύτητα ξεθωριάσματος"
+
+#: easy-fancybox-settings.php:652
+msgid "Galleries per Section (below)"
+msgstr "Γκαλερί ανά Τομέα (από κάτω)"
+
+#: easy-fancybox-settings.php:652
+msgid "This applies when <em>Apply to</em> is set to <em>Limited to Sections</em> and/or <em>Autogallery</em> is set to <em>Galleries per Section</em>. Adapt it to conform with your theme."
+msgstr "Αυτό ισχύει όταν <em>Εφαρμογή σε</em> έχει οριστεί σε <em>Περιορισμός σε Τομείς</em> και/ή <em>Autogallery</em> έχει οριστεί σε <em>Γκαλερί ανά Τομέα</em>. Προσαρμόστε το για να ταιριάζει με το θέμα σας."
+
+#: easy-fancybox-settings.php:652
+msgid "Examples: If your theme wraps post content in a div with class post, change this value to \"div.post\". If you only want to group images in a WordPress gallery together, use \"div.gallery\". If you want to include images in a sidebar with ID primary, add \", #primary\"."
+msgstr "Παραδείγματα: Αν το θέμα σας τυλίγει το περιεχόμενο των δημοσιεύσεων σε μια div με κλάση post, αλλάχτε  αυτήν την τιμή σε \"div.post\". Αν θέλετε μόνο να ομαδοποιήσετε εικόνες σε μια γκαλερί WordPress, χρησιμοποιήστε \"div.gallery\". Αν θέλετε να περιλάβετε εικόνες σε μια πλευρική μπάρα με ID primary, προσθέστε #primary\"."
+
+#: easy-fancybox-settings.php:652
+msgid "Hide/show title on mouse hover action works best with Overlay title position."
+msgstr "Απόκρυψη/εμφάνιση τίτλου όταν ο κέρσορας περνάει από πάνω δουλεύει καλύτερα με Επικάλυψη θέσης τίτλου"
+
+#: easy-fancybox-settings.php:652
+msgid "Auto-rotation uses a fixed 3, 6, 9 or 12 second pause per image."
+msgstr "Η Αυτόματη Περιστροφή χρησιμοποιεί μια σταθερή παύση 3, 6, 9, ή 12 δευτερολέπτων ανά εικόνα."
+
+#: easy-fancybox-settings.php:652
+msgid "(3 seconds)"
+msgstr "(3 δευτερόλεπτα)"
+
+#: easy-fancybox-settings.php:652
+msgid "(6 seconds)"
+msgstr "(6 δευτερόλεπτα)"
+
+#: easy-fancybox-settings.php:652
+msgid "(9 seconds)"
+msgstr "(9 δευτερόλεπτα)"
+
+#: easy-fancybox-settings.php:652
+msgid "(12 seconds)"
+msgstr "(12 δευτερόλεπτα)"
+
+#: easy-fancybox-settings.php:660
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: easy-fancybox-settings.php:688
+msgid "To make inline content open in an overlay, wrap that content in a div with a unique ID, create a link with target \"#uniqueID\" and give it a class \"fancybox-inline\" attribute."
+msgstr "Για να κάνετε γραμμικό περιεχόμενο να ανοίξει σε μια επικάλυψη, τυλίξτε το περιεχόμενο με μια div με μοναδικό ID, δημιουργήστε ένα σύνδεσμό με στόχο \"#uniqueID\" και δώστε του μια κλάση με \"fancybox-inline\" ιδιότητα."
+
+#: easy-fancybox-settings.php:706
+msgid "Try to adjust size to inline/html content. If unchecked or size cannot be determined, the default dimensions will be used."
+msgstr "Προσπαθήστε να προσαρμόσετε το μέγεθος στο γραμμικό/html περιεχόμενο. Αν δεν ελεγχθεί ή το μέγεθος δεν μπορεί να προσδιοριστεί, θα χρησιμοποιηθούν οι προκαθορισμένες διαστάσεις."
+
+#: easy-fancybox-settings.php:710
+msgid "Scrolling"
+msgstr "Κύλιση"
+
+#: easy-fancybox-settings.php:714
+msgid "Auto"
+msgstr "Αυτόματα"
+
+#: easy-fancybox-settings.php:715
+msgid "Always"
+msgstr "Πάντα"
+
+#: easy-fancybox-settings.php:716
+msgid "Never"
+msgstr "Ποτέ"
+
+#: easy-fancybox-settings.php:719
+msgid "Define scrolling and scrollbar visibility."
+msgstr "Καθορίστε την ορατότητα της κύλισης και της μπάρας κύλισης"
+
+#: easy-fancybox-settings.php:798
+msgid "To make any PDF document file open in an overlay, switch on Autodetect or use the class \"fancybox-pdf\" for its link."
+msgstr "Για να κάνετε οποιοδήποτε PDF αρχείο να ανοίξει σε επικάλυψη, βγάλτε τον Αυτόματο Εντοπισμό ή χρησιμοποιήστε την κλάση \"fancybox-pdf\" για το σύνδεσμο του."
+
+#: easy-fancybox-settings.php:923
+msgid "To make any Flash (.swf) file open in an overlay, switch on Autodetect or use the class \"fancybox-swf\" for its link."
+msgstr "Για να κάνετε οποιοδήποτε Flash (.swf) αρχείο να ανοίξει σε επικάλυψη, βγάλτε τον Αυτόματο Εντοπισμό ή χρησιμοποιήστε την κλάση \"fancybox-swf\" για το σύνδεσμο του."
+
+#: easy-fancybox-settings.php:1017
+msgid "To make any SVG (.svg) file open in an overlay, switch on Autodetect or use the class \"fancybox-svg\" for its link."
+msgstr "Για να κάνετε οποιοδήποτε SVG (.svg) αρχείο να ανοίξει σε επικάλυψη, βγάλτε τον Αυτόματο Εντοπισμό ή χρησιμοποιήστε την κλάση \"fancybox-svg\" για το σύνδεσμο του."
+
+#: easy-fancybox-settings.php:1112
+msgid "To make any YouTube movie open in an overlay, switch on Autodetect or use the class \"fancybox-youtube\" for its link."
+msgstr "Για να κάνετε οποιοδήποτε Youtube βίντεο να ανοίξει σε επικάλυψη, βγάλτε τον Αυτόματο Εντοπισμό ή χρησιμοποιήστε την κλάση \"fancybox-youtube\" για το σύνδεσμο του."
+
+#: easy-fancybox-settings.php:1130
+msgid "Autodetect Short links"
+msgstr "Αυτόματος Εντοπισμός Short συνδέσμων"
+
+#: easy-fancybox-settings.php:1220
+msgid "To make any Vimeo movie open in an overlay, switch on Autodetect or use the class \"fancybox-vimeo\" for its link."
+msgstr "Για να κάνετε οποιοδήποτε Vimeo βίντεο να ανοίξει σε επικάλυψη, βγάλτε τον Αυτόματο Εντοπισμό ή χρησιμοποιήστε την κλάση \"fancybox-vimeo\" για το σύνδεσμο του."
+
+#: easy-fancybox-settings.php:1320
+msgid "To make any Dailymotion movie open in an overlay, switch on Autodetect or use the class \"fancybox-dailymotion\" for its link."
+msgstr "Για να κάνετε οποιοδήποτε Dailymotion βίντεο να ανοίξει σε επικάλυψη, βγάλτε τον Αυτόματο Εντοπισμό ή χρησιμοποιήστε την κλάση \"fancybox-dailymotion\" για το σύνδεσμο του."
+
+#: easy-fancybox-settings.php:1446
+msgid "To make a website or HTML document open in an overlay, use the class \"fancybox-iframe\" for its link."
+msgstr "Για να κάνετε μια ιστοσελίδα ή αρχείο HTML να ανοίξει σε επικάλυψη, χρησιμοποιήστε την κλάση \"fancybox-iframe\" για το σύνδεσμο του."
+
+#: easy-fancybox-class.php:351
+msgid "Donate to keep the Easy FancyBox plugin development going!"
+msgstr "Δωρίστε για να διατηρηθεί η εξέλιξη του προσθέτου Easy FancyBox!"
+
+#: easy-fancybox-class.php:351
+msgid "The options in this section are provided by the plugin %s and determine the <strong>Media Lightbox</strong> overlay appearance and behaviour controlled by %s."
+msgstr "Οι επιλογές σε αυτόν το τομέα παρέχονται από το πρόσθετο %s και καθορίζουν την <strong>Media Lightbox</strong> επικάλυψη εμφάνιση και συμπεριφορά ελεγχόμενα από %s."
+
+#. #-#-#-#-#  tmp-easy-fancybox.pot (Easy FancyBox 1.5.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: easy-fancybox-class.php:351
+msgid "Easy FancyBox"
+msgstr "Easy FancyBox"
+
+#: easy-fancybox-class.php:351 easy-fancybox-class.php:547
+#: easy-fancybox-class.php:587
+msgid "FancyBox"
+msgstr "FancyBox"
+
+#: easy-fancybox-class.php:351
+msgid "First enable each sub-section that you need. Then save and come back to adjust its specific settings."
+msgstr "Πρώτα ενεργοποιήστε όποιον υπό-τομέα χρειάζεστε. Στην συνέχεια σώστε και ελάτε πίσω για να προσαρμόσετε τις συγκεκριμένες ρυθμίσεις."
+
+#: easy-fancybox-class.php:351
+msgid "Note: Each additional sub-section and features like <em>Auto-detection</em>, <em>Elastic transitions</em> and all <em>Easing effects</em> (except Swing) will have some extra impact on client-side page speed. Enable only those sub-sections and options that you actually need on your site."
+msgstr "Σημείωση: Κάθε επιπλέον υποτομέας και χαρακτηριστικό όπως <em>Αυτόματος Εντοπισμός</em>, <em>Ελαστικές μεταβάσεις </em> και όλα τα <em>Σταδιακά εφέ</em> (εκτός από Κούνημα) θα έχουν επίδραση στην της ταχύτητας της ιστοσελίδας. Ενεργοποιήστε μόνο τους υπό-τομείς που χρειάζεστε στην ιστοσελίδα σας."
+
+#: easy-fancybox-class.php:351
+msgid "Some setting like Transition options are unavailable for SWF video, PDF and iFrame content to ensure browser compatibility and readability."
+msgstr "Ορισμένες ρυθμίσεις όπως οι ρυθμίσεις Μετάβασης δεν είναι διαθέσιμες για βίντεο SWF, PDF και περιεχόμενο iFrame για να διασφαλιστεί η συμβατότητα με τον περιηγητή και η ευαναγνωστικότητα."
+
+#: easy-fancybox-class.php:395
+msgid "Checked"
+msgstr "Τσεκαρισμένο"
+
+#: easy-fancybox-class.php:397
+msgid "Unchecked"
+msgstr "Ατσεκάριστο"
+
+#: easy-fancybox-class.php:587
+msgid "Easy FancyBox Settings"
+msgstr "Ρυθμίσεις Easy FancyBox"
+
+#: easy-fancybox-class.php:596
+msgid "Sections"
+msgstr "Τομείς"
+
+#: easy-fancybox-class.php:633
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: easy-fancybox-class.php:634
+msgid "Resources"
+msgstr "Πόροι"
+
+#: easy-fancybox-class.php:636
+msgid "Credits"
+msgstr "Πιστώσεις"

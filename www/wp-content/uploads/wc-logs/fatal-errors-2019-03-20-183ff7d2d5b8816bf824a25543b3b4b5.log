@@ -1,0 +1,6 @@
+2019-03-20T11:23:51+00:00 CRITICAL Maximum execution time of 30 seconds exceeded в /home/atlast01/atlas-travel.com.ua/www/wp-includes/class-wp-image-editor-imagick.php на строке 362
+
+2019-03-20T22:00:28+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 30 bytes) в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/HotelCPT.php на строке 487
+
+2019-03-20T22:00:41+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 77 bytes) в /home/atlast01/atlas-travel.com.ua/www/wp-content/plugins/odev-countries-and-resorts/classes/HotelCPT.php на строке 487
+

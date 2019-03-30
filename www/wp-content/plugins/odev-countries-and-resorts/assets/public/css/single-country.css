@@ -1,0 +1,770 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: "Proxima Nova";
+    src: url(../fonts/ProximaNova-Regular.woff);
+    font-weight: 300;
+}
+@font-face{
+    font-family: "Proxima Nova";
+    src: url(../fonts/ProximaNova-Bold.woff);
+    font-weight: 700;
+}
+html, body, #content{
+    font: 16px/22px "Proxima Nova", sans-serif;
+    font-weight: 300;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+#main.single-country{
+    max-width: 951px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#primary,
+button,
+input,
+select,
+textarea{
+	font-family: "Proxima Nova", sans-serif;
+}
+.breadcrumb{
+    margin: 0 0 20px;
+}
+.single-country .country-image img {
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.single-country .country-map {
+    width: 100%;
+    height: 260px;
+}
+
+.single-country .pop-resorts-container,
+.single-country .os-search-container,
+.single-country .os-hottours-container {
+    margin: 0 0 20px 0;
+}
+
+    @charset "utf-8";
+
+    /* ===== CUSTOM CSS ===== */
+    .c-m_container,
+    .c-m_container *, 
+    .c-m_container *:before,
+    .c-m_container *:after {
+        box-sizing: border-box;
+        font-family: "Proxima Nova", arial; 
+    }
+
+    /*general*/
+    .clearfix:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .c-m_container {
+        margin: 0 auto;
+        max-width: 951px;
+        /*width: 951px;*/
+        padding: 20px 0;
+    }
+
+.c-m_mr0 {
+    margin-right: 0 !important;
+}
+.c-m_ml0 {
+    margin-left: 0 !important;
+}
+
+/*brcr*/
+.c-m_country-brcr {
+    background-color: #ebebeb;
+    color: #a9cf55;
+    font: 300 15px / 17px "Proxima Nova";
+    padding: 6px 15px;
+    margin-bottom: 20px;
+}
+.c-m_country-brcr,
+.c-m_country-brcr a {
+    color: #4e90c7;
+    text-decoration: none;
+}
+.c-m_country-brcr a:hover,
+.c-m_country-brcr span {
+    color: #a9cf55;
+}
+
+/*map*/
+.c-m_country-map-container {
+    height: 249px;
+    margin: 0 0 30px;
+}
+.c-m_country-map-title {
+    height: 52px;
+    background-color: #4e90c7;
+    border-radius: 3px;
+    text-align: center;
+    font: 700 24px / 52px "Proxima Nova";
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.c-m_country-map {
+    height: 200px;
+    margin-top: -3px;
+    background: url(../img/map-bg.png) no-repeat center bottom;
+    transition: height .4s;
+}
+.c-m_country-map.active {
+    height: 400px;
+}
+
+/*desc*/
+.c-m_country-desc {
+    display: table;
+    width: 100%;
+    margin: 0 0 50px;
+}
+.c-m_country-desc-col {
+    display: table-cell;
+    vertical-align: top;
+    font: 300 16px / 22px "Proxima Nova";
+    color: #666;
+}
+.c-m_country-desc-col .c-m_country-desc-title{
+    margin-top: 0;
+}
+.c-m_country-desc-left {
+    padding-right: 37px;
+    line-height: 1.5;
+}
+.c-m_country-desc-left p {
+    margin: 15px 0;
+}
+.c-m_country-desc-title {
+    color: #a9cf55;
+    font: 700 19px / 22px "Proxima Nova";
+    margin: 50px 0 11px 3px;
+}
+.c-m_country-desc-subtitle {
+    color: #777;
+    font-style: italic;
+    margin: 0 0 0 1px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15px;
+}
+.c-m_country-desc-right {
+    width: 279px;
+}
+.c-m_country-image {
+    width: 279px;
+    height: 174px;
+    border-radius: 3px;
+    background: url(../img/country-desc-bg.png) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.c-m_country-desc-list {
+    border: 1px solid #4E90C7;
+    border-radius: 3px;
+    padding: 12px 1px 19px;
+}
+.c-m_country-desc-list_item {
+    padding: 6px 25px;
+}
+.c-m_country-desc-list_item:nth-child(even) {
+    background-color: #ebebeb;
+}
+.c-m_country-desc-list_item span {
+    display: inline-block;
+}
+.c-m_country-desc-list_item span:nth-child(1) {
+    width: 105px;
+    color: #4e90c7;
+}
+
+/*pop resorts*/
+    .c-m_price-list-container {
+        padding: 3px 0;
+    }
+    .c-m_price-list-container,
+    .c-m_price-list-container a {
+        font-size: 14px;
+        color: #777777;
+    }
+    .c-m_price-list-container a:hover {
+        color: #777777;
+        cursor: pointer;
+    }
+    .c-m_price-list-container .c-m_all-resorts-link{
+        text-decoration: underline;
+    }
+    .c-m_price-list-container .c-m_all-resorts-link[aria-expanded=false]:before {
+        content: 'Все ';
+    }
+    .c-m_price-list-container .c-m_all-resorts-link[aria-expanded=true]:before {
+        content: 'Скрыть ';
+    }
+    .c-m_price-list-title {
+        text-align: center;
+        color: #a9cf55;
+        font-size: 22px;
+        margin: 5px 0 10px;
+    }
+    .c-m_all-resorts-wrap {
+        text-align: center;
+        margin: 5px 0 22px;
+    }
+    .c-m_price-list {
+        padding: 4px 0 6px;
+        margin: 0;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-gap: 40px;
+        -moz-column-gap: 40px;
+        column-gap: 40px;
+    }
+    .c-m-regular-resorts-list {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .c-m-regular-resorts-list .col-xs-12,
+    .c-m-regular-resorts-list .col-sm-6,
+    .c-m-regular-resorts-list .col-md-4 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .c-m_price-list-item {
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+        position: relative !important;
+        padding: 3px 0;
+        background: url(../img/dots.png) repeat-x center 13px;
+    }
+    .c-m_price-list-item.no-price{
+        background-image: none;
+    }
+    
+    .c-m_price-list-item a:visited,
+    .c-m_price-list-item a:hover{
+        color: #4e91c7;
+    }
+    .c-m_price-list-item a,
+    .c-m_price-list-item span {
+        background-color: #fff;
+    }
+    .c-m_price-list-item a {
+        color: #4e91c7;
+        text-decoration: none;
+        padding-right: 2px;
+    }
+    .c-m_price-list-item span {
+        float: right;
+    }
+    .c-m_price-list-item a:hover {
+        text-decoration: underline;
+    }
+.c-m_country-container .c-m_price-list-container {
+    border-bottom: 2px solid #4e90c7;
+    margin-bottom: 35px;
+}
+.c-m_price-list-title-line {
+    height: 11px;
+    background: #4e91c7;
+}
+.c-m_country-container .c-m_price-list-title {
+    font: 700 19px / 22px "Proxima Nova";
+    color: #4e91c7;
+    width: 235px;
+    background: #fff;
+    margin: -18px auto 26px;
+}
+
+/*best deals*/
+.c-m_country-bl-list-wrap {
+    overflow: hidden;
+}
+.c-m_country-ver-bl-list {
+    margin: 30px -10px 15px;
+}
+.c-m_country-ver-wrap {
+    cursor: pointer;
+}
+.c-m_country-ver-bl {
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.c-m_country-ver-img {
+    height: 129px;
+    background: url(../img/ver-bl-bg.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+}
+.c-m_country-ver-price {
+    font-size: 15px;
+    color: #fff;
+    background-color: #a9cf55;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 6px 10px;
+    position: absolute;
+    left: 20px;
+    top: 104px;
+    z-index: 2;
+}
+.c-m_country-ver-body {
+    height: 150px;
+    margin-top: -3px;
+    border: 1px solid #4E90C7;
+    border-radius: 3px;
+    padding: 18px 12px 0;
+    color: #4e91c7;
+    background: #fff;
+    font-size: 13px;
+}
+.c-m_country-ver-wrap:hover .c-m_country-ver-body {
+    color: #fff;
+    background: #4e91c7;
+}
+.c-m_country-ver-title {
+    font: 700 19px / 22px "Proxima Nova";
+    margin: 0 0 1px;
+}
+.c-m_country-ver-geo {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap;
+    margin-bottom: 13px;
+}
+.c-m_country-ver-i {
+    padding: 2px 0;
+    padding-left: 42px;
+}
+.c-m_country-ver-date {
+    background: url(../img/ic-date.png) no-repeat 10px 1px;
+}
+.c-m_country-ver-from {
+    background: url(../img/ic-from.png) no-repeat 8px 4px;
+}
+.c-m_country-ver-food {
+    background: url(../img/ic-food.png) no-repeat 9px 4px;
+}
+.c-m_country-ver-wrap:hover .c-m_country-ver-date {
+    background-image: url(../img/ic-date-hover.png);
+}
+.c-m_country-ver-wrap:hover .c-m_country-ver-from {
+    background-image: url(../img/ic-from-hover.png);
+}
+.c-m_country-ver-wrap:hover .c-m_country-ver-food {
+    background-image: url(../img/ic-food-hover.png);
+}
+.c-m_hor-banner {
+    height: 90px;
+    background-color: #cccccc;
+    margin-bottom: 35px;
+}
+
+/*second desc*/
+.c-m_country-desc-second {
+    margin-top: 45px;
+}
+.c-m_country-desc-second .c-m_country-desc-left p:first-child {
+    margin-top: 4px;
+}
+
+/*best hotels*/
+.c-m_country-hor-bl-list {
+    margin: 23px -10px 15px;
+}
+.c-m_country-hor-wrap {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    height: 158px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #4e90c7;
+    border-radius: 3px;
+}
+.c-m_country-hor-wrap:hover {
+    background-color: #4e90c7;
+    text-decoration: none;
+}
+.c-m_country-hor-wrap:hover * {
+    color: #fff;
+}
+.c-m_country-hor-bl {
+    width: 33.3333%;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    
+}
+.c-m_country-hor-img {
+    height: 158px;
+    width: 122px;
+    background: url(../img/hotel-placeholder.PNG) no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+}
+.c-m_country-hor-img.no-image {
+    background-color: #7fb6e5;
+    background-size: 85%;
+}
+.c-m_country-ver-price {
+    font-size: 15px;
+    color: #fff;
+    background-color: #a9cf55;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 6px 10px;
+    position: absolute;
+    left: 20px;
+    top: 104px;
+    z-index: 2;
+}
+.c-m_country-hor-body {
+    padding: 19px 12px 0 130px;
+    font-size: 13px;
+    color: #777777;
+}
+.c-m_country-hor-title {
+    margin-bottom: 7px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    color: #4e90c7;
+    position: relative;
+    padding-right: 16px;
+    display: inline-block;
+}
+.c-m_country-hor-title span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.c-m_country-hor-desc {
+    height: 3em;
+    overflow: hidden;
+    line-height: 22px;
+}
+.c-m_country-hor-price {
+    color: #fff;
+    background-color: #a9cf55;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 7px 0 0 15px;
+    position: absolute;
+    left: -2px;
+    xright: 137px;
+    width: 166px;
+    top: 107px;
+    z-index: 2;
+    height: 38px;
+    font-size: 12px;
+}
+.c-m_country-hor-price b {
+    font-size: 20px;
+    margin-left: 1px;
+}
+.c-m_country-hor-price > span {
+    position: absolute;
+    line-height: 9px;
+    margin: 2px 0 0 5px;
+}
+.c-m_country-hor-price > span span {
+    font-size: 12px;
+}
+.c-m_country-hor-rating {
+    color: #a9cf55;
+    font: 700 15px / 17px "Proxima Nova";
+    position: absolute;
+    top: 104px;
+    right: 12px;
+    left: 174px;
+}
+.c-m_rating-container {
+    height: 6px;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    margin-top: 1px;
+}
+.c-m_rating-value {
+    height: 6px;
+    background-color:#a9cf55;
+    border-radius: 4px;
+}
+.c-m_rating-value[data-value^="0"] {
+    width: 0%;
+}
+.c-m_rating-value[data-value^="1."] {
+    width: 10%;
+}
+.c-m_rating-value[data-value^="2."] {
+    width: 20%;
+}
+.c-m_rating-value[data-value^="3."] {
+    width: 30%;
+}
+.c-m_rating-value[data-value^="4."] {
+    width: 40%;
+}
+.c-m_rating-value[data-value^="5."] {
+    width: 50%;
+}
+.c-m_rating-value[data-value^="6."] {
+    width: 60%;
+}
+.c-m_rating-value[data-value^="7."] {
+    width: 70%;
+}
+.c-m_rating-value[data-value^="8."] {
+    width: 80%;
+}
+.c-m_rating-value[data-value^="9."] {
+    width: 90%;
+}
+.c-m_rating-value[data-value="10"] {
+    width: 100%;
+}
+.c-m_country-hor-rating span.link {
+    font: 400 13px / 13px "Proxima Nova";
+    text-decoration: none;
+    border-bottom: 1px solid #d9dee4;
+    display: inline-block;
+    color: #4e90c7;
+}
+.c-m_country-hor-wrap:hover .c-m_country-hor-rating span.link {
+    color: #fff;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+.os-hottours-container .hot-block_tiles .hot-wrapper{
+    margin: 0 0 0 -20px !important;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap{
+    margin: 23px 0 0 0;
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 0 0 20px !important;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-img,
+.os-hottours-container .hot-block_tiles .hot-otp-img img,
+.os-hottours-container .hot-block_tiles .hot-otp-tour-block {
+    width: 100% !important;
+    border-radius: 3px; 
+}  
+.os-hottours-container .hot-block_tiles .hot-otp-img img{
+    z-index: 1;
+    position: relative;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-tour-block{
+    background: #fff none !important;
+    border: 1px solid #4e90c7;   
+    margin: -3px 0 0 0;
+    padding: 13px 13px 33px 13px;
+    height: auto;
+    position: relative;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-description,
+.os-hottours-container .hot-block_tiles *{
+    color: #4e90c7 !important;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-description{
+    padding: 0;
+    margin-top: 7px !important;
+    font-size: 20px;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-info_place {
+    margin: 5px 0 0 !important;
+    font-size: 14px;
+    color: #4e90c7 !important;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-place{
+    font-size: 14px;
+    color: #4e90c7 !important;
+    font-weight: 300;
+    padding: 0;
+}
+.os-hottours-container .hot-otp-hotel-name{
+    font-size: 14px;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info{
+    position: relative;
+    top: 19px;
+    padding-left: 54px;
+    width: 100%;
+    left: 0;
+    box-sizing: border-box;
+    font-size: 0;
+    line-height: 0;
+    font-style: normal;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info *{
+    position: relative;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 8px;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-transp-air,
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-food-hb,
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-food-ai{
+    display: block;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-date-bl:before,
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-transp-air:before,
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-food-bl:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: -2px;
+    width: 21px;
+    height: 17px;
+    background-size: 17px 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-date-bl:before{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAACVUlEQVQ4T53SQUgUYRQH8P97M7Nu5ToaHdJKog7RISpIaEEiL1GQkwieIiIKisKcAunqVYR2twgMiojoEFHEFCRdjBBGSKiIiA6VLKEUia4a7O7M972YLWldV1iaw3zwvY/f/L/3hvD3cVJ+NwiPAHz13OS2pf3K1Un7WQBbABzz3KQX1Sl6Hbk23mAq6SbCHRByXl+ysSvlb60EnlxKTjoZfw4CWwSnQoMeP7+4f56clP8AkGkBvS1HnLQvlYjnJqkcIcgegJqpdFgk898IUd8fBBiBll5hOs/AJCseUYb+VJnEULxDGdIpkE3K1Bkz5GEAh5eQqDv3RcsEM8dF5AyA7VWa+5mIbmmt88S0D4LjpcZWu/tqk1ltvxyZIcFirYAmJAhYvyxJwGRH4zo09G5dXC+wd6V94eDAqNloo34uh8WXAx2hMziWyHNCv+jf/as7NdEcUjC1DInG13NjtL4QxHMAWAzZCcUuQc4K6CYMnSZFHwHoOitvB0WYmuKzK5DoS6gz5qOCIr3LEHYBnAZwW5FOG8LvS9ctqAaOBUZVJKo718daRMN82teejZIFxfgGK5b/+fBCx2JnZqyVGKHX2z7VlRptrIr0DHyIFez5eyBYRqDPKZOORi4AzwjlmbJ4GIKgLtdwIrB/rK2KlOsseq8GuyCchOAuQ6c18ZsoLUu+KVpXIBvXWLHZpi+6ON3aL4CFfJiWmNVG0AcE/IqKwWvETZeAINacHcK3zXaBaWapsSrCAYxD5Hut/wmIWgC0lQI5KX8QhMsAzJqBfwdDCK7+BpEyMu0PyN8AAAAAAElFTkSuQmCC");
+}
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-transp-air:before{
+    top: 2px;
+    background-size: 21px 14px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAOCAYAAADABlfOAAAB2UlEQVQ4T6WTPWhTURiGnzcx1dqKCHURUcFBkC6iUG+2gDiZRBAXxUERBa1NKgUtSEkLFRQ1Scc46NwO2sRBB8VBkxTEQcHBRVwqKGIkYtXY+0mKoentTSJ4tnPe93sO35/4zxO98aKPUC0p4ziwA/RIHZlmQjKvrw4LrKmNGAwCPcu6Ki2hqZQFXm4qn8C4CmxBfMV4b2hCsn6MEaDX81lNpmMtodFs6baM03+DashyZpoXDAN9Phm+EpyZTTpzLaHxqfJuc20O2UNclQRDJrb7wOYNG9tbce6kUnLr+hI0du3ZhmBPqOve4MDn5qBounhY0hiwx6/2BlPrXLs8czG80KwrmimfEzYOrDWYrG78ke2trt8VXFy8btLBNo38Yt2hrYWz+757PYqli/eR4k3CR2BzI4s20Jv5pFNv1qqjo9PTwZ8ftuUwO9VxvJYNZsHAzsKFgXe+0KVHM8Wy5QngygqTeIvLqOCWp0n5fNJpzs4T1nSNZ0pDBhngk6HxamUh9zQV+R3LlJ4AkYbVlR14kAg/bpXZqpE6lH7udHf9ej1zPvKtEeSZ2Tf5xP5+vy1r+DuvaX3k0sVRpPpmYcbJwrBzt139/wkazZSPCLskWXI2ES52augfAMmj/JVEpy8AAAAASUVORK5CYII=");
+}
+.os-hottours-container .hot-block_tiles .hot-otp-tour-info .hot-otp-food-bl:before{
+    top: 2px;
+    background-size: 18px 12px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAYAAABvEu28AAABSElEQVQoU6XRP0hCURgF8HOeEg4SNDY0NEVDS0m9h0tQtIQvIXKouaUhn0M0BQ1ODvkiWqMiCvtj8KDAIYQINaitHFqCampsKvLdL4QSpcwX3fU798e53yVaHNMupQCxQMw6cWOrWZytoIl0ISfkGAQpJ2Es/gmaWs8H3yqBOQjHAekHEATwCuCK5EZb58P2QSzm1qPfGkVXCoNK4yGBMwBdAoz80OLarzGandefvmYNUHS1NKBEziGSBKkDMH95+qPvXYWOF8LP1UwNGl7O+9s7ArcQ3hNqV8Cmi63Ds45lTDZAZro4A2JHUzLkatwk0NvqI6pzl6rvJB6+qTUy7eIRgJAiRzWROy/IZ2bJsYxkDYrYxbIGlAWSAbjvHeKeY+nT9Y1OQeYIvIiSuGeIzDuWnqBpX/RAfBnPF5sEGVm77GbFTf8X+gCplGnUBVhYPAAAAABJRU5ErkJggg==");
+}
+.os-hottours-container .hot-block_tiles .hot-price-block{
+    background-color: #a9cf55;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 6px 15px 0 15px;
+    position: absolute;
+    left: 12px;
+    width: 180px;
+    top: -26px;
+    z-index: 2;
+    height: 38px;
+    font-size: 13px;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:first-child .hot-price-block{
+    top: -26px !important;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-img{
+    opacity: 1;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-block{
+    background-color: #4e90c7 !important;
+}
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-block,
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-block .hot-otp-description,
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-block .hot-otp-place,
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-block .hot-otp-description,
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-block *{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-info .hot-otp-date-bl:before,
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-info .hot-otp-transp-air:before,
+.os-hottours-container .hot-block_tiles .hot-otp-form-wrap:hover .hot-otp-tour-info .hot-otp-food-bl:before{
+    -webkit-filter: brightness(10);
+    filter: brightness(10);
+}
+
+
+
+@media screen and (max-width: 979px){
+    .breadcrumb{
+        font-size: 12px;
+    }
+    .c-m_country-hor-bl{
+        width: 50%;
+    }
+    .c-m_country-container .os-hottours-container .hot-block_tiles .hot-otp-form-wrap{
+        width: 33.3%;
+    }
+    #main.single-country.c-m_country-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .c-m_country-desc-col {
+        display: block;
+    }
+    .c-m_country-desc-left{
+        padding-right: 0;
+    }
+    .c-m_country-desc-right{
+        margin: 0 auto;
+    }
+    .c-m_price-list{
+        column-count: 2;
+    }
+    .c-m_country-hor-bl{
+        width: 100%;
+    }
+    .c-m_country-container .os-hottours-container .hot-block_tiles .hot-otp-form-wrap{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .c-m_price-list{
+        column-count: 1;
+    }
+    .c-m_country-container .os-hottours-container .hot-block_tiles .hot-otp-form-wrap{
+        width: 100%;
+    }
+    .c-m_country-container .os-hottours-container .hot-block_tiles .hot-otp-img, .os-hottours-container .hot-block_tiles .hot-otp-img > a,
+    .c-m_country-container .os-hottours-container .hot-block_tiles .hot-otp-tour-block {
+        margin: 0 auto;
+    }
+}
+
+
+

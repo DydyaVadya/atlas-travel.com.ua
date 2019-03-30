@@ -2,6 +2,9 @@
 /* контейнер */
 .new_t-container {
 	color: #666;
+	 background: gainsboro;
+	border-radius: 20px;
+	padding: 5px;
 }
 
 /*===== стили меню =====*/

@@ -1,0 +1,73 @@
+/*COUNTRY CP STLES*/
+.edit-form {
+    padding: 12px 0 0 0;
+}
+.form-group, .inside {
+    overflow: hidden;
+}
+.form-horizontal input[type=text] {
+    width: 100%;
+}
+
+.map-container #country-map, #resort-map {
+    width: 100%;
+    height: 320px;
+}
+.country-text-form textarea {
+    width: 100%;
+}
+.display-meta-form label {
+    margin: 5px 0 0 10px;
+}
+
+/*RESORT CP STYLES*/
+.post-photos-b {
+    padding: 18px 0;
+}
+.post-photos-container .form-group img {
+    height: 150px;
+    width: 150px;
+    margin: 0;
+}
+.post-photos-container .form-group .thumbnail {
+}
+.post-image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    display: inline-block;
+}
+.post-image .remove-image {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 2px;
+    border: 1px solid #ddd;
+    top: -10px;
+    right: -10px;
+    font-size: 22px;
+    content: "";
+    cursor: pointer;
+    transition: font-size .05s ease;
+    color: #0073aa;
+    cursor: pointer;
+}
+.remove-image {
+    color: #0073aa;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.post-image .remove-image:hover {
+    font-size: 24px;
+}
+#post-photos {
+    display: none;
+}
+
+/*SETTINGS PAGE STYLES*/
+.settings-page {
+    padding: 20px 15px;
+    width: 100%;
+    max-width: 960px;
+}
