@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
 // затемнение фона при открытии меню
     $(document).ready(function(){
         $(".menu-toggle").click(function(){
-            $(".milk").addClass("milk-shadow"); return false;
+            $(".milk").toggleClass("milk-shadow"); return false;
         });
     });
 // конец
