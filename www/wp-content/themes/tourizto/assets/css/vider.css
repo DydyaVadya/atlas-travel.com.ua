@@ -2,6 +2,8 @@
 
 
 
+
+
 /*стили формы попап*/
 div.wpcf7 .ajax-loader {
     width: 0!important;
@@ -229,6 +231,24 @@ div.wpcf7 .ajax-loader {
 /*что то 600*/
 
 @media (min-width: 600px) {
+
+    /*стили меню основного        */
+
+    /*главнное меню скрытие заголовка в подменю*/
+    .parent-title {
+        /*display: none!important;*/
+        pointer-events: none; /* делаем элемент неактивным для взаимодействия */
+        cursor: default; /*  курсор в виде стрелки */
+        /* цвет текста серый */
+    }
+    .parent-title a {
+        color: #f8f400!important;
+        display: flex!important;
+        justify-content: center!important;
+        text-transform: uppercase!important;
+    }
+    /*главнное меню скрытие заголовка в подменю*/
+
 
     .header-container:not(.invert) {
         border-bottom-width: 0px;
@@ -681,12 +701,6 @@ div.wpcf7 .ajax-loader {
 }
 
 /*карта*/
-
-/*главнное меню скрытие заголовка в подменю*/
-.parent-title {
-    /*display: none!important;*/
-}
-/*главнное меню скрытие заголовка в подменю*/
 
 
 
