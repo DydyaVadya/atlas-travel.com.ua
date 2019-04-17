@@ -27,7 +27,7 @@
 
 <body <?php body_class(); ?>>
 <!--темный фон после открытия меню-->
-<div class="milk-shadow"></div>
+<div class="milk"></div>
 <!--темный фон после открытия меню-->
 <?php tourizto_get_page_preloader(); ?>
 <div id="page" class="site">
