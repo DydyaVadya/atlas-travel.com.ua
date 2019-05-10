@@ -117,10 +117,35 @@ div.wpcf7 .ajax-loader {
     cursor: pointer;
     background-repeat: no-repeat!important;
 }
+a[href*="tel:"]:hover, a[href*="callto:"]:hover {
+    color: white;
+}
+a[href*="tel:"], a[href*="callto:"] {
+    color: white;
+}
+
+/**-------------------------------------------------мобильный------------------------------------**/
 
 
-/**мобильный**/
 @media (max-width: 600px) {
+
+    nav.main-navigation > .tm-mega-menu.mega-menu-mobile-on {
+        margin-top: 20px;
+    }
+
+
+    .main-navigation li {
+        margin-top: 20px;
+    }
+
+    .elementor-column-gap-default > .elementor-row > .elementor-column:not(.elementor-column-custom-padding) > .elementor-element-populated {
+        padding-top: 20px;
+        margin: 0px;
+    }
+    .elementor-278 .elementor-element.elementor-element-e127b8e {
+        padding: 0;
+    }
+
 
 
      /*стили телефона в мобильнной шапке*/
