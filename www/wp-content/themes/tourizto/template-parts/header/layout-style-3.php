@@ -28,7 +28,7 @@ $search_visible                  = get_theme_mod( 'header_search', tourizto_them
 
 		<div class="header-container__flex">
 
-			<div class="site-branding">
+			<div class="site-branding big-logo">
 
 				<?php tourizto_header_logo() ?>
 

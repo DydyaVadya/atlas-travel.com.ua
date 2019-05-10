@@ -1971,7 +1971,7 @@ msgstr ""
 
 #: inc/customizer.php:3467
 #, php-format
-msgid "&copy; %%year%% %%site-name%%. All Rights Reserved."
+msgid "&copy; %%year%% %%site-name%%. Все права защищены."
 msgstr ""
 
 #: inc/customizer.php:3478

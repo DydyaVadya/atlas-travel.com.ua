@@ -3430,7 +3430,7 @@ function tourizto_get_fonts_options() {
  * @return string
  */
 function tourizto_get_default_footer_copyright() {
-	return esc_html__( '&copy; %%year%% %%site-name%%. All Rights Reserved.', 'tourizto' );
+	return esc_html__( '&copy; %%year%% %%site-name%%. Все права защищены.', 'tourizto' );
 }
 
 /**

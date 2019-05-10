@@ -123,13 +123,6 @@ div.wpcf7 .ajax-loader {
 
      /*стили телефона в мобильнной шапке*/
 
-    .top_phone {
-        font-size: 20px;
-        font-family: "Lato", Sans-serif;
-        color: rgb(255, 255, 255);
-        line-height: 1.2;
-        margin-right: 50px!important;
-    }
     .call_header {
         font-size: 14px;
         font-family: "Lato", Sans-serif;
@@ -160,15 +153,15 @@ div.wpcf7 .ajax-loader {
         flex-direction: unset;
     }
 
-    .mobile-panel {
-        background-color: rgba(47,100,100,0.95);
-        display: flex;
-        justify-content: space-between;
-        position: absolute;
-        transition: background-color 0.3s;
-        height: 11%;
-        /*height: 65px;*/
-    }
+    /*.mobile-panel {*/
+        /*background-color: rgba(47,100,100,0.95);*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+        /*position: absolute;*/
+        /*transition: background-color 0.3s;*/
+        /*height: 11%;*/
+        /*!*height: 65px;*!*/
+    /*}*/
 
     .header-container__flex-wrap {
         opacity: 0;
@@ -184,14 +177,14 @@ div.wpcf7 .ajax-loader {
         margin-left: -50px;
     }
 
-    .mobile-panel.fixed {
-        position: fixed;
-        width:100%;
-        top: 0;
-        background:rgba(47,100,100,0.95);
-        height: 11%;
+    /*.mobile-panel.fixed {*/
+        /*position: fixed;*/
+        /*width:100%;*/
+        /*top: 0;*/
+        /*background:rgba(47,100,100,0.95);*/
+        /*height: 11%;*/
 
-    }
+    /*}*/
 .mobile-panel.fixed .top_phone {
     color: yellow;
 }
