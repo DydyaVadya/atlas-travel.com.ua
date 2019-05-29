@@ -20,6 +20,10 @@ div.wpcf7 .ajax-loader {
     margin: 3px;
 }
 
+.wpcf7 .wpcf7-mail-sent-ok {
+    color: green;
+}
+
 .form_popup_flex {
     /*display: flex;*/
     /*justify-content: center;*/

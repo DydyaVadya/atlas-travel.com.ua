@@ -18,8 +18,9 @@
 
 <?php wp_head(); ?>
     <script type="text/javascript" src="<?php echo get_bloginfo('template_url') . '/assets/js/vider.js';?>"></script>
-    <link rel="stylesheet" href="<?php echo get_bloginfo('template_url') . '/assets/css/vider.css';?>">
+    <link rel="stylesheet" href="<?php echo get_bloginfo('template_url') . '/assets/css/vider1.css';?>">
     <link rel="stylesheet" href="https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/css/vider.css">
+    <link rel="Stylesheet" href="https://atlas-travel.com.ua/wp-content/themes/tourizto/assets/css/otpuskForm/vider.css" type="text/css" />
     
 
 
